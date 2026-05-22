@@ -6,15 +6,13 @@ import { cn } from "@/lib/utils";
 export default function Home() {
   return (
     <main className="flex-1 bg-background text-foreground flex flex-col justify-center items-center p-6 relative overflow-hidden">
-      {/* Fondos degradados decorativos */}
-      <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full bg-purple-500/10 blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-[-20%] right-[-10%] w-[600px] h-[600px] rounded-full bg-pink-500/10 blur-[120px] pointer-events-none" />
+      {/* Sin degradados de fondo para un diseño más sobrio y minimalista */}
 
       <div className="max-w-3xl w-full text-center flex flex-col items-center gap-8 relative z-10 py-20">
         
         {/* Badge del Icono de la marca */}
-        <div className="bg-card border border-border p-4 rounded-3xl text-purple-400 mb-2 shadow-2xl relative group hover:border-purple-500/50 transition-colors">
-          <Palette className="size-12 animate-pulse" />
+        <div className="bg-card border border-border/80 p-4 rounded-3xl text-foreground/80 mb-2 shadow-sm relative group hover:border-border transition-colors">
+          <Palette className="size-12" />
         </div>
 
         {/* Título y descripción */}
@@ -36,7 +34,7 @@ export default function Home() {
             href="/colors" 
             className={cn(
               buttonVariants({ size: "lg" }), 
-              "bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white border-0 font-semibold px-8 py-6 rounded-xl shadow-lg shadow-purple-500/20 active:translate-y-0.5 transition-all group flex items-center gap-2 cursor-pointer"
+              "bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 rounded-xl transition-all shadow-sm border border-border/40 group flex items-center gap-2 cursor-pointer"
             )}
           >
             Ingresar al Playground
@@ -46,8 +44,8 @@ export default function Home() {
 
         {/* Grid de Características */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full mt-16 text-left">
-          <div className="bg-card/50 backdrop-blur-md border border-border/60 p-6 rounded-2xl flex flex-col gap-2">
-            <div className="text-purple-400 p-1.5 bg-purple-500/10 rounded-lg w-fit">
+          <div className="bg-card/30 backdrop-blur-md border border-border/40 p-6 rounded-2xl flex flex-col gap-2">
+            <div className="text-foreground/75 p-1.5 bg-foreground/5 rounded-lg w-fit">
               <Sparkles className="size-5" />
             </div>
             <h3 className="text-sm font-semibold text-white mt-2">26 Colores Base</h3>
@@ -56,8 +54,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-card/50 backdrop-blur-md border border-border/60 p-6 rounded-2xl flex flex-col gap-2">
-            <div className="text-pink-400 p-1.5 bg-pink-500/10 rounded-lg w-fit">
+          <div className="bg-card/30 backdrop-blur-md border border-border/40 p-6 rounded-2xl flex flex-col gap-2">
+            <div className="text-foreground/75 p-1.5 bg-foreground/5 rounded-lg w-fit">
               <Settings className="size-5" />
             </div>
             <h3 className="text-sm font-semibold text-white mt-2">Parámetros Dinámicos</h3>
@@ -66,8 +64,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-card/50 backdrop-blur-md border border-border/60 p-6 rounded-2xl flex flex-col gap-2">
-            <div className="text-amber-400 p-1.5 bg-amber-500/10 rounded-lg w-fit">
+          <div className="bg-card/30 backdrop-blur-md border border-border/40 p-6 rounded-2xl flex flex-col gap-2">
+            <div className="text-foreground/75 p-1.5 bg-foreground/5 rounded-lg w-fit">
               <CheckCircle2 className="size-5" />
             </div>
             <h3 className="text-sm font-semibold text-white mt-2">Exportador de Variables</h3>
