@@ -53,6 +53,19 @@ El sistema de caché tradicional de Next.js ha sido reemplazado por **Cache Comp
 
 ---
 
+## 🎨 Componentes y UI (shadcn/ui)
+
+Este proyecto tiene instalado y configurado **shadcn/ui** con soporte nativo para **Tailwind CSS v4** y **React 19** bajo el preset `base-nova`.
+- **Ubicación de Componentes**: Todos los componentes de presentación y UI generales se ubican en `components/ui/` y se importan mediante el alias `@/components/ui/`.
+- **Utilidad de Clases**: Se utiliza la función helper `cn` definida en `lib/utils.ts` (`@/lib/utils`) para mezclar dinámicamente clases de Tailwind CSS sin conflictos.
+- **Agregar Componentes**: Para instalar nuevos componentes base de shadcn, ejecuta:
+  ```bash
+  npx shadcn@latest add <nombre-del-componente>
+  ```
+- **Compatibilidad con Tailwind CSS v4**: El sistema de temas y variables se gestiona mediante CSS-first directamente en `app/globals.css` a través de la directiva `@theme inline` y variables oklch. No modifiques ni crees archivos `tailwind.config.ts`, ya que no son necesarios ni soportados en esta versión de Tailwind.
+
+---
+
 ## 🤖 Directrices de Contribución para Agentes
 
 1. **Prioridad Absoluta de la Documentación Local**: Antes de proponer o escribir cualquier código relacionado con Next.js, lee la documentación empotrada en `node_modules/next/dist/docs/`. No confíes en tus datos de entrenamiento obsoletos.

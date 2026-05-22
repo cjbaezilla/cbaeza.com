@@ -8,6 +8,7 @@ Este proyecto utiliza las tecnologías más recientes para garantizar el rendimi
 
 - **Framework**: Next.js `16.2.6` (App Router).
 - **Estilos (CSS)**: Tailwind CSS `^4` (configurado mediante PostCSS).
+- **Componentes (UI)**: [shadcn/ui](https://ui.shadcn.com) (preset `base-nova`, usando componentes construidos sobre `@base-ui/react`).
 - **Lenguaje**: TypeScript.
 - **Calidad de Código**: ESLint `^9` (`eslint.config.mjs`).
 
@@ -58,6 +59,7 @@ Si eres un agente de desarrollo de IA (como Antigravity, Claude Code, Cursor, Co
 ### Reglas Críticas del Proyecto:
 - **Idioma**: Toda comunicación y escritura/modificación de código o archivos debe ser estrictamente en **español**.
 - **Cambios en Next.js 16**: Este proyecto utiliza APIs y conceptos nuevos (como **Cache Components** con `"use cache"` y `cacheLife`, navegación instantánea con `unstable_instant`, etc.). Las configuraciones de segmento antiguas como `dynamic = 'force-dynamic'` han sido eliminadas.
+- **Componentes de UI**: Se utiliza shadcn/ui. Los componentes base se encuentran en `components/ui/` y deben importarse usando `@/components/ui/`.
 - **Documentación Local**: La documentación oficial de esta versión se encuentra empotrada en `node_modules/next/dist/docs/`. Siempre debes consultarla antes de proponer cambios de código.
 
 ---
