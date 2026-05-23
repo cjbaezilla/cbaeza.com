@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "publications": "Publications",
+    "projects": "Projects",
+    "foundations": "Foundations",
+    "background": "Experience",
+    "books": "Books",
+    "colors": "Color Playground"
+  },
+  "hero": {
+    "title": "Carlos Baeza Negroni",
+    "subtitle": "Software Engineer & Blockchain Architect",
+    "description": "Specialized in Solidity, DeFi, and the architecture of the ERC-4626 standard. Over 15 years of experience leading high-throughput payment systems, media platforms, and computer science lecturing.",
+    "badge": "Web3 Development & Financial Systems",
+    "cta": "Explore Portfolio",
+    "sliderTitle": "Recent Publications",
+    "readMore": "Read article"
+  },
+  "publications": [
+    {
+      "title": "Slither, Solhint & Mythril: Essential Security for Smart Contracts Using Semantic Analysis Auditing Tools",
+      "tag": "Security",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D"
+    },
+    {
+      "title": "Automation Foundations: An OpenClaw Compatible Skills Framework for Autonomous Agentic Google Workspace Orchestration in Python",
+      "tag": "AI Agents",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB"
+    },
+    {
+      "title": "Building a Fractional Real Estate NFT Platform: A Hands-On Tutorial for Tokenization on Ethereum using Solidity and Next.js",
+      "tag": "Tokenization",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9"
+    },
+    {
+      "title": "A Hands-On Guide to RWA Tokens on Ethereum: Solidity, Hardhat, OpenZeppelin, and Next.js Dashboard",
+      "tag": "RWA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB"
+    },
+    {
+      "title": "Build Your Own OpenClaw-Inspired Telegram Bot: Integration of the OpenCode SDK with OpenRouter Model Agents",
+      "tag": "AI Agents",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1"
+    },
+    {
+      "title": "Ethereum Cryptography Demystified: A Journey from Digital Signatures to Smart Contracts with Code Examples",
+      "tag": "Cryptography",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp"
+    },
+    {
+      "title": "Deconstructing Karpathy's Autoresearch: A Line-by-Line Guide to Autonomous AI Training with Practical Examples",
+      "tag": "AI Agents",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_"
+    },
+    {
+      "title": "DEX and AMM Foundations: Introduction to Decentralized Exchanges and Automated Market Making on Ethereum",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp"
+    },
+    {
+      "title": "OpenCode Agents Fundamentals: Creating, Configuring, and Deploying Custom Agents and Workflows",
+      "tag": "AI Agents",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F"
+    },
+    {
+      "title": "Build Your First DeFi Staking Dapp on Ethereum: A Hands-On Guide Leveraging OpenZeppelin's ERC-4626 Standard with Next.js",
+      "tag": "DeFi / ERC-4626",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B"
+    },
+    {
+      "title": "Tokenization Decoded: The Complete Non-Technical Guide to Asset Tokenization on Ethereum with Solidity",
+      "tag": "Tokenization",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2"
+    },
+    {
+      "title": "Building a Decentralized Autonomous Organization: A Complete Hands-On Guide to DAO Governance",
+      "tag": "DAO",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ"
+    },
+    {
+      "title": "Vibe2Wizard Avalanche Hackathon Update: Project Repository and Contracts Under the Hood",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ"
+    },
+    {
+      "title": "My Technical Journey in LM Studio: Key Questions for Running AI Models Locally",
+      "tag": "Local AI",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03"
+    },
+    {
+      "title": "Solidity by Example: A Comprehensive Guide with Production Quality Code for Smart Contracts",
+      "tag": "Solidity",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E"
+    },
+    {
+      "title": "Hardhat Essentials: A Non-Technical Introductory Guide to Building Solidity Smart Contracts with Confidence",
+      "tag": "Web3 Tools",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x"
+    },
+    {
+      "title": "Building Your Own Web AI Assistant: A Complete Hands-On Integration of CodeIgniter4, Next.js, and OpenRouter",
+      "tag": "Full Stack / AI",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI"
+    },
+    {
+      "title": "The Complete Handbook to Ethereum Improvement Proposals (EIPs and ERCs)",
+      "tag": "Web3 Standards",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8"
+    },
+    {
+      "title": "Vibe2Wizard: From Vibe Coder to Onchain Wizard in the Gamified Web3 Learning Platform",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg"
+    },
+    {
+      "title": "Understanding the Core Architecture of AI Agent Skills",
+      "tag": "AI Agents",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU"
+    },
+    {
+      "title": "Agile API Development: Building the LaunchPad API with CodeIgniter4 in Days (Not Months)",
+      "tag": "APIs / Backend",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10"
+    }
+  ],
+  "projects": {
+    "title": "Active Project Repositories",
+    "subtitle": "Functional source code and practical guides from real technical implementations.",
+    "items": [
+      {
+        "title": "Skills Framework for Google Workspace",
+        "description": "Modular skills framework and tools for autonomous orchestration of Google Workspace administrative tasks using Python-based language agents.",
+        "stack": "Python, Google Workspace API, OpenClaw",
+        "github": "https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial"
+      },
+      {
+        "title": "Fractional Real Estate NFT Platform",
+        "description": "Hands-on tutorial to implement property fractionalization using ERC-721 and ERC-20 smart contracts in Solidity.",
+        "stack": "Solidity, Hardhat, Next.js, ERC-721",
+        "github": "https://github.com/cjbaezilla/Tokenize-Fractional-Real-Estate-NFT-Solidity-HandsOn-Tutorial"
+      },
+      {
+        "title": "Deploying RWA Tokens",
+        "description": "Technical guide for issuing tokenized real-world assets on Ethereum, integrating compliance and governance logic.",
+        "stack": "Solidity, Hardhat, OpenZeppelin, RWA",
+        "github": "https://github.com/cjbaezilla/Your-First-RWA-Token-Solidity-Nextjs-HandsOn-Tutorial"
+      },
+      {
+        "title": "OpenCode SDK to Telegram Bot",
+        "description": "Infrastructure to connect a Telegram bot with autonomous AI agents using OpenCode SDK libraries and OpenRouter model routing.",
+        "stack": "Node.js, Telegram Bot API, OpenCode SDK",
+        "github": "https://github.com/cjbaezilla/Integrate-Opencode-SDK-With-Telegram-Bot-Hands-On-Tutorial"
+      },
+      {
+        "title": "ERC-4626 Staking Vaults",
+        "description": "Optimized staking contract implementing OpenZeppelin's ERC-4626 tokenized vault standard in Solidity for secure deposits and withdrawals.",
+        "stack": "Solidity, ERC-4626, Foundry, TypeScript",
+        "github": "https://github.com/cjbaezilla/Build-Your-First-Solidity-ERC20-Staking-Contract-Tutorial"
+      },
+      {
+        "title": "DAO Governance System",
+        "description": "Repository containing smart contracts for voting delegation and proposals execution in a decentralized autonomous organization.",
+        "stack": "Solidity, OpenZeppelin Governance, Hardhat",
+        "github": "https://github.com/cjbaezilla/Your-First-DAO-Solidity-Token-OpenZeppelin-Tally-Tutorial"
+      },
+      {
+        "title": "Integrated AI Web Assistant",
+        "description": "Chat platform with natural language processing integrating a PHP backend server with a React interactive interface.",
+        "stack": "CodeIgniter4, Next.js, OpenRouter APIs",
+        "github": "https://github.com/cjbaezilla/Building-Your-First-Web-AI-Assistant-Hands-On-Tutorial"
+      },
+      {
+        "title": "API Base with Vibe Coding",
+        "description": "Modular architecture and rapid configuration of secure backend endpoints using agile development methodologies in CodeIgniter4.",
+        "stack": "PHP, CodeIgniter4, RESTful API",
+        "github": "https://github.com/cjbaezilla/Your-First-Vibecode-API-Using-Codeigniter4-Tutorial"
+      },
+      {
+        "title": "Monorepo for Avalanche Hackathon",
+        "description": "Ecosystem of smart contracts and web components developed during the Avalanche Build Games Hackathon for the Vibe2Wizard gamified platform.",
+        "stack": "Solidity, Avalanche, Hardhat, React",
+        "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      }
+    ]
+  },
+  "foundations": {
+    "title": "Foundations & Technical Essays",
+    "subtitle": "Scientific articles on cryptography, behavioral economics, and applied mathematics for blockchain.",
+    "items": [
+      {
+        "title": "Blind Signatures and eCash",
+        "description": "Analysis of David Chaum's pioneering 1982 paper on digital financial privacy and blind cryptographic schemes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
+        "icon": "fa-solid fa-key"
+      },
+      {
+        "title": "Public Key Cryptography",
+        "description": "Chronological evolution of asymmetric cryptography, analyzing its implications on the security of decentralized networks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
+        "icon": "fa-solid fa-vault"
+      },
+      {
+        "title": "Incentive Modeling in Nakamoto Consensus",
+        "description": "Application of game theory and economic incentive modeling in Bitcoin's distributed consensus protocol.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
+        "icon": "fa-solid fa-chess"
+      },
+      {
+        "title": "Benford's Law and Blockchain Forensics",
+        "description": "The intersection between mathematical statistics and blockchain forensic analysis for detecting anomalous transaction patterns.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
+        "icon": "fa-solid fa-chart-line"
+      },
+      {
+        "title": "Money as an Interobjective Construct",
+        "description": "Anthropological and historical analysis of money conceived as a collective belief system, connecting social theory with Bitcoin economics.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
+        "icon": "fa-solid fa-coins"
+      },
+      {
+        "title": "Shamir's Schemes and Shared Secrets",
+        "description": "Mathematical principles of polynomial division for the secure distribution and recovery of shared cryptographic keys.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
+        "icon": "fa-solid fa-shield-halved"
+      },
+      {
+        "title": "Epistemology of Complexity",
+        "description": "Evaluation of Karl Popper and Imre Lakatos's methodological falsificationism applied to complex information systems and autonomous software.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
+        "icon": "fa-solid fa-brain"
+      },
+      {
+        "title": "The Diamond and Dybvig Model",
+        "description": "Study of the economic model that explains bank runs and the importance of liquidity in yield-bearing DeFi protocols.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "Fat Tail Risks in Bitcoin",
+        "description": "Mathematical analysis of systemic risk using Extreme Value Theory (EVT) and its relation to the extreme volatility of crypto assets.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
+        "icon": "fa-solid fa-chart-area"
+      },
+      {
+        "title": "Decentralization Metrics",
+        "description": "Calculation of the Theil Index and the Palma Ratio adapted to governance and wealth distribution in blockchain networks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
+        "icon": "fa-solid fa-diagram-project"
+      },
+      {
+        "title": "Utility Theory and Bernoulli's Paradox",
+        "description": "Analysis of the St. Petersburg paradox (1713) and the mathematical formalization of the subjective value of money in risk management.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
+        "icon": "fa-solid fa-percent"
+      }
+    ]
+  },
+  "background": {
+    "title": "Professional Experience",
+    "subtitle": "Experience in software engineering, financial architecture, and academic lecturing.",
+    "jobs": [
+      {
+        "role": "Postgraduate Lecturer in Blockchain, AI & Robotics",
+        "company": "Universidad de Santiago de Chile (USACH)",
+        "period": "Jan. 2026 - Present",
+        "description": "Lecturing introductory modules on smart contracts, DAOs, ERC-20/ERC-721 tokens, and real-world decentralized finance and RWA tokenization case studies."
+      },
+      {
+        "role": "Blockchain Smart Contract Engineer",
+        "company": "Realt.co / Altera",
+        "period": "Jan. 2023 - Jan. 2025",
+        "description": "Development and optimization of Solidity smart contracts for real estate property tokenization and fractionalization on Ethereum. Technical requirements coordination between international departments."
+      },
+      {
+        "role": "Senior Software Engineer & Scrum Master",
+        "company": "Altera S.A.",
+        "period": "Jan. 2018 - Jan. 2020",
+        "description": "Architecture and development of massive financial transaction processing platforms. Banking API integrations under agile methodologies in high-security environments."
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "PlanOK Latam",
+        "period": "Jan. 2017 - Jan. 2018",
+        "description": "Refactoring and optimization of proprietary databases and APIs. Systematic mitigation of technical debt and establishment of unit testing standards."
+      },
+      {
+        "role": "Engineering School Lecturer",
+        "company": "Duoc UC",
+        "period": "Jan. 2016 - Dec. 2016",
+        "description": "Teaching Algorithms, Data Structures, and Relational Database Modeling (SQL) courses to first-year undergraduate students."
+      },
+      {
+        "role": "Head of Development & IT Operations",
+        "company": "La Cuarta (News Media)",
+        "period": "Jan. 2015 - Jan. 2016",
+        "description": "Management of server infrastructure and caching strategies to ensure 99.9% uptime of the news portal under extreme traffic peaks."
+      },
+      {
+        "role": "Software Development Manager",
+        "company": "BioBioChile",
+        "period": "Jan. 2014 - Jan. 2015",
+        "description": "Technical leadership of five software engineers managing a high-traffic news platform serving millions of monthly visitors."
+      }
+    ]
+  },
+  "books": {
+    "title": "Published Books",
+    "subtitle": "Self-published technical guides in Kindle and LaTeX formats.",
+    "items": [
+      {
+        "title": "ERC-4626 Tokenized Vault Standard",
+        "format": "Kindle Edition (English & Spanish)",
+        "description": "Comprehensive course for the implementation, modeling, and security of decentralized yield-bearing vaults under the ERC-4626 standard in Solidity.",
+        "link": "https://a.co/d/fAtbewD"
+      },
+      {
+        "title": "Your First Digital Wallet: From 0 to MetaMask",
+        "format": "LaTeX Book & Interactive Website",
+        "description": "Step-by-step guide with 21 chapters and 4 technical appendices on Web3 security, liquidity pools, and gas optimization, explained from simple foundations.",
+        "link": "https://jardindelconocimiento.com/curso-metamask-principiante/"
+      },
+      {
+        "title": "WordPress Multisite using Nginx",
+        "format": "Kindle Edition (English)",
+        "description": "Intermediate technical setup to deploy a WordPress multisite network on Nginx and MySQL servers on Ubuntu.",
+        "link": "https://a.co/d/iQtBYvF"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "name": "Professional Scrum Master I (PSM-1)",
+        "issuer": "Scrum.org",
+        "date": "2017",
+        "link": "https://www.scrum.org/user/228026"
+      },
+      {
+        "name": "Certified Smart Contract Developer",
+        "issuer": "Blockchain Council",
+        "date": "2020",
+        "link": "https://certificates.blockchain-council.org/0e592af0-a148-48e6-92f3-872378740fd7#acc.TbXe3hm9"
+      },
+      {
+        "name": "Ethereum Básico",
+        "issuer": "Colledge",
+        "date": "2020",
+        "link": "https://registrado.org/r/1ead5c69b0015f8ed7ff730ff0c9163e8852ffc6.jpg"
+      }
+    ]
+  },
+  "hackathons": {
+    "title": "Hackathon Participation",
+    "subtitle": "Competitions and agile Web3 development projects.",
+    "items": [
+      { "name": "Aleo x Akindo Privacy Batches", "date": "Jan. 2026" },
+      { "name": "Base x AI Agents Hackathon", "date": "Oct. 2025" },
+      { "name": "Avalanche Road to Web3", "date": "Nov. 2025" },
+      { "name": "Polkadot Nerdconf", "date": "Nov. 2025" },
+      { "name": "Hack Money (ETHGlobal)", "date": "May 2022" },
+      { "name": "DAOHacks (ETHGlobal)", "date": "Apr 2022" },
+      { "name": "LFGrow (ETHGlobal)", "date": "Mar 2022" },
+      { "name": "BUILD Quest (ETHGlobal)", "date": "Mar 2022" },
+      { "name": "Road To Web3 (ETHGlobal)", "date": "Feb 2022" },
+      { "name": "NFTHack (ETHGlobal)", "date": "Jan 2022" },
+      { "name": "Celo Mobile Hackathon", "date": "Oct 2021" },
+      { "name": "ETHOnline (ETHGlobal)", "date": "Sep 2021" }
+    ]
+  },
+  "contact": {
+    "title": "Contact & Links",
+    "email": "Email Address",
+    "scans": "Explore POAPs",
+    "ens": "ENS Wallet"
+  }
+}

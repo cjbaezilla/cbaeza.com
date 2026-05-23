@@ -8,10 +8,8 @@ import {
   Check, 
   Copy, 
   Palette, 
-  Eye, 
   AlertCircle,
   Sparkles,
-  ExternalLink,
   Paintbrush
 } from "lucide-react";
 import { shadcnColors, ShadcnColorName } from "../colors";
@@ -346,7 +344,7 @@ export default function ColorsPlayground() {
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-11 gap-1.5">
-                {(Object.keys(palette) as Array<keyof typeof palette>)
+                {(Object.keys(palette) as unknown as Array<keyof typeof palette>)
                   .sort((a, b) => Number(a) - Number(b))
                   .map((shade) => {
                     const colorValue = palette[shade];
