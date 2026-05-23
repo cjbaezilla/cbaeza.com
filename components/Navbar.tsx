@@ -4,6 +4,14 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/context/I18nContext";
+import { ES, US } from "country-flag-icons/react/3x2";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 export default function Navbar() {
   const { locale, setLocale, t } = useTranslation();
@@ -22,20 +30,15 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur-md px-4 md:px-[8%] lg:px-[12%] py-3">
       <div className="flex items-center justify-between">
         {/* Logo de Carlos */}
-        <Link href="/" className="flex items-center gap-2.5">
-          <div className="relative size-8 overflow-hidden rounded-lg bg-card border border-border/80">
-            <Image
-              src="/images/logo.png"
-              alt="Logo"
-              fill
-              className="object-cover"
-              sizes="32px"
-              priority
-            />
-          </div>
-          <span className="font-heading text-lg font-black tracking-tight text-foreground sm:block hidden">
-            cbaeza.com
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo.png"
+            alt="Logo"
+            width={177}
+            height={32}
+            className="h-8 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Links Escritorio */}
@@ -53,32 +56,66 @@ export default function Navbar() {
 
         {/* Acciones y Controles (Escritorio) */}
         <div className="hidden md:flex items-center gap-4">
-          <Link
-            href="/colors"
-            className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/60 hover:border-border hover:bg-accent px-4 py-2 text-xs font-semibold text-foreground transition-all cursor-pointer"
-          >
-            <i className="fa-solid fa-palette"></i>
-            {t("nav.colors") as string}
-          </Link>
-          
-          <button
-            onClick={() => setLocale(locale === "es" ? "en" : "es")}
-            className="px-3 py-2 rounded-xl border border-border bg-card hover:bg-accent text-xs font-bold cursor-pointer transition-colors"
-            aria-label="Switch Language"
-          >
-            {locale === "es" ? "EN" : "ES"}
-          </button>
+          <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en")}>
+            <SelectTrigger className="w-[125px] h-9 text-sm cursor-pointer">
+              <span className="flex items-center gap-2">
+                {locale === "es" ? (
+                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                ) : (
+                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                )}
+                <SelectValue>
+                  {(value: string | null) => (value === "es" ? "Español" : "English")}
+                </SelectValue>
+              </span>
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="es" className="cursor-pointer">
+                <span className="flex items-center gap-2">
+                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  <span>Español</span>
+                </span>
+              </SelectItem>
+              <SelectItem value="en" className="cursor-pointer">
+                <span className="flex items-center gap-2">
+                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  <span>English</span>
+                </span>
+              </SelectItem>
+            </SelectContent>
+          </Select>
         </div>
 
         {/* Controles para Móvil */}
         <div className="flex md:hidden items-center gap-3">
-          <button
-            onClick={() => setLocale(locale === "es" ? "en" : "es")}
-            className="px-2.5 py-1.5 rounded-lg border border-border bg-card hover:bg-accent text-xs font-bold cursor-pointer transition-colors"
-            aria-label="Switch Language"
-          >
-            {locale === "es" ? "EN" : "ES"}
-          </button>
+          <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en")}>
+            <SelectTrigger className="w-[120px] h-8 text-xs cursor-pointer">
+              <span className="flex items-center gap-1.5">
+                {locale === "es" ? (
+                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                ) : (
+                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                )}
+                <SelectValue>
+                  {(value: string | null) => (value === "es" ? "Español" : "English")}
+                </SelectValue>
+              </span>
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="es" className="cursor-pointer">
+                <span className="flex items-center gap-2">
+                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  <span>Español</span>
+                </span>
+              </SelectItem>
+              <SelectItem value="en" className="cursor-pointer">
+                <span className="flex items-center gap-2">
+                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  <span>English</span>
+                </span>
+              </SelectItem>
+            </SelectContent>
+          </Select>
           
           <button
             onClick={toggleMenu}
@@ -104,16 +141,6 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-          </div>
-          <div className="border-t border-border/60 pt-3">
-            <Link
-              href="/colors"
-              onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 py-2.5 text-xs font-bold transition-all cursor-pointer"
-            >
-              <i className="fa-solid fa-palette"></i>
-              {t("nav.colors") as string}
-            </Link>
           </div>
         </div>
       )}

@@ -74,15 +74,15 @@ export default function Home() {
               <i className="fa-solid fa-code text-primary"></i>
               {t("hero.badge") as string}
             </span>
-            
+
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-none">
               {t("hero.title") as string}
             </h1>
-            
+
             <p className="font-heading text-lg sm:text-xl md:text-2xl text-primary font-medium">
               {t("hero.subtitle") as string}
             </p>
-            
+
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
               {t("hero.description") as string}
             </p>
@@ -95,7 +95,7 @@ export default function Home() {
                 {t("hero.cta") as string}
                 <i className="fa-solid fa-arrow-down"></i>
               </Link>
-              
+
               <Link
                 href="https://www.linkedin.com/in/carlos-baeza-negroni/"
                 target="_blank"
@@ -151,11 +151,11 @@ export default function Home() {
                       <i className="fa-brands fa-github text-lg"></i>
                     </Link>
                   </div>
-                  
+
                   <h3 className="font-heading text-lg font-bold tracking-tight text-foreground mt-2 group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-                  
+
                   <p className="text-xs text-muted-foreground leading-relaxed">
                     {project.description}
                   </p>
@@ -224,11 +224,11 @@ export default function Home() {
                     <div className="size-10 rounded-xl bg-primary/5 border border-primary/10 flex items-center justify-center text-primary">
                       <i className={`fa-solid ${foundation.icon || "fa-brain"} text-sm`}></i>
                     </div>
-                    
+
                     <h3 className="font-heading text-base font-bold tracking-tight text-foreground mt-2">
                       {foundation.title}
                     </h3>
-                    
+
                     <p className="text-xs text-muted-foreground leading-relaxed">
                       {foundation.description}
                     </p>
@@ -347,7 +347,7 @@ export default function Home() {
                 {t("hackathons.subtitle") as string}
               </p>
             </div>
-            
+
             <div className="flex flex-wrap gap-2 w-full">
               {Array.isArray(hackathonsList) &&
                 hackathonsList.map((hack: HackathonItem, index: number) => (
@@ -373,7 +373,7 @@ export default function Home() {
               {t("contact.title") as string}
             </h2>
             <p className="text-xs text-muted-foreground">
-              carlos.baeza@gmail.com | +56 9 8564 4026
+              hola@cbaeza.com
             </p>
           </div>
 
@@ -420,7 +420,7 @@ export default function Home() {
             >
               <i className="fa-brands fa-github"></i>
             </Link>
-            
+
             <Link
               href="https://www.linkedin.com/in/carlos-baeza-negroni/"
               target="_blank"
@@ -430,7 +430,7 @@ export default function Home() {
             >
               <i className="fa-brands fa-linkedin"></i>
             </Link>
-            
+
             <Link
               href="https://twitter.com/cjbaezilla"
               target="_blank"
@@ -440,7 +440,7 @@ export default function Home() {
             >
               <i className="fa-brands fa-x-twitter"></i>
             </Link>
-            
+
             <Link
               href="https://www.youtube.com/@cjbaezilla"
               target="_blank"
