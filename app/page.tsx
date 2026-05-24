@@ -48,12 +48,19 @@ interface HackathonItem {
 
 export default function Home() {
   const { t } = useTranslation();
-  const [copied, setCopied] = React.useState(false);
+  const [copiedEth, setCopiedEth] = React.useState(false);
+  const [copiedBtc, setCopiedBtc] = React.useState(false);
 
-  const handleCopyENS = () => {
+  const handleCopyEth = () => {
     navigator.clipboard.writeText("0xa49F135e80A1a2d53D93fF67b848EaF014bB5cEE");
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    setCopiedEth(true);
+    setTimeout(() => setCopiedEth(false), 2000);
+  };
+
+  const handleCopyBtc = () => {
+    navigator.clipboard.writeText("bc1qnt9a36lfsc8zjzj7mu9m6qexm48xv34z97fmt4");
+    setCopiedBtc(true);
+    setTimeout(() => setCopiedBtc(false), 2000);
   };
 
   // Obtener colecciones desde los diccionarios con tipado explícito
@@ -543,7 +550,7 @@ export default function Home() {
               Web3
             </h3>
             <div className="flex flex-col gap-3.5 w-full">
-              {/* Wallet Card */}
+              {/* Wallet Card - Ethereum */}
               <div className="flex flex-col gap-2 p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm relative group/wallet w-full">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
@@ -554,11 +561,11 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-1">
                     <button
-                      onClick={handleCopyENS}
+                      onClick={handleCopyEth}
                       className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors relative"
                       title={t("contact.copy") as string}
                     >
-                      {copied ? (
+                      {copiedEth ? (
                         <i className="fa-solid fa-check text-xs text-emerald-500"></i>
                       ) : (
                         <i className="fa-regular fa-copy text-xs"></i>
@@ -577,6 +584,43 @@ export default function Home() {
                 </div>
                 <span className="text-[10px] text-muted-foreground font-mono truncate select-all">
                   0xa49F135e80A1a2d53D93fF67b848EaF014bB5cEE
+                </span>
+              </div>
+
+              {/* Wallet Card - Bitcoin */}
+              <div className="flex flex-col gap-2 p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm relative group/wallet w-full">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary">
+                      <i className="fa-brands fa-bitcoin text-xs"></i>
+                    </div>
+                    <span className="text-xs font-bold text-foreground">Bitcoin</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={handleCopyBtc}
+                      className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors relative"
+                      title={t("contact.copyBtc") as string}
+                    >
+                      {copiedBtc ? (
+                        <i className="fa-solid fa-check text-xs text-emerald-500"></i>
+                      ) : (
+                        <i className="fa-regular fa-copy text-xs"></i>
+                      )}
+                    </button>
+                    <Link
+                      href="https://mempool.space/address/bc1qnt9a36lfsc8zjzj7mu9m6qexm48xv34z97fmt4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors"
+                      title="Mempool"
+                    >
+                      <i className="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </Link>
+                  </div>
+                </div>
+                <span className="text-[10px] text-muted-foreground font-mono truncate select-all">
+                  bc1qnt9a36lfsc8zjzj7mu9m6qexm48xv34z97fmt4
                 </span>
               </div>
 
