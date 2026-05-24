@@ -407,6 +407,7 @@
   },
   "certifications": {
     "title": "Certifications",
+    "viewCertificate": "View Certificate",
     "items": [
       {
         "name": "Professional Scrum Master I (PSM-1)",

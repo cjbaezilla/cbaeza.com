@@ -425,7 +425,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="size-7 rounded-lg hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors"
-                        aria-label="Ver Certificado"
+                        aria-label={t("certifications.viewCertificate") as string}
                       >
                         <i className="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                       </Link>

@@ -407,6 +407,7 @@
   },
   "certifications": {
     "title": "Certificaciones",
+    "viewCertificate": "Ver Certificado",
     "items": [
       {
         "name": "Professional Scrum Master I (PSM-1)",
@@ -443,15 +444,15 @@
         "date": "Ene. 2026"
       },
       {
-        "name": "Base x AI Agents Hackathon",
+        "name": "Hackatón Base x Agentes de IA",
         "date": "Oct. 2025"
       },
       {
-        "name": "Avalanche Road to Web3",
+        "name": "Avalanche Camino a Web3",
         "date": "Nov. 2025"
       },
       {
-        "name": "Polkadot Nerdconf",
+        "name": "Nerdconf de Polkadot",
         "date": "Nov. 2025"
       },
       {
@@ -479,7 +480,7 @@
         "date": "Ene. 2022"
       },
       {
-        "name": "Celo Mobile Hackathon",
+        "name": "Hackatón Móvil de Celo",
         "date": "Oct. 2021"
       },
       {

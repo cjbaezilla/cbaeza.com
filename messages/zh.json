@@ -407,6 +407,7 @@
   },
   "certifications": {
     "title": "资质认证",
+    "viewCertificate": "查看证书",
     "items": [
       {
         "name": "专业 Scrum 认证级大师 I (PSM-1)",
