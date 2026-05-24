@@ -105,11 +105,11 @@ export default function Home() {
               {t("hero.badge") as string}
             </span>
 
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-none">
+            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-none">
               {t("hero.title") as string}
             </h1>
 
-            <p className="font-heading text-xl sm:text-2xl md:text-3xl text-primary font-medium">
+            <p className="font-heading text-lg sm:text-xl md:text-2xl text-primary font-medium">
               {t("hero.subtitle") as string}
             </p>
 
