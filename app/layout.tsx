@@ -54,7 +54,8 @@ export const metadata: Metadata = {
       "ar": "https://cbaeza.com/?lang=ar",
       "ru": "https://cbaeza.com/?lang=ru",
       "ja": "https://cbaeza.com/?lang=ja",
-      "pt": "https://cbaeza.com/?lang=pt"
+      "pt": "https://cbaeza.com/?lang=pt",
+      "ko": "https://cbaeza.com/?lang=ko"
     }
   },
   robots: {

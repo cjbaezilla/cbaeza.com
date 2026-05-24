@@ -1,0 +1,503 @@
+{
+  "nav": {
+    "publications": "출판물",
+    "projects": "프로젝트",
+    "foundations": "기초 이론",
+    "background": "경력",
+    "certifications": "자격증",
+    "books": "도서",
+    "colors": "색상 플레이그라운드"
+  },
+  "hero": {
+    "title": "Carlos Baeza Negroni",
+    "subtitle": "블록체인 및 스마트 계약 전문 시니어 컨설팅 엔지니어",
+    "description": "Solidity, DeFi, 그리고 이더리움 생태계 및 EVM(Ethereum Virtual Machine) 전반에 걸친 전문성을 보유한 소프트웨어 엔지니어입니다. 그의 경력에는 DAO, NFT 컬렉션, 실물 자산(RWA) 토큰화, 스테이블코인 발행, 국경 간 결제 시스템, 고급 스테이킹 및 토크노믹스 메커니즘과 같은 복잡한 아키텍처의 설계 및 구현이 포함됩니다. 컨소시엄을 위한 프라이빗 허가형 환경부터 채굴 합의에 기반한 퍼블릭 네트워크에 이르기까지 레이어 1 및 레이어 2(L1/L2) networks를 배포하고 관리하는 능력이 뛰어납니다. 또한, 대규모 뉴스 미디어 플랫폼에서의 탄탄한 경험과 컴퓨터 과학 교육에 대한 강한 열정으로 기술적 프로필을 보완하고 있습니다.",
+    "badge": "Web3 개발 및 금융 시스템",
+    "cta": "GitHub",
+    "sliderTitle": "최근 출판물",
+    "readMore": "기사 읽기"
+  },
+  "publications": [
+    {
+      "title": "Slither, Solhint 및 Mythril: 의미론적 분석 감사 도구를 활용한 스마트 계약 필수 보안",
+      "tag": "보안",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
+      "description": "Solidity 스마트 계약의 취약점을 식별하고 보안을 개선하기 위한 정적 코드 분석 및 자동화 감사."
+    },
+    {
+      "title": "자동화 기초: Python 기반 자율 에이전트 구글 워크스페이스 오케스트레이션을 위한 OpenClaw 호환 스킬 프레임워크",
+      "tag": "AI 에이전트",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
+      "description": "OpenClaw 및 Python을 사용하여 워크플로우를 자동화하고 구글 워크스페이스 오케스트레이션을 자율적으로 통합합니다."
+    },
+    {
+      "title": "조각 부동산 NFT 플랫폼 구축: Solidity 및 Next.js를 활용한 이더리움 토큰화 실습 튜토리얼",
+      "tag": "토큰화",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
+      "description": "이더리움 네트워크에서 Solidity와 Next.js를 사용하여 부동산 자산을 분할 및 토큰화하는 단계별 튜토리얼."
+    },
+    {
+      "title": "이더리움 RWA 토큰 실습 가이드: Solidity, Hardhat, OpenZeppelin 및 Next.js 대시보드",
+      "tag": "RWA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
+      "description": "Hardhat, OpenZeppelin 라이브러리 및 Next.js 인터페이스를 사용한 실물 자산(RWA) 토큰의 실질적 구현."
+    },
+    {
+      "title": "나만의 OpenClaw 영감 텔레그램 봇 구축: OpenCode SDK와 OpenRouter 모델 에이전트 통합",
+      "tag": "AI 에이전트",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
+      "description": "OpenCode SDK를 OpenRouter 에이전트와 통합하여 똑똑하고 자율적인 텔레그램 봇을 구축하는 가이드."
+    },
+    {
+      "title": "이더리움 암호학의 비밀을 풀다: 코드 예제와 함께 디지털 서명부터 스마트 계약까지의 여정",
+      "tag": "암호학",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
+      "description": "ECDSA 디지털 서명부터 계약에 이르기까지 이더리움의 기본 암호학 개념에 대한 상세한 설명."
+    },
+    {
+      "title": "Karpathy의 Autoresearch 해체: 실질적 예제와 함께 자율 AI 학습을 위한 라인별 가이드",
+      "tag": "AI 에이전트",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
+      "description": "Andrej Karpathy가 설계한 자율 AI 학습 흐름을 이해하고 재현하기 위한 분석 및 단계별 가이드."
+    },
+    {
+      "title": "DEX 및 AMM 기초: 이더리움 기반 탈중앙화 거래소 및 자동화 시장 조성 소개",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
+      "description": "DeFi 내 탈중앙화 거래소 및 자동화 시장 조성자에 대한 이론 및 실습 소개."
+    },
+    {
+      "title": "OpenCode 에이전트 기초: 맞춤형 에이전트 및 워크플로우 생성, 구성 및 배포",
+      "tag": "AI 에이전트",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
+      "description": "OpenCode를 사용한 자율 워크플로우 및 스마트 에이전트의 구성, 개발 및 배포."
+    },
+    {
+      "title": "이더리움 기반 첫 DeFi 스테이킹 디앱 구축: Next.js와 OpenZeppelin의 ERC-4626 표준을 활용한 실습 가이드",
+      "tag": "DeFi / ERC-4626",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
+      "description": "ERC-4626 토큰화 금고 표준을 사용하여 탈중앙화 스테이킹 애플리케이션을 제작하는 개발 가이드."
+    },
+    {
+      "title": "토큰화 해독: Solidity를 활용한 이더리움 자산 토큰화 비기술자용 종합 가이드",
+      "tag": "토큰화",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
+      "description": "비기술자 청중을 위한 블록체인 기반 실물 자산 토큰화의 기본 개념과 이점."
+    },
+    {
+      "title": "탈중앙화 자율 조직 구축: DAO 거버넌스 실습 종합 가이드",
+      "tag": "DAO",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
+      "description": "이더리움에서 투명하고 안전한 DAO 거버넌스를 설계, 프로그래밍 및 배포하는 튜토리얼."
+    },
+    {
+      "title": "Vibe2Wizard 아발란체 해커톤 업데이트: 프로젝트 저장소 및 스마트 계약 심층 분석",
+      "tag": "해커톤",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "아발란체 해커톤을 위해 생성된 게임화 플랫폼 배후의 기술적 세부 정보, 소스 코드 및 스마트 계약."
+    },
+    {
+      "title": "LM Studio에서의 나의 기술적 여정: 로컬 AI 모델 실행을 위한 핵심 질문들",
+      "tag": "로컬 AI",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
+      "description": "대규모 언어 모델(LLM)의 효율적인 로컬 실행을 위한 핵심 경험 및 구성."
+    },
+    {
+      "title": "예제로 배우는 Solidity: 스마트 계약을 위한 프로덕션 품질 코드가 포함된 종합 가이드",
+      "tag": "Solidity",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
+      "description": "Solidity의 패턴 and 모범 사례를 학습하기 위한 프로덕션 등급 코드가 포함된 저장소 및 설명."
+    },
+    {
+      "title": "Hardhat 필수 가이드: 자신 있게 Solidity 스마트 계약을 구축하기 위한 비기술자용 입문서",
+      "tag": "Web3 도구",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
+      "description": "스마트 계약을 컴파일, 테스트 및 배포하기 위한 Hardhat 개발 환경 설정의 단계별 가이드."
+    },
+    {
+      "title": "나만의 웹 AI 비서 구축: CodeIgniter4, Next.js 및 OpenRouter의 완전한 실습 통합",
+      "tag": "풀스택 / AI",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
+      "description": "OpenRouter 모델을 사용한 양방향 Next.js 프론트엔드와 CodeIgniter4 백엔드 통합."
+    },
+    {
+      "title": "이더리움 개선 제안(EIP 및 ERC) 종합 핸드북",
+      "tag": "Web3 표준",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
+      "description": "이더리움의 표준화 프로세스 및 주요 ERC 표준을 이해하기 위한 포괄적인 가이드."
+    },
+    {
+      "title": "Vibe2Wizard: 게임화된 Web3 학습 플랫폼에서 바이브 코더에서 온체인 마법사로",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "게임화된 Web3 학습 프로젝트에 대한 정보 및 아발란체에서의 빠른 개발 경험."
+    },
+    {
+      "title": "AI 에이전트 스킬의 핵심 아키텍처 이해",
+      "tag": "AI 에이전트",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
+      "description": "AI 에이전트가 외부 도구를 호출하고 실행하여 기능을 확장하는 구조적 분석."
+    },
+    {
+      "title": "애자일 API 개발: CodeIgniter4로 단 며칠 만에 LaunchPad API 구축하기",
+      "tag": "API / 백엔드",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
+      "description": "백엔드 개발 모범 사례에 따라 CodeIgniter4로 기능적이고 안전한 API를 빠르게 구축하는 방법."
+    }
+  ],
+  "projects": {
+    "title": "활성 프로젝트 저장소",
+    "subtitle": "실제 기술 구현을 바탕으로 한 기능적인 소스 코드 및 실습 가이드.",
+    "code": "코드",
+    "items": [
+      {
+        "title": "구글 워크스페이스용 스킬 프레임워크",
+        "description": "Python 기반 언어 에이전트를 사용하여 구글 워크스페이스의 관리 작업을 자율적으로 조정하기 위한 모듈식 스킬 프레임워크 및 도구.",
+        "stack": "Python, Google Workspace API, OpenClaw",
+        "github": "https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial"
+      },
+      {
+        "title": "부동산 조각 토큰화 플랫폼",
+        "description": "Solidity 스마트 계약(ERC-721 및 ERC-20)을 사용한 부동산 지분 분할 구현 실습 튜토리얼.",
+        "stack": "Solidity, Hardhat, Next.js, ERC-721",
+        "github": "https://github.com/cjbaezilla/Tokenize-Fractional-Real-Estate-NFT-Solidity-HandsOn-Tutorial"
+      },
+      {
+        "title": "RWA 토큰 배포",
+        "description": "준수 및 거버넌스 로직을 통합하여 이더리움에 토큰화된 실물 자산을 발행하기 위한 기술 가이드.",
+        "stack": "Solidity, Hardhat, OpenZeppelin, RWA",
+        "github": "https://github.com/cjbaezilla/Your-First-RWA-Token-Solidity-Nextjs-HandsOn-Tutorial"
+      },
+      {
+        "title": "OpenCode SDK - 텔레그램 봇 연동",
+        "description": "OpenCode SDK 라이브러리와 OpenRouter 모델 라우팅을 사용하여 텔레그램 봇을 자율 AI 에이전트와 연결하는 인프라.",
+        "stack": "Node.js, Telegram Bot API, OpenCode SDK",
+        "github": "https://github.com/cjbaezilla/Integrate-Opencode-SDK-With-Telegram-Bot-Hands-On-Tutorial"
+      },
+      {
+        "title": "ERC-4626 스테이킹 금고",
+        "description": "안전한 입출금을 위해 Solidity로 OpenZeppelin의 ERC-4626 토큰화 금고 표준을 구현한 최적화된 스테이킹 계약.",
+        "stack": "Solidity, ERC-4626, Foundry, TypeScript",
+        "github": "https://github.com/cjbaezilla/Build-Your-First-Solidity-ERC20-Staking-Contract-Tutorial"
+      },
+      {
+        "title": "DAO 거버넌스 시스템",
+        "description": "탈중앙화 자율 조직 내 투표 위임 및 제안서 실행을 위한 스마트 계약이 포함된 저장소.",
+        "stack": "Solidity, OpenZeppelin Governance, Hardhat",
+        "github": "https://github.com/cjbaezilla/Your-First-DAO-Solidity-Token-OpenZeppelin-Tally-Tutorial"
+      },
+      {
+        "title": "통합형 AI 웹 비서",
+        "description": "PHP 백엔드 서버와 React 대화형 인터페이스를 연동한 자연어 처리 기반 채팅 플랫폼.",
+        "stack": "CodeIgniter4, Next.js, OpenRouter APIs",
+        "github": "https://github.com/cjbaezilla/Building-Your-First-Web-AI-Assistant-Hands-On-Tutorial"
+      },
+      {
+        "title": "바이브 코딩 기반 API 베이스",
+        "description": "CodeIgniter4에서 애자일 개발 방법론을 활용하여 안전한 백엔드 엔드포인트를 빠르게 설정하고 모듈화된 아키텍처 구축.",
+        "stack": "PHP, CodeIgniter4, RESTful API",
+        "github": "https://github.com/cjbaezilla/Your-First-Vibecode-API-Using-Codeigniter4-Tutorial"
+      },
+      {
+        "title": "아발란체 해커톤용 모노레포",
+        "description": "게임화 플랫폼 Vibe2Wizard를 위해 Avalanche Build Games 해커톤 기간 동안 개발된 스마트 계약 및 웹 구성 요소 생태계.",
+        "stack": "Solidity, Avalanche, Hardhat, React",
+        "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      }
+    ]
+  },
+  "foundations": {
+    "title": "기초 이론 및 기술 에세이",
+    "subtitle": "블록체인에 적용되는 암호학, 행동경제학 및 응용수학에 관한 학술 기사.",
+    "viewArticle": "기사 보기",
+    "items": [
+      {
+        "title": "블라인드 서명과 eCash",
+        "description": "선구적인 디지털 금융 개인 정보 보호 및 블라인드 암호화 방식에 대한 David Chaum의 1982년 논문 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
+        "icon": "fa-solid fa-key"
+      },
+      {
+        "title": "공개 키 암호학",
+        "description": "비대칭 암호학의 연대기적 발전과 탈중앙화 네트워크의 보안에 미치는 영향 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
+        "icon": "fa-solid fa-vault"
+      },
+      {
+        "title": "나카모토 합의의 인센티브 모델링",
+        "description": "비트코인의 분산 합의 프로토콜에 게임 이론 및 경제적 인센티브 모델링 적용.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
+        "icon": "fa-solid fa-chess"
+      },
+      {
+        "title": "벤포드의 법칙과 블록체인 포렌식",
+        "description": "변칙적인 트랜잭션 패턴을 감지하기 위한 수학 통계학과 블록체인 포렌식 분석의 교차점.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
+        "icon": "fa-solid fa-chart-line"
+      },
+      {
+        "title": "상호객관적 공동 구성물로서의 화폐",
+        "description": "사회 이론과 비트코인 경제학을 연결하여 공동의 믿음 체계로 개념화된 화폐에 대한 인류학적 및 역사적 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
+        "icon": "fa-solid fa-coins"
+      },
+      {
+        "title": "샤미르 비밀 공유 방식",
+        "description": "공유된 암호 키의 안전한 배포 및 복구를 위한 다항식 나눗셈의 수학적 원리.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
+        "icon": "fa-solid fa-shield-halved"
+      },
+      {
+        "title": "복잡성 인식론",
+        "description": "복잡한 정보 시스템 및 자율 소프트웨어에 적용되는 칼 포퍼와 임레 라카토스의 방법론적 반증주의 평가.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
+        "icon": "fa-solid fa-brain"
+      },
+      {
+        "title": "다이아몬드-디빅 모델",
+        "description": "뱅크런을 설명하는 경제 모델과 수익 창출 DeFi 프로토콜에서 유동성의 중요성 연구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "비트코인의 두꺼운 꼬리 위험",
+        "description": "극단값 이론(EVT)을 사용한 시스템 위험 분석 및 크립토 자산의 극단적 변동성과의 관계.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
+        "icon": "fa-solid fa-chart-area"
+      },
+      {
+        "title": "탈중앙화 지표",
+        "description": "블록체인 네트워크의 거버넌스 및 부의 분배에 맞춤화된 타일 지수(Theil Index)와 팔마 비율(Palma Ratio) 계산.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
+        "icon": "fa-solid fa-diagram-project"
+      },
+      {
+        "title": "효용 이론과 베르누이의 역설",
+        "description": "상트페테르부르크 역설(1713) 및 위험 관리 하에서 화폐의 주관적 가치에 대한 수학적 공식화 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
+        "icon": "fa-solid fa-percent"
+      },
+      {
+        "title": "정보 열역학 및 란다우어의 원리",
+        "description": "탈중앙화 네트워크의 효율성 및 보안 한계에 적용되는 정보 열역학과 란다우어의 원리에 대한 연구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
+        "icon": "fa-solid fa-atom"
+      },
+      {
+        "title": "열역학적 깊이 및 맥스웰의 악마",
+        "description": "분산 원장에서 검증 및 질서의 은유로서의 열역학적 깊이와 맥스웰의 악마 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "비트코인의 복잡계 네트워크",
+        "description": "안정성을 유지하기 위해 혼돈의 가장자리에서 작동하는 복잡 적응계로서의 비트코인 네트워크 연구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
+        "icon": "fa-solid fa-network-wired"
+      }
+    ]
+  },
+  "background": {
+    "title": "경력 및 이력",
+    "subtitle": "소프트웨어 엔지니어링, 금융 아키텍처 및 대학 강의 경험.",
+    "jobs": [
+      {
+        "role": "블록체인, AI 및 로보틱스 대학원 강사",
+        "company": "산티아고 데 칠레 대학교 (USACH)",
+        "period": "2026년 1월 - 현재",
+        "description": "스마트 계약, DAO, ERC-20/ERC-721 토큰, 탈중앙화 금융 및 RWA 토큰화 실제 사례 연구에 대한 입문 모듈 강의."
+      },
+      {
+        "role": "블록체인 스마트 계약 엔지니어",
+        "company": "Realt.co",
+        "period": "2023년 1월 - 2025년 1월",
+        "description": "이더리움 기반 부동산 자산 토큰화 및 분할을 위한 Solidity 스마트 계약 개발 및 최적화. 해외 부서 간 기술 요구사항 조율."
+      },
+      {
+        "role": "시니어 소프트웨어 엔지니어 & 스크럼 마스터",
+        "company": "Altera S.A.",
+        "period": "2018년 1월 - 2020년 1월",
+        "description": "대규모 금융 거래 처리 플랫폼의 아키텍처 및 개발. 고보안 환경에서 애자일 방법론을 기반으로 한 은행 API 통합 수행."
+      },
+      {
+        "role": "시니어 소프트웨어 엔지니어",
+        "company": "PlanOK Latam",
+        "period": "2017년 1월 - 2018년 1월",
+        "description": "자체 데이터베이스 및 API의 리팩토링 및 최적화. 기술 부채의 체계적 완화 및 단위 테스트 표준 설정."
+      },
+      {
+        "role": "주니어 비즈니스 분석가 & 스크럼 팀원",
+        "company": "Xintec",
+        "period": "2016년 - 2017년",
+        "description": "애자일 프로젝트 조정 지원 및 글로벌 팀 간 커뮤니케이션 조율. 비즈니스 요구사항 수집, 분석 및 기술 사양 변환."
+      },
+      {
+        "role": "공과대학 강사",
+        "company": "Duoc UC",
+        "period": "2016년 1월 - 2016년 12월",
+        "description": "학부 1학년 학생들을 대상으로 알고리즘, 자료구조 및 관계형 데이터베이스 모델링(SQL) 과목 교육."
+      },
+      {
+        "role": "개발 및 IT 운영 책임자",
+        "company": "La Cuarta (뉴스 미디어)",
+        "period": "2015년 1월 - 2016년 1월",
+        "description": "트래픽 급증 시 뉴스 포털의 가동률 99.9%를 유지하기 위한 서버 인프라 및 캐싱 전략 관리."
+      },
+      {
+        "role": "소프트웨어 개발 매니저",
+        "company": "BioBioChile",
+        "period": "2014년 1월 - 2015년 1월",
+        "description": "매월 수백만 명의 방문자가 유입되는 고트래픽 뉴스 플랫폼을 유지 관리하는 5명의 소프트웨어 엔지니어 기술 리드."
+      },
+      {
+        "role": "프로젝트 매니저 & 개발자 (ITIL)",
+        "company": "Grupo Copesa",
+        "period": "2013년 1월 - 2014년 1월",
+        "description": "ITIL 및 PMI 기준 디지털 프로젝트 생명주기 관리. 멀티미디어 콘텐츠 배포를 위한 맞춤형 솔루션, 데이터베이스 및 API 개발."
+      },
+      {
+        "role": "Semi-Senior 소프트웨어 엔지니어",
+        "company": "NED Media Works",
+        "period": "2012년 1월 - 2013년 1월",
+        "description": "다양한 업계 고객을 위한 맞춤형 웹 플랫폼 및 솔루션의 풀스택 개발. API 연동 및 안전한 결제 게이트웨이 구축."
+      },
+      {
+        "role": "Semi-Senior 소프트웨어 엔지니어",
+        "company": "eClass",
+        "period": "2011년 1월 - 2012년 1월",
+        "description": "e-learning 플랫폼 내부 회계 및 영업 부서를 위한 관리 시스템 및 금융 자동화 도구 설계 및 개발."
+      },
+      {
+        "role": "주니어 소프트웨어 엔지니어",
+        "company": "Moovmedia Digital Academy",
+        "period": "2010년 1월 - 2011년 1월",
+        "description": "고객 지향 플랫폼을 위한 맞춤형 웹 애플리케이션, 인터랙티브 컴포넌트 및 전자상거래 통합 개발."
+      },
+      {
+        "role": "주니어 소프트웨어 엔지니어",
+        "company": "Epunto 디지털 마케팅 에이전시",
+        "period": "2008년 1월 - 2010년 1월",
+        "description": "동적 웹사이트, 콘텐츠 관리 시스템(CMS) 및 기본 전자상거래 기능의 개발 및 유지 관리."
+      }
+    ]
+  },
+  "books": {
+    "title": "출판 도서",
+    "subtitle": "Kindle 및 LaTeX 형식으로 자가 출판한 기술 가이드북.",
+    "items": [
+      {
+        "title": "ERC-4626 Tokenized Vault Standard",
+        "format": "Kindle 에디션 (영문 및 스패니시)",
+        "description": "Solidity 기반 ERC-4626 표준 하에서 탈중앙화 수익형 금고의 구현, 모델링 및 보안을 위한 종합 코스.",
+        "link": "https://a.co/d/fAtbewD"
+      },
+      {
+        "title": "나의 첫 디지털 지갑: 0부터 MetaMask까지",
+        "format": "LaTeX 도서 & 대화형 웹사이트",
+        "description": "쉬운 기초부터 시작하여 Web3 보안, 유동성 풀 및 가스 최적화를 설명하는 21개 장 및 4개 부록의 단계별 가이드.",
+        "link": "https://jardindelconocimiento.com/curso-metamask-principiante/"
+      },
+      {
+        "title": "WordPress Multisite using Nginx",
+        "format": "Kindle 에디션 (영문)",
+        "description": "Ubuntu 환경의 Nginx 및 MySQL 서버 위에 WordPress 멀티사이트 네트워크를 배포하기 위한 중간 단계의 기술 구성.",
+        "link": "https://a.co/d/iQtBYvF"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "자격증 및 인증",
+    "viewCertificate": "인증서 보기",
+    "items": [
+      {
+        "name": "Professional Scrum Master I (PSM-1)",
+        "issuer": "Scrum.org",
+        "date": "2017",
+        "link": "https://www.scrum.org/user/228026"
+      },
+      {
+        "name": "Certified Smart Contract Developer",
+        "issuer": "Blockchain Council",
+        "date": "2020",
+        "link": "https://certificates.blockchain-council.org/0e592af0-a148-48e6-92f3-872378740fd7#acc.TbXe3hm9"
+      },
+      {
+        "name": "이더리움 기초",
+        "issuer": "Colledge",
+        "date": "2020",
+        "link": "https://registrado.org/r/1ead5c69b0015f8ed7ff730ff0c9163e8852ffc6.jpg"
+      },
+      {
+        "name": "블록체인: 기초 및 유스케이스",
+        "issuer": "Coursera",
+        "date": "2020",
+        "link": "https://www.coursera.org/account/accomplishments/verify/2PWXS5U24ZUM"
+      }
+    ]
+  },
+  "hackathons": {
+    "title": "해커톤 참여",
+    "subtitle": "경쟁 및 애자일 Web3 개발 프로젝트.",
+    "items": [
+      {
+        "name": "Aleo x Akindo Privacy Batches",
+        "date": "2026년 1월"
+      },
+      {
+        "name": "Base x AI 에이전트 해커톤",
+        "date": "2025년 10월"
+      },
+      {
+        "name": "Avalanche Road to Web3",
+        "date": "2025년 11월"
+      },
+      {
+        "name": "Polkadot Nerdconf",
+        "date": "2025년 11월"
+      },
+      {
+        "name": "Hack Money (ETHGlobal)",
+        "date": "2022년 5월"
+      },
+      {
+        "name": "DAOHacks (ETHGlobal)",
+        "date": "2022년 4월"
+      },
+      {
+        "name": "LFGrow (ETHGlobal)",
+        "date": "2022년 3월"
+      },
+      {
+        "name": "BUILD Quest (ETHGlobal)",
+        "date": "2022년 3월"
+      },
+      {
+        "name": "Road To Web3 (ETHGlobal)",
+        "date": "2022년 2월"
+      },
+      {
+        "name": "NFTHack (ETHGlobal)",
+        "date": "2022년 1월"
+      },
+      {
+        "name": "Celo 모바일 해커톤",
+        "date": "2021년 10월"
+      },
+      {
+        "name": "ETHOnline (ETHGlobal)",
+        "date": "2021년 9월"
+      }
+    ]
+  },
+  "contact": {
+    "title": "연락처 및 링크",
+    "email": "이메일 주소",
+    "scans": "POAP 탐색",
+    "ens": "ENS 지갑",
+    "copied": "복사 완료!",
+    "copy": "ENS 복사",
+    "copyBtc": "BTC 주소 복사",
+    "navigation": "네비게이션",
+    "backToTop": "맨 위로 이동"
+  }
+}
