@@ -252,6 +252,24 @@
         "description": "Analysis of the St. Petersburg paradox (1713) and the mathematical formalization of the subjective value of money in risk management.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
         "icon": "fa-solid fa-percent"
+      },
+      {
+        "title": "Information Thermodynamics and Landauer",
+        "description": "Study on information thermodynamics and Landauer's Principle applied to efficiency and security limits in decentralized networks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
+        "icon": "fa-solid fa-atom"
+      },
+      {
+        "title": "Thermodynamic Depth and Maxwell",
+        "description": "Analysis of thermodynamic depth and Maxwell's demon as a metaphor for validation and order in distributed ledgers.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "Complex Adaptive Systems in Bitcoin",
+        "description": "Study of the Bitcoin network as a complex adaptive system operating at the 'edge of chaos' to maintain its stability.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
+        "icon": "fa-solid fa-network-wired"
       }
     ]
   },

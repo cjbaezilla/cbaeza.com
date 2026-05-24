@@ -252,6 +252,24 @@
         "description": "Análisis de la paradoja de San Petersburgo (1713) y la formalización matemática del valor subjetivo del dinero frente al riesgo.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
         "icon": "fa-solid fa-percent"
+      },
+      {
+        "title": "Termodinámica de la Información y Landauer",
+        "description": "Estudio sobre la termodinámica de la información y el Principio de Landauer aplicado a los límites de eficiencia y seguridad en redes descentralizadas.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
+        "icon": "fa-solid fa-atom"
+      },
+      {
+        "title": "Profundidad Termodinámica y Maxwell",
+        "description": "Análisis de la profundidad termodinámica y el demonio de Maxwell como metáfora de la validación y el orden en registros distribuidos.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "Sistemas Adaptativos Complejos en Bitcoin",
+        "description": "Estudio de la red Bitcoin como un sistema adaptativo complejo que opera en el 'borde del caos' para mantener su estabilidad.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
+        "icon": "fa-solid fa-network-wired"
       }
     ]
   },
