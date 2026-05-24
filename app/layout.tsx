@@ -20,7 +20,7 @@ const mono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Carlos Baeza Negroni | cbaeza.com",
-  description: "Ingeniero de Software y Arquitecto Blockchain. Especialista en Solidity, DeFi, estándar ERC-4626 y sistemas financieros.",
+  description: "Ingeniero Consultor Senior Especializado en Blockchain y Contratos Inteligentes. Especialista en Solidity, DeFi, estándar ERC-4626 y sistemas financieros.",
 };
 
 export default function RootLayout({
