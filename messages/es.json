@@ -10,7 +10,7 @@
   "hero": {
     "title": "Carlos Baeza Negroni",
     "subtitle": "Ingeniero Consultor Senior Especializado en Blockchain y Contratos Inteligentes",
-    "description": "Especializado en Solidity, DeFi y el ecosistema EVM, con experiencia diseñando e implementando DAOs, NFTs, RWA, Stablecoins, pagos transfronterizos y mecanismos de staking. Experto en el despliegue y gestión de redes L1 y L2, desde entornos privados permisionados para consorcios cerrados hasta arquitecturas con consensos públicos de minado. Cuenta con una sólida trayectoria en plataformas de medios a gran escala y docencia en computación.",
+    "description": "Ingeniero de software especializado en Solidity, DeFi y todo el ecosistema de Ethereum y su máquina virtual EVM. Su trayectoria incluye el diseño e implementación de arquitecturas complejas como DAOs, colecciones de NFTs, tokenización de activos del mundo real (RWA), emisión de stablecoins, sistemas de pagos transfronterizos y mecanismos avanzados de staking y tokenomics. Destaca por su capacidad para desplegar y gestionar redes de Capa 1 y Capa 2 (L1/L2), diseñando desde entornos privados y permisionados para consorcios cerrados hasta redes públicas basadas en consensos de minado. Asimismo, complementa su perfil técnico con una sólida experiencia en plataformas de medios de comunicación a gran escala y un fuerte compromiso con la docencia en ciencias de la computación.",
     "badge": "Desarrollo Web3 y Sistemas Financieros",
     "cta": "GitHub",
     "sliderTitle": "Publicaciones Recientes",
