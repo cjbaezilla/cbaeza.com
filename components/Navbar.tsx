@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/context/I18nContext";
-import { ES, US, CN, SA, RU } from "country-flag-icons/react/3x2";
+import { ES, US, CN, SA, RU, JP } from "country-flag-icons/react/3x2";
 import {
   Select,
   SelectContent,
@@ -89,7 +89,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           {/* Acciones y Controles (Escritorio) */}
           <div className="hidden md:block">
-            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru")}>
+            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja")}>
               <SelectTrigger className="w-[130px] h-9 text-sm cursor-pointer">
                 <span className="flex items-center gap-2">
                   {locale === "es" ? (
@@ -100,12 +100,14 @@ export default function Navbar() {
                     <SA className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : locale === "ru" ? (
                     <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  ) : locale === "ja" ? (
+                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : (
                     <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   )}
                   <SelectValue>
                     {(value: string | null) =>
-                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : "English"
+                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : "English"
                     }
                   </SelectValue>
                 </span>
@@ -141,13 +143,19 @@ export default function Navbar() {
                     <span>Русский</span>
                   </span>
                 </SelectItem>
+                <SelectItem value="ja" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>日本語</span>
+                  </span>
+                </SelectItem>
               </SelectContent>
             </Select>
           </div>
 
           {/* Selector de Idioma (Móvil) */}
           <div className="block md:hidden">
-            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru")}>
+            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja")}>
               <SelectTrigger className="w-[120px] h-8 text-xs cursor-pointer">
                 <span className="flex items-center gap-1.5">
                   {locale === "es" ? (
@@ -158,12 +166,14 @@ export default function Navbar() {
                     <SA className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : locale === "ru" ? (
                     <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  ) : locale === "ja" ? (
+                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : (
                     <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   )}
                   <SelectValue>
                     {(value: string | null) =>
-                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : "English"
+                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : "English"
                     }
                   </SelectValue>
                 </span>
@@ -197,6 +207,12 @@ export default function Navbar() {
                   <span className="flex items-center gap-2">
                     <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                     <span>Русский</span>
+                  </span>
+                </SelectItem>
+                <SelectItem value="ja" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>日本語</span>
                   </span>
                 </SelectItem>
               </SelectContent>

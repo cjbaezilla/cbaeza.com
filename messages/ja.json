@@ -1,0 +1,503 @@
+{
+  "nav": {
+    "publications": "執筆記事",
+    "projects": "プロジェクト",
+    "foundations": "理論基盤",
+    "background": "経歴",
+    "certifications": "保有資格",
+    "books": "書籍",
+    "colors": "カラープレイグラウンド"
+  },
+  "hero": {
+    "title": "Carlos Baeza Negroni",
+    "subtitle": "ブロックチェーン・スマートコントラクト専門 シニアコンサルティングエンジニア",
+    "description": "Solidity、DeFi、およびEthereumエコシステム全体とその仮想マシン（EVM）を専門とするソフトウェアエンジニア。DAO、NFTコレクション、現実世界資産（RWA）のトークン化、ステーブルコインの発行、クロスボーダー決済システム、高度なステーキングおよびトークノミクス設計など、複雑なアーキテクチャの設計・実装において豊富な実績を持つ。クローズドなコンソーシアム向けのプライベート・パーミッションド環境から、マイニング合意形成に基づくパブリックネットワークに至るまで、レイヤー1およびレイヤー2（L1/L2）ネットワークの展開・管理能力に長けている。さらに、大規模なニュースメディアプラットフォームにおける確かな開発・運用経験と、大学等の高等教育機関におけるコンピュータサイエンスの講義への強い情熱を併せ持ち、技術的プロファイルをより強固なものにしている。",
+    "badge": "Web3開発 ＆ 金融システム",
+    "cta": "GitHub",
+    "sliderTitle": "最近の執筆記事",
+    "readMore": "記事を読む"
+  },
+  "publications": [
+    {
+      "title": "Slither, Solhint & Mythril: セマンティック解析監査ツールを用いたスマートコントラクトの本質的セキュリティ",
+      "tag": "セキュリティ",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
+      "description": "Solidityスマートコントラクトにおける脆弱性の特定とセキュリティ向上のための、静的コード解析と自動監査。"
+    },
+    {
+      "title": "自動化の基盤: Pythonを用いた自律的なAIエージェントによるGoogle Workspace統合のためのOpenClaw互換スキルフレームワーク",
+      "tag": "AIエージェント",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
+      "description": "OpenClawとPythonを使用してワークフローを自動化し、Google Workspaceの管理・操作を自律的に統合。"
+    },
+    {
+      "title": "不動産の小口化NFTプラットフォームの構築: SolidityとNext.jsを使用したEthereum上でのトークン化実践チュートリアル",
+      "tag": "トークン化",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
+      "description": "SolidityとNext.jsを使い、Ethereumネットワーク上で不動産プロパティを小口化・トークン化するための段階的チュートリアル。"
+    },
+    {
+      "title": "Ethereum上のRWAトークン実践ガイド: Solidity、Hardhat、OpenZeppelin、およびNext.jsダッシュボード",
+      "tag": "RWA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
+      "description": "Hardhat、OpenZeppelinライブラリ、およびNext.jsインターフェースを使用した、現実世界資産（RWA）トークンの具体的な実装。"
+    },
+    {
+      "title": "独自のOpenClaw風Telegramボットの構築: OpenCode SDKとOpenRouterモデルエージェントの統合",
+      "tag": "AIエージェント",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
+      "description": "OpenCode SDKをOpenRouterエージェントと統合し、インテリジェントで自律的なTelegramボットを構築するガイド。"
+    },
+    {
+      "title": "Ethereum暗号技術の解明: デジタル署名からスマートコントラクトまでの道のりとコード例",
+      "tag": "暗号技術",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
+      "description": "ECDSAデジタル署名からスマートコントラクトに至るまで、Ethereumの基本的な暗号概念を詳細に解説。"
+    },
+    {
+      "title": "KarpathyのAutoresearchを解剖する: 実践例を交えた自律型AIトレーニングの1行ずつ解説するガイド",
+      "tag": "AIエージェント",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
+      "description": "Andrej Karpathyが設計した自律型AIトレーニングフローを理解し、再現するための分析と段階的ガイド。"
+    },
+    {
+      "title": "DEXとAMMの基礎: Ethereumにおける分散型取引所と自動マーケットメイク入門",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
+      "description": "DeFiにおける分散型取引所（DEX）と自動マーケットメーカー（AMM）の理論的および実践的な入門解説。"
+    },
+    {
+      "title": "OpenCodeエージェントの基礎: カスタムエージェントとワークフローの作成、設定、およびデプロイ",
+      "tag": "AIエージェント",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
+      "description": "OpenCodeを使用した、自律的なワークフローとスマートエージェントの設定、開発、およびデプロイ。"
+    },
+    {
+      "title": "Ethereum上で最初のDeFiステーキングDappを構築する: OpenZeppelinのERC-4626規格とNext.jsを活用した実践ガイド",
+      "tag": "DeFi / ERC-4626",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
+      "description": "ERC-4626トークン化型ボルト規格を使用して、分散型ステーキングアプリケーションを作成するための開発ガイド。"
+    },
+    {
+      "title": "トークン化の解読: Solidityを用いたEthereum上での資産トークン化に関する完全な非技術者向けガイド",
+      "tag": "トークン化",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
+      "description": "非技術的な読者を対象とした、ブロックチェーン上での現実世界資産（RWA）トークン化の基本概念とメリット。"
+    },
+    {
+      "title": "分散型自律組織（DAO）の構築: DAOガバナンスへの完全な実践ガイド",
+      "tag": "DAO",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
+      "description": "Ethereum上で透明かつ安全なDAOガバナンスを設計、プログラミング、およびデプロイするためのチュートリアル。"
+    },
+    {
+      "title": "Vibe2Wizard Avalancheハッカソンアップデート: プロジェクトリポジトリとスマートコントラクトの内部構造",
+      "tag": "ハッカソン",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Avalancheハッカソン向けに作成されたゲーム化学習プラットフォームの技術的詳細、ソースコード、およびスマートコントラクト。"
+    },
+    {
+      "title": "LM Studioでの技術的な道のり: ローカルでAIモデルを実行するための重要なポイント",
+      "tag": "ローカルAI",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
+      "description": "大規模言語モデル（LLM）をローカルで効率的に実行するための重要な経験と設定。"
+    },
+    {
+      "title": "実践 Solidity: スマートコントラクト向けプロダクション品質のコードを含む包括的ガイド",
+      "tag": "Solidity",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
+      "description": "Solidityにおけるデザインパターンとベストプラクティスを学ぶための、本番グレードのコードを含むリポジトリと解説。"
+    },
+    {
+      "title": "Hardhatの要点: 自信を持ってSolidityスマートコントラクトを構築するための非技術的入門ガイド",
+      "tag": "Web3ツール",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
+      "description": "スマートコントラクトをコンパイル、テスト、およびデプロイするためのHardhat開発環境のセットアップ手順。"
+    },
+    {
+      "title": "独自のWeb AIアシスタントの構築: CodeIgniter4、Next.js、およびOpenRouter의完全な実践統合",
+      "tag": "フルスタック / AI",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
+      "description": "CodeIgniter4を使用したバックエンド統合と、OpenRouterモデルを呼び出すインタラクティブなNext.jsフロントエンド。"
+    },
+    {
+      "title": "Ethereum改善提案（EIPおよびERC）の完全ハンドブック",
+      "tag": "Web3規格",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
+      "description": "Ethereumの標準化プロセスと主要なERC規格を理解するための包括的なガイド。"
+    },
+    {
+      "title": "Vibe2Wizard: ゲーム化Web3学習プラットフォームでVibeコーダーからオンチェーンウィザードへ",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "ゲーム化されたWeb3学習プロジェクトの詳細と、Avalanche上での迅速な開発体験。"
+    },
+    {
+      "title": "AIエージェントスキルのコアアーキテクチャを理解する",
+      "tag": "AIエージェント",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
+      "description": "AIエージェントがその機能を拡張するために外部ツールを呼び出し、実行する構造の分析。"
+    },
+    {
+      "title": "アジャイルAPI開発: 数ヶ月ではなく数日でCodeIgniter4を使用したLaunchPad APIの構築",
+      "tag": "APIs / バックエンド",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
+      "description": "バックエンド開発のベストプラクティスに従い、CodeIgniter4を使用して機能的で安全なAPIを迅速に構築する方法。"
+    }
+  ],
+  "projects": {
+    "title": "稼働中のプロジェクトリポジトリ",
+    "subtitle": "実際の技術実装から得られた、実用的なソースコードと実践的なガイド。",
+    "code": "コード",
+    "items": [
+      {
+        "title": "Google Workspace向けスキルフレームワーク",
+        "description": "Pythonベースの言語エージェントを使用して、Google Workspaceの管理タスクを自律的にオーケストレーションするためのモジュール式スキルフレームワークとツール。",
+        "stack": "Python, Google Workspace API, OpenClaw",
+        "github": "https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial"
+      },
+      {
+        "title": "不動産小口化NFTプラットフォーム",
+        "description": "SolidityでERC-721およびERC-20スマートコントラクトを使用して不動産の小口化を実装する実用的なチュートリアル。",
+        "stack": "Solidity, Hardhat, Next.js, ERC-721",
+        "github": "https://github.com/cjbaezilla/Tokenize-Fractional-Real-Estate-NFT-Solidity-HandsOn-Tutorial"
+      },
+      {
+        "title": "RWAトークンのデプロイ",
+        "description": "コンプライアンスとガバナンスのロジックを統合した、Ethereum上でのトークン化された現実世界資産の発行に関する技術ガイド。",
+        "stack": "Solidity, Hardhat, OpenZeppelin, RWA",
+        "github": "https://github.com/cjbaezilla/Your-First-RWA-Token-Solidity-Nextjs-HandsOn-Tutorial"
+      },
+      {
+        "title": "OpenCode SDKからTelegramボットへ",
+        "description": "OpenCode SDKライブラリとOpenRouterモデルルーティングを使用して、Telegramボットを自律的なAIエージェントと接続するためのインフラ。",
+        "stack": "Node.js, Telegram Bot API, OpenCode SDK",
+        "github": "https://github.com/cjbaezilla/Integrate-Opencode-SDK-With-Telegram-Bot-Hands-On-Tutorial"
+      },
+      {
+        "title": "ERC-4626ステーキングボルト",
+        "description": "安全な預け入れと引き出しのために、SolidityでOpenZeppelin의 ERC-4626トークン化ボルト規格を実装した最適化ステーキングコントラクト。",
+        "stack": "Solidity, ERC-4626, Foundry, TypeScript",
+        "github": "https://github.com/cjbaezilla/Build-Your-First-Solidity-ERC20-Staking-Contract-Tutorial"
+      },
+      {
+        "title": "DAOガバナンスシステム",
+        "description": "分散型自律組織における投票委任と提案実行のためのスマートコントラクトを含むリポジトリ。",
+        "stack": "Solidity, OpenZeppelin Governance, Hardhat",
+        "github": "https://github.com/cjbaezilla/Your-First-DAO-Solidity-Token-OpenZeppelin-Tally-Tutorial"
+      },
+      {
+        "title": "統合AI Webアシスタント",
+        "description": "PHPバックエンドサーバーとReactインタラクティブインターフェースを統合した、自然言語処理チャットプラットフォーム。",
+        "stack": "CodeIgniter4, Next.js, OpenRouter APIs",
+        "github": "https://github.com/cjbaezilla/Building-Your-First-Web-AI-Assistant-Hands-On-Tutorial"
+      },
+      {
+        "title": "VibeコーディングによるAPIベース",
+        "description": "CodeIgniter4におけるアジャイル開発手法を用いた、安全なバックエンドエンドポイントのモジュール式アーキテクチャと迅速な構築。",
+        "stack": "PHP, CodeIgniter4, RESTful API",
+        "github": "https://github.com/cjbaezilla/Your-First-Vibecode-API-Using-Codeigniter4-Tutorial"
+      },
+      {
+        "title": "Avalancheハッカソン向けモノレポ",
+        "description": "Avalanche Build Games Hackathon中にVibe2Wizardゲーム化プラットフォーム向けに開発されたスマートコントラクトとWebコンポーネントのエコシステム。",
+        "stack": "Solidity, Avalanche, Hardhat, React",
+        "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      }
+    ]
+  },
+  "foundations": {
+    "title": "理論基盤 ＆ 技術的エッセイ",
+    "subtitle": "暗号技術、行動経済学、およびブロックチェーン向け応用数学に関する科学的記事。",
+    "viewArticle": "記事を読む",
+    "items": [
+      {
+        "title": "ブラインド署名とeCash",
+        "description": "デジタル金融プライバシーとブラインド暗号方式に関する、デビッド・チャウムの1982年の先駆的な論文の分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
+        "icon": "fa-solid fa-key"
+      },
+      {
+        "title": "公開鍵暗号技術",
+        "description": "非対称暗号技術の年代順の進化と、それが分散型ネットワークのセキュリティに与える影響の分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
+        "icon": "fa-solid fa-vault"
+      },
+      {
+        "title": "ナカモト合意におけるインセンティブモデリング",
+        "description": "ビットコインの分散型合意形成プロトコルにおける、ゲーム理論と経済的インセンティブモデリングの適用。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
+        "icon": "fa-solid fa-chess"
+      },
+      {
+        "title": "本福特定律与ブロックチェーン・フォレンジック",
+        "description": "異常なトランザクションパターンの検出のための、数理統計学とブロックチェーン・フォレンジック分析の交点。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
+        "icon": "fa-solid fa-chart-line"
+      },
+      {
+        "title": "相互客観的構成概念としての貨幣",
+        "description": "共同体的な信念体系として構想された貨幣の人類学的・歴史的分析と、社会理論とビットコイン経済学の接合。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
+        "icon": "fa-solid fa-coins"
+      },
+      {
+        "title": "シャミアの秘密分散法と共有秘密",
+        "description": "共有された暗号鍵の安全な分散と復元のための、多項式分割の数学的原理。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
+        "icon": "fa-solid fa-shield-halved"
+      },
+      {
+        "title": "複雑性の認識論",
+        "description": "複雑な情報システムと自律的ソフトウェアに適用される、カール・ポパーとイムレ・ラカトシュの方法論的反証主義の評価。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
+        "icon": "fa-solid fa-brain"
+      },
+      {
+        "title": "ダイヤモンド・ディブビッグモデル",
+        "description": "銀行取付と、利回り付きDeFiプロトコルにおける流動性の重要性を説明する経済モデルの研究。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "ビットコインにおけるファットテールリスク",
+        "description": "極値統計（EVT）を用いたシステムリスクの数学的分析と、暗号資産の極端なボラティリティとの関係。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
+        "icon": "fa-solid fa-chart-area"
+      },
+      {
+        "title": "分散型メトリクス",
+        "description": "Calculation of the Theil Index and the Palma Ratio adapted to governance and wealth distribution in blockchain networks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
+        "icon": "fa-solid fa-diagram-project"
+      },
+      {
+        "title": "効用理論とベルヌーイのパラドックス",
+        "description": "サンクトペテルブルクのパラドックス（1713年）の分析と、リスク管理における貨幣の主観的価値 of 数学的定式化。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
+        "icon": "fa-solid fa-percent"
+      },
+      {
+        "title": "情報熱力学とランダウアーの原理",
+        "description": "Study on information thermodynamics and Landauer's Principle applied to efficiency and security limits in decentralized networks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
+        "icon": "fa-solid fa-atom"
+      },
+      {
+        "title": "熱力学的深さとマクスウェルの悪魔",
+        "description": "Analysis of thermodynamic depth and Maxwell's demon as a metaphor for validation and order in distributed ledgers.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "ビットコインにおける複雑適応系",
+        "description": "Study of the Bitcoin network as a complex adaptive system operating at the 'edge of chaos' to maintain its stability.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
+        "icon": "fa-solid fa-network-wired"
+      }
+    ]
+  },
+  "background": {
+    "title": "職務経歴",
+    "subtitle": "ソフトウェアエンジニアリング、金融アーキテクチャ、および大学講義における経験。",
+    "jobs": [
+      {
+        "role": "ブロックチェーン、AI、ロボティクス担当 大学院講師",
+        "company": "チリ聖地亜哥大学 (USACH)",
+        "period": "2026年1月 - 現在",
+        "description": "スマートコントラクト、DAO、ERC-20/ERC-721トークン、および現実世界の分散型金融とRWAトークン化のケーススタディに関する入門モジュールの講義。"
+      },
+      {
+        "role": "ブロックチェーン・スマートコントラクトエンジニア",
+        "company": "Realt.co",
+        "period": "2023年1月 - 2025年1月",
+        "description": "Ethereum上での不動産物件のトーク化および小口化のためのSolidityスマートコントラクトの開発と最適化。海外部門間の技術要件の調整。"
+      },
+      {
+        "role": "シニアソフトウェアエンジニア ＆ スクラムマスター",
+        "company": "Altera S.A.",
+        "period": "2018年1月 - 2020年1月",
+        "description": "大量の金融トランザクション処理プラットフォームのアーキテクチャと開発。高セキュリティ環境下でのアジャイル手法による銀行API統合。"
+      },
+      {
+        "role": "シニアソフトウェアエンジニア",
+        "company": "PlanOK Latam",
+        "period": "2017年1月 - 2018年1月",
+        "description": "独自データベースとAPIの重構と最適化。技術負債の体系的な削減と単体テスト標準の確立。"
+      },
+      {
+        "role": "ジュニアビジネスアナリスト ＆ スクラムチームメンバー",
+        "company": "Xintec",
+        "period": "2016年 - 2017年",
+        "description": "アジャイルプロジェクトコーディネーションのサポートと、多国籍チーム間の円滑なコミュニケーション。ビジネス要件の収集、分析、および技術仕様への翻訳。"
+      },
+      {
+        "role": "工学部講師",
+        "company": "Duoc UC",
+        "period": "2016年1月 - 2016年12月",
+        "description": "工学部の学部1年生を対象としたアルゴリズム、データ構造、および関係データベースモデリング（SQL）コースの指導。"
+      },
+      {
+        "role": "開発およびITオペレーション責任者",
+        "company": "La Cuarta (ニュースメディア)",
+        "period": "2015年1月 - 2016年1月",
+        "description": "極端なトラフィックピーク時にもニュースポータルの99.9%のアップタイムを確保するための、サーバーインフラとキャッシュ戦略の管理。"
+      },
+      {
+        "role": "ソフトウェア開発マネージャー",
+        "company": "BioBioChile",
+        "period": "2014年1月 - 2015年1月",
+        "description": "月間数百万人以上の訪問者にサービスを提供する高トラフィックニュースプラットフォームを管理する、5名のソフトウェアエンジニアの技術的リード。"
+      },
+      {
+        "role": "プロジェクトマネージャー ＆ 開発者 (ITIL)",
+        "company": "Grupo Copesa",
+        "period": "2013年1月 - 2014年1月",
+        "description": "ITILおよびPMIに基づくデジタルプロジェクトのライフサイクル管理。マルチメディアコンテンツ配信のためのカスタムソリューション、データベース、およびAPIの開発。"
+      },
+      {
+        "role": "シニア・アソシエイト・SOFTWARE ENGINEER",
+        "company": "NED Media Works",
+        "period": "2012年1月 - 2013年1月",
+        "description": "フルスタック開発 of カスタムWebプラットフォームおよびソリューション for クライアント across various industries. API integration and secure payment gateways."
+      },
+      {
+        "role": "シニア・アソシエイト・SOFTWARE ENGINEER",
+        "company": "eClass",
+        "period": "2011年1月 - 2012年1月",
+        "description": "Design and development of internal systems and automated financial tools for accounting and sales departments within the e-learning platform."
+      },
+      {
+        "role": "ジュニアソフトウェアエンジニア",
+        "company": "Moovmedia Digital Academy",
+        "period": "2010年1月 - 2011年1月",
+        "description": "Development of custom web applications, interactive components, and e-commerce integrations for client-facing platforms."
+      },
+      {
+        "role": "ジュニアソフトウェアエンジニア",
+        "company": "Epunto Digital Marketing Agency",
+        "period": "2008年1月 - 2010年1月",
+        "description": "Development and maintenance of dynamic websites, content management systems (CMS), and basic e-commerce functionalities."
+      }
+    ]
+  },
+  "books": {
+    "title": "出版書籍",
+    "subtitle": "KindleおよびLaTeXフォーマットの自費出版技術ガイド。",
+    "items": [
+      {
+        "title": "ERC-4626 トークン化ボルト規格",
+        "format": "Kindle版（英語＆スペイン語）",
+        "description": "SolidityでのERC-4626規格に基づく分散型利回りボルトの実装、モデリング、およびセキュリティに関する包括的コース。",
+        "link": "https://a.co/d/fAtbewD"
+      },
+      {
+        "title": "初めてのデジタルウォレット: 0からMetaMaskへ",
+        "format": "LaTeX書籍 ＆ インタラクティブWebサイト",
+        "description": "Web3のセキュリティ、流動性プール、ガス最適化などを基礎からわかりやすく解説した、21章と4つの技術的付録で構成される段階的ガイド。",
+        "link": "https://jardindelconocimiento.com/curso-metamask-principiante/"
+      },
+      {
+        "title": "WordPress Multisite using Nginx",
+        "format": "Kindle版（英語）",
+        "description": "Ubuntuサーバー上でのNginxおよびMySQLを用いた、WordPressマルチサイトネットワークを展開するための技術的セットアップ（中級）。",
+        "link": "https://a.co/d/iQtBYvF"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "保有資格",
+    "viewCertificate": "証明書を表示",
+    "items": [
+      {
+        "name": "Professional Scrum Master I (PSM-1)",
+        "issuer": "Scrum.org",
+        "date": "2017",
+        "link": "https://www.scrum.org/user/228026"
+      },
+      {
+        "name": "Certified Smart Contract Developer",
+        "issuer": "Blockchain Council",
+        "date": "2020",
+        "link": "https://certificates.blockchain-council.org/0e592af0-a148-48e6-92f3-872378740fd7#acc.TbXe3hm9"
+      },
+      {
+        "name": "Ethereum Básico",
+        "issuer": "Colledge",
+        "date": "2020",
+        "link": "https://registrado.org/r/1ead5c69b0015f8ed7ff730ff0c9163e8852ffc6.jpg"
+      },
+      {
+        "name": "Blockchain: Foundations and Use Cases",
+        "issuer": "Coursera",
+        "date": "2020",
+        "link": "https://www.coursera.org/account/accomplishments/verify/2PWXS5U24ZUM"
+      }
+    ]
+  },
+  "hackathons": {
+    "title": "ハッカソン参加実績",
+    "subtitle": "コンペティションおよびアジャイルなWeb3開発プロジェクト。",
+    "items": [
+      {
+        "name": "Aleo x Akindo Privacy Batches",
+        "date": "2026年1月"
+      },
+      {
+        "name": "Base x AI Agents Hackathon",
+        "date": "2025年10月"
+      },
+      {
+        "name": "Avalanche Road to Web3",
+        "date": "2025年11月"
+      },
+      {
+        "name": "Polkadot Nerdconf",
+        "date": "2025年11月"
+      },
+      {
+        "name": "Hack Money (ETHGlobal)",
+        "date": "2022年5月"
+      },
+      {
+        "name": "DAOHacks (ETHGlobal)",
+        "date": "2022年4月"
+      },
+      {
+        "name": "LFGrow (ETHGlobal)",
+        "date": "2022年3月"
+      },
+      {
+        "name": "BUILD Quest (ETHGlobal)",
+        "date": "2022年3月"
+      },
+      {
+        "name": "Road To Web3 (ETHGlobal)",
+        "date": "2022年2月"
+      },
+      {
+        "name": "NFTHack (ETHGlobal)",
+        "date": "2022年1月"
+      },
+      {
+        "name": "Celo Mobile Hackathon",
+        "date": "2021年10月"
+      },
+      {
+        "name": "ETHOnline (ETHGlobal)",
+        "date": "2021年9月"
+      }
+    ]
+  },
+  "contact": {
+    "title": "連絡先 ＆ リンク",
+    "email": "メールアドレス",
+    "scans": "POAPの探索",
+    "ens": "ENSウォレット",
+    "copied": "コピーしました！",
+    "copy": "ENSをコピー",
+    "copyBtc": "BTCアドレスをコピー",
+    "navigation": "ナビゲーション",
+    "backToTop": "ページトップへ"
+  }
+}

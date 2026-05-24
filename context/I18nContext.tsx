@@ -6,8 +6,9 @@ import en from "@/messages/en.json";
 import zh from "@/messages/zh.json";
 import ar from "@/messages/ar.json";
 import ru from "@/messages/ru.json";
+import ja from "@/messages/ja.json";
 
-type Locale = "es" | "en" | "zh" | "ar" | "ru";
+type Locale = "es" | "en" | "zh" | "ar" | "ru" | "ja";
 
 interface I18nContextType {
   locale: Locale;
@@ -22,7 +23,7 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("locale") as Locale;
-    if (saved === "es" || saved === "en" || saved === "zh" || saved === "ar" || saved === "ru") {
+    if (saved === "es" || saved === "en" || saved === "zh" || saved === "ar" || saved === "ru" || saved === "ja") {
       requestAnimationFrame(() => {
         setLocaleState(saved);
       });
@@ -49,6 +50,8 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
         ? ar
         : locale === "ru"
         ? ru
+        : locale === "ja"
+        ? ja
         : en
     ) as Record<string, unknown>;
     const keys = key.split(".");
