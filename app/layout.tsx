@@ -19,8 +19,114 @@ const mono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Carlos Baeza Negroni | cbaeza.com",
-  description: "Ingeniero Consultor Senior Especializado en Blockchain y Contratos Inteligentes. Especialista en Solidity, DeFi, estándar ERC-4626 y sistemas financieros.",
+  metadataBase: new URL("https://cbaeza.com"),
+  title: {
+    default: "Carlos Baeza Negroni | Consultor Senior Blockchain & Contratos Inteligentes",
+    template: "%s | Carlos Baeza Negroni"
+  },
+  description: "Ingeniero Consultor Senior Especializado en Blockchain y Contratos Inteligentes. Experto en Solidity, DeFi, EVM, DAOs, NFTs, RWA y mecanismos avanzados de staking.",
+  keywords: [
+    "Carlos Baeza Negroni",
+    "Carlos Baeza",
+    "cbaeza",
+    "cbaeza.com",
+    "Blockchain Consultant",
+    "Smart Contracts",
+    "Solidity Developer",
+    "DeFi Specialist",
+    "Ethereum Developer",
+    "EVM Architect",
+    "RWA Tokenization",
+    "DAO Governance",
+    "Staking Mechanisms",
+    "Web3 Development",
+    "Santiago de Chile",
+    "USACH"
+  ],
+  authors: [{ name: "Carlos Baeza Negroni", url: "https://cbaeza.com" }],
+  creator: "Carlos Baeza Negroni",
+  alternates: {
+    canonical: "https://cbaeza.com",
+    languages: {
+      "es": "https://cbaeza.com/?lang=es",
+      "en": "https://cbaeza.com/?lang=en"
+    }
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "Carlos Baeza Negroni | Consultor Senior Blockchain & Contratos Inteligentes",
+    description: "Ingeniero Consultor Senior Especializado en Blockchain y Contratos Inteligentes. Experto en Solidity, DeFi, EVM, DAOs, NFTs, RWA y mecanismos avanzados de staking.",
+    url: "https://cbaeza.com",
+    siteName: "Carlos Baeza Negroni - cbaeza.com",
+    images: [
+      {
+        url: "/images/logo.png",
+        alt: "Carlos Baeza Negroni - Blockchain & Smart Contracts Consultant",
+      },
+    ],
+    locale: "es_CL",
+    type: "profile",
+    firstName: "Carlos",
+    lastName: "Baeza Negroni",
+    username: "cjbaezilla",
+    gender: "male",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Carlos Baeza Negroni | Consultor Senior Blockchain & Contratos Inteligentes",
+    description: "Ingeniero Consultor Senior Especializado en Blockchain y Contratos Inteligentes. Experto en Solidity, DeFi, EVM, DAOs, NFTs, RWA y mecanismos avanzados de staking.",
+    creator: "@cjbaezilla",
+    images: ["/images/logo.png"],
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Carlos Baeza Negroni",
+    "alternateName": "Carlos Baeza",
+    "jobTitle": "Senior Consulting Engineer Specialized in Blockchain & Smart Contracts",
+    "url": "https://cbaeza.com",
+    "image": "https://cbaeza.com/images/logo.png",
+    "sameAs": [
+      "https://github.com/cjbaezilla",
+      "https://www.linkedin.com/in/carlos-baeza-negroni/",
+      "https://twitter.com/cjbaezilla",
+      "https://www.youtube.com/@cjbaezilla"
+    ],
+    "knowsAbout": [
+      "Solidity",
+      "Smart Contracts",
+      "Blockchain",
+      "Decentralized Finance (DeFi)",
+      "Ethereum Virtual Machine (EVM)",
+      "Decentralized Autonomous Organizations (DAOs)",
+      "Non-Fungible Tokens (NFTs)",
+      "Real World Assets (RWA)",
+      "Stablecoins",
+      "Staking",
+      "Tokenomics",
+      "Layer 1 and Layer 2 Networks (L1/L2)",
+      "Software Engineering"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Universidad de Santiago de Chile",
+      "sameAs": "https://www.usach.cl/"
+    }
+  }
 };
 
 export default function RootLayout({
@@ -43,6 +149,10 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <I18nProvider>{children}</I18nProvider>
       </body>
     </html>

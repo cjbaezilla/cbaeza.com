@@ -92,8 +92,9 @@ export default function Home() {
       {/* Barra de Navegación */}
       <Navbar />
 
-      {/* Hero Section */}
-      <header id="publications" className="w-full pt-16 pb-12 md:pt-28 md:pb-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
+      <main className="flex-grow">
+        {/* Hero Section */}
+        <header id="publications" className="w-full pt-16 pb-12 md:pt-28 md:pb-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
         {/* Fondo decorativo geométrico */}
         <div className="absolute top-0 right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -mr-32 -mt-32"></div>
         <div className="absolute bottom-0 left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -ml-32 -mb-32"></div>
@@ -470,6 +471,8 @@ export default function Home() {
         </div>
       </section>
 
+      </main>
+
       {/* Footer / Contact Section */}
       <footer id="contact" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] bg-gradient-to-t from-card/80 to-card/10 border-t border-border/40 mt-auto relative overflow-hidden">
         {/* Fondo decorativo y gradiente sutil */}
@@ -617,6 +620,7 @@ export default function Home() {
                       onClick={handleCopyEth}
                       className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors relative"
                       title={t("contact.copy") as string}
+                      aria-label={t("contact.copy") as string}
                     >
                       {copiedEth ? (
                         <i className="fa-solid fa-check text-xs text-emerald-500"></i>
@@ -654,6 +658,7 @@ export default function Home() {
                       onClick={handleCopyBtc}
                       className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors relative"
                       title={t("contact.copyBtc") as string}
+                      aria-label={t("contact.copyBtc") as string}
                     >
                       {copiedBtc ? (
                         <i className="fa-solid fa-check text-xs text-emerald-500"></i>
