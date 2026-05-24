@@ -8,6 +8,7 @@ interface SliderItem {
   title: string;
   tag: string;
   link: string;
+  description?: string;
 }
 
 interface SliderProps {
@@ -68,17 +69,17 @@ export default function Slider({ items }: SliderProps) {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >
-      <div className="relative min-h-[16rem] md:min-h-[18rem] flex flex-col justify-between">
+      <div className="relative min-h-[18rem] md:min-h-[19rem] flex flex-col justify-between">
         <div className="relative w-full flex-1 overflow-hidden">
           {items.map((item, index) => {
             const isCurrent = index === activeIndex;
             return (
               <div
                 key={index}
-                className={`absolute inset-0 w-full h-full flex flex-col justify-between transition-all duration-500 ease-in-out ${
+                className={`w-full flex flex-col justify-between transition-all duration-500 ease-in-out ${
                   isCurrent
-                    ? "opacity-100 translate-x-0 scale-100 z-10"
-                    : "opacity-0 translate-x-full scale-95 pointer-events-none z-0"
+                    ? "relative opacity-100 translate-x-0 scale-100 z-10"
+                    : "absolute inset-0 w-full h-full opacity-0 translate-x-full scale-95 pointer-events-none z-0"
                 }`}
               >
                 <div className="flex flex-col gap-4">
@@ -106,6 +107,11 @@ export default function Slider({ items }: SliderProps) {
                       <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover/title:text-primary transition-colors inline-block align-middle"></i>
                     </Link>
                   </h3>
+                  {item.description && (
+                    <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed mt-1 line-clamp-3">
+                      {item.description}
+                    </p>
+                  )}
                 </div>
               </div>
             );

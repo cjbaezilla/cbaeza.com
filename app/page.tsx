@@ -11,6 +11,7 @@ interface PublicationItem {
   title: string;
   tag: string;
   link: string;
+  description?: string;
 }
 
 interface ProjectItem {
