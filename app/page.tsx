@@ -87,7 +87,7 @@ export default function Home() {
               {t("hero.title") as string}
             </h1>
 
-            <p className="font-heading text-lg sm:text-xl md:text-2xl text-primary font-medium">
+            <p className="font-heading text-xl sm:text-2xl md:text-3xl text-primary font-medium">
               {t("hero.subtitle") as string}
             </p>
 
