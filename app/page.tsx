@@ -348,17 +348,25 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-2 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">
               {Array.isArray(hackathonsList) &&
                 hackathonsList.map((hack: HackathonItem, index: number) => (
-                  <span
+                  <div
                     key={index}
-                    className="inline-flex items-center gap-1.5 rounded-xl border border-border/60 bg-card px-3 py-1.5 text-xs text-muted-foreground shadow-sm hover:border-border hover:text-foreground transition-all"
+                    className="flex items-center gap-3 rounded-2xl border border-border/60 bg-card p-3 hover:border-border hover:shadow-sm transition-all group/hack cursor-default"
                   >
-                    <div className="size-1.5 rounded-full bg-primary"></div>
-                    <span className="font-medium">{hack.name}</span>
-                    <span className="text-[10px] font-mono text-muted-foreground">({hack.date})</span>
-                  </span>
+                    <div className="size-9 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/hack:bg-primary/10 transition-colors shrink-0">
+                      <i className="fa-solid fa-trophy text-xs"></i>
+                    </div>
+                    <div className="flex flex-col min-w-0">
+                      <span className="text-xs font-bold text-foreground truncate group-hover/hack:text-primary transition-colors">
+                        {hack.name}
+                      </span>
+                      <span className="text-[10px] text-muted-foreground">
+                        {hack.date}
+                      </span>
+                    </div>
+                  </div>
                 ))}
             </div>
           </div>
