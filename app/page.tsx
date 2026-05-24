@@ -96,8 +96,8 @@ export default function Home() {
         {/* Hero Section */}
         <header id="publications" className="w-full pt-16 pb-12 md:pt-28 md:pb-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
         {/* Fondo decorativo geométrico */}
-        <div className="absolute top-0 right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -mr-32 -mt-32"></div>
-        <div className="absolute bottom-0 left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -ml-32 -mb-32"></div>
+        <div className="absolute top-0 ltr:right-0 rtl:left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none ltr:-mr-32 rtl:-ml-32 -mt-32"></div>
+        <div className="absolute bottom-0 ltr:left-0 rtl:right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none ltr:-ml-32 rtl:-mr-32 -mb-32"></div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full relative z-10">
           {/* Información Principal */}
@@ -243,7 +243,7 @@ export default function Home() {
                     <h3 className="font-heading text-lg font-bold tracking-tight text-foreground group-hover:text-primary transition-colors inline">
                       {project.title}
                     </h3>
-                    <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square text-xs ms-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
                   </Link>
 
                   <p className="text-xs text-muted-foreground leading-relaxed text-justify">
@@ -324,7 +324,7 @@ export default function Home() {
                       <h3 className="font-heading text-base font-bold tracking-tight text-foreground group-hover:text-primary transition-colors inline">
                         {foundation.title}
                       </h3>
-                      <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
+                      <i className="fa-solid fa-arrow-up-right-from-square text-xs ms-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
                     </Link>
 
                     <p className="text-xs text-muted-foreground leading-relaxed text-justify">
@@ -362,12 +362,12 @@ export default function Home() {
           </div>
 
           {/* Timeline de trabajos */}
-          <div className="relative border-l border-border/60 pl-6 ml-2 flex flex-col gap-8">
+          <div className="relative border-s border-border/60 ps-6 ms-2 flex flex-col gap-8">
             {Array.isArray(jobsList) &&
               jobsList.map((job: JobItem, index: number) => (
                 <div key={index} className="relative">
                   {/* Nodo de la línea de tiempo */}
-                  <div className="absolute -left-[31px] top-1.5 size-4 rounded-full border border-primary/50 bg-background flex items-center justify-center">
+                  <div className="absolute ltr:-left-[31px] rtl:-right-[31px] top-1.5 size-4 rounded-full border border-primary/50 bg-background flex items-center justify-center">
                     <div className="size-2 rounded-full bg-primary"></div>
                   </div>
 
@@ -508,7 +508,7 @@ export default function Home() {
                   {t("contact.scans") as string}
                 </span>
               </div>
-              <i className="fa-solid fa-chevron-right text-[10px] text-muted-foreground group-hover/poap:translate-x-0.5 transition-transform"></i>
+              <i className="fa-solid fa-chevron-right text-[10px] text-muted-foreground group-hover/poap:translate-x-0.5 rtl:group-hover/poap:-translate-x-0.5 rtl:rotate-180 transition-transform"></i>
             </Link>
             {/* Redes Sociales */}
             <div className="flex items-center gap-3 mt-2">
@@ -563,7 +563,7 @@ export default function Home() {
                   onClick={(e) => handleScrollTo(e, "publications")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
-                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
                   {t("nav.publications") as string}
                 </Link>
               </li>
@@ -573,7 +573,7 @@ export default function Home() {
                   onClick={(e) => handleScrollTo(e, "projects")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
-                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
                   {t("nav.projects") as string}
                 </Link>
               </li>
@@ -583,7 +583,7 @@ export default function Home() {
                   onClick={(e) => handleScrollTo(e, "foundations")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
-                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
                   {t("nav.foundations") as string}
                 </Link>
               </li>
@@ -593,7 +593,7 @@ export default function Home() {
                   onClick={(e) => handleScrollTo(e, "background")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
-                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
                   {t("nav.background") as string}
                 </Link>
               </li>
@@ -603,7 +603,7 @@ export default function Home() {
                   onClick={(e) => handleScrollTo(e, "certifications")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
-                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
                   {t("nav.certifications") as string}
                 </Link>
               </li>
@@ -756,7 +756,7 @@ export default function Home() {
         </div>
 
         {/* Sección Inferior: Copyright, créditos y volver arriba */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 mt-10 relative z-10 pt-8 w-full text-center sm:text-left">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 mt-10 relative z-10 pt-8 w-full text-center sm:text-start">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
             <span className="font-heading text-sm font-black tracking-tight">cbaeza.com</span>
             <span className="hidden sm:inline text-muted-foreground">|</span>

@@ -1,0 +1,503 @@
+{
+  "nav": {
+    "publications": "منشورات",
+    "projects": "مشاريع",
+    "foundations": "أسس",
+    "background": "مسيرة مهنية",
+    "certifications": "شهادات",
+    "books": "كتب",
+    "colors": "ملعب الألوان"
+  },
+  "hero": {
+    "title": "Carlos Baeza Negroni",
+    "subtitle": "مهندس استشاري أول متخصص في البلوكشين والعقود الذكية",
+    "description": "مهندس برمجيات متخصص في Solidity وDeFi وكامل منظومة Ethereum وآلتها الافتراضية (EVM). تشمل مسيرته المهنية تصميم وتنفيذ بنيات معقدة مثل منظمات الحكم الذاتي اللامركزي (DAOs)، ومجموعات الرموز غير القابلة للاستبدال (NFTs)، وترميز أصول العالم الحقيقي (RWA)، وإصدار العملات المستقرة، وأنظمة الدفع عبر الحدود، وآليات الستيكينغ والتوكنومكس المتقدمة. يتميز بقدرته على نشر وإدارة شبكات الطبقة الأولى والطبقة الثانية (L1/L2)، وتصميم كل شيء بدءًا من بيئات خاصة ومصرح بها للتحالفات المغلقة إلى الشبكات العامة القائمة على إجماع التعدين. بالإضافة إلى ذلك، يكمل ملفه التقني بخبرة راسخة في منصات وسائل الإعلام الإخبارية واسعة النطاق والتزام قوي بتدريس علوم الكمبيوتر.",
+    "badge": "تطوير الويب3 والأنظمة المالية",
+    "cta": "GitHub",
+    "sliderTitle": "منشورات حديثة",
+    "readMore": "اقرأ المقال"
+  },
+  "publications": [
+    {
+      "title": "Slither وSolhint وMythril: أمان أساسي للعقود الذكية باستخدام تدقيق التحليل الدلالي",
+      "tag": "الأمان",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
+      "description": "التحليل الاستاتيكي للكود والتدقيق المؤتمت لتحديد الثغرات وتحسين الأمان في العقود الذكية لـ Solidity."
+    },
+    {
+      "title": "أسس الأتمتة: إطار عمل للمهارات متوافق مع OpenClaw لتنسيق Google Workspace المستقل في Python",
+      "tag": "وكلاء الذكاء الاصطناعي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
+      "description": "استخدام OpenClaw وPython لأتمتة سير العمل ودمج تنسيق Google Workspace بشكل مستقل."
+    },
+    {
+      "title": "بناء منصة NFT للعقارات المجزأة: دليل عملي للترميز على Ethereum باستخدام Solidity وNext.js",
+      "tag": "الترميز",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
+      "description": "دليل خطوة بخطوة لتجزئة وترميز العقارات باستخدام Solidity وNext.js على شبكة Ethereum."
+    },
+    {
+      "title": "دليل عملي لرموز أصول العالم الحقيقي (RWA) على Ethereum: Solidity وHardhat وOpenZeppelin ولوحة تحكم Next.js",
+      "tag": "RWA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
+      "description": "تنفيذ عملي لرموز أصول العالم الحقيقي باستخدام Hardhat ومكتبات OpenZeppelin وواجهة Next.js."
+    },
+    {
+      "title": "ابنِ بوت Telegram الخاص بك والمستوحى من OpenClaw: دمج SDK لـ OpenCode مع وكلاء نماذج OpenRouter",
+      "tag": "وكلاء الذكاء الاصطناعي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
+      "description": "دليل لدمج SDK لـ OpenCode مع وكلاء OpenRouter وبناء بوت Telegram ذكي ومستقل."
+    },
+    {
+      "title": "تفكيك تشفير Ethereum: رحلة من التوقيعات الرقمية إلى العقود الذكية مع أمثلة برمجية",
+      "tag": "التشفير",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
+      "description": "شرح مفصل للمفاهيم التشفيرية الأساسية لـ Ethereum، من التوقيعات الرقمية ECDSA إلى العقود."
+    },
+    {
+      "title": "تفكيك Autoresearch الخاص بـ Karpathy: دليل خطوة بخطوة للتدريب الذاتي للذكاء الاصطناعي مع أمثلة عملية",
+      "tag": "وكلاء الذكاء الاصطناعي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
+      "description": "تحليل ودليل خطوة بخطوة لفهم وتكرار تدفق التدريب الذاتي للذكاء الاصطناعي الذي صممه أندريه كارباتي."
+    },
+    {
+      "title": "أسس DEX وAMM: مقدمة إلى البورصات اللامركزية وصناع السوق الآليين على Ethereum",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
+      "description": "مقدمة نظرية وعملية للبورصات اللامركزية وصناع السوق الآليين في DeFi."
+    },
+    {
+      "title": "أسس وكلاء OpenCode: إنشاء وتكوين ونشر وكلاء مخصصين وسير العمل",
+      "tag": "وكلاء الذكاء الاصطناعي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
+      "description": "إعداد وتطوير ونشر تدفقات العمل المستقلة والوكلاء الأذكياء باستخدام OpenCode."
+    },
+    {
+      "title": "ابنِ أول Dapp للستيكينغ في DeFi على Ethereum: دليل عملي باستخدام معيار ERC-4626 لـ OpenZeppelin مع Next.js",
+      "tag": "DeFi / ERC-4626",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
+      "description": "دليل تطوير لإنشاء تطبيق ستيكينغ لامركزي باستخدام معيار الخزائن المرمزة ERC-4626."
+    },
+    {
+      "title": "فك شيفرة الترميز: الدليل الكامل غير التقني لترميز الأصول على Ethereum باستخدام Solidity",
+      "tag": "الترميز",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
+      "description": "المفاهيم الأساسية وفوائد ترميز أصول العالم الحقيقي على البلوكشين للجمهور غير التقني."
+    },
+    {
+      "title": "بناء منظمة ذاتية الحكم لامركزية: دليل عملي كامل لحوكمة الـ DAO",
+      "tag": "DAO",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
+      "description": "دليل لتصميم وبرمجة ونشر حوكمة شفافة وآمنة لمنظمات الـ DAO على Ethereum."
+    },
+    {
+      "title": "تحديث هكاثون Avalanche Vibe2Wizard: مستودع المشروع والعقود خلف الكواليس",
+      "tag": "الهكاثونات",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "التفاصيل التقنية، كود المصدر، والعقود الذكية خلف المنصة الملعّبة التي تم إنشاؤها لهكاثون Avalanche."
+    },
+    {
+      "title": "رحلتي التقنية في LM Studio: الأسئلة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محليًا",
+      "tag": "ذكاء اصطناعي محلي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
+      "description": "الخبرات والإعدادات الرئيسية للتشغيل الفعال والمحلي لنماذج اللغات الكبيرة (LLMs)."
+    },
+    {
+      "title": "Solidity بالمثال: دليل شامل مع كود جاهز للإنتاج للعقود الذكية",
+      "tag": "Solidity",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
+      "description": "مستودع وشروحات مع كود بمستوى الإنتاج لتعلم الأنماط وأفضل الممارسات في Solidity."
+    },
+    {
+      "title": "أساسيات Hardhat: دليل تمهيدي غير تقني لبناء عقود Solidity الذكية بثقة",
+      "tag": "أدوات ويب3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
+      "description": "دليل خطوة بخطوة لإعداد بيئة تطوير Hardhat لتجميع واختبار ونشر العقود الذكية."
+    },
+    {
+      "title": "بناء مساعد ذكاء اصطناعي خاص للويب: دمج CodeIgniter4 وNext.js وواجهات برمجة تطبيقات OpenRouter",
+      "tag": "مطور شامل / ذكاء اصطناعي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
+      "description": "دمج الواجهة backend باستخدام CodeIgniter4 والواجهة الأمامية التفاعلية في Next.js التي تستهلك نماذج OpenRouter."
+    },
+    {
+      "title": "الكتيب الكامل لمقترحات تحسين Ethereum (EIP وERC)",
+      "tag": "معايير ويب3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
+      "description": "دليل شامل لفهم عملية وضع المعايير في Ethereum وأهم معايير ERC."
+    },
+    {
+      "title": "Vibe2Wizard: من مبرمج بالحدس إلى ساحر على السلسلة في منصة التعلم الملعّبة للويب3",
+      "tag": "الويب3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "تفاصيل مشروع التعلم الملعّب للويب3 وتجربة التطوير السريع على شبكة Avalanche."
+    },
+    {
+      "title": "فهم الهندسة المعمارية الأساسية للمهارات في وكلاء الذكاء الاصطناعي",
+      "tag": "وكلاء الذكاء الاصطناعي",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
+      "description": "تحليل هيكلي لكيفية استدعاء وكلاء الذكاء الاصطناعي للأدوات الخارجية وتنفيذها لتوسيع قدراتهم."
+    },
+    {
+      "title": "تطوير API الرشيق: كيف صممنا LaunchPad API باستخدام CodeIgniter4 في أيام قليلة",
+      "tag": "واجهات برمجة التطبيقات / الواجهة الخلفية",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
+      "description": "كيفية بناء واجهة برمجة تطبيقات (API) وظيفية وآمنة باستخدام CodeIgniter4 بطريقة مرنة باتباع أفضل ممارسات تطوير الواجهة الخلفية."
+    }
+  ],
+  "projects": {
+    "title": "مستودعات المشاريع النشطة",
+    "subtitle": "أكواد مصدرية جاهزة للعمل وأدلة عملية لتنفيذات تقنية حقيقية.",
+    "code": "الكود",
+    "items": [
+      {
+        "title": "إطار عمل المهارات لـ Google Workspace",
+        "description": "إطار عمل للمهارات وأدوات برمجية لتنسيق المهام الإدارية لـ Google Workspace بشكل مستقل باستخدام وكلاء يعتمدون على بايثون.",
+        "stack": "Python, Google Workspace API, OpenClaw",
+        "github": "https://github.com/cjbaezilla/Skills-Framework-for-Autonomous-Agentic-Google-Workspace-Orchestration-Tutorial"
+      },
+      {
+        "title": "ترميز العقارات المجزأة",
+        "description": "دليل عملي لتنفيذ تجزئة العقارات باستخدام عقود ذكية ERC-721 وERC-20 في Solidity.",
+        "stack": "Solidity, Hardhat, Next.js, ERC-721",
+        "github": "https://github.com/cjbaezilla/Tokenize-Fractional-Real-Estate-NFT-Solidity-HandsOn-Tutorial"
+      },
+      {
+        "title": "إنشاء ونشر رموز RWA",
+        "description": "دليل تقني لإصدار أصول العالم الحقيقي المرمزة على Ethereum، ودمج منطق الامتثال والحوكمة.",
+        "stack": "Solidity, Hardhat, OpenZeppelin, RWA",
+        "github": "https://github.com/cjbaezilla/Your-First-RWA-Token-Solidity-Nextjs-HandsOn-Tutorial"
+      },
+      {
+        "title": "دمج SDK لـ OpenCode مع Telegram",
+        "description": "بنية تحتية لتوصيل بوت Telegram مع وكلاء ذكاء اصطناعي مستقلين باستخدام مكتبات SDK لـ OpenCode ونماذج OpenRouter.",
+        "stack": "Node.js, Telegram Bot API, OpenCode SDK",
+        "github": "https://github.com/cjbaezilla/Integrate-Opencode-SDK-With-Telegram-Bot-Hands-On-Tutorial"
+      },
+      {
+        "title": "خزائن الستيكينغ ERC-4626",
+        "description": "عقد ستيكينغ محسن يطبق معيار الخزائن المرمزة ERC-4626 لـ OpenZeppelin في Solidity لعمليات الإيداع والسحب الآمنة.",
+        "stack": "Solidity, ERC-4626, Foundry, TypeScript",
+        "github": "https://github.com/cjbaezilla/Build-Your-First-Solidity-ERC20-Staking-Contract-Tutorial"
+      },
+      {
+        "title": "نظام حوكمة الـ DAO",
+        "description": "مستودع يحتوي على عقود ذكية لتفويض التصويت وتنفيذ مقترحات الحوكمة في منظمة ذاتية الحكم لامركزية.",
+        "stack": "Solidity, OpenZeppelin Governance, Hardhat",
+        "github": "https://github.com/cjbaezilla/Your-First-DAO-Solidity-Token-OpenZeppelin-Tally-Tutorial"
+      },
+      {
+        "title": "مساعد ذكاء اصطناعي ويب متكامل",
+        "description": "منصة محادثة لمعالجة اللغة الطبيعية تدمج خادمًا وسيطًا بـ PHP مع واجهة تفاعلية بـ React.",
+        "stack": "CodeIgniter4, Next.js, OpenRouter APIs",
+        "github": "https://github.com/cjbaezilla/Building-Your-First-Web-AI-Assistant-Hands-On-Tutorial"
+      },
+      {
+        "title": "أساس API مع برمجة بالحدس",
+        "description": "بنية معمارية مرنة وتكوين سريع لنقاط نهاية خلفية آمنة باستخدام منهجيات تطوير مرنة في CodeIgniter4.",
+        "stack": "PHP, CodeIgniter4, RESTful API",
+        "github": "https://github.com/cjbaezilla/Your-First-Vibecode-API-Using-Codeigniter4-Tutorial"
+      },
+      {
+        "title": "مستودع موحد لهكاثون Avalanche",
+        "description": "منظومة من العقود الذكية ومكونات الويب التي تم تطويرها خلال هكاثون Avalanche Build Games لمنصة Vibe2Wizard الملعّبة.",
+        "stack": "Solidity, Avalanche, Hardhat, React",
+        "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      }
+    ]
+  },
+  "foundations": {
+    "title": "الأسس والمقالات التقنية",
+    "subtitle": "مقالات علمية حول التشفير، الاقتصاد السلوكي، والرياضيات التطبيقية على البلوكشين.",
+    "viewArticle": "عرض المقال",
+    "items": [
+      {
+        "title": "التوقيعات العمياء والـ eCash",
+        "description": "تحليل للورقة البحثية التي نشرها ديفيد تشوم عام 1982 حول الخصوصية المالية الرقمية الرائدة والمخططات التشفيرية العمياء.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
+        "icon": "fa-solid fa-key"
+      },
+      {
+        "title": "تشفير المفتاح العام",
+        "description": "التطور الزمني للتشفير غير المتماثل، وتحليل آثاره على أمان الشبكات اللامركزية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
+        "icon": "fa-solid fa-vault"
+      },
+      {
+        "title": "نمذجة الحوافز في إجماع ناكاموتو",
+        "description": "تطبيق نظرية الألعاب ونمذجة الحوافز الاقتصادية في بروتوكول الإجماع الموزع للبيتكوين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
+        "icon": "fa-solid fa-chess"
+      },
+      {
+        "title": "قانون بنفورد والتحقيق الجنائي الرقمي للبلوكشين",
+        "description": "التقاطع بين الإحصاء الرياضي والتحليل الجنائي للبلوكشين للكشف عن أنماط المعاملات الشاذة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
+        "icon": "fa-solid fa-chart-line"
+      },
+      {
+        "title": "المال كبناء مشترك بين الذوات",
+        "description": "تحليل أنثروبولوجي وتاريخي للمال باعتباره نظام معتقدات جماعية، يربط النظرية الاجتماعية باقتصاد البيتكوين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
+        "icon": "fa-solid fa-coins"
+      },
+      {
+        "title": "مخططات شامير والسر المشترك",
+        "description": "المبادئ الرياضية للقسمة متعددة الحدود للتوزيع والاسترداد الآمن للمفاتيح التشفيرية المشتركة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
+        "icon": "fa-solid fa-shield-halved"
+      },
+      {
+        "title": "إبستمولوجيا التعقيد",
+        "description": "تقييم مبدأ دحض المنهجية لكارل بوبر وإيمري لاكاتوس المطبق على أنظمة المعلومات المعقدة والبرمجيات المستقلة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
+        "icon": "fa-solid fa-brain"
+      },
+      {
+        "title": "نموذج دايموند وديبفيغ",
+        "description": "دراسة النموذج الاقتصادي الذي يفسر سحب الودائع المصرفية الجماعي وأهمية السيولة في بروتوكولات DeFi ذات العوائد.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "مخاطر الذيل السمين في البيتكوين",
+        "description": "تحليل رياضي للمخاطر النظامية باستخدام نظرية القيم المتطرفة (EVT) وعلاقتها بالتقلبات الشديدة للأصول المشفرة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
+        "icon": "fa-solid fa-chart-area"
+      },
+      {
+        "title": "مقاييس اللامركزية",
+        "description": "حساب مؤشر ثيل (Theil Index) ونسبة بالما (Palma Ratio) المتكيفين مع توزيع الحوكمة والثروة في شبكات البلوكشين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
+        "icon": "fa-solid fa-diagram-project"
+      },
+      {
+        "title": "نظرية المنفعة ومفارقة برنولي",
+        "description": "تحليل مفارقة سانت بطرسبرغ (1713) والصياغة الرياضية للقيمة الذاتية للمال في مواجهة المخاطر.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
+        "icon": "fa-solid fa-percent"
+      },
+      {
+        "title": "ديناميكا حرارة المعلومات ولانداور",
+        "description": "دراسة حول ديناميكا حرارة المعلومات ومبدأ لانداور المطبق على حدود الكفاءة والأمان في الشبكات اللامركزية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
+        "icon": "fa-solid fa-atom"
+      },
+      {
+        "title": "العمق الديناميكي الحراري وشيطان ماكسويل",
+        "description": "تحليل العمق الديناميكي الحراري وشيطان ماكسويل كاستعارة للتحقق والنظام في السجلات الموزعة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
+        "icon": "fa-solid fa-gears"
+      },
+      {
+        "title": "الأنظمة التكيفية المعقدة في البيتكوين",
+        "description": "دراسة شبكة البيتكوين كنظام تكيفي معقد يعمل على 'حافة الفوضى' للحفاظ على استقراره.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
+        "icon": "fa-solid fa-network-wired"
+      }
+    ]
+  },
+  "background": {
+    "title": "المسيرة المهنية",
+    "subtitle": "خبرة في هندسة البرمجيات، الهندسة المالية، والتدريس الأكاديمي.",
+    "jobs": [
+      {
+        "role": "مدرس دبلوم البلوكشين والذكاء الاصطناعي والروبوتات",
+        "company": "جامعة سانتياغو دي تشيلي (USACH)",
+        "period": "يناير 2026 - الحالي",
+        "description": "تدريس الوحدة التمهيدية للعقود الذكية، الـ DAOs، رموز ERC-20/ERC-721، وتحليل الحالات الحقيقية للتمويل اللامركزي وترميز أصول العالم الحقيقي RWA."
+      },
+      {
+        "role": "مهندس بلوكشين للعقود الذكية",
+        "company": "Realt.co",
+        "period": "يناير 2023 - يناير 2025",
+        "description": "تطوير وتحسين العقود الذكية في Solidity لترميز وتجزئة العقارات على Ethereum. التنسيق التقني للمتطلبات بين الإدارات الدولية."
+      },
+      {
+        "role": "مهندس برمجيات أول وسكروم ماستر",
+        "company": "Altera S.A.",
+        "period": "يناير 2018 - يناير 2020",
+        "description": "هندسة وتطوير منصات معالجة المعاملات المالية الضخمة. دمج واجهات برمجة التطبيقات البنكية تحت منهجيات مرنة في بيئات عالية الأمان."
+      },
+      {
+        "role": "مهندس برمجيات أول",
+        "company": "PlanOK Latam",
+        "period": "يناير 2017 - يناير 2018",
+        "description": "إعادة هيكلة وتحسين قواعد البيانات وواجهات برمجة التطبيقات الخاصة بالشركة. الحد المنهجي من الديون التقنية ووضع معايير لاختبارات الوحدة."
+      },
+      {
+        "role": "محلل أعمال مبتدئ وعضو فريق سكروم",
+        "company": "Xintec",
+        "period": "2016 - 2017",
+        "description": "المساعدة في تنسيق المشاريع المرنة وتسهيل التواصل entre الفرق الدولية. جمع وتحليل وترجمة متطلبات العمل إلى مواصفات تقنية."
+      },
+      {
+        "role": "أستاذ بكلية الهندسة",
+        "company": "Duoc UC",
+        "period": "يناير 2016 - ديسمبر 2016",
+        "description": "تدريس مواد الخوارزميات، هياكل البيانات، ونمذجة قواعد البيانات العلاقية (SQL) لطلاب السنة الأولى."
+      },
+      {
+        "role": "رئيس قسم التطوير والعمليات التقنية",
+        "company": "La Cuarta (وسيلة إعلامية)",
+        "period": "يناير 2015 - يناير 2016",
+        "description": "إدارة البنية التحتية للخوادم وأنظمة التخزين المؤقت لضمان التوافر المستمر بنسبة (99.9%) لبوابة الأخبار الرقمية ضد التقلبات الشديدة في حركة المرور."
+      },
+      {
+        "role": "مدير تطوير البرمجيات",
+        "company": "BioBioChile",
+        "period": "يناير 2014 - يناير 2015",
+        "description": "القيادة التقنية لفريق من خمسة مهندسي برمجيات مسؤولين عن صيانة منصة إخبارية تحظى بملايين الزيارات شهريًا."
+      },
+      {
+        "role": "مدير مشاريع ومطور (ITIL)",
+        "company": "Grupo Copesa",
+        "period": "يناير 2013 - يناير 2014",
+        "description": "إدارة دورة حياة المشاريع الرقمية بناءً على ITIL وPMI. تطوير حلول مخصصة وقواعد بيانات وواجهات برمجة تطبيقات لتوزيع محتوى الوسائط المتعددة."
+      },
+      {
+        "role": "مهندس برمجيات متوسط",
+        "company": "NED Media Works",
+        "period": "يناير 2012 - يناير 2013",
+        "description": "تطوير كامل (Full-stack) للحلول ومنصات الويب المخصصة لعملاء من مختلف القطاعات. دمج واجهات برمجة التطبيقات وبوابات الدفع الآمنة."
+      },
+      {
+        "role": "مهندس برمجيات متوسط",
+        "company": "eClass",
+        "period": "يناير 2011 - يناير 2012",
+        "description": "تصميم وتطوير الأنظمة الداخلية والأدوات المالية المؤتمتة لأقسام المحاسبة والمبيعات في منصة التعلم الإلكتروني."
+      },
+      {
+        "role": "مهندس برمجيات مبتدئ",
+        "company": "Moovmedia Digital Academy",
+        "period": "يناير 2010 - يناير 2011",
+        "description": "تطوير تطبيقات الويب المخصصة والمكونات التفاعلية وتكاملات التجارة الإلكترونية لمنصات موجهة للعملاء."
+      },
+      {
+        "role": "مهندس برمجيات مبتدئ",
+        "company": "وكالة Epunto للتسويق الرقمي",
+        "period": "يناير 2008 - يناير 2010",
+        "description": "تطوير وصيانة المواقع الإلكترونية الديناميكية وأنظمة إدارة المحتوى (CMS) والميزات الأساسية للتجارة الإلكترونية."
+      }
+    ]
+  },
+  "books": {
+    "title": "الكتب المنشورة",
+    "subtitle": "أدلة تقنية منشورة ذاتيًا بصيغتي Kindle وLaTeX.",
+    "items": [
+      {
+        "title": "معيار الخزائن المرمزة ERC-4626",
+        "format": "نسخة Kindle (بالإسبانية والإنجليزية)",
+        "description": "دورة كاملة لتنفيذ ونمذجة وأمان الخزائن المرمزة ذات العوائد المالية اللامركزية بموجب معيار ERC-4626 في Solidity.",
+        "link": "https://a.co/d/dhWmOHr"
+      },
+      {
+        "title": "محفظتك الرقمية الأولى: من 0 إلى MetaMask",
+        "format": "كتاب LaTeX وموقع ويب تفاعلي",
+        "description": "دليل تدريجي من 21 فصلًا و4 ملاحق حول الأمان في الويب3، وأحواض السيولة، وتحسين رسوم الغاز (Gas)، مشروح من أسس بسيطة.",
+        "link": "https://jardindelconocimiento.com/curso-metamask-principiante/"
+      },
+      {
+        "title": "مواقع ووردبريس المتعددة باستخدام Nginx",
+        "format": "نسخة Kindle (بالإنجليزية)",
+        "description": "إعداد تقني متوسط لنشر شبكة مواقع متعددة من ووردبريس على خوادم Nginx وMySQL في نظام Ubuntu.",
+        "link": "https://a.co/d/iQtBYvF"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "الشهادات",
+    "viewCertificate": "عرض الشهادة",
+    "items": [
+      {
+        "name": "Professional Scrum Master I (PSM-1)",
+        "issuer": "Scrum.org",
+        "date": "2017",
+        "link": "https://www.scrum.org/user/228026"
+      },
+      {
+        "name": "Certified Smart Contract Developer",
+        "issuer": "Blockchain Council",
+        "date": "2020",
+        "link": "https://certificates.blockchain-council.org/0e592af0-a148-48e6-92f3-872378740fd7#acc.TbXe3hm9"
+      },
+      {
+        "name": "Ethereum Básico",
+        "issuer": "Colledge",
+        "date": "2020",
+        "link": "https://registrado.org/r/1ead5c69b0015f8ed7ff730ff0c9163e8852ffc6.jpg"
+      },
+      {
+        "name": "البلوكشين: الأسس وحالات الاستخدام",
+        "issuer": "Coursera",
+        "date": "2020",
+        "link": "https://www.coursera.org/account/accomplishments/verify/2PWXS5U24ZUM"
+      }
+    ]
+  },
+  "hackathons": {
+    "title": "المشاركة في الهكاثونات",
+    "subtitle": "منافسات ومشاريع التطوير الرشيق للويب3.",
+    "items": [
+      {
+        "name": "Aleo x Akindo Privacy Batches",
+        "date": "يناير 2026"
+      },
+      {
+        "name": "هكاثون Base x وكلاء الذكاء الاصطناعي",
+        "date": "أكتوبر 2025"
+      },
+      {
+        "name": "هكاثون Avalanche الطريق إلى الويب3",
+        "date": "نوفمبر 2025"
+      },
+      {
+        "name": "Nerdconf لـ Polkadot",
+        "date": "نوفمبر 2025"
+      },
+      {
+        "name": "Hack Money (ETHGlobal)",
+        "date": "مايو 2022"
+      },
+      {
+        "name": "DAOHacks (ETHGlobal)",
+        "date": "أبريل 2022"
+      },
+      {
+        "name": "LFGrow (ETHGlobal)",
+        "date": "مارس 2022"
+      },
+      {
+        "name": "BUILD Quest (ETHGlobal)",
+        "date": "مارس 2022"
+      },
+      {
+        "name": "Road To Web3 (ETHGlobal)",
+        "date": "فبراير 2022"
+      },
+      {
+        "name": "NFTHack (ETHGlobal)",
+        "date": "يناير 2022"
+      },
+      {
+        "name": "هكاثون Celo للهواتف المحمولة",
+        "date": "أكتوبر 2021"
+      },
+      {
+        "name": "ETHOnline (ETHGlobal)",
+        "date": "سبتمبر 2021"
+      }
+    ]
+  },
+  "contact": {
+    "title": "الاتصال والروابط",
+    "email": "البريد الإلكتروني",
+    "scans": "استكشاف رموز POAPs",
+    "ens": "محفظة ENS",
+    "copied": "تم النسخ!",
+    "copy": "نسخ ENS",
+    "copyBtc": "نسخ عنوان BTC",
+    "navigation": "التنقل في الموقع",
+    "backToTop": "الرجوع للأعلى"
+  }
+}
