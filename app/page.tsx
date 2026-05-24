@@ -63,9 +63,14 @@ export default function Home() {
     setTimeout(() => setCopiedBtc(false), 2000);
   };
 
-  // Función para realizar un desplazamiento suave hacia un elemento por su ID
+  // Función para realizar un desplazamiento suave hacia un elemento por su ID o al inicio si es "publications"
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
+    if (id === "publications") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.history.pushState(null, "", `#${id}`);
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -87,7 +92,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <header className="w-full py-12 md:py-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
+      <header id="publications" className="w-full pt-28 pb-16 md:pt-40 md:pb-24 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
         {/* Fondo decorativo geométrico */}
         <div className="absolute top-0 right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -mr-32 -mt-32"></div>
         <div className="absolute bottom-0 left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -ml-32 -mb-32"></div>
@@ -184,7 +189,7 @@ export default function Home() {
           </div>
 
           {/* Carrusel de Publicaciones */}
-          <div id="publications" className="lg:col-span-5 w-full flex flex-col gap-3">
+          <div className="lg:col-span-5 w-full flex flex-col gap-3">
             <h2 className="font-heading text-xs font-bold uppercase tracking-wider text-muted-foreground px-1">
               {t("hero.sliderTitle") as string}
             </h2>

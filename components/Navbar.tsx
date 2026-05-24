@@ -19,9 +19,15 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // Función para realizar un desplazamiento suave hacia un elemento por su ID
+  // Función para realizar un desplazamiento suave hacia un elemento por su ID o al inicio si es "publications"
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     const id = href.replace("#", "");
+    if (id === "publications") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.history.pushState(null, "", href);
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       e.preventDefault();
