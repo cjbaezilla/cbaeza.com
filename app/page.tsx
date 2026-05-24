@@ -62,7 +62,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <header className="w-full py-12 md:py-20 px-4 sm:px-[6%] md:px-[10%] lg:px-[12%] xl:px-[16%] border-b border-border/40 relative overflow-hidden">
+      <header className="w-full py-12 md:py-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
         {/* Fondo decorativo geométrico */}
         <div className="absolute top-0 right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -mr-32 -mt-32"></div>
         <div className="absolute bottom-0 left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -ml-32 -mb-32"></div>
@@ -119,7 +119,7 @@ export default function Home() {
       </header>
 
       {/* Repositorios de Proyectos */}
-      <section id="projects" className="w-full py-16 px-4 sm:px-[6%] md:px-[10%] lg:px-[12%] xl:px-[16%] border-b border-border/40">
+      <section id="projects" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40">
         <div className="flex flex-col gap-4 mb-10">
           <h2 className="font-heading text-3xl font-black tracking-tight">
             {t("projects.title") as string}
@@ -181,7 +181,7 @@ export default function Home() {
       </section>
 
       {/* Fundamentos (Ensayos Técnicos) */}
-      <section id="foundations" className="w-full py-16 px-4 sm:px-[6%] md:px-[10%] lg:px-[12%] xl:px-[16%] border-b border-border/40 bg-card/20 relative">
+      <section id="foundations" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/20 relative">
         <div className="flex flex-col gap-4 mb-10">
           <h2 className="font-heading text-3xl font-black tracking-tight">
             {t("foundations.title") as string}
@@ -252,7 +252,7 @@ export default function Home() {
       </section>
 
       {/* Trayectoria Profesional */}
-      <section id="background" className="w-full py-16 px-4 sm:px-[6%] md:px-[10%] lg:px-[12%] xl:px-[16%] border-b border-border/40">
+      <section id="background" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40">
         <div className="flex flex-col gap-8 w-full">
           <div className="flex flex-col gap-3">
             <h2 className="font-heading text-3xl font-black tracking-tight">
@@ -294,7 +294,7 @@ export default function Home() {
       </section>
 
       {/* Certificaciones & Hackatones */}
-      <section className="w-full py-16 px-4 sm:px-[6%] md:px-[10%] lg:px-[12%] xl:px-[16%] border-b border-border/40 bg-card/10">
+      <section className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 w-full">
           {/* Certificaciones */}
           <div className="lg:col-span-6 flex flex-col gap-6">
@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* Footer / Contact Section */}
-      <footer id="contact" className="w-full py-12 px-4 sm:px-[6%] md:px-[10%] lg:px-[12%] xl:px-[16%] bg-card border-t border-border/40 mt-auto">
+      <footer id="contact" className="w-full py-12 px-4 md:px-[8%] lg:px-[12%] bg-card border-t border-border/40 mt-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full pb-8 border-b border-border/40">
           <div className="flex flex-col gap-3">
             <h2 className="font-heading text-2xl font-black tracking-tight">
