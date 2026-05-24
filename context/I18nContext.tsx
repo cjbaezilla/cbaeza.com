@@ -3,8 +3,9 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import es from "@/messages/es.json";
 import en from "@/messages/en.json";
+import zh from "@/messages/zh.json";
 
-type Locale = "es" | "en";
+type Locale = "es" | "en" | "zh";
 
 interface I18nContextType {
   locale: Locale;
@@ -19,7 +20,7 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("locale") as Locale;
-    if (saved === "es" || saved === "en") {
+    if (saved === "es" || saved === "en" || saved === "zh") {
       requestAnimationFrame(() => {
         setLocaleState(saved);
       });
@@ -32,7 +33,7 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
   };
 
   const t = (key: string): string | unknown[] | Record<string, unknown> => {
-    const dictionary = (locale === "es" ? es : en) as Record<string, unknown>;
+    const dictionary = (locale === "es" ? es : locale === "zh" ? zh : en) as Record<string, unknown>;
     const keys = key.split(".");
     let value: unknown = dictionary;
     for (const k of keys) {

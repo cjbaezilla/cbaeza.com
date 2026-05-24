@@ -49,7 +49,8 @@ export const metadata: Metadata = {
     canonical: "https://cbaeza.com",
     languages: {
       "es": "https://cbaeza.com/?lang=es",
-      "en": "https://cbaeza.com/?lang=en"
+      "en": "https://cbaeza.com/?lang=en",
+      "zh": "https://cbaeza.com/?lang=zh"
     }
   },
   robots: {
