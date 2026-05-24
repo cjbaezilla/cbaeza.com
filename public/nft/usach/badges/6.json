@@ -35,6 +35,10 @@
     {
       "trait_type": "Clase de Item",
       "value": "Raro"
+    },
+    {
+      "trait_type": "Experiencia",
+      "value": 70
     }
   ]
 }
