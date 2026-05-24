@@ -50,7 +50,9 @@ export const metadata: Metadata = {
     languages: {
       "es": "https://cbaeza.com/?lang=es",
       "en": "https://cbaeza.com/?lang=en",
-      "zh": "https://cbaeza.com/?lang=zh"
+      "zh": "https://cbaeza.com/?lang=zh",
+      "ar": "https://cbaeza.com/?lang=ar",
+      "ru": "https://cbaeza.com/?lang=ru"
     }
   },
   robots: {
