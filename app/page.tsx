@@ -392,7 +392,7 @@ export default function Home() {
       </section>
 
       {/* Certificaciones & Hackatones */}
-      <section className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10">
+      <section id="certifications" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 w-full">
           {/* Certificaciones */}
           <div className="lg:col-span-6 flex flex-col gap-6">
@@ -595,6 +595,16 @@ export default function Home() {
                 >
                   <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
                   {t("nav.background") as string}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#certifications"
+                  onClick={(e) => handleScrollTo(e, "certifications")}
+                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
+                >
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  {t("nav.certifications") as string}
                 </Link>
               </li>
             </ul>

@@ -41,6 +41,7 @@ export default function Navbar() {
     { href: "#projects", label: t("nav.projects") as string },
     { href: "#foundations", label: t("nav.foundations") as string },
     { href: "#background", label: t("nav.background") as string },
+    { href: "#certifications", label: t("nav.certifications") as string },
   ];
 
   return (
