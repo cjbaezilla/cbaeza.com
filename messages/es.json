@@ -365,6 +365,12 @@
         "issuer": "Colledge",
         "date": "2020",
         "link": "https://registrado.org/r/1ead5c69b0015f8ed7ff730ff0c9163e8852ffc6.jpg"
+      },
+      {
+        "name": "Blockchain: Fundamentos y Casos de Uso",
+        "issuer": "Coursera",
+        "date": "2020",
+        "link": "https://www.coursera.org/account/accomplishments/verify/2PWXS5U24ZUM"
       }
     ]
   },
@@ -372,18 +378,54 @@
     "title": "Participación en Hackatones",
     "subtitle": "Competencias y proyectos de desarrollo ágil Web3.",
     "items": [
-      { "name": "Aleo x Akindo Privacy Batches", "date": "Ene. 2026" },
-      { "name": "Base x AI Agents Hackathon", "date": "Oct. 2025" },
-      { "name": "Avalanche Road to Web3", "date": "Nov. 2025" },
-      { "name": "Polkadot Nerdconf", "date": "Nov. 2025" },
-      { "name": "Hack Money (ETHGlobal)", "date": "May. 2022" },
-      { "name": "DAOHacks (ETHGlobal)", "date": "Abr. 2022" },
-      { "name": "LFGrow (ETHGlobal)", "date": "Mar. 2022" },
-      { "name": "BUILD Quest (ETHGlobal)", "date": "Mar. 2022" },
-      { "name": "Road To Web3 (ETHGlobal)", "date": "Feb. 2022" },
-      { "name": "NFTHack (ETHGlobal)", "date": "Ene. 2022" },
-      { "name": "Celo Mobile Hackathon", "date": "Oct. 2021" },
-      { "name": "ETHOnline (ETHGlobal)", "date": "Sep. 2021" }
+      {
+        "name": "Aleo x Akindo Privacy Batches",
+        "date": "Ene. 2026"
+      },
+      {
+        "name": "Base x AI Agents Hackathon",
+        "date": "Oct. 2025"
+      },
+      {
+        "name": "Avalanche Road to Web3",
+        "date": "Nov. 2025"
+      },
+      {
+        "name": "Polkadot Nerdconf",
+        "date": "Nov. 2025"
+      },
+      {
+        "name": "Hack Money (ETHGlobal)",
+        "date": "May. 2022"
+      },
+      {
+        "name": "DAOHacks (ETHGlobal)",
+        "date": "Abr. 2022"
+      },
+      {
+        "name": "LFGrow (ETHGlobal)",
+        "date": "Mar. 2022"
+      },
+      {
+        "name": "BUILD Quest (ETHGlobal)",
+        "date": "Mar. 2022"
+      },
+      {
+        "name": "Road To Web3 (ETHGlobal)",
+        "date": "Feb. 2022"
+      },
+      {
+        "name": "NFTHack (ETHGlobal)",
+        "date": "Ene. 2022"
+      },
+      {
+        "name": "Celo Mobile Hackathon",
+        "date": "Oct. 2021"
+      },
+      {
+        "name": "ETHOnline (ETHGlobal)",
+        "date": "Sep. 2021"
+      }
     ]
   },
   "contact": {
