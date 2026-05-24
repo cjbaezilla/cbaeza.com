@@ -260,7 +260,7 @@ export default function Home() {
                     className="text-xs font-bold text-primary inline-flex items-center gap-1 cursor-pointer"
                   >
                     Code
-                    <i className="fa-solid fa-chevron-right text-[8px] translate-x-0 group-hover:translate-x-0.5 transition-transform"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square text-[9px] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
                   </Link>
                 </div>
               </div>
