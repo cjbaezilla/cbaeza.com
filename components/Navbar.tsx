@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/context/I18nContext";
-import { ES, US, CN, SA, RU, JP, BR, KR } from "country-flag-icons/react/3x2";
+import { ES, US, CN, SA, RU, JP, BR, KR, DE } from "country-flag-icons/react/3x2";
 import {
   Select,
   SelectContent,
@@ -89,7 +89,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           {/* Acciones y Controles (Escritorio) */}
           <div className="hidden md:block">
-            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja" | "pt" | "ko")}>
+            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja" | "pt" | "ko" | "de")}>
               <SelectTrigger className="w-[130px] h-9 text-sm cursor-pointer">
                 <span className="flex items-center gap-2">
                   {locale === "es" ? (
@@ -106,12 +106,14 @@ export default function Navbar() {
                     <BR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : locale === "ko" ? (
                     <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  ) : locale === "de" ? (
+                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : (
                     <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   )}
                   <SelectValue>
                     {(value: string | null) =>
-                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : value === "pt" ? "Português" : value === "ko" ? "한국어" : "English"
+                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : value === "pt" ? "Português" : value === "ko" ? "한국어" : value === "de" ? "Deutsch" : "English"
                     }
                   </SelectValue>
                 </span>
@@ -165,13 +167,19 @@ export default function Navbar() {
                     <span>한국어</span>
                   </span>
                 </SelectItem>
+                <SelectItem value="de" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>Deutsch</span>
+                  </span>
+                </SelectItem>
               </SelectContent>
             </Select>
           </div>
 
           {/* Selector de Idioma (Móvil) */}
           <div className="block md:hidden">
-            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja" | "pt" | "ko")}>
+            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja" | "pt" | "ko" | "de")}>
               <SelectTrigger className="w-[120px] h-8 text-xs cursor-pointer">
                 <span className="flex items-center gap-1.5">
                   {locale === "es" ? (
@@ -188,12 +196,14 @@ export default function Navbar() {
                     <BR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : locale === "ko" ? (
                     <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  ) : locale === "de" ? (
+                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   ) : (
                     <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                   )}
                   <SelectValue>
                     {(value: string | null) =>
-                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : value === "pt" ? "Português" : value === "ko" ? "한국어" : "English"
+                      value === "es" ? "Español" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : value === "pt" ? "Português" : value === "ko" ? "한국어" : value === "de" ? "Deutsch" : "English"
                     }
                   </SelectValue>
                 </span>
@@ -245,6 +255,12 @@ export default function Navbar() {
                   <span className="flex items-center gap-2">
                     <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
                     <span>한국어</span>
+                  </span>
+                </SelectItem>
+                <SelectItem value="de" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>Deutsch</span>
                   </span>
                 </SelectItem>
               </SelectContent>
