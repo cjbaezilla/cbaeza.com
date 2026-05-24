@@ -682,6 +682,24 @@ export default function Home() {
                   </span>
                 </div>
               </Link>
+
+              {/* WhatsApp */}
+              <Link
+                href="https://wa.me/56985644026"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/wa cursor-pointer w-full"
+              >
+                <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/wa:bg-primary/10 transition-colors">
+                  <i className="fa-brands fa-whatsapp text-xs"></i>
+                </div>
+                <div className="flex flex-col min-w-0">
+                  <span className="text-[9px] font-mono text-muted-foreground uppercase tracking-wider leading-none">WhatsApp</span>
+                  <span className="text-xs font-bold text-foreground truncate group-hover/wa:text-primary transition-colors">
+                    +56 9 8564 4026
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
