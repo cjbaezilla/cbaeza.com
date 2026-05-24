@@ -302,6 +302,12 @@
         "description": "Refactoring and optimization of proprietary databases and APIs. Systematic mitigation of technical debt and establishment of unit testing standards."
       },
       {
+        "role": "Junior Business Analyst & Scrum Team Member",
+        "company": "Xintec",
+        "period": "2016 - 2017",
+        "description": "Support in agile project coordination and communication facilitation between international teams. Gathering, analyzing, and translating business requirements into technical specifications."
+      },
+      {
         "role": "Engineering School Lecturer",
         "company": "Duoc UC",
         "period": "Jan. 2016 - Dec. 2016",
@@ -318,6 +324,36 @@
         "company": "BioBioChile",
         "period": "Jan. 2014 - Jan. 2015",
         "description": "Technical leadership of five software engineers managing a high-traffic news platform serving millions of monthly visitors."
+      },
+      {
+        "role": "Project Manager & Developer (ITIL)",
+        "company": "Grupo Copesa",
+        "period": "Jan. 2013 - Jan. 2014",
+        "description": "Managing the lifecycle of digital projects based on ITIL and PMI. Developing custom solutions, databases, and APIs for multimedia content distribution."
+      },
+      {
+        "role": "Semi-Senior Software Engineer",
+        "company": "NED Media Works",
+        "period": "Jan. 2012 - Jan. 2013",
+        "description": "Full-stack development of custom web platforms and solutions for clients across various industries. API integration and secure payment gateways."
+      },
+      {
+        "role": "Semi-Senior Software Engineer",
+        "company": "eClass",
+        "period": "Jan. 2011 - Jan. 2012",
+        "description": "Design and development of internal systems and automated financial tools for accounting and sales departments within the e-learning platform."
+      },
+      {
+        "role": "Junior Software Engineer",
+        "company": "Moovmedia Digital Academy",
+        "period": "Jan. 2010 - Jan. 2011",
+        "description": "Development of custom web applications, interactive components, and e-commerce integrations for client-facing platforms."
+      },
+      {
+        "role": "Junior Software Engineer",
+        "company": "Epunto Digital Marketing Agency",
+        "period": "Jan. 2008 - Jan. 2010",
+        "description": "Development and maintenance of dynamic websites, content management systems (CMS), and basic e-commerce functionalities."
       }
     ]
   },

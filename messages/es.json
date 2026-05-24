@@ -302,6 +302,12 @@
         "description": "Refactorización y optimización de bases de datos y APIs propietarias. Mitigación sistemática de deuda técnica y establecimiento de estándares de pruebas unitarias."
       },
       {
+        "role": "Analista de Negocios Junior y Miembro de Equipo Scrum",
+        "company": "Xintec",
+        "period": "2016 - 2017",
+        "description": "Apoyo en la coordinación de proyectos ágiles y facilitación de la comunicación entre equipos internacionales. Recopilación, análisis y traducción de requerimientos de negocio a especificaciones técnicas."
+      },
+      {
         "role": "Profesor de Escuela de Ingeniería",
         "company": "Duoc UC",
         "period": "Ene. 2016 - Dic. 2016",
@@ -318,6 +324,36 @@
         "company": "BioBioChile",
         "period": "Ene. 2014 - Ene. 2015",
         "description": "Liderazgo técnico de un equipo de cinco ingenieros de software encargados del mantenimiento de una plataforma informativa con millones de visitas mensuales."
+      },
+      {
+        "role": "Jefe de Proyectos y Desarrollador (ITIL)",
+        "company": "Grupo Copesa",
+        "period": "Ene. 2013 - Ene. 2014",
+        "description": "Gestión del ciclo de vida de proyectos digitales basados en ITIL y PMI. Desarrollo de soluciones personalizadas, bases de datos y APIs para la distribución de contenido multimedios."
+      },
+      {
+        "role": "Ingeniero de Software Semi-Senior",
+        "company": "NED Media Works",
+        "period": "Ene. 2012 - Ene. 2013",
+        "description": "Desarrollo full-stack de soluciones y plataformas web personalizadas para clientes de diversas industrias. Integración de APIs y pasarelas de pago seguro."
+      },
+      {
+        "role": "Ingeniero de Software Semi-Senior",
+        "company": "eClass",
+        "period": "Ene. 2011 - Ene. 2012",
+        "description": "Diseño y desarrollo de sistemas internos y herramientas financieras automatizadas para los departamentos de contabilidad y ventas de la plataforma e-learning."
+      },
+      {
+        "role": "Ingeniero de Software Junior",
+        "company": "Moovmedia Digital Academy",
+        "period": "Ene. 2010 - Ene. 2011",
+        "description": "Desarrollo de aplicaciones web a medida, componentes interactivos e integraciones de comercio electrónico para plataformas orientadas al cliente."
+      },
+      {
+        "role": "Ingeniero de Software Junior",
+        "company": "Epunto Agencia de Marketing Digital",
+        "period": "Ene. 2008 - Ene. 2010",
+        "description": "Desarrollo y mantenimiento de sitios web dinámicos, sistemas de gestión de contenidos (CMS) y funcionalidades básicas de e-commerce."
       }
     ]
   },
