@@ -86,23 +86,26 @@ export default function Slider({ items }: SliderProps) {
                     <span className="inline-flex items-center rounded-full bg-primary/10 border border-primary/20 px-3 py-1 text-xs font-semibold text-primary">
                       {item.tag}
                     </span>
-                    <i className="fa-brands fa-linkedin text-2xl text-[#0a66c2]"></i>
+                    <Link
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:opacity-80 transition-opacity"
+                    >
+                      <i className="fa-brands fa-linkedin text-2xl text-[#0a66c2]"></i>
+                    </Link>
                   </div>
                   <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground leading-snug">
-                    {item.title}
+                    <Link
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors inline group/title"
+                    >
+                      {item.title}
+                      <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover/title:text-primary transition-colors inline-block align-middle"></i>
+                    </Link>
                   </h3>
-                </div>
-
-                <div className="mt-6">
-                  <Link
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl bg-primary text-primary-foreground hover:bg-primary/95 px-5 py-3 text-xs font-bold transition-all shadow-sm cursor-pointer"
-                  >
-                    <span>{t("hero.readMore") as string}</span>
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </Link>
                 </div>
               </div>
             );
