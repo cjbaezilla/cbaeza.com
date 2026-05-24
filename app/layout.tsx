@@ -52,7 +52,9 @@ export const metadata: Metadata = {
       "en": "https://cbaeza.com/?lang=en",
       "zh": "https://cbaeza.com/?lang=zh",
       "ar": "https://cbaeza.com/?lang=ar",
-      "ru": "https://cbaeza.com/?lang=ru"
+      "ru": "https://cbaeza.com/?lang=ru",
+      "ja": "https://cbaeza.com/?lang=ja",
+      "pt": "https://cbaeza.com/?lang=pt"
     }
   },
   robots: {
