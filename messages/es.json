@@ -468,6 +468,10 @@
     "title": "Contacto y Enlaces",
     "email": "Correo Electrónico",
     "scans": "Explorar POAPs",
-    "ens": "Billetera ENS"
+    "ens": "Billetera ENS",
+    "copied": "¡Copiado!",
+    "copy": "Copiar ENS",
+    "navigation": "Navegación",
+    "backToTop": "Volver arriba"
   }
 }

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Slider from "@/components/Slider";
 import { useTranslation } from "@/context/I18nContext";
@@ -47,6 +48,13 @@ interface HackathonItem {
 
 export default function Home() {
   const { t } = useTranslation();
+  const [copied, setCopied] = React.useState(false);
+
+  const handleCopyENS = () => {
+    navigator.clipboard.writeText("0xa49F135e80A1a2d53D93fF67b848EaF014bB5cEE");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   // Obtener colecciones desde los diccionarios con tipado explícito
   const publicationsList = (t("publications") as PublicationItem[]) || [];
@@ -424,91 +432,232 @@ export default function Home() {
       </section>
 
       {/* Footer / Contact Section */}
-      <footer id="contact" className="w-full py-12 px-4 md:px-[8%] lg:px-[12%] bg-card border-t border-border/40 mt-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full pb-8 border-b border-border/40">
-          <div className="flex flex-col gap-3">
-            <h2 className="font-heading text-2xl font-black tracking-tight">
-              {t("contact.title") as string}
-            </h2>
-            <p className="text-xs text-muted-foreground">
-              hola@cbaeza.com
+      <footer id="contact" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] bg-gradient-to-t from-card/80 to-card/10 border-t border-border/40 mt-auto relative overflow-hidden">
+        {/* Fondo decorativo y gradiente sutil */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 items-start pb-12 border-b border-border/40 relative z-10">
+          {/* Columna 1: Identidad */}
+          <div className="flex flex-col items-start gap-4">
+            <Link href="#" className="flex items-center">
+              <Image
+                src="/images/logo.png"
+                alt="Logo"
+                width={177}
+                height={32}
+                className="h-8 w-auto object-contain"
+              />
+            </Link>
+            <p className="text-xs text-muted-foreground leading-relaxed">
+              {t("hero.subtitle") as string}
             </p>
+            {/* Redes Sociales */}
+            <div className="flex items-center gap-3 mt-2">
+              <Link
+                href="https://github.com/cjbaezilla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-foreground hover:border-foreground flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+                aria-label="GitHub Profile"
+              >
+                <i className="fa-brands fa-github text-base"></i>
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/carlos-baeza-negroni/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-[#0a66c2] hover:border-[#0a66c2]/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+                aria-label="LinkedIn Profile"
+              >
+                <i className="fa-brands fa-linkedin text-base"></i>
+              </Link>
+              <Link
+                href="https://twitter.com/cjbaezilla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-[#1da1f2] hover:border-[#1da1f2]/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+                aria-label="Twitter Profile"
+              >
+                <i className="fa-brands fa-x-twitter text-base"></i>
+              </Link>
+              <Link
+                href="https://www.youtube.com/@cjbaezilla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-[#ff0000] hover:border-[#ff0000]/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+                aria-label="YouTube Channel"
+              >
+                <i className="fa-brands fa-youtube text-base"></i>
+              </Link>
+            </div>
           </div>
 
-          <div className="flex flex-wrap gap-4 md:justify-end">
-            {/* ENS Address */}
-            <Link
-              href="https://etherscan.io/address/baeza.eth"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border border-border/80 bg-background hover:bg-accent px-4 py-2.5 text-xs font-semibold text-foreground transition-all cursor-pointer"
-            >
-              <i className="fa-solid fa-wallet text-primary"></i>
-              <span>baeza.eth</span>
-            </Link>
+          {/* Columna 2: Navegación Rápida */}
+          <div className="flex flex-col items-start gap-4">
+            <h3 className="font-heading text-xs font-bold tracking-wider text-foreground uppercase">
+              {t("contact.navigation") as string}
+            </h3>
+            <ul className="flex flex-col gap-3 text-xs font-medium w-full">
+              <li>
+                <Link
+                  href="#publications"
+                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
+                >
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  {t("nav.publications") as string}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#projects"
+                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
+                >
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  {t("nav.projects") as string}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#foundations"
+                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
+                >
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  {t("nav.foundations") as string}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#background"
+                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
+                >
+                  <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
+                  {t("nav.background") as string}
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-            {/* POAPs Link */}
-            <Link
-              href="https://collectors.poap.xyz/scan/baeza.eth"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border border-border/80 bg-background hover:bg-accent px-4 py-2.5 text-xs font-semibold text-foreground transition-all cursor-pointer"
-            >
-              <i className="fa-solid fa-qrcode text-primary"></i>
-              <span>{t("contact.scans") as string}</span>
-            </Link>
+          {/* Columna 3: Recursos Web3 */}
+          <div className="flex flex-col items-start gap-4 w-full">
+            <h3 className="font-heading text-xs font-bold tracking-wider text-foreground uppercase">
+              Web3
+            </h3>
+            <div className="flex flex-col gap-3.5 w-full">
+              {/* Wallet Card */}
+              <div className="flex flex-col gap-2 p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm relative group/wallet w-full">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary">
+                      <i className="fa-solid fa-wallet text-xs"></i>
+                    </div>
+                    <span className="text-xs font-bold text-foreground">baeza.eth</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={handleCopyENS}
+                      className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors relative"
+                      title={t("contact.copy") as string}
+                    >
+                      {copied ? (
+                        <i className="fa-solid fa-check text-xs text-emerald-500"></i>
+                      ) : (
+                        <i className="fa-regular fa-copy text-xs"></i>
+                      )}
+                    </button>
+                    <Link
+                      href="https://etherscan.io/address/baeza.eth"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="size-7 rounded-md hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-foreground cursor-pointer transition-colors"
+                      title="Etherscan"
+                    >
+                      <i className="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </Link>
+                  </div>
+                </div>
+                <span className="text-[10px] text-muted-foreground font-mono truncate select-all">
+                  0xa49F135e80A1a2d53D93fF67b848EaF014bB5cEE
+                </span>
+              </div>
+
+              {/* POAP Card */}
+              <Link
+                href="https://collectors.poap.xyz/scan/baeza.eth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/poap cursor-pointer w-full"
+              >
+                <div className="flex items-center gap-2">
+                  <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/poap:bg-primary/10 transition-colors">
+                    <i className="fa-solid fa-qrcode text-xs"></i>
+                  </div>
+                  <span className="text-xs font-bold text-foreground group-hover/poap:text-primary transition-colors">
+                    {t("contact.scans") as string}
+                  </span>
+                </div>
+                <i className="fa-solid fa-chevron-right text-[10px] text-muted-foreground group-hover/poap:translate-x-0.5 transition-transform"></i>
+              </Link>
+            </div>
+          </div>
+
+          {/* Columna 4: Conexión */}
+          <div className="flex flex-col items-start gap-4 w-full">
+            <h3 className="font-heading text-xs font-bold tracking-wider text-foreground uppercase">
+              {t("contact.title") as string}
+            </h3>
+            <div className="flex flex-col gap-3 w-full">
+              {/* Correo */}
+              <Link
+                href="mailto:hola@cbaeza.com"
+                className="flex items-center gap-3 p-3 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/email cursor-pointer w-full"
+              >
+                <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/email:bg-primary/10 transition-colors">
+                  <i className="fa-solid fa-envelope text-xs"></i>
+                </div>
+                <div className="flex flex-col min-w-0">
+                  <span className="text-[9px] font-mono text-muted-foreground uppercase tracking-wider leading-none">Email</span>
+                  <span className="text-xs font-bold text-foreground truncate group-hover/email:text-primary transition-colors">
+                    hola@cbaeza.com
+                  </span>
+                </div>
+              </Link>
+
+              {/* Telegram */}
+              <Link
+                href="https://t.me/VELVET_T_99"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/tg cursor-pointer w-full"
+              >
+                <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/tg:bg-primary/10 transition-colors">
+                  <i className="fa-brands fa-telegram text-xs"></i>
+                </div>
+                <div className="flex flex-col min-w-0">
+                  <span className="text-[9px] font-mono text-muted-foreground uppercase tracking-wider leading-none">Telegram</span>
+                  <span className="text-xs font-bold text-foreground truncate group-hover/tg:text-primary transition-colors">
+                    @VELVET_T_99
+                  </span>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
 
-        {/* Derechos de autor y redes */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-8">
-          <div className="flex items-center gap-2.5">
-            <span className="font-heading text-sm font-bold">cbaeza.com</span>
-            <span className="text-xs text-muted-foreground">© 2026</span>
+        {/* Sección Inferior: Copyright, créditos y volver arriba */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 mt-10 relative z-10 pt-8 w-full text-center sm:text-left">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <span className="font-heading text-sm font-black tracking-tight">cbaeza.com</span>
+            <span className="hidden sm:inline text-muted-foreground">|</span>
+            <span className="text-xs text-muted-foreground">© 2026 Carlos Baeza Negroni.</span>
           </div>
 
-          {/* Redes Sociales */}
-          <div className="flex items-center gap-4">
-            <Link
-              href="https://github.com/cjbaezilla"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground text-lg transition-colors cursor-pointer"
-              aria-label="GitHub Profile"
-            >
-              <i className="fa-brands fa-github"></i>
-            </Link>
-
-            <Link
-              href="https://www.linkedin.com/in/carlos-baeza-negroni/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-[#0a66c2] text-lg transition-colors cursor-pointer"
-              aria-label="LinkedIn Profile"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </Link>
-
-            <Link
-              href="https://twitter.com/cjbaezilla"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-[#1da1f2] text-lg transition-colors cursor-pointer"
-              aria-label="Twitter Profile"
-            >
-              <i className="fa-brands fa-x-twitter"></i>
-            </Link>
-
-            <Link
-              href="https://www.youtube.com/@cjbaezilla"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-[#ff0000] text-lg transition-colors cursor-pointer"
-              aria-label="YouTube Channel"
-            >
-              <i className="fa-brands fa-youtube"></i>
-            </Link>
-          </div>
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-muted-foreground hover:text-primary transition-colors cursor-pointer group"
+          >
+            {t("contact.backToTop") as string}
+            <i className="fa-solid fa-arrow-up text-[10px] -translate-y-0.5 group-hover:-translate-y-1 transition-transform"></i>
+          </button>
         </div>
       </footer>
     </div>

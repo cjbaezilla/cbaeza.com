@@ -468,6 +468,10 @@
     "title": "Contact & Links",
     "email": "Email Address",
     "scans": "Explore POAPs",
-    "ens": "ENS Wallet"
+    "ens": "ENS Wallet",
+    "copied": "Copied!",
+    "copy": "Copy ENS",
+    "navigation": "Navigation",
+    "backToTop": "Back to top"
   }
 }
