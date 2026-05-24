@@ -89,21 +89,23 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4 mt-2">
               <Link
-                href="#projects"
+                href="https://www.linkedin.com/in/carlos-baeza-negroni/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3.5 text-xs font-bold transition-all shadow-sm cursor-pointer"
               >
-                {t("hero.cta") as string}
-                <i className="fa-solid fa-arrow-down"></i>
+                <i className="fa-brands fa-linkedin text-base"></i>
+                LinkedIn
               </Link>
 
               <Link
-                href="https://www.linkedin.com/in/carlos-baeza-negroni/"
+                href="https://github.com/cjbaezilla/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
               >
-                <i className="fa-brands fa-linkedin text-base"></i>
-                LinkedIn
+                <i className="fa-brands fa-github text-base"></i>
+                {t("hero.cta") as string}
               </Link>
             </div>
           </div>
