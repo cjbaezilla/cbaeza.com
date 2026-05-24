@@ -107,6 +107,26 @@ export default function Home() {
                 <i className="fa-brands fa-github text-base"></i>
                 {t("hero.cta") as string}
               </Link>
+
+              <Link
+                href="https://wa.me/56985644026"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
+              >
+                <i className="fa-brands fa-whatsapp text-base"></i>
+                WhatsApp
+              </Link>
+
+              <Link
+                href="https://t.me/VELVET_T_99"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
+              >
+                <i className="fa-brands fa-telegram text-base"></i>
+                Telegram
+              </Link>
             </div>
           </div>
 
