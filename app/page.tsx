@@ -245,7 +245,7 @@ export default function Home() {
                     <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
                   </Link>
 
-                  <p className="text-xs text-muted-foreground leading-relaxed">
+                  <p className="text-xs text-muted-foreground leading-relaxed text-justify">
                     {project.description}
                   </p>
                 </div>
@@ -326,7 +326,7 @@ export default function Home() {
                       <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
                     </Link>
 
-                    <p className="text-xs text-muted-foreground leading-relaxed">
+                    <p className="text-xs text-muted-foreground leading-relaxed text-justify">
                       {foundation.description}
                     </p>
                   </div>
