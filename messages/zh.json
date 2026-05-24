@@ -148,6 +148,7 @@
   "projects": {
     "title": "活跃项目仓库",
     "subtitle": "来自实际技术实现的可用源代码和实用指南。",
+    "code": "代码",
     "items": [
       {
         "title": "Google Workspace 技能框架",
@@ -208,6 +209,7 @@
   "foundations": {
     "title": "理论基石与技术文章",
     "subtitle": "关于密码学、行为经济学和区块链应用数学的学术文章。",
+    "viewArticle": "阅读文章",
     "items": [
       {
         "title": "盲签名与电子现金 (eCash)",

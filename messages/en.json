@@ -148,6 +148,7 @@
   "projects": {
     "title": "Active Project Repositories",
     "subtitle": "Functional source code and practical guides from real technical implementations.",
+    "code": "Code",
     "items": [
       {
         "title": "Skills Framework for Google Workspace",
@@ -208,6 +209,7 @@
   "foundations": {
     "title": "Foundations & Technical Essays",
     "subtitle": "Scientific articles on cryptography, behavioral economics, and applied mathematics for blockchain.",
+    "viewArticle": "Read Article",
     "items": [
       {
         "title": "Blind Signatures and eCash",

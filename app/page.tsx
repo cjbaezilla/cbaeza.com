@@ -261,7 +261,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-xs font-bold text-primary inline-flex items-center gap-1 cursor-pointer"
                   >
-                    Code
+                    {t("projects.code") as string}
                     <i className="fa-solid fa-arrow-up-right-from-square text-[9px] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
                   </Link>
                 </div>
@@ -339,7 +339,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-bold text-primary group/link cursor-pointer"
                     >
-                      Ver Artículo
+                      {t("foundations.viewArticle") as string}
                       <i className="fa-solid fa-arrow-up-right-from-square text-[10px] group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"></i>
                     </Link>
                   </div>

@@ -148,6 +148,7 @@
   "projects": {
     "title": "Repositorios de Proyectos Activos",
     "subtitle": "Código fuente funcional y guías prácticas de implementaciones técnicas reales.",
+    "code": "Código",
     "items": [
       {
         "title": "Skills Framework para Google Workspace",
@@ -208,6 +209,7 @@
   "foundations": {
     "title": "Fundamentos y Ensayos Técnicos",
     "subtitle": "Artículos científicos sobre criptografía, economía del comportamiento y matemáticas aplicadas a blockchain.",
+    "viewArticle": "Ver Artículo",
     "items": [
       {
         "title": "Firmas Ciegas y eCash",
