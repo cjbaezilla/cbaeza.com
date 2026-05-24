@@ -114,7 +114,7 @@ export default function Home() {
               {t("hero.subtitle") as string}
             </p>
 
-            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-justify">
               {t("hero.description") as string}
             </p>
 
