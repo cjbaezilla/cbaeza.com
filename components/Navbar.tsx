@@ -19,6 +19,17 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  // Función para realizar un desplazamiento suave hacia un elemento por su ID
+  const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    const id = href.replace("#", "");
+    const element = document.getElementById(id);
+    if (element) {
+      e.preventDefault();
+      element.scrollIntoView({ behavior: "smooth" });
+      window.history.pushState(null, "", href);
+    }
+  };
+
   const navLinks = [
     { href: "#publications", label: t("nav.publications") as string },
     { href: "#projects", label: t("nav.projects") as string },
@@ -47,6 +58,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
+              onClick={(e) => handleScrollTo(e, link.href)}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               {link.label}
@@ -135,7 +147,10 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => {
+                  setIsOpen(false);
+                  handleScrollTo(e, link.href);
+                }}
                 className="text-sm font-semibold text-muted-foreground hover:text-foreground py-1 transition-colors"
               >
                 {link.label}

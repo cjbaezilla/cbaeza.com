@@ -63,6 +63,16 @@ export default function Home() {
     setTimeout(() => setCopiedBtc(false), 2000);
   };
 
+  // Función para realizar un desplazamiento suave hacia un elemento por su ID
+  const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      window.history.pushState(null, "", `#${id}`);
+    }
+  };
+
   // Obtener colecciones desde los diccionarios con tipado explícito
   const publicationsList = (t("publications") as PublicationItem[]) || [];
   const projectsList = (t("projects.items") as ProjectItem[]) || [];
@@ -174,7 +184,7 @@ export default function Home() {
           </div>
 
           {/* Carrusel de Publicaciones */}
-          <div className="lg:col-span-5 w-full flex flex-col gap-3">
+          <div id="publications" className="lg:col-span-5 w-full flex flex-col gap-3">
             <h2 className="font-heading text-xs font-bold uppercase tracking-wider text-muted-foreground px-1">
               {t("hero.sliderTitle") as string}
             </h2>
@@ -525,6 +535,7 @@ export default function Home() {
               <li>
                 <Link
                   href="#publications"
+                  onClick={(e) => handleScrollTo(e, "publications")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
                   <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
@@ -534,6 +545,7 @@ export default function Home() {
               <li>
                 <Link
                   href="#projects"
+                  onClick={(e) => handleScrollTo(e, "projects")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
                   <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
@@ -543,6 +555,7 @@ export default function Home() {
               <li>
                 <Link
                   href="#foundations"
+                  onClick={(e) => handleScrollTo(e, "foundations")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
                   <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
@@ -552,6 +565,7 @@ export default function Home() {
               <li>
                 <Link
                   href="#background"
+                  onClick={(e) => handleScrollTo(e, "background")}
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
                 >
                   <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all"></i>
