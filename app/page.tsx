@@ -109,6 +109,34 @@ export default function Home() {
               </Link>
 
               <Link
+                href="https://x.com/cjbaezilla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
+              >
+                <i className="fa-brands fa-x-twitter text-base"></i>
+                Twitter
+              </Link>
+
+              <Link
+                href="https://www.youtube.com/@cjbaezilla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
+              >
+                <i className="fa-brands fa-youtube text-base"></i>
+                YouTube
+              </Link>
+
+              <Link
+                href="mailto:hola@cbaeza.com"
+                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
+              >
+                <i className="fa-solid fa-envelope text-base"></i>
+                Email
+              </Link>
+
+              <Link
                 href="https://wa.me/56985644026"
                 target="_blank"
                 rel="noopener noreferrer"
