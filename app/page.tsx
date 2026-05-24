@@ -232,9 +232,17 @@ export default function Home() {
                     </Link>
                   </div>
 
-                  <h3 className="font-heading text-lg font-bold tracking-tight text-foreground mt-2 group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
+                  <Link
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer mt-2 inline-block"
+                  >
+                    <h3 className="font-heading text-lg font-bold tracking-tight text-foreground group-hover:text-primary transition-colors inline">
+                      {project.title}
+                    </h3>
+                    <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
+                  </Link>
 
                   <p className="text-xs text-muted-foreground leading-relaxed">
                     {project.description}
@@ -305,9 +313,17 @@ export default function Home() {
                       <i className={`fa-solid ${foundation.icon || "fa-brain"} text-sm`}></i>
                     </div>
 
-                    <h3 className="font-heading text-base font-bold tracking-tight text-foreground mt-2">
-                      {foundation.title}
-                    </h3>
+                    <Link
+                      href={foundation.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-pointer mt-2 inline-block"
+                    >
+                      <h3 className="font-heading text-base font-bold tracking-tight text-foreground group-hover:text-primary transition-colors inline">
+                        {foundation.title}
+                      </h3>
+                      <i className="fa-solid fa-arrow-up-right-from-square text-xs ml-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
+                    </Link>
 
                     <p className="text-xs text-muted-foreground leading-relaxed">
                       {foundation.description}
