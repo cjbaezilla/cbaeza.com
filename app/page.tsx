@@ -92,7 +92,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <header id="publications" className="w-full pt-28 pb-16 md:pt-40 md:pb-24 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
+      <header id="publications" className="w-full pt-16 pb-12 md:pt-28 md:pb-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
         {/* Fondo decorativo geométrico */}
         <div className="absolute top-0 right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -mr-32 -mt-32"></div>
         <div className="absolute bottom-0 left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none -ml-32 -mb-32"></div>
