@@ -458,6 +458,23 @@ export default function Home() {
             <p className="text-xs text-muted-foreground leading-relaxed">
               {t("hero.subtitle") as string}
             </p>
+            {/* POAP Card */}
+            <Link
+              href="https://collectors.poap.xyz/scan/baeza.eth"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-between p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/poap cursor-pointer w-full"
+            >
+              <div className="flex items-center gap-2">
+                <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/poap:bg-primary/10 transition-colors">
+                  <i className="fa-solid fa-qrcode text-xs"></i>
+                </div>
+                <span className="text-xs font-bold text-foreground group-hover/poap:text-primary transition-colors">
+                  {t("contact.scans") as string}
+                </span>
+              </div>
+              <i className="fa-solid fa-chevron-right text-[10px] text-muted-foreground group-hover/poap:translate-x-0.5 transition-transform"></i>
+            </Link>
             {/* Redes Sociales */}
             <div className="flex items-center gap-3 mt-2">
               <Link
@@ -623,24 +640,6 @@ export default function Home() {
                   bc1qnt9a36lfsc8zjzj7mu9m6qexm48xv34z97fmt4
                 </span>
               </div>
-
-              {/* POAP Card */}
-              <Link
-                href="https://collectors.poap.xyz/scan/baeza.eth"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-between p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/poap cursor-pointer w-full"
-              >
-                <div className="flex items-center gap-2">
-                  <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/poap:bg-primary/10 transition-colors">
-                    <i className="fa-solid fa-qrcode text-xs"></i>
-                  </div>
-                  <span className="text-xs font-bold text-foreground group-hover/poap:text-primary transition-colors">
-                    {t("contact.scans") as string}
-                  </span>
-                </div>
-                <i className="fa-solid fa-chevron-right text-[10px] text-muted-foreground group-hover/poap:translate-x-0.5 transition-transform"></i>
-              </Link>
             </div>
           </div>
 
