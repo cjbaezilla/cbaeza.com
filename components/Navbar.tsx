@@ -46,17 +46,29 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur-md px-4 md:px-[8%] lg:px-[12%] py-3">
       <div className="flex items-center justify-between">
-        {/* Logo de Carlos */}
-        <Link href="/" className="flex items-center">
-          <Image
-            src="/images/logo.png"
-            alt="Logo"
-            width={177}
-            height={32}
-            className="h-8 w-auto object-contain"
-            priority
-          />
-        </Link>
+        {/* Contenedor Izquierdo: Botón Menú Móvil + Logo */}
+        <div className="flex items-center gap-3">
+          {/* Botón Menú Móvil */}
+          <button
+            onClick={toggleMenu}
+            className="md:hidden p-2 rounded-lg border border-border bg-card text-foreground hover:bg-accent cursor-pointer transition-colors"
+            aria-label="Toggle Menu"
+          >
+            <i className={`fa-solid ${isOpen ? "fa-xmark" : "fa-bars"} size-4 flex items-center justify-center`}></i>
+          </button>
+
+          {/* Logo de Carlos */}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/logo.png"
+              alt="Logo"
+              width={177}
+              height={32}
+              className="h-6 md:h-8 w-auto object-contain"
+              priority
+            />
+          </Link>
+        </div>
 
         {/* Links Escritorio */}
         <div className="hidden md:flex items-center gap-6">
@@ -72,76 +84,71 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Acciones y Controles (Escritorio) */}
-        <div className="hidden md:flex items-center gap-4">
-          <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en")}>
-            <SelectTrigger className="w-[125px] h-9 text-sm cursor-pointer">
-              <span className="flex items-center gap-2">
-                {locale === "es" ? (
-                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                ) : (
-                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                )}
-                <SelectValue>
-                  {(value: string | null) => (value === "es" ? "Español" : "English")}
-                </SelectValue>
-              </span>
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="es" className="cursor-pointer">
+        {/* Lado Derecho: Controles (Escritorio y Móvil) */}
+        <div className="flex items-center gap-4">
+          {/* Acciones y Controles (Escritorio) */}
+          <div className="hidden md:block">
+            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en")}>
+              <SelectTrigger className="w-[125px] h-9 text-sm cursor-pointer">
                 <span className="flex items-center gap-2">
-                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  <span>Español</span>
+                  {locale === "es" ? (
+                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  ) : (
+                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  )}
+                  <SelectValue>
+                    {(value: string | null) => (value === "es" ? "Español" : "English")}
+                  </SelectValue>
                 </span>
-              </SelectItem>
-              <SelectItem value="en" className="cursor-pointer">
-                <span className="flex items-center gap-2">
-                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  <span>English</span>
-                </span>
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="es" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>Español</span>
+                  </span>
+                </SelectItem>
+                <SelectItem value="en" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>English</span>
+                  </span>
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
 
-        {/* Controles para Móvil */}
-        <div className="flex md:hidden items-center gap-3">
-          <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en")}>
-            <SelectTrigger className="w-[120px] h-8 text-xs cursor-pointer">
-              <span className="flex items-center gap-1.5">
-                {locale === "es" ? (
-                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                ) : (
-                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                )}
-                <SelectValue>
-                  {(value: string | null) => (value === "es" ? "Español" : "English")}
-                </SelectValue>
-              </span>
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="es" className="cursor-pointer">
-                <span className="flex items-center gap-2">
-                  <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  <span>Español</span>
+          {/* Selector de Idioma (Móvil) */}
+          <div className="block md:hidden">
+            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en")}>
+              <SelectTrigger className="w-[120px] h-8 text-xs cursor-pointer">
+                <span className="flex items-center gap-1.5">
+                  {locale === "es" ? (
+                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  ) : (
+                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                  )}
+                  <SelectValue>
+                    {(value: string | null) => (value === "es" ? "Español" : "English")}
+                  </SelectValue>
                 </span>
-              </SelectItem>
-              <SelectItem value="en" className="cursor-pointer">
-                <span className="flex items-center gap-2">
-                  <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  <span>English</span>
-                </span>
-              </SelectItem>
-            </SelectContent>
-          </Select>
-          
-          <button
-            onClick={toggleMenu}
-            className="p-2 rounded-lg border border-border bg-card text-foreground hover:bg-accent cursor-pointer transition-colors"
-            aria-label="Toggle Menu"
-          >
-            <i className={`fa-solid ${isOpen ? "fa-xmark" : "fa-bars"} size-4 flex items-center justify-center`}></i>
-          </button>
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="es" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>Español</span>
+                  </span>
+                </SelectItem>
+                <SelectItem value="en" className="cursor-pointer">
+                  <span className="flex items-center gap-2">
+                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
+                    <span>English</span>
+                  </span>
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
         </div>
       </div>
 
