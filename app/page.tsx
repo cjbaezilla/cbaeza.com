@@ -53,7 +53,7 @@ export default function Home() {
   const [copiedBtc, setCopiedBtc] = React.useState(false);
 
   const handleCopyEth = () => {
-    navigator.clipboard.writeText("0xa49F135e80A1a2d53D93fF67b848EaF014bB5cEE");
+    navigator.clipboard.writeText("0xaEeaA55ED4f7df9E4C5688011cEd1E2A1b696772");
     setCopiedEth(true);
     setTimeout(() => setCopiedEth(false), 2000);
   };
@@ -650,7 +650,7 @@ export default function Home() {
                   </div>
                 </div>
                 <span className="text-[10px] text-muted-foreground font-mono truncate select-all">
-                  0xa49F135e80A1a2d53D93fF67b848EaF014bB5cEE
+                  0xaEeaA55ED4f7df9E4C5688011cEd1E2A1b696772
                 </span>
               </div>
 
