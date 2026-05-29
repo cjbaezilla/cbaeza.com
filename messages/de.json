@@ -294,6 +294,36 @@
         "description": "Untersuchung des Bitcoin-Netzwerks als komplexes adaptives System, das am „Rande des Chaos“ operiert, um seine Stabilität aufrechtzuerhalten.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "Taxonomie des synthetischen Warengeldes",
+        "description": "Die Taxonomie des synthetischen Warengeldes und die Public-Choice-Perspektive nach George Selgin.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "Small-World-Netzwerktopologie",
+        "description": "Die Analyse der Bitcoin-Infrastruktur durch die Small-World-Netzwerktopologie von Watts und Strogatz.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "Atomarität und Konvergenz",
+        "description": "Das Problem der Atomarität und Statuskonvergenz in dezentralen Wertsystemen.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "Blinde Signaturen vs. UTXO-Modell",
+        "description": "Vergleichende Analyse zwischen David Chaums blinden Signaturen und Bitcoins UTXO-Modell.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "Komplexitätstheorie in SHA-256",
+        "description": "Komplexitätstheorie und das Random-Oracle-Modell in SHA-256: technische und institutionelle Grundlagen.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },

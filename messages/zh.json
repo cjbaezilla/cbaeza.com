@@ -294,6 +294,36 @@
         "description": "将比特币 network 作为运行在“混沌边缘”以维持其稳定性的复杂适应系统进行研究。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "合成商品货币的分类学",
+        "description": "根据乔治·塞尔金（George Selgin）的合成商品货币分类学与公共选择理论视角。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "小世界网络拓扑结构",
+        "description": "通过 Watts 和 Strogatz 的小世界网络拓扑分析比特币基础设施。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "原子性与状态收敛",
+        "description": "去中心化价值系统中的原子性与状态收敛问题。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "盲签名 vs. UTXO 模型",
+        "description": "大卫·查姆（David Chaum）的盲签名与比特币 UTXO 模型之间的对比分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "SHA-256 算法的计算复杂度",
+        "description": "SHA-256 计算复杂度与随机预言机模型：技术与制度基础。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },

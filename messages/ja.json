@@ -294,6 +294,36 @@
         "description": "Study of the Bitcoin network as a complex adaptive system operating at the 'edge of chaos' to maintain its stability.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "合成商品貨幣の分類法",
+        "description": "ジョージ・セルジンによる合成商品貨幣の分類法と公共選択論の視点。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "スモールワールド・ネットワーク・トポロジー",
+        "description": "ワッツとストロガッツのスモールワールド・ネットワーク・トポロジーによるビットコイン・インフラの分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "アトミック性と収束",
+        "description": "分散型価値システムにおけるアトミック性と状態収束の問題。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "ブラインド署名 vs UTXOモデル",
+        "description": "デビッド・チャウムのブラインド署名とビットコインのUTXOモデルの比較分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "SHA-256の計算複雑性",
+        "description": "SHA-256における計算複雑性とランダムオラクルモデル：技術的および制度的基盤。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },

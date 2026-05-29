@@ -294,6 +294,36 @@
         "description": "Study of the Bitcoin network as a complex adaptive system operating at the 'edge of chaos' to maintain its stability.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "Taxonomy of Synthetic Commodity Money",
+        "description": "The Taxonomy of Synthetic Commodity Money and the Public Choice Perspective According to George Selgin.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "Small-World Network Topology",
+        "description": "The analysis of Bitcoin infrastructure through Watts and Strogatz's small-world network topology.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "Atomicity and Convergence",
+        "description": "The problem of atomicity and state convergence in decentralized value systems.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "Blind Signatures vs. UTXO Model",
+        "description": "Comparative analysis between David Chaum's blind signatures and Bitcoin's UTXO model.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "Computational Complexity in SHA-256",
+        "description": "Computational complexity and the random oracle model in SHA-256: technical and institutional foundations.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },

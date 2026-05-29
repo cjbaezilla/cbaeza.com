@@ -294,6 +294,36 @@
         "description": "안정성을 유지하기 위해 혼돈의 가장자리에서 작동하는 복잡 적응계로서의 비트코인 네트워크 연구.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "합성 상품 화폐의 분류학",
+        "description": "조지 셀진에 따른 합성 상품 화폐의 분류학 및 공공선택론적 관점.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "작은 세상 네트워크 토폴로지",
+        "description": "와츠와 스트로가츠의 작은 세상 네트워크 토폴로지를 통한 비트코인 인프라 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "원자성과 수렴성",
+        "description": "분산형 가치 시스템에서의 원자성 및 상태 수렴 문제.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "맹검 서명 vs UTXO 모델",
+        "description": "데이비드 차움의 맹검 서명과 비트코인의 UTXO 모델 간의 비교 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "SHA-256의 계산 복잡도",
+        "description": "SHA-256의 계산 복잡도 및 무작위 오라클 모델: 기술적 및 제도적 기초.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },

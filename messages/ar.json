@@ -294,6 +294,36 @@
         "description": "دراسة شبكة البيتكوين كنظام تكيفي معقد يعمل على 'حافة الفوضى' للحفاظ على استقراره.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "تصنيف أموال السلع الاصطناعية",
+        "description": "تصنيف أموال السلع الاصطناعية ومنظور الاختيار العام وفقًا لجورج سيلجين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "طوبولوجيا شبكات العالم الصغير",
+        "description": "تحليل البنية التحتية للبيتكوين من خلال طوبولوجيا شبكات العالم الصغير لواتس واستروغاتز.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "الذرية والتقارب",
+        "description": "مشكلة الذرية وتقارب الحالات في أنظمة القيمة اللامركزية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "التوقيعات العمياء مقابل نموذج UTXO",
+        "description": "تحليل مقارن بين توقيعات ديفيد تشوم العمياء ونموذج UTXO للبيتكوين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "التعقيد الحسابي في SHA-256",
+        "description": "التعقيد الحسابي ونموذج أوراكل العشوائي في SHA-256: الأسس الفنية والمؤسسية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },

@@ -294,6 +294,36 @@
         "description": "Étude du réseau Bitcoin en tant que système adaptatif complexe fonctionnant à la 'frontière du chaos' pour maintenir sa stabilité.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
         "icon": "fa-solid fa-network-wired"
+      },
+      {
+        "title": "La Taxonomie de la Monnaie Marchande Synthétique",
+        "description": "La taxonomie de la monnaie marchande synthétique et la perspective des choix publics selon George Selgin.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
+        "icon": "fa-solid fa-landmark"
+      },
+      {
+        "title": "Topologie des Réseaux Petit Monde",
+        "description": "L'analyse de l'infrastructure de Bitcoin à travers la topologie des réseaux petit monde de Watts et Strogatz.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
+        "icon": "fa-solid fa-circle-nodes"
+      },
+      {
+        "title": "Atomicité et Convergence",
+        "description": "Le problème de l'atomicité et de la convergence des états dans les systèmes de valeur décentralisés.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
+        "icon": "fa-solid fa-code-merge"
+      },
+      {
+        "title": "Signatures Aveugles vs Modèle UTXO",
+        "description": "Analyse comparative entre les signatures aveugles de David Chaum et le modèle UTXO de Bitcoin.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
+        "icon": "fa-solid fa-scale-balanced"
+      },
+      {
+        "title": "Complexité Computationnelle de SHA-256",
+        "description": "Complexité computationnelle et modèle de l'oracle aléatoire dans SHA-256 : fondements techniques et institutionnels.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
+        "icon": "fa-solid fa-calculator"
       }
     ]
   },
