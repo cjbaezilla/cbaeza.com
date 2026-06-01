@@ -324,6 +324,12 @@
         "description": "Komplexitätstheorie und das Random-Oracle-Modell in SHA-256: technische und institutionelle Grundlagen.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "Statistische Mechanik von Konsenssystemen (Ising-Modell)",
+        "description": "Anwendung statistischer Physikmodelle zum Verständnis von Konsensdynamiken und Phasenübergängen in dezentralen Netzwerken.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "BTC-Adresse kopieren",
     "navigation": "Navigation",
     "backToTop": "Nach oben"
+  },
+  "publicationsSection": {
+    "title": "Publikationen & Artikel",
+    "subtitle": "Technische Essays und Tutorials auf professionellen Netzwerken zu Web3, Künstlicher Intelligenz und Kryptographie.",
+    "viewOnLinkedin": "Auf LinkedIn ansehen",
+    "all": "Alle",
+    "showMore": "Mehr Publikationen anzeigen",
+    "showLess": "Weniger anzeigen",
+    "searchPlaceholder": "Publikationen suchen..."
   }
 }

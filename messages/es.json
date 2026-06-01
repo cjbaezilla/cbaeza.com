@@ -324,6 +324,12 @@
         "description": "Complejidad computacional y el modelo del oráculo aleatorio en SHA-256: fundamentos técnicos e institucionales.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "Mecánica Estadística de los Sistemas de Consenso (Modelo de Ising)",
+        "description": "Aplicación de modelos de la física estadística para comprender la dinámica de consenso y transiciones de fase en redes descentralizadas.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "Copiar dirección BTC",
     "navigation": "Navegación",
     "backToTop": "Volver arriba"
+  },
+  "publicationsSection": {
+    "title": "Publicaciones y Artículos",
+    "subtitle": "Ensayos técnicos y tutoriales publicados en redes profesionales sobre Web3, Inteligencia Artificial y Criptografía.",
+    "viewOnLinkedin": "Ver en LinkedIn",
+    "all": "Todas",
+    "showMore": "Mostrar más publicaciones",
+    "showLess": "Mostrar menos",
+    "searchPlaceholder": "Buscar publicaciones..."
   }
 }

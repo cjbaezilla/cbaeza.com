@@ -324,6 +324,12 @@
         "description": "Вычислительная сложность и модель случайного оракула в SHA-256: технические и институциональные основы.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "Статистическая механика систем консенсуса (модель Изинга)",
+        "description": "Применение моделей статистической физики для понимания динамики консенсуса и фазовых переходов в децентрализованных сетях.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "Копировать BTC-адрес",
     "navigation": "Навигация",
     "backToTop": "Наверх"
+  },
+  "publicationsSection": {
+    "title": "Публикации и статьи",
+    "subtitle": "Технические эссе и руководства, опубликованные в профессиональных сетях, о Web3, искусственном интеллекте и криптографии.",
+    "viewOnLinkedin": "Посмотреть на LinkedIn",
+    "all": "Все",
+    "showMore": "Показать больше публикаций",
+    "showLess": "Показать меньше",
+    "searchPlaceholder": "Поиск публикаций..."
   }
 }

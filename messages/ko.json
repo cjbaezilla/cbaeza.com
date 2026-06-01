@@ -324,6 +324,12 @@
         "description": "SHA-256의 계산 복잡도 및 무작위 오라클 모델: 기술적 및 제도적 기초.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "합의 시스템의 통계 역학 (이징 모델)",
+        "description": "탈중앙화 네트워크의 합의 역학 및 위상 천이를 이해하기 위한 통계 물리학 모델의 적용.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "BTC 주소 복사",
     "navigation": "네비게이션",
     "backToTop": "맨 위로 이동"
+  },
+  "publicationsSection": {
+    "title": "간행물 및 기사",
+    "subtitle": "Web3, 인공지능 및 암호화에 관해 전문 네트워크에 게시된 기술 에세이 및 튜토리얼.",
+    "viewOnLinkedin": "LinkedIn에서 보기",
+    "all": "전체",
+    "showMore": "더 많은 간행물 보기",
+    "showLess": "간단히 보기",
+    "searchPlaceholder": "간행물 검색..."
   }
 }

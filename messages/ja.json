@@ -324,6 +324,12 @@
         "description": "SHA-256における計算複雑性とランダムオラクルモデル：技術的および制度的基盤。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "合意形成システムの統計力学（イジングモデル）",
+        "description": "分散型ネットワークにおける合意形成ダイナミクスと相転移を理解するための統計物理モデルの適用。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "BTCアドレスをコピー",
     "navigation": "ナビゲーション",
     "backToTop": "ページトップへ"
+  },
+  "publicationsSection": {
+    "title": "出版物と記事",
+    "subtitle": "Web3、人工知能、暗号技術に関してプロフェッショナルネットワークで公開された技術エッセイとチュートリアル。",
+    "viewOnLinkedin": "LinkedInで見る",
+    "all": "すべて",
+    "showMore": "他の出版物を表示",
+    "showLess": "表示を減らす",
+    "searchPlaceholder": "出版物を検索..."
   }
 }

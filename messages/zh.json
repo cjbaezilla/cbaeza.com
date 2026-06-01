@@ -324,6 +324,12 @@
         "description": "SHA-256 计算复杂度与随机预言机模型：技术与制度基础。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "共识系统的统计力学（伊辛模型）",
+        "description": "应用统计物理模型来理解去中心化网络中的共识动态和相变。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "复制 BTC 地址",
     "navigation": "网站导航",
     "backToTop": "返回顶部"
+  },
+  "publicationsSection": {
+    "title": "出版物与文章",
+    "subtitle": "在专业网络上发表的关于 Web3、人工智能和密码学的技术文章和教程。",
+    "viewOnLinkedin": "在 LinkedIn 上查看",
+    "all": "全部",
+    "showMore": "显示更多文章",
+    "showLess": "显示更少",
+    "searchPlaceholder": "搜索文章..."
   }
 }

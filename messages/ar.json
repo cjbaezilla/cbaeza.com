@@ -324,6 +324,12 @@
         "description": "التعقيد الحسابي ونموذج أوراكل العشوائي في SHA-256: الأسس الفنية والمؤسسية.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
         "icon": "fa-solid fa-calculator"
+      },
+      {
+        "title": "الميكانيكا الإحصائية لأنظمة الإجماع (نموذج إيزينغ)",
+        "description": "تطبيق نماذج الفيزياء الإحصائية لفهم ديناميكيات الإجماع وانتقالات الطور في الشبكات اللامركزية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
+        "icon": "fa-solid fa-magnet"
       }
     ]
   },
@@ -529,5 +535,14 @@
     "copyBtc": "نسخ عنوان BTC",
     "navigation": "التنقل في الموقع",
     "backToTop": "الرجوع للأعلى"
+  },
+  "publicationsSection": {
+    "title": "المنشورات والمقالات",
+    "subtitle": "مقالات تقنية وشروحات منشورة على شبكات مهنية حول Web3 والذكاء الاصطناعي والتشفير.",
+    "viewOnLinkedin": "عرض على LinkedIn",
+    "all": "الكل",
+    "showMore": "عرض المزيد من المنشورات",
+    "showLess": "عرض أقل",
+    "searchPlaceholder": "البحث عن المنشورات..."
   }
 }
