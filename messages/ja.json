@@ -350,6 +350,20 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
         "icon": "fa-solid fa-magnet",
         "tag": "物理・システム"
+      },
+      {
+        "title": "UTXOモデルと分散状態アーキテクチャの科学的分析",
+        "description": "未使用トランザクション出力（UTXO）モデルと、分散ネットワーク内におけるその状態管理の効率性に関する詳細な研究。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-salida-de-transacci%C3%B3n-no-gastada-activity-7466840410678702082-eJm5",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "暗号技術"
+      },
+      {
+        "title": "システムエネルギー（ハミルトニアン）",
+        "description": "ハミルトニアン形式とシステム物理学を用いたビットコインの安定性とダイナミクスの数学的モデリング。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
+        "icon": "fa-solid fa-bolt",
+        "tag": "物理・システム"
       }
     ],
     "all": "すべて",

@@ -350,6 +350,20 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
         "icon": "fa-solid fa-magnet",
         "tag": "Physique et Systèmes"
+      },
+      {
+        "title": "Analyse scientifique du modèle UTXO et de son architecture d'état distribué",
+        "description": "Une étude détaillée du modèle de sortie de transaction non dépensée (UTXO) et de son efficacité dans la gestion de l'état au sein des réseaux distribués.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-salida-de-transacci%C3%B3n-no-gastada-activity-7466840410678702082-eJm5",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "Cryptographie"
+      },
+      {
+        "title": "Énergie du système (Hamiltonien)",
+        "description": "Modélisation mathématique de la stabilité et de la dynamique de Bitcoin à l'aide du formalisme hamiltonien et de la physique des systèmes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
+        "icon": "fa-solid fa-bolt",
+        "tag": "Physique et Systèmes"
       }
     ],
     "all": "Tous",

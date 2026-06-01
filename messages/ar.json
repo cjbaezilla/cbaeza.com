@@ -350,6 +350,20 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
         "icon": "fa-solid fa-magnet",
         "tag": "الفيزياء والأنظمة"
+      },
+      {
+        "title": "التحليل العلمي لنموذج UTXO وبنيته للحالة الموزعة",
+        "description": "دراسة مفصلة لنموذج مخرجات المعاملات غير المنفقة (UTXO) وكفاءته في إدارة الحالة في الشبكات الموزعة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-salida-de-transacci%C3%B3n-no-gastada-activity-7466840410678702082-eJm5",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "علم التشفير"
+      },
+      {
+        "title": "طاقة النظام (الهاميلتوني)",
+        "description": "النمذجة الرياضية لاستقرار ديناميكيات البيتكوين باستخدام الصياغة الهاميلتونية وفيزياء الأنظمة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
+        "icon": "fa-solid fa-bolt",
+        "tag": "الفيزياء والأنظمة"
       }
     ],
     "all": "الكل",
