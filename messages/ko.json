@@ -215,123 +215,147 @@
         "title": "블라인드 서명과 eCash",
         "description": "선구적인 디지털 금융 개인 정보 보호 및 블라인드 암호화 방식에 대한 David Chaum의 1982년 논문 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
-        "icon": "fa-solid fa-key"
+        "icon": "fa-solid fa-key",
+        "tag": "암호학"
       },
       {
         "title": "공개 키 암호학",
         "description": "비대칭 암호학의 연대기적 발전과 탈중앙화 네트워크의 보안에 미치는 영향 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
-        "icon": "fa-solid fa-vault"
+        "icon": "fa-solid fa-vault",
+        "tag": "암호학"
       },
       {
         "title": "나카모토 합의의 인센티브 모델링",
         "description": "비트코인의 분산 합의 프로토콜에 게임 이론 및 경제적 인센티브 모델링 적용.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
-        "icon": "fa-solid fa-chess"
+        "icon": "fa-solid fa-chess",
+        "tag": "경제 및 금융"
       },
       {
         "title": "벤포드의 법칙과 블록체인 포렌식",
         "description": "변칙적인 트랜잭션 패턴을 감지하기 위한 수학 통계학과 블록체인 포렌식 분석의 교차점.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
-        "icon": "fa-solid fa-chart-line"
+        "icon": "fa-solid fa-chart-line",
+        "tag": "수학 및 철학"
       },
       {
         "title": "상호객관적 공동 구성물로서의 화폐",
         "description": "사회 이론과 비트코인 경제학을 연결하여 공동의 믿음 체계로 개념화된 화폐에 대한 인류학적 및 역사적 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
-        "icon": "fa-solid fa-coins"
+        "icon": "fa-solid fa-coins",
+        "tag": "수학 및 철학"
       },
       {
         "title": "샤미르 비밀 공유 방식",
         "description": "공유된 암호 키의 안전한 배포 및 복구를 위한 다항식 나눗셈의 수학적 원리.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
-        "icon": "fa-solid fa-shield-halved"
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "암호학"
       },
       {
         "title": "복잡성 인식론",
         "description": "복잡한 정보 시스템 및 자율 소프트웨어에 적용되는 칼 포퍼와 임레 라카토스의 방법론적 반증주의 평가.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
-        "icon": "fa-solid fa-brain"
+        "icon": "fa-solid fa-brain",
+        "tag": "수학 및 철학"
       },
       {
         "title": "다이아몬드-디빅 모델",
         "description": "뱅크런을 설명하는 경제 모델과 수익 창출 DeFi 프로토콜에서 유동성의 중요성 연구.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "경제 및 금융"
       },
       {
         "title": "비트코인의 두꺼운 꼬리 위험",
         "description": "극단값 이론(EVT)을 사용한 시스템 위험 분석 및 크립토 자산의 극단적 변동성과의 관계.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
-        "icon": "fa-solid fa-chart-area"
+        "icon": "fa-solid fa-chart-area",
+        "tag": "수학 및 철학"
       },
       {
         "title": "탈중앙화 지표",
         "description": "블록체인 네트워크의 거버넌스 및 부의 분배에 맞춤화된 타일 지수(Theil Index)와 팔마 비율(Palma Ratio) 계산.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
-        "icon": "fa-solid fa-diagram-project"
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "경제 및 금융"
       },
       {
         "title": "효용 이론과 베르누이의 역설",
         "description": "상트페테르부르크 역설(1713) 및 위험 관리 하에서 화폐의 주관적 가치에 대한 수학적 공식화 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
-        "icon": "fa-solid fa-percent"
+        "icon": "fa-solid fa-percent",
+        "tag": "수학 및 철학"
       },
       {
         "title": "정보 열역학 및 란다우어의 원리",
         "description": "탈중앙화 네트워크의 효율성 및 보안 한계에 적용되는 정보 열역학과 란다우어의 원리에 대한 연구.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
-        "icon": "fa-solid fa-atom"
+        "icon": "fa-solid fa-atom",
+        "tag": "물리학 및 시스템"
       },
       {
         "title": "열역학적 깊이 및 맥스웰의 악마",
         "description": "분산 원장에서 검증 및 질서의 은유로서의 열역학적 깊이와 맥스웰의 악마 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
-        "icon": "fa-solid fa-gears"
+        "icon": "fa-solid fa-gears",
+        "tag": "물리학 및 시스템"
       },
       {
         "title": "비트코인의 복잡계 네트워크",
         "description": "안정성을 유지하기 위해 혼돈의 가장자리에서 작동하는 복잡 적응계로서의 비트코인 네트워크 연구.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
-        "icon": "fa-solid fa-network-wired"
+        "icon": "fa-solid fa-network-wired",
+        "tag": "물리학 및 시스템"
       },
       {
         "title": "합성 상품 화폐의 분류학",
         "description": "조지 셀진에 따른 합성 상품 화폐의 분류학 및 공공선택론적 관점.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
-        "icon": "fa-solid fa-landmark"
+        "icon": "fa-solid fa-landmark",
+        "tag": "경제 및 금융"
       },
       {
         "title": "작은 세상 네트워크 토폴로지",
         "description": "와츠와 스트로가츠의 작은 세상 네트워크 토폴로지를 통한 비트코인 인프라 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
-        "icon": "fa-solid fa-circle-nodes"
+        "icon": "fa-solid fa-circle-nodes",
+        "tag": "물리학 및 시스템"
       },
       {
         "title": "원자성과 수렴성",
         "description": "분산형 가치 시스템에서의 원자성 및 상태 수렴 문제.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
-        "icon": "fa-solid fa-code-merge"
+        "icon": "fa-solid fa-code-merge",
+        "tag": "물리학 및 시스템"
       },
       {
         "title": "맹검 서명 vs UTXO 모델",
         "description": "데이비드 차움의 맹검 서명과 비트코인의 UTXO 모델 간의 비교 분석.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "암호학"
       },
       {
         "title": "SHA-256의 계산 복잡도",
         "description": "SHA-256의 계산 복잡도 및 무작위 오라클 모델: 기술적 및 제도적 기초.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
-        "icon": "fa-solid fa-calculator"
+        "icon": "fa-solid fa-calculator",
+        "tag": "암호학"
       },
       {
         "title": "합의 시스템의 통계 역학 (이징 모델)",
         "description": "탈중앙화 네트워크의 합의 역학 및 위상 천이를 이해하기 위한 통계 물리학 모델의 적용.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
-        "icon": "fa-solid fa-magnet"
+        "icon": "fa-solid fa-magnet",
+        "tag": "물리학 및 시스템"
       }
-    ]
+    ],
+    "all": "전체",
+    "showMore": "더 많은 기사 보기",
+    "showLess": "간단히 보기",
+    "searchPlaceholder": "기사 검색..."
   },
   "background": {
     "title": "경력 및 이력",

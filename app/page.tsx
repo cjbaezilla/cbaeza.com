@@ -26,6 +26,7 @@ interface FoundationItem {
   description: string;
   link: string;
   icon?: string;
+  tag: string;
 }
 
 interface JobItem {
@@ -79,6 +80,11 @@ export default function Home() {
   const [selectedTag, setSelectedTag] = React.useState("all");
   const [showAllPublications, setShowAllPublications] = React.useState(false);
 
+  // Estados para búsqueda y filtrado de fundamentos
+  const [searchFoundation, setSearchFoundation] = React.useState("");
+  const [selectedFoundationTag, setSelectedFoundationTag] = React.useState("all");
+  const [showAllFoundations, setShowAllFoundations] = React.useState(false);
+
   // Obtener colecciones desde los diccionarios con tipado explícito
   const publicationsList = (t("publications") as PublicationItem[]) || [];
   const projectsList = (t("projects.items") as ProjectItem[]) || [];
@@ -101,6 +107,21 @@ export default function Home() {
 
   // Limitar visualización si es necesario
   const displayedPublications = showAllPublications ? filteredPublications : filteredPublications.slice(0, 6);
+
+  // Extraer tags únicos de los fundamentos
+  const allFoundationTags = ["all", ...Array.from(new Set(foundationsList.map((f) => f.tag)))];
+
+  // Filtrar fundamentos según búsqueda y tag seleccionado
+  const filteredFoundations = foundationsList.filter((f) => {
+    const matchesTag = selectedFoundationTag === "all" || f.tag === selectedFoundationTag;
+    const matchesSearch =
+      f.title.toLowerCase().includes(searchFoundation.toLowerCase()) ||
+      (f.description && f.description.toLowerCase().includes(searchFoundation.toLowerCase()));
+    return matchesTag && matchesSearch;
+  });
+
+  // Limitar visualización si es necesario
+  const displayedFoundations = showAllFoundations ? filteredFoundations : filteredFoundations.slice(0, 6);
 
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
@@ -361,6 +382,169 @@ export default function Home() {
         )}
       </section>
 
+      {/* Fundamentos (Ensayos Técnicos) */}
+      <section id="foundations" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10 relative">
+        <div className="flex flex-col gap-4 mb-8">
+          <h2 className="font-heading text-3xl font-black tracking-tight">
+            {t("foundations.title") as string}
+          </h2>
+          <p className="text-sm text-muted-foreground">
+            {t("foundations.subtitle") as string}
+          </p>
+        </div>
+
+        {/* Buscador y Filtros */}
+        <div className="flex flex-col gap-5 mb-8">
+          {/* Fila de Búsqueda */}
+          <div className="relative w-full max-w-md">
+            <span className="absolute inset-y-0 left-3 flex items-center pl-1 text-muted-foreground pointer-events-none">
+              <i className="fa-solid fa-magnifying-glass text-sm"></i>
+            </span>
+            <input
+              type="text"
+              placeholder={t("foundations.searchPlaceholder") as string}
+              value={searchFoundation}
+              onChange={(e) => setSearchFoundation(e.target.value)}
+              className="w-full pl-11 pr-10 py-3 rounded-2xl border border-border/60 bg-card text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all"
+            />
+            {searchFoundation && (
+              <button
+                onClick={() => setSearchFoundation("")}
+                className="absolute inset-y-0 right-3 flex items-center pr-1 text-muted-foreground hover:text-foreground cursor-pointer"
+                aria-label="Clear search"
+              >
+                <i className="fa-solid fa-circle-xmark text-sm"></i>
+              </button>
+            )}
+          </div>
+
+          {/* Fila de Filtros de Etiquetas */}
+          <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 max-w-full">
+            {allFoundationTags.map((tag) => {
+              const isActive = selectedFoundationTag === tag;
+              return (
+                <button
+                  key={tag}
+                  onClick={() => {
+                    setSelectedFoundationTag(tag);
+                    setShowAllFoundations(false); // Reiniciar visualización al cambiar tag
+                  }}
+                  className={`inline-flex items-center px-4 py-2 rounded-xl text-xs font-semibold border transition-all cursor-pointer select-none ${
+                    isActive
+                      ? "bg-primary border-primary text-primary-foreground shadow-sm"
+                      : "bg-card border-border/60 text-muted-foreground hover:bg-accent hover:text-foreground"
+                  }`}
+                >
+                  {tag === "all" ? (t("foundations.all") as string) : tag}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Listado de Tarjetas */}
+        {displayedFoundations.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+            {displayedFoundations.map((foundation: FoundationItem, index: number) => {
+              // Fórmulas matemáticas de decoración para cada tarjeta
+              const mathDecorations = [
+                "a^p ≡ a (mod p)",
+                "f(x) = σ(x)",
+                "E[U(x)]",
+                "H(X) = -Σ P(x)log P(x)",
+                "G(x) = (Z_p, +)",
+                "S_n = Σ x_i",
+                "f(k) = c k^{-α}",
+                "Pr(X=k) = p^k",
+                "dL/dx = 0",
+                "σ^2 = E[(X-μ)^2]",
+                "U' > 0, U'' < 0"
+              ];
+              const mathText = mathDecorations[index % mathDecorations.length];
+
+              return (
+                <div
+                  key={index}
+                  className="relative overflow-hidden flex flex-col justify-between rounded-3xl border border-border/60 bg-card p-6 shadow-sm hover:border-border hover:shadow-md transition-all group min-h-[14rem]"
+                >
+                  {/* Elemento decorativo matemático */}
+                  <span className="absolute -bottom-2 -right-3 font-mono text-4xl font-extrabold text-primary/5 group-hover:text-primary/10 transition-colors select-none pointer-events-none">
+                    {mathText}
+                  </span>
+
+                  <div className="flex flex-col gap-3 relative z-10">
+                    <div className="flex items-center justify-between">
+                      <span className="inline-flex items-center rounded-xl bg-primary/5 border border-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+                        {foundation.tag}
+                      </span>
+                      <div className="size-8 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary">
+                        <i className={`fa-solid ${foundation.icon || "fa-brain"} text-xs`}></i>
+                      </div>
+                    </div>
+
+                    <Link
+                      href={foundation.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-pointer mt-2 inline-block"
+                    >
+                      <h3 className="font-heading text-base font-bold tracking-tight text-foreground group-hover:text-primary transition-colors inline">
+                        {foundation.title}
+                      </h3>
+                      <i className="fa-solid fa-arrow-up-right-from-square text-xs ms-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
+                    </Link>
+
+                    {foundation.description && (
+                      <p className="text-xs text-muted-foreground leading-relaxed text-justify line-clamp-3">
+                        {foundation.description}
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="mt-6 pt-4 relative z-10 border-t border-border/40 flex justify-end">
+                    <Link
+                      href={foundation.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-primary group/link cursor-pointer"
+                    >
+                      {t("foundations.viewArticle") as string}
+                      <i className="fa-solid fa-arrow-up-right-from-square text-[10px] group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"></i>
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="w-full text-center py-12 rounded-3xl border border-dashed border-border/60 bg-card/20">
+            <i className="fa-solid fa-brain text-3xl text-muted-foreground/40 mb-3 block"></i>
+            <span className="text-sm text-muted-foreground">No se encontraron artículos que coincidan con la búsqueda.</span>
+          </div>
+        )}
+
+        {/* Botón de Mostrar Más / Mostrar Menos */}
+        {filteredFoundations.length > 6 && (
+          <div className="flex justify-center mt-10">
+            <button
+              onClick={() => setShowAllFoundations(!showAllFoundations)}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border/80 bg-card hover:bg-accent text-xs font-bold transition-all cursor-pointer relative z-10"
+            >
+              <span>
+                {showAllFoundations
+                  ? (t("foundations.showLess") as string)
+                  : (t("foundations.showMore") as string)}
+              </span>
+              <i
+                className={`fa-solid ${
+                  showAllFoundations ? "fa-chevron-up" : "fa-chevron-down"
+                } text-[10px]`}
+              ></i>
+            </button>
+          </div>
+        )}
+      </section>
+
       {/* Repositorios de Proyectos */}
       <section id="projects" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40">
         <div className="flex flex-col gap-4 mb-10">
@@ -428,85 +612,6 @@ export default function Home() {
                 </div>
               </div>
             ))}
-        </div>
-      </section>
-
-      {/* Fundamentos (Ensayos Técnicos) */}
-      <section id="foundations" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/20 relative">
-        <div className="flex flex-col gap-4 mb-10">
-          <h2 className="font-heading text-3xl font-black tracking-tight">
-            {t("foundations.title") as string}
-          </h2>
-          <p className="text-sm text-muted-foreground">
-            {t("foundations.subtitle") as string}
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-          {Array.isArray(foundationsList) &&
-            foundationsList.map((foundation: FoundationItem, index: number) => {
-              // Fórmulas matemáticas de decoración para cada tarjeta
-              const mathDecorations = [
-                "a^p ≡ a (mod p)",
-                "f(x) = σ(x)",
-                "E[U(x)]",
-                "H(X) = -Σ P(x)log P(x)",
-                "G(x) = (Z_p, +)",
-                "S_n = Σ x_i",
-                "f(k) = c k^{-α}",
-                "Pr(X=k) = p^k",
-                "dL/dx = 0",
-                "σ^2 = E[(X-μ)^2]",
-                "U' > 0, U'' < 0"
-              ];
-              const mathText = mathDecorations[index % mathDecorations.length];
-
-              return (
-                <div
-                  key={index}
-                  className="relative overflow-hidden flex flex-col justify-between rounded-3xl border border-border/60 bg-card p-6 shadow-sm hover:border-border hover:shadow-md transition-all group min-h-[12rem]"
-                >
-                  {/* Elemento decorativo matemático */}
-                  <span className="absolute -bottom-2 -right-3 font-mono text-4xl font-extrabold text-primary/5 group-hover:text-primary/10 transition-colors select-none pointer-events-none">
-                    {mathText}
-                  </span>
-
-                  <div className="flex flex-col gap-3 relative z-10">
-                    <div className="size-10 rounded-xl bg-primary/5 border border-primary/10 flex items-center justify-center text-primary">
-                      <i className={`fa-solid ${foundation.icon || "fa-brain"} text-sm`}></i>
-                    </div>
-
-                    <Link
-                      href={foundation.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cursor-pointer mt-2 inline-block"
-                    >
-                      <h3 className="font-heading text-base font-bold tracking-tight text-foreground group-hover:text-primary transition-colors inline">
-                        {foundation.title}
-                      </h3>
-                      <i className="fa-solid fa-arrow-up-right-from-square text-xs ms-2 text-muted-foreground group-hover:text-primary transition-colors inline-block align-middle"></i>
-                    </Link>
-
-                    <p className="text-xs text-muted-foreground leading-relaxed text-justify">
-                      {foundation.description}
-                    </p>
-                  </div>
-
-                  <div className="mt-6 pt-4 relative z-10 flex justify-end">
-                    <Link
-                      href={foundation.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-primary group/link cursor-pointer"
-                    >
-                      {t("foundations.viewArticle") as string}
-                      <i className="fa-solid fa-arrow-up-right-from-square text-[10px] group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"></i>
-                    </Link>
-                  </div>
-                </div>
-              );
-            })}
         </div>
       </section>
 

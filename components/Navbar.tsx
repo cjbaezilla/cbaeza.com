@@ -32,8 +32,8 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "#publications", label: t("nav.publications") as string },
-    { href: "#projects", label: t("nav.projects") as string },
     { href: "#foundations", label: t("nav.foundations") as string },
+    { href: "#projects", label: t("nav.projects") as string },
     { href: "#background", label: t("nav.background") as string },
     { href: "#certifications", label: t("nav.certifications") as string },
   ];

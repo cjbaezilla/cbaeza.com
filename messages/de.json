@@ -215,123 +215,147 @@
         "title": "Blinde Signaturen und eCash",
         "description": "Ansehnlicher und mathematischer Rückblick auf David Chaums bahnbrechende Arbeit von 1982 über digitale finanzielle Privatsphäre und blinde kryptographische Verfahren.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
-        "icon": "fa-solid fa-key"
+        "icon": "fa-solid fa-key",
+        "tag": "Kryptographie"
       },
       {
         "title": "Kryptographie mit öffentlichem Schlüssel",
         "description": "Chronologische Evolution der asymmetrischen Kryptographie und Analyse ihrer Auswirkungen auf die Sicherheit dezentraler Netzwerke.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
-        "icon": "fa-solid fa-vault"
+        "icon": "fa-solid fa-vault",
+        "tag": "Kryptographie"
       },
       {
         "title": "Inzentivmodellierung im Nakamoto-Konsens",
         "description": "Anwendung der Spieltheorie und ökonomischen Inzentivmodellierung im verteilten Konsensprotokoll von Bitcoin.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
-        "icon": "fa-solid fa-chess"
+        "icon": "fa-solid fa-chess",
+        "tag": "Wirtschaft & Finanzen"
       },
       {
         "title": "Benfords Gesetz und Blockchain-Forensik",
         "description": "Die Schnittstelle zwischen mathematischer Statistik und forensischer Blockchain-Analyse zur Erkennung anomaler Transaktionsmuster.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
-        "icon": "fa-solid fa-chart-line"
+        "icon": "fa-solid fa-chart-line",
+        "tag": "Mathematik & Philosophie"
       },
       {
         "title": "Geld als interobjektives Konstrukt",
         "description": "Anthropologische und historische Analyse von Geld, verstanden als kollektives Glaubenssystem, das Sozialtheorie mit der Ökonomie von Bitcoin verbindet.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
-        "icon": "fa-solid fa-coins"
+        "icon": "fa-solid fa-coins",
+        "tag": "Mathematik & Philosophie"
       },
       {
         "title": "Shamirs Schemata und geteilte Geheimnisse",
         "description": "Mathematische Prinzipien der Polynomdivision für die sichere Verteilung und Wiederherstellung gemeinsam genutzter kryptographischer Schlüssel.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
-        "icon": "fa-solid fa-shield-halved"
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "Kryptographie"
       },
       {
         "title": "Epistemologie der Komplexität",
         "description": "Evaluierung des methodologischen Falsifikationismus von Karl Popper und Imre Lakatos, angewandt auf komplexe Informationssysteme und autonome Software.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
-        "icon": "fa-solid fa-brain"
+        "icon": "fa-solid fa-brain",
+        "tag": "Mathematik & Philosophie"
       },
       {
         "title": "Das Diamond-Dybvig-Modell",
         "description": "Untersuchung des ökonomischen Modells, das Bankruns und die Bedeutung von Liquidität in renditebringenden DeFi-Protokollen erklärt.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "Wirtschaft & Finanzen"
       },
       {
         "title": "Fat-Tail-Risiken bei Bitcoin",
         "description": "Mathematische Analyse systemischer Risiken mithilfe der Extremwerttheorie (EVT) und deren Beziehung zur extremen Volatilität von Krypto-Assets.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
-        "icon": "fa-solid fa-chart-area"
+        "icon": "fa-solid fa-chart-area",
+        "tag": "Mathematik & Philosophie"
       },
       {
         "title": "Metriken der Dezentralisierung",
         "description": "Berechnung des Theil-Index und des Palma-Verhältnisses, angepasst an die Governance und Vermögensverteilung in Blockchain-Netzwerken.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
-        "icon": "fa-solid fa-diagram-project"
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "Wirtschaft & Finanzen"
       },
       {
         "title": "Nutzentheorie und das Bernoulli-Paradoxon",
         "description": "Analyse des St.-Petersburg-Paradoxons (1713) und die mathematische Formalisierung des subjektiven Geldwerts im Risikomanagement.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
-        "icon": "fa-solid fa-percent"
+        "icon": "fa-solid fa-percent",
+        "tag": "Mathematik & Philosophie"
       },
       {
         "title": "Informationsthermodynamik und Landauer",
         "description": "Untersuchung der Informationsthermodynamik und des Landauer-Prinzips, angewandt auf Effizienz- und Sicherheitsgrenzen in dezentralen Netzwerken.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
-        "icon": "fa-solid fa-atom"
+        "icon": "fa-solid fa-atom",
+        "tag": "Physik & Systeme"
       },
       {
         "title": "Thermodynamische Tiefe und Maxwell",
         "description": "Analyse der thermodynamischen Tiefe und von Maxwells Dämon als Metapher für Validierung und Ordnung in verteilten Ledgern.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
-        "icon": "fa-solid fa-gears"
+        "icon": "fa-solid fa-gears",
+        "tag": "Physik & Systeme"
       },
       {
         "title": "Komplexe adaptive Systeme in Bitcoin",
         "description": "Untersuchung des Bitcoin-Netzwerks als komplexes adaptives System, das am „Rande des Chaos“ operiert, um seine Stabilität aufrechtzuerhalten.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
-        "icon": "fa-solid fa-network-wired"
+        "icon": "fa-solid fa-network-wired",
+        "tag": "Physik & Systeme"
       },
       {
         "title": "Taxonomie des synthetischen Warengeldes",
         "description": "Die Taxonomie des synthetischen Warengeldes und die Public-Choice-Perspektive nach George Selgin.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
-        "icon": "fa-solid fa-landmark"
+        "icon": "fa-solid fa-landmark",
+        "tag": "Wirtschaft & Finanzen"
       },
       {
         "title": "Small-World-Netzwerktopologie",
         "description": "Die Analyse der Bitcoin-Infrastruktur durch die Small-World-Netzwerktopologie von Watts und Strogatz.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
-        "icon": "fa-solid fa-circle-nodes"
+        "icon": "fa-solid fa-circle-nodes",
+        "tag": "Physik & Systeme"
       },
       {
         "title": "Atomarität und Konvergenz",
         "description": "Das Problem der Atomarität und Statuskonvergenz in dezentralen Wertsystemen.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
-        "icon": "fa-solid fa-code-merge"
+        "icon": "fa-solid fa-code-merge",
+        "tag": "Physik & Systeme"
       },
       {
         "title": "Blinde Signaturen vs. UTXO-Modell",
         "description": "Vergleichende Analyse zwischen David Chaums blinden Signaturen und Bitcoins UTXO-Modell.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "Kryptographie"
       },
       {
         "title": "Komplexitätstheorie in SHA-256",
         "description": "Komplexitätstheorie und das Random-Oracle-Modell in SHA-256: technische und institutionelle Grundlagen.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
-        "icon": "fa-solid fa-calculator"
+        "icon": "fa-solid fa-calculator",
+        "tag": "Kryptographie"
       },
       {
         "title": "Statistische Mechanik von Konsenssystemen (Ising-Modell)",
         "description": "Anwendung statistischer Physikmodelle zum Verständnis von Konsensdynamiken und Phasenübergängen in dezentralen Netzwerken.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
-        "icon": "fa-solid fa-magnet"
+        "icon": "fa-solid fa-magnet",
+        "tag": "Physik & Systeme"
       }
-    ]
+    ],
+    "all": "Alle",
+    "showMore": "Mehr Artikel anzeigen",
+    "showLess": "Weniger anzeigen",
+    "searchPlaceholder": "Artikel suchen..."
   },
   "background": {
     "title": "Berufliche Erfahrung",

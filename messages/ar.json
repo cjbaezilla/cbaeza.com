@@ -215,123 +215,147 @@
         "title": "التوقيعات العمياء والـ eCash",
         "description": "تحليل للورقة البحثية التي نشرها ديفيد تشوم عام 1982 حول الخصوصية المالية الرقمية الرائدة والمخططات التشفيرية العمياء.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
-        "icon": "fa-solid fa-key"
+        "icon": "fa-solid fa-key",
+        "tag": "علم التشفير"
       },
       {
         "title": "تشفير المفتاح العام",
         "description": "التطور الزمني للتشفير غير المتماثل، وتحليل آثاره على أمان الشبكات اللامركزية.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
-        "icon": "fa-solid fa-vault"
+        "icon": "fa-solid fa-vault",
+        "tag": "علم التشفير"
       },
       {
         "title": "نمذجة الحوافز في إجماع ناكاموتو",
         "description": "تطبيق نظرية الألعاب ونمذجة الحوافز الاقتصادية في بروتوكول الإجماع الموزع للبيتكوين.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
-        "icon": "fa-solid fa-chess"
+        "icon": "fa-solid fa-chess",
+        "tag": "الاقتصاد والتمويل"
       },
       {
         "title": "قانون بنفورد والتحقيق الجنائي الرقمي للبلوكشين",
         "description": "التقاطع بين الإحصاء الرياضي والتحليل الجنائي للبلوكشين للكشف عن أنماط المعاملات الشاذة.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
-        "icon": "fa-solid fa-chart-line"
+        "icon": "fa-solid fa-chart-line",
+        "tag": "الرياضيات والفلسفة"
       },
       {
         "title": "المال كبناء مشترك بين الذوات",
         "description": "تحليل أنثروبولوجي وتاريخي للمال باعتباره نظام معتقدات جماعية، يربط النظرية الاجتماعية باقتصاد البيتكوين.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
-        "icon": "fa-solid fa-coins"
+        "icon": "fa-solid fa-coins",
+        "tag": "الرياضيات والفلسفة"
       },
       {
         "title": "مخططات شامير والسر المشترك",
         "description": "المبادئ الرياضية للقسمة متعددة الحدود للتوزيع والاسترداد الآمن للمفاتيح التشفيرية المشتركة.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
-        "icon": "fa-solid fa-shield-halved"
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "علم التشفير"
       },
       {
         "title": "إبستمولوجيا التعقيد",
         "description": "تقييم مبدأ دحض المنهجية لكارل بوبر وإيمري لاكاتوس المطبق على أنظمة المعلومات المعقدة والبرمجيات المستقلة.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
-        "icon": "fa-solid fa-brain"
+        "icon": "fa-solid fa-brain",
+        "tag": "الرياضيات والفلسفة"
       },
       {
         "title": "نموذج دايموند وديبفيغ",
         "description": "دراسة النموذج الاقتصادي الذي يفسر سحب الودائع المصرفية الجماعي وأهمية السيولة في بروتوكولات DeFi ذات العوائد.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "الاقتصاد والتمويل"
       },
       {
         "title": "مخاطر الذيل السمين في البيتكوين",
         "description": "تحليل رياضي للمخاطر النظامية باستخدام نظرية القيم المتطرفة (EVT) وعلاقتها بالتقلبات الشديدة للأصول المشفرة.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
-        "icon": "fa-solid fa-chart-area"
+        "icon": "fa-solid fa-chart-area",
+        "tag": "الرياضيات والفلسفة"
       },
       {
         "title": "مقاييس اللامركزية",
         "description": "حساب مؤشر ثيل (Theil Index) ونسبة بالما (Palma Ratio) المتكيفين مع توزيع الحوكمة والثروة في شبكات البلوكشين.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
-        "icon": "fa-solid fa-diagram-project"
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "الاقتصاد والتمويل"
       },
       {
         "title": "نظرية المنفعة ومفارقة برنولي",
         "description": "تحليل مفارقة سانت بطرسبرغ (1713) والصياغة الرياضية للقيمة الذاتية للمال في مواجهة المخاطر.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
-        "icon": "fa-solid fa-percent"
+        "icon": "fa-solid fa-percent",
+        "tag": "الرياضيات والفلسفة"
       },
       {
         "title": "ديناميكا حرارة المعلومات ولانداور",
         "description": "دراسة حول ديناميكا حرارة المعلومات ومبدأ لانداور المطبق على حدود الكفاءة والأمان في الشبكات اللامركزية.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
-        "icon": "fa-solid fa-atom"
+        "icon": "fa-solid fa-atom",
+        "tag": "الفيزياء والأنظمة"
       },
       {
         "title": "العمق الديناميكي الحراري وشيطان ماكسويل",
         "description": "تحليل العمق الديناميكي الحراري وشيطان ماكسويل كاستعارة للتحقق والنظام في السجلات الموزعة.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
-        "icon": "fa-solid fa-gears"
+        "icon": "fa-solid fa-gears",
+        "tag": "الفيزياء والأنظمة"
       },
       {
         "title": "الأنظمة التكيفية المعقدة في البيتكوين",
         "description": "دراسة شبكة البيتكوين كنظام تكيفي معقد يعمل على 'حافة الفوضى' للحفاظ على استقراره.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
-        "icon": "fa-solid fa-network-wired"
+        "icon": "fa-solid fa-network-wired",
+        "tag": "الفيزياء والأنظمة"
       },
       {
         "title": "تصنيف أموال السلع الاصطناعية",
         "description": "تصنيف أموال السلع الاصطناعية ومنظور الاختيار العام وفقًا لجورج سيلجين.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
-        "icon": "fa-solid fa-landmark"
+        "icon": "fa-solid fa-landmark",
+        "tag": "الاقتصاد والتمويل"
       },
       {
         "title": "طوبولوجيا شبكات العالم الصغير",
         "description": "تحليل البنية التحتية للبيتكوين من خلال طوبولوجيا شبكات العالم الصغير لواتس واستروغاتز.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
-        "icon": "fa-solid fa-circle-nodes"
+        "icon": "fa-solid fa-circle-nodes",
+        "tag": "الفيزياء والأنظمة"
       },
       {
         "title": "الذرية والتقارب",
         "description": "مشكلة الذرية وتقارب الحالات في أنظمة القيمة اللامركزية.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
-        "icon": "fa-solid fa-code-merge"
+        "icon": "fa-solid fa-code-merge",
+        "tag": "الفيزياء والأنظمة"
       },
       {
         "title": "التوقيعات العمياء مقابل نموذج UTXO",
         "description": "تحليل مقارن بين توقيعات ديفيد تشوم العمياء ونموذج UTXO للبيتكوين.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "علم التشفير"
       },
       {
         "title": "التعقيد الحسابي في SHA-256",
         "description": "التعقيد الحسابي ونموذج أوراكل العشوائي في SHA-256: الأسس الفنية والمؤسسية.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
-        "icon": "fa-solid fa-calculator"
+        "icon": "fa-solid fa-calculator",
+        "tag": "علم التشفير"
       },
       {
         "title": "الميكانيكا الإحصائية لأنظمة الإجماع (نموذج إيزينغ)",
         "description": "تطبيق نماذج الفيزياء الإحصائية لفهم ديناميكيات الإجماع وانتقالات الطور في الشبكات اللامركزية.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
-        "icon": "fa-solid fa-magnet"
+        "icon": "fa-solid fa-magnet",
+        "tag": "الفيزياء والأنظمة"
       }
-    ]
+    ],
+    "all": "الكل",
+    "showMore": "عرض المزيد من المقالات",
+    "showLess": "عرض أقل",
+    "searchPlaceholder": "البحث عن المقالات..."
   },
   "background": {
     "title": "المسيرة المهنية",

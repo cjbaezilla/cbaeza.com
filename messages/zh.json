@@ -215,123 +215,147 @@
         "title": "盲签名与电子现金 (eCash)",
         "description": "分析 David Chaum 1982 年关于数字金融隐私和盲密码学方案的先驱论文。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
-        "icon": "fa-solid fa-key"
+        "icon": "fa-solid fa-key",
+        "tag": "密码学"
       },
       {
         "title": "公钥密码学",
         "description": "非对称密码学的编年史演进，分析其对去中心化网络安全的影响。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
-        "icon": "fa-solid fa-vault"
+        "icon": "fa-solid fa-vault",
+        "tag": "密码学"
       },
       {
         "title": "中本聪共识中的激励建模",
         "description": "博弈论和经济激励建模在比特币分布式共识协议中的应用。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
-        "icon": "fa-solid fa-chess"
+        "icon": "fa-solid fa-chess",
+        "tag": "经济与金融"
       },
       {
         "title": "本福特定律与区块链取证",
         "description": "数学统计与区块链取证分析的交集，用于检测异常交易模式。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
-        "icon": "fa-solid fa-chart-line"
+        "icon": "fa-solid fa-chart-line",
+        "tag": "数学与哲学"
       },
       {
         "title": "作为互客观建构的货币",
         "description": "将货币视为集体信仰系统的联结社会学与比特币经济学的人类学和历史分析。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
-        "icon": "fa-solid fa-coins"
+        "icon": "fa-solid fa-coins",
+        "tag": "数学与哲学"
       },
       {
         "title": "Shamir 方案与共享密钥",
         "description": "用于安全分发和恢复共享加密密钥的多项式分割数学原理。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
-        "icon": "fa-solid fa-shield-halved"
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "密码学"
       },
       {
         "title": "复杂性认识论",
         "description": "评估 Karl Popper 和 Imre Lakatos 的方法论证伪主义在复杂信息系统和自主软件中的应用。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
-        "icon": "fa-solid fa-brain"
+        "icon": "fa-solid fa-brain",
+        "tag": "数学与哲学"
       },
       {
         "title": "Diamond-Dybvig 模型",
         "description": "研究解释银行挤兑以及流动性在生息 DeFi 协议中重要性的经济模型。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "经济与金融"
       },
       {
         "title": "比特币的肥尾风险",
         "description": "使用极值理论 (EVT) 对系统性风险进行数学分析，以及其与加密资产极端波动性的关系。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
-        "icon": "fa-solid fa-chart-area"
+        "icon": "fa-solid fa-chart-area",
+        "tag": "数学与哲学"
       },
       {
         "title": "去中心化度量指标",
         "description": "计算适应于区块链网络治理和财富分配的泰尔指数（Theil Index）和帕尔玛比率（Palma Ratio）。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
-        "icon": "fa-solid fa-diagram-project"
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "经济与金融"
       },
       {
         "title": "效用理论与伯努利悖论",
         "description": "分析圣彼得堡悖论（1713年）以及风险管理中货币主观价值的数学公式化。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
-        "icon": "fa-solid fa-percent"
+        "icon": "fa-solid fa-percent",
+        "tag": "数学与哲学"
       },
       {
         "title": "信息热力学与 Landauer",
         "description": "关于信息热力学和 Landauer 原理在去中心化网络效率和安全限制中应用的研究。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
-        "icon": "fa-solid fa-atom"
+        "icon": "fa-solid fa-atom",
+        "tag": "物理与系统"
       },
       {
         "title": "热力学深度与麦克斯韦",
         "description": "分析热力学深度和麦克斯韦妖，作为分布式账本中验证和秩序的隐喻。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
-        "icon": "fa-solid fa-gears"
+        "icon": "fa-solid fa-gears",
+        "tag": "物理与系统"
       },
       {
         "title": "比特币中的复杂适应系统",
         "description": "将比特币 network 作为运行在“混沌边缘”以维持其稳定性的复杂适应系统进行研究。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
-        "icon": "fa-solid fa-network-wired"
+        "icon": "fa-solid fa-network-wired",
+        "tag": "物理与系统"
       },
       {
         "title": "合成商品货币的分类学",
         "description": "根据乔治·塞尔金（George Selgin）的合成商品货币分类学与公共选择理论视角。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
-        "icon": "fa-solid fa-landmark"
+        "icon": "fa-solid fa-landmark",
+        "tag": "经济与金融"
       },
       {
         "title": "小世界网络拓扑结构",
         "description": "通过 Watts 和 Strogatz 的小世界网络拓扑分析比特币基础设施。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
-        "icon": "fa-solid fa-circle-nodes"
+        "icon": "fa-solid fa-circle-nodes",
+        "tag": "物理与系统"
       },
       {
         "title": "原子性与状态收敛",
         "description": "去中心化价值系统中的原子性与状态收敛问题。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
-        "icon": "fa-solid fa-code-merge"
+        "icon": "fa-solid fa-code-merge",
+        "tag": "物理与系统"
       },
       {
         "title": "盲签名 vs. UTXO 模型",
         "description": "大卫·查姆（David Chaum）的盲签名与比特币 UTXO 模型之间的对比分析。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "密码学"
       },
       {
         "title": "SHA-256 算法的计算复杂度",
         "description": "SHA-256 计算复杂度与随机预言机模型：技术与制度基础。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
-        "icon": "fa-solid fa-calculator"
+        "icon": "fa-solid fa-calculator",
+        "tag": "密码学"
       },
       {
         "title": "共识系统的统计力学（伊辛模型）",
         "description": "应用统计物理模型来理解去中心化网络中的共识动态和相变。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
-        "icon": "fa-solid fa-magnet"
+        "icon": "fa-solid fa-magnet",
+        "tag": "物理与系统"
       }
-    ]
+    ],
+    "all": "全部",
+    "showMore": "显示更多文章",
+    "showLess": "显示更少",
+    "searchPlaceholder": "搜索文章..."
   },
   "background": {
     "title": "专业履历",

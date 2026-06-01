@@ -215,123 +215,147 @@
         "title": "ブラインド署名とeCash",
         "description": "デジタル金融プライバシーとブラインド暗号方式に関する、デビッド・チャウムの1982年の先駆的な論文の分析。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1982-david-chaum-public%C3%B3-el-art%C3%ADculo-activity-7459582025419612160-No_w",
-        "icon": "fa-solid fa-key"
+        "icon": "fa-solid fa-key",
+        "tag": "暗号技術"
       },
       {
         "title": "公開鍵暗号技術",
         "description": "非対称暗号技術の年代順の進化と、それが分散型ネットワークのセキュリティに与える影響の分析。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-cronol%C3%B3gica-de-la-criptograf%C3%ADa-activity-7460000689088405504-RWLU",
-        "icon": "fa-solid fa-vault"
+        "icon": "fa-solid fa-vault",
+        "tag": "暗号技術"
       },
       {
         "title": "ナカモト合意におけるインセンティブモデリング",
         "description": "ビットコインの分散型合意形成プロトコルにおける、ゲーム理論と経済的インセンティブモデリングの適用。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelado-de-incentivos-en-el-protocolo-activity-7460310669242859521-ycxe/",
-        "icon": "fa-solid fa-chess"
+        "icon": "fa-solid fa-chess",
+        "tag": "経済・金融"
       },
       {
         "title": "本福特定律与ブロックチェーン・フォレンジック",
         "description": "異常なトランザクションパターンの検出のための、数理統計学とブロックチェーン・フォレンジック分析の交点。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-intersecci%C3%B3n-entre-la-estad%C3%ADstica-matem%C3%A1tica-activity-7460691259834380288-Sy2e/",
-        "icon": "fa-solid fa-chart-line"
+        "icon": "fa-solid fa-chart-line",
+        "tag": "数学・哲学"
       },
       {
         "title": "相互客観的構成概念としての貨幣",
         "description": "共同体的な信念体系として構想された貨幣の人類学的・歴史的分析と、社会理論とビットコイン経済学の接合。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-del-dinero-experimenta-un-punto-activity-7461041133100548096-CJnp/",
-        "icon": "fa-solid fa-coins"
+        "icon": "fa-solid fa-coins",
+        "tag": "数学・哲学"
       },
       {
         "title": "シャミアの秘密分散法と共有秘密",
         "description": "共有された暗号鍵の安全な分散と復元のための、多項式分割の数学的原理。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-desarrollo-de-la-criptograf%C3%ADa-moderna-activity-7461432173573861376-3mbW/",
-        "icon": "fa-solid fa-shield-halved"
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "暗号技術"
       },
       {
         "title": "複雑性の認識論",
         "description": "複雑な情報システムと自律的ソフトウェアに適用される、カール・ポパーとイムレ・ラカトシュの方法論的反証主義の評価。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-epistemolog%C3%ADa-de-la-complejidad-consolidada-activity-7461754614766428160-WL2e",
-        "icon": "fa-solid fa-brain"
+        "icon": "fa-solid fa-brain",
+        "tag": "数学・哲学"
       },
       {
         "title": "ダイヤモンド・ディブビッグモデル",
         "description": "銀行取付と、利回り付きDeFiプロトコルにおける流動性の重要性を説明する経済モデルの研究。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-econ%C3%B3mico-de-douglas-diamond-y-activity-7462125517752819712-I-L_/",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "経済・金融"
       },
       {
         "title": "ビットコインにおけるファットテールリスク",
         "description": "極値統計（EVT）を用いたシステムリスクの数学的分析と、暗号資産の極端なボラティリティとの関係。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-riguroso-del-riesgo-sist%C3%A9mico-activity-7462478663327027200-B-Dd",
-        "icon": "fa-solid fa-chart-area"
+        "icon": "fa-solid fa-chart-area",
+        "tag": "数学・哲学"
       },
       {
         "title": "分散型メトリクス",
         "description": "Calculation of the Theil Index and the Palma Ratio adapted to governance and wealth distribution in blockchain networks.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evaluaci%C3%B3n-de-la-descentralizaci%C3%B3n-en-activity-7462836090018656257-5M5u/",
-        "icon": "fa-solid fa-diagram-project"
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "経済・金融"
       },
       {
         "title": "効用理論とベルヌーイのパラドックス",
         "description": "サンクトペテルブルクのパラドックス（1713年）の分析と、リスク管理における貨幣の主観的価値 of 数学的定式化。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1713-el-matem%C3%A1tico-nicolaus-bernoulli-activity-7463194832673546240--5hh",
-        "icon": "fa-solid fa-percent"
+        "icon": "fa-solid fa-percent",
+        "tag": "数学・哲学"
       },
       {
         "title": "情報熱力学とランダウアーの原理",
         "description": "Study on information thermodynamics and Landauer's Principle applied to efficiency and security limits in decentralized networks.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-1961-el-f%C3%ADsico-rolf-landauer-public%C3%B3-activity-7463563070787936256-oQAf",
-        "icon": "fa-solid fa-atom"
+        "icon": "fa-solid fa-atom",
+        "tag": "物理・システム"
       },
       {
         "title": "熱力学的深さとマクスウェルの悪魔",
         "description": "Analysis of thermodynamic depth and Maxwell's demon as a metaphor for validation and order in distributed ledgers.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-comprender-por-qu%C3%A9-el-registro-contable-activity-7463941055978090496-RF_O",
-        "icon": "fa-solid fa-gears"
+        "icon": "fa-solid fa-gears",
+        "tag": "物理・システム"
       },
       {
         "title": "ビットコインにおける複雑適応系",
         "description": "Study of the Bitcoin network as a complex adaptive system operating at the 'edge of chaos' to maintain its stability.",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_para-analizar-la-red-bitcoin-con-rigor-t%C3%A9cnico-activity-7464284519353737216-jA00",
-        "icon": "fa-solid fa-network-wired"
+        "icon": "fa-solid fa-network-wired",
+        "tag": "物理・システム"
       },
       {
         "title": "合成商品貨幣の分類法",
         "description": "ジョージ・セルジンによる合成商品貨幣の分類法と公共選択論の視点。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-t%C3%A9cnica-de-bitcoin-requiere-activity-7464632889821855744-QOFT",
-        "icon": "fa-solid fa-landmark"
+        "icon": "fa-solid fa-landmark",
+        "tag": "経済・金融"
       },
       {
         "title": "スモールワールド・ネットワーク・トポロジー",
         "description": "ワッツとストロガッツのスモールワールド・ネットワーク・トポロジーによるビットコイン・インフラの分析。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comprensi%C3%B3n-de-la-infraestructura-de-bitcoin-activity-7464993470168899584-_st-",
-        "icon": "fa-solid fa-circle-nodes"
+        "icon": "fa-solid fa-circle-nodes",
+        "tag": "物理・システム"
       },
       {
         "title": "アトミック性と収束",
         "description": "分散型価値システムにおけるアトミック性と状態収束の問題。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-atomicidad-es-la-piedra-angular-de-la-activity-7465374266922979328-QcDa",
-        "icon": "fa-solid fa-code-merge"
+        "icon": "fa-solid fa-code-merge",
+        "tag": "物理・システム"
       },
       {
         "title": "ブラインド署名 vs UTXOモデル",
         "description": "デビッド・チャウムのブラインド署名とビットコインのUTXOモデルの比較分析。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evoluci%C3%B3n-de-la-arquitectura-del-dinero-activity-7465719020063887360-Jmvh",
-        "icon": "fa-solid fa-scale-balanced"
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "暗号技術"
       },
       {
         "title": "SHA-256の計算複雑性",
         "description": "SHA-256における計算複雑性とランダムオラクルモデル：技術的および制度的基盤。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-seguridad-de-bitcoin-se-activity-7466085435941863424-5nf6",
-        "icon": "fa-solid fa-calculator"
+        "icon": "fa-solid fa-calculator",
+        "tag": "暗号技術"
       },
       {
         "title": "合意形成システムの統計力学（イジングモデル）",
         "description": "分散型ネットワークにおける合意形成ダイナミクスと相転移を理解するための統計物理モデルの適用。",
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-estudio-de-los-sistemas-de-consenso-en-activity-7466461413796900864-mpQ2",
-        "icon": "fa-solid fa-magnet"
+        "icon": "fa-solid fa-magnet",
+        "tag": "物理・システム"
       }
-    ]
+    ],
+    "all": "すべて",
+    "showMore": "他の記事を表示",
+    "showLess": "表示を減らす",
+    "searchPlaceholder": "記事を検索..."
   },
   "background": {
     "title": "職務経歴",
