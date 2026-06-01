@@ -22,127 +22,148 @@
       "title": "Slither وSolhint وMythril: أمان أساسي للعقود الذكية باستخدام تدقيق التحليل الدلالي",
       "tag": "الأمان",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
-      "description": "التحليل الاستاتيكي للكود والتدقيق المؤتمت لتحديد الثغرات وتحسين الأمان في العقود الذكية لـ Solidity."
+      "description": "التحليل الاستاتيكي للكود والتدقيق المؤتمت لتحديد الثغرات وتحسين الأمان في العقود الذكية لـ Solidity.",
+      "icon": "fa-solid fa-shield-halved"
     },
     {
       "title": "أسس الأتمتة: إطار عمل للمهارات متوافق مع OpenClaw لتنسيق Google Workspace المستقل في Python",
       "tag": "وكلاء الذكاء الاصطناعي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
-      "description": "استخدام OpenClaw وPython لأتمتة سير العمل ودمج تنسيق Google Workspace بشكل مستقل."
+      "description": "استخدام OpenClaw وPython لأتمتة سير العمل ودمج تنسيق Google Workspace بشكل مستقل.",
+      "icon": "fa-solid fa-gears"
     },
     {
       "title": "بناء منصة NFT للعقارات المجزأة: دليل عملي للترميز على Ethereum باستخدام Solidity وNext.js",
       "tag": "الترميز",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
-      "description": "دليل خطوة بخطوة لتجزئة وترميز العقارات باستخدام Solidity وNext.js على شبكة Ethereum."
+      "description": "دليل خطوة بخطوة لتجزئة وترميز العقارات باستخدام Solidity وNext.js على شبكة Ethereum.",
+      "icon": "fa-solid fa-building"
     },
     {
       "title": "دليل عملي لرموز أصول العالم الحقيقي (RWA) على Ethereum: Solidity وHardhat وOpenZeppelin ولوحة تحكم Next.js",
       "tag": "RWA",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
-      "description": "تنفيذ عملي لرموز أصول العالم الحقيقي باستخدام Hardhat ومكتبات OpenZeppelin وواجهة Next.js."
+      "description": "تنفيذ عملي لرموز أصول العالم الحقيقي باستخدام Hardhat ومكتبات OpenZeppelin وواجهة Next.js.",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "ابنِ بوت Telegram الخاص بك والمستوحى من OpenClaw: دمج SDK لـ OpenCode مع وكلاء نماذج OpenRouter",
       "tag": "وكلاء الذكاء الاصطناعي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
-      "description": "دليل لدمج SDK لـ OpenCode مع وكلاء OpenRouter وبناء بوت Telegram ذكي ومستقل."
+      "description": "دليل لدمج SDK لـ OpenCode مع وكلاء OpenRouter وبناء بوت Telegram ذكي ومستقل.",
+      "icon": "fa-brands fa-telegram"
     },
     {
       "title": "تفكيك تشفير Ethereum: رحلة من التوقيعات الرقمية إلى العقود الذكية مع أمثلة برمجية",
       "tag": "التشفير",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
-      "description": "شرح مفصل للمفاهيم التشفيرية الأساسية لـ Ethereum، من التوقيعات الرقمية ECDSA إلى العقود."
+      "description": "شرح مفصل للمفاهيم التشفيرية الأساسية لـ Ethereum، من التوقيعات الرقمية ECDSA إلى العقود.",
+      "icon": "fa-solid fa-key"
     },
     {
       "title": "تفكيك Autoresearch الخاص بـ Karpathy: دليل خطوة بخطوة للتدريب الذاتي للذكاء الاصطناعي مع أمثلة عملية",
       "tag": "وكلاء الذكاء الاصطناعي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
-      "description": "تحليل ودليل خطوة بخطوة لفهم وتكرار تدفق التدريب الذاتي للذكاء الاصطناعي الذي صممه أندريه كارباتي."
+      "description": "تحليل ودليل خطوة بخطوة لفهم وتكرار تدفق التدريب الذاتي للذكاء الاصطناعي الذي صممه أندريه كارباتي.",
+      "icon": "fa-solid fa-brain"
     },
     {
       "title": "أسس DEX وAMM: مقدمة إلى البورصات اللامركزية وصناع السوق الآليين على Ethereum",
       "tag": "DeFi",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
-      "description": "مقدمة نظرية وعملية للبورصات اللامركزية وصناع السوق الآليين في DeFi."
+      "description": "مقدمة نظرية وعملية للبورصات اللامركزية وصناع السوق الآليين في DeFi.",
+      "icon": "fa-solid fa-right-left"
     },
     {
       "title": "أسس وكلاء OpenCode: إنشاء وتكوين ونشر وكلاء مخصصين وسير العمل",
       "tag": "وكلاء الذكاء الاصطناعي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
-      "description": "إعداد وتطوير ونشر تدفقات العمل المستقلة والوكلاء الأذكياء باستخدام OpenCode."
+      "description": "إعداد وتطوير ونشر تدفقات العمل المستقلة والوكلاء الأذكياء باستخدام OpenCode.",
+      "icon": "fa-solid fa-robot"
     },
     {
       "title": "ابنِ أول Dapp للستيكينغ في DeFi على Ethereum: دليل عملي باستخدام معيار ERC-4626 لـ OpenZeppelin مع Next.js",
       "tag": "DeFi / ERC-4626",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
-      "description": "دليل تطوير لإنشاء تطبيق ستيكينغ لامركزي باستخدام معيار الخزائن المرمزة ERC-4626."
+      "description": "دليل تطوير لإنشاء تطبيق ستيكينغ لامركزي باستخدام معيار الخزائن المرمزة ERC-4626.",
+      "icon": "fa-solid fa-vault"
     },
     {
       "title": "فك شيفرة الترميز: الدليل الكامل غير التقني لترميز الأصول على Ethereum باستخدام Solidity",
       "tag": "الترميز",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
-      "description": "المفاهيم الأساسية وفوائد ترميز أصول العالم الحقيقي على البلوكشين للجمهور غير التقني."
+      "description": "المفاهيم الأساسية وفوائد ترميز أصول العالم الحقيقي على البلوكشين للجمهور غير التقني.",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "بناء منظمة ذاتية الحكم لامركزية: دليل عملي كامل لحوكمة الـ DAO",
       "tag": "DAO",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
-      "description": "دليل لتصميم وبرمجة ونشر حوكمة شفافة وآمنة لمنظمات الـ DAO على Ethereum."
+      "description": "دليل لتصميم وبرمجة ونشر حوكمة شفافة وآمنة لمنظمات الـ DAO على Ethereum.",
+      "icon": "fa-solid fa-users"
     },
     {
       "title": "تحديث هكاثون Avalanche Vibe2Wizard: مستودع المشروع والعقود خلف الكواليس",
       "tag": "الهكاثونات",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
-      "description": "التفاصيل التقنية، كود المصدر، والعقود الذكية خلف المنصة الملعّبة التي تم إنشاؤها لهكاثون Avalanche."
+      "description": "التفاصيل التقنية، كود المصدر، والعقود الذكية خلف المنصة الملعّبة التي تم إنشاؤها لهكاثون Avalanche.",
+      "icon": "fa-solid fa-trophy"
     },
     {
       "title": "رحلتي التقنية في LM Studio: الأسئلة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محليًا",
       "tag": "ذكاء اصطناعي محلي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
-      "description": "الخبرات والإعدادات الرئيسية للتشغيل الفعال والمحلي لنماذج اللغات الكبيرة (LLMs)."
+      "description": "الخبرات والإعدادات الرئيسية للتشغيل الفعال والمحلي لنماذج اللغات الكبيرة (LLMs).",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
       "title": "Solidity بالمثال: دليل شامل مع كود جاهز للإنتاج للعقود الذكية",
       "tag": "Solidity",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
-      "description": "مستودع وشروحات مع كود بمستوى الإنتاج لتعلم الأنماط وأفضل الممارسات في Solidity."
+      "description": "مستودع وشروحات مع كود بمستوى الإنتاج لتعلم الأنماط وأفضل الممارسات في Solidity.",
+      "icon": "fa-solid fa-file-contract"
     },
     {
       "title": "أساسيات Hardhat: دليل تمهيدي غير تقني لبناء عقود Solidity الذكية بثقة",
       "tag": "أدوات ويب3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
-      "description": "دليل خطوة بخطوة لإعداد بيئة تطوير Hardhat لتجميع واختبار ونشر العقود الذكية."
+      "description": "دليل خطوة بخطوة لإعداد بيئة تطوير Hardhat لتجميع واختبار ونشر العقود الذكية.",
+      "icon": "fa-solid fa-screwdriver-wrench"
     },
     {
       "title": "بناء مساعد ذكاء اصطناعي خاص للويب: دمج CodeIgniter4 وNext.js وواجهات برمجة تطبيقات OpenRouter",
       "tag": "مطور شامل / ذكاء اصطناعي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
-      "description": "دمج الواجهة backend باستخدام CodeIgniter4 والواجهة الأمامية التفاعلية في Next.js التي تستهلك نماذج OpenRouter."
+      "description": "دمج الواجهة backend باستخدام CodeIgniter4 والواجهة الأمامية التفاعلية في Next.js التي تستهلك نماذج OpenRouter.",
+      "icon": "fa-solid fa-wand-magic-sparkles"
     },
     {
       "title": "الكتيب الكامل لمقترحات تحسين Ethereum (EIP وERC)",
       "tag": "معايير ويب3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
-      "description": "دليل شامل لفهم عملية وضع المعايير في Ethereum وأهم معايير ERC."
+      "description": "دليل شامل لفهم عملية وضع المعايير في Ethereum وأهم معايير ERC.",
+      "icon": "fa-solid fa-file-lines"
     },
     {
       "title": "Vibe2Wizard: من مبرمج بالحدس إلى ساحر على السلسلة في منصة التعلم الملعّبة للويب3",
       "tag": "الويب3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
-      "description": "تفاصيل مشروع التعلم الملعّب للويب3 وتجربة التطوير السريع على شبكة Avalanche."
+      "description": "تفاصيل مشروع التعلم الملعّب للويب3 وتجربة التطوير السريع على شبكة Avalanche.",
+      "icon": "fa-solid fa-hat-wizard"
     },
     {
       "title": "فهم الهندسة المعمارية الأساسية للمهارات في وكلاء الذكاء الاصطناعي",
       "tag": "وكلاء الذكاء الاصطناعي",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
-      "description": "تحليل هيكلي لكيفية استدعاء وكلاء الذكاء الاصطناعي للأدوات الخارجية وتنفيذها لتوسيع قدراتهم."
+      "description": "تحليل هيكلي لكيفية استدعاء وكلاء الذكاء الاصطناعي للأدوات الخارجية وتنفيذها لتوسيع قدراتهم.",
+      "icon": "fa-solid fa-puzzle-piece"
     },
     {
       "title": "تطوير API الرشيق: كيف صممنا LaunchPad API باستخدام CodeIgniter4 في أيام قليلة",
       "tag": "واجهات برمجة التطبيقات / الواجهة الخلفية",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
-      "description": "كيفية بناء واجهة برمجة تطبيقات (API) وظيفية وآمنة باستخدام CodeIgniter4 بطريقة مرنة باتباع أفضل ممارسات تطوير الواجهة الخلفية."
+      "description": "كيفية بناء واجهة برمجة تطبيقات (API) وظيفية وآمنة باستخدام CodeIgniter4 بطريقة مرنة باتباع أفضل ممارسات تطوير الواجهة الخلفية.",
+      "icon": "fa-solid fa-server"
     }
   ],
   "projects": {

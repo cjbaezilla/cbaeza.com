@@ -22,127 +22,148 @@
       "title": "Slither, Solhint & Mythril: Essenzielle Sicherheit für Smart Contracts durch semantische Analyse-Auditing-Tools",
       "tag": "Sicherheit",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
-      "description": "Statische Codeanalyse und automatisiertes Auditing zur Identifizierung von Schwachstellen und Verbesserung der Sicherheit in Solidity-Smart-Contracts."
+      "description": "Statische Codeanalyse und automatisiertes Auditing zur Identifizierung von Schwachstellen und Verbesserung der Sicherheit in Solidity-Smart-Contracts.",
+      "icon": "fa-solid fa-shield-halved"
     },
     {
       "title": "Automatisierungsgrundlagen: Ein mit OpenClaw kompatibles Skills-Framework zur autonomen agentenbasierten Google Workspace-Orchestrierung in Python",
       "tag": "KI-Agenten",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
-      "description": "Nutzung von OpenClaw und Python zur Automatisierung von Workflows und zur autonomen Integration der Google Workspace-Orchestrierung."
+      "description": "Nutzung von OpenClaw und Python zur Automatisierung von Workflows und zur autonomen Integration der Google Workspace-Orchestrierung.",
+      "icon": "fa-solid fa-gears"
     },
     {
       "title": "Aufbau einer Plattform für fraktionierte Immobilien-NFTs: Ein praktisches Tutorial zur Tokenisierung auf Ethereum mit Solidity und Next.js",
       "tag": "Tokenisierung",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
-      "description": "Schritt-für-Schritt-Tutorial zur Fraktionierung und Tokenisierung von Immobilien unter Verwendung von Solidity und Next.js auf dem Ethereum-Netzwerk."
+      "description": "Schritt-für-Schritt-Tutorial zur Fraktionierung und Tokenisierung von Immobilien unter Verwendung von Solidity und Next.js auf dem Ethereum-Netzwerk.",
+      "icon": "fa-solid fa-building"
     },
     {
       "title": "Ein praktischer Leitfaden zu RWA-Token auf Ethereum: Solidity, Hardhat, OpenZeppelin und Next.js Dashboard",
       "tag": "RWA",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
-      "description": "Praktische Implementierung von Real-World-Asset-Token mit Hardhat, OpenZeppelin-Bibliotheken und einer Next.js-Benutzeroberfläche."
+      "description": "Praktische Implementierung von Real-World-Asset-Token mit Hardhat, OpenZeppelin-Bibliotheken und einer Next.js-Benutzeroberfläche.",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "Bauen Sie Ihren eigenen OpenClaw-inspirierten Telegram-Bot: Integration des OpenCode SDK mit OpenRouter-Modell-Agenten",
       "tag": "KI-Agenten",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
-      "description": "Leitfaden zur Integration des OpenCode SDK mit OpenRouter-Agenten und zum Aufbau eines intelligenten und autonomen Telegram-Bots."
+      "description": "Leitfaden zur Integration des OpenCode SDK mit OpenRouter-Agenten und zum Aufbau eines intelligenten und autonomen Telegram-Bots.",
+      "icon": "fa-brands fa-telegram"
     },
     {
       "title": "Ethereum-Kryptographie verständlich gemacht: Eine Reise von digitalen Signaturen zu Smart Contracts mit Codebeispielen",
       "tag": "Kryptographie",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
-      "description": "Detaillierte Erklärung der grundlegenden kryptographischen Konzepte von Ethereum, von digitalen ECDSA-Signaturen bis hin zu Verträgen."
+      "description": "Detaillierte Erklärung der grundlegenden kryptographischen Konzepte von Ethereum, von digitalen ECDSA-Signaturen bis hin zu Verträgen.",
+      "icon": "fa-solid fa-key"
     },
     {
       "title": "Dekonstruktion von Karpathys Autoresearch: Ein Line-by-Line-Leitfaden für autonomes KI-Training mit praktischen Beispielen",
       "tag": "KI-Agenten",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
-      "description": "Analyse und Schritt-für-Schritt-Anleitung zum Verstehen und Replizieren des von Andrej Karpathy entworfenen autonomen KI-Trainings-Flows."
+      "description": "Analyse und Schritt-für-Schritt-Anleitung zum Verstehen und Replizieren des von Andrej Karpathy entworfenen autonomen KI-Trainings-Flows.",
+      "icon": "fa-solid fa-brain"
     },
     {
       "title": "DEX- und AMM-Grundlagen: Einführung in dezentrale Börsen und automatisiertes Market Making auf Ethereum",
       "tag": "DeFi",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
-      "description": "Theoretische und praktische Einführung in dezentrale Börsen und automatisierte Market Maker in DeFi."
+      "description": "Theoretische und praktische Einführung in dezentrale Börsen und automatisierte Market Maker in DeFi.",
+      "icon": "fa-solid fa-right-left"
     },
     {
       "title": "Grundlagen der OpenCode-Agenten: Erstellung, Konfiguration und Bereitstellung benutzerdefinierter Agenten und Workflows",
       "tag": "KI-Agenten",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
-      "description": "Konfiguration, Entwicklung und Bereitstellung autonomer Workflows und intelligenter Agenten mit OpenCode."
+      "description": "Konfiguration, Entwicklung und Bereitstellung autonomer Workflows und intelligenter Agenten mit OpenCode.",
+      "icon": "fa-solid fa-robot"
     },
     {
       "title": "Bauen Sie Ihre erste DeFi-Staking-Dapp auf Ethereum: Ein praktischer Leitfaden unter Nutzung des OpenZeppelin ERC-4626-Standards mit Next.js",
       "tag": "DeFi / ERC-4626",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
-      "description": "Entwicklungsleitfaden zur Erstellung einer dezentralen Staking-Anwendung unter Verwendung des tokenisierten ERC-4626-Tresorstandards."
+      "description": "Entwicklungsleitfaden zur Erstellung einer dezentralen Staking-Anwendung unter Verwendung des tokenisierten ERC-4626-Tresorstandards.",
+      "icon": "fa-solid fa-vault"
     },
     {
       "title": "Tokenisierung entschlüsselt: Der komplette nicht-technische Leitfaden zur Asset-Tokenisierung auf Ethereum mit Solidity",
       "tag": "Tokenisierung",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
-      "description": "Grundlegende Konzepte und Vorteile der Tokenisierung von realen Vermögenswerten (Real World Assets) auf der Blockchain für ein nicht-technisches Publikum."
+      "description": "Grundlegende Konzepte und Vorteile der Tokenisierung von realen Vermögenswerten (Real World Assets) auf der Blockchain für ein nicht-technisches Publikum.",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "Aufbau einer Dezentralen Autonomen Organisation: Ein kompletter praktischer Leitfaden zur DAO-Governance",
       "tag": "DAO",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
-      "description": "Tutorial zum Entwerfen, Programmieren und Bereitstellen einer transparenten und sicheren DAO-Governance auf Ethereum."
+      "description": "Tutorial zum Entwerfen, Programmieren und Bereitstellen einer transparenten und sicheren DAO-Governance auf Ethereum.",
+      "icon": "fa-solid fa-users"
     },
     {
       "title": "Vibe2Wizard Avalanche Hackathon Update: Projekt-Repository und Verträge unter der Haube",
       "tag": "Hackathons",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
-      "description": "Technische Details, Quellcode und Smart Contracts hinter der spielerischen Lernplattform, die für den Avalanche-Hackathon erstellt wurde."
+      "description": "Technische Details, Quellcode und Smart Contracts hinter der spielerischen Lernplattform, die für den Avalanche-Hackathon erstellt wurde.",
+      "icon": "fa-solid fa-trophy"
     },
     {
       "title": "Meine technische Reise in LM Studio: Schlüsselfragen für die lokale Ausführung von KI-Modellen",
       "tag": "Lokale KI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
-      "description": "Wichtige Erfahrungen und Konfigurationen für die effiziente und lokale Ausführung von Large Language Models (LLMs)."
+      "description": "Wichtige Erfahrungen und Konfigurationen für die effiziente und lokale Ausführung von Large Language Models (LLMs).",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
       "title": "Solidity an Beispielen: Ein umfassender Leitfaden mit produktionsreifem Code für Smart Contracts",
       "tag": "Solidity",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
-      "description": "Repository und Erklärungen mit produktionsreifem Code zum Erlernen von Entwurfsmustern und Best Practices in Solidity."
+      "description": "Repository und Erklärungen mit produktionsreifem Code zum Erlernen von Entwurfsmustern und Best Practices in Solidity.",
+      "icon": "fa-solid fa-file-contract"
     },
     {
       "title": "Hardhat-Grundlagen: Ein nicht-technischer Einführungsleitfaden zur sicheren Erstellung von Solidity-Smart-Contracts",
       "tag": "Web3-Tools",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
-      "description": "Schritt-für-Schritt-Leitfaden zur Einrichtung der Hardhat-Entwicklungsumgebung zum Kompilieren, Testen und Bereitstellen von Smart Contracts."
+      "description": "Schritt-für-Schritt-Leitfaden zur Einrichtung der Hardhat-Entwicklungsumgebung zum Kompilieren, Testen und Bereitstellen von Smart Contracts.",
+      "icon": "fa-solid fa-screwdriver-wrench"
     },
     {
       "title": "Erstellung Ihres eigenen Web-KI-Assistenten: Eine komplette praktische Integration von CodeIgniter4, Next.js und OpenRouter",
       "tag": "Full Stack / KI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
-      "description": "Backend-Integration mit CodeIgniter4 und interaktivem Next.js-Frontend, das OpenRouter-Modelle nutzt."
+      "description": "Backend-Integration mit CodeIgniter4 und interaktivem Next.js-Frontend, das OpenRouter-Modelle nutzt.",
+      "icon": "fa-solid fa-wand-magic-sparkles"
     },
     {
       "title": "Das vollständige Handbuch zu Ethereum Improvement Proposals (EIPs und ERCs)",
       "tag": "Web3-Standards",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
-      "description": "Umfassender Leitfaden zum Verständnis des Standardisierungsprozesses in Ethereum und der wichtigsten ERC-Standards."
+      "description": "Umfassender Leitfaden zum Verständnis des Standardisierungsprozesses in Ethereum und der wichtigsten ERC-Standards.",
+      "icon": "fa-solid fa-file-lines"
     },
     {
       "title": "Vibe2Wizard: Vom Vibe-Coder zum Onchain-Magier auf der spielerischen Web3-Lernplattform",
       "tag": "Web3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
-      "description": "Details zum gamifizierten Web3-Lernprojekt und die schnelle Entwicklungserfahrung auf Avalanche."
+      "description": "Details zum gamifizierten Web3-Lernprojekt und die schnelle Entwicklungserfahrung auf Avalanche.",
+      "icon": "fa-solid fa-hat-wizard"
     },
     {
       "title": "Verständnis der Kernarchitektur von KI-Agenten-Skills",
       "tag": "KI-Agenten",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
-      "description": "Strukturanalyse, wie KI-Agenten externe Tools aufrufen und ausführen, um ihre Fähigkeiten zu erweitern."
+      "description": "Strukturanalyse, wie KI-Agenten externe Tools aufrufen und ausführen, um ihre Fähigkeiten zu erweitern.",
+      "icon": "fa-solid fa-puzzle-piece"
     },
     {
       "title": "Agile API-Entwicklung: Aufbau der LaunchPad-API mit CodeIgniter4 in Tagen (nicht Monaten)",
       "tag": "APIs / Backend",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
-      "description": "Wie man schnell eine funktionale und sichere API mit CodeIgniter4 unter Einhaltung von Best Practices in der Backend-Entwicklung erstellt."
+      "description": "Wie man schnell eine funktionale und sichere API mit CodeIgniter4 unter Einhaltung von Best Practices in der Backend-Entwicklung erstellt.",
+      "icon": "fa-solid fa-server"
     }
   ],
   "projects": {

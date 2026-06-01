@@ -9,6 +9,7 @@ interface SliderItem {
   tag: string;
   link: string;
   description?: string;
+  icon?: string;
 }
 
 interface SliderProps {
@@ -91,9 +92,10 @@ export default function Slider({ items }: SliderProps) {
                       href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:opacity-80 transition-opacity"
+                      className="size-8 rounded-lg bg-primary/10 border border-primary/20 hover:bg-primary/20 flex items-center justify-center text-primary cursor-pointer transition-colors"
+                      aria-label="Article Link"
                     >
-                      <i className="fa-brands fa-linkedin text-2xl text-[#0a66c2]"></i>
+                      <i className={`${item.icon || "fa-solid fa-newspaper"} text-xs`}></i>
                     </Link>
                   </div>
                   <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground leading-snug">

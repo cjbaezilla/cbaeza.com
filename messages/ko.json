@@ -22,127 +22,148 @@
       "title": "Slither, Solhint 및 Mythril: 의미론적 분석 감사 도구를 활용한 스마트 계약 필수 보안",
       "tag": "보안",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
-      "description": "Solidity 스마트 계약의 취약점을 식별하고 보안을 개선하기 위한 정적 코드 분석 및 자동화 감사."
+      "description": "Solidity 스마트 계약의 취약점을 식별하고 보안을 개선하기 위한 정적 코드 분석 및 자동화 감사.",
+      "icon": "fa-solid fa-shield-halved"
     },
     {
       "title": "자동화 기초: Python 기반 자율 에이전트 구글 워크스페이스 오케스트레이션을 위한 OpenClaw 호환 스킬 프레임워크",
       "tag": "AI 에이전트",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
-      "description": "OpenClaw 및 Python을 사용하여 워크플로우를 자동화하고 구글 워크스페이스 오케스트레이션을 자율적으로 통합합니다."
+      "description": "OpenClaw 및 Python을 사용하여 워크플로우를 자동화하고 구글 워크스페이스 오케스트레이션을 자율적으로 통합합니다.",
+      "icon": "fa-solid fa-gears"
     },
     {
       "title": "조각 부동산 NFT 플랫폼 구축: Solidity 및 Next.js를 활용한 이더리움 토큰화 실습 튜토리얼",
       "tag": "토큰화",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
-      "description": "이더리움 네트워크에서 Solidity와 Next.js를 사용하여 부동산 자산을 분할 및 토큰화하는 단계별 튜토리얼."
+      "description": "이더리움 네트워크에서 Solidity와 Next.js를 사용하여 부동산 자산을 분할 및 토큰화하는 단계별 튜토리얼.",
+      "icon": "fa-solid fa-building"
     },
     {
       "title": "이더리움 RWA 토큰 실습 가이드: Solidity, Hardhat, OpenZeppelin 및 Next.js 대시보드",
       "tag": "RWA",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
-      "description": "Hardhat, OpenZeppelin 라이브러리 및 Next.js 인터페이스를 사용한 실물 자산(RWA) 토큰의 실질적 구현."
+      "description": "Hardhat, OpenZeppelin 라이브러리 및 Next.js 인터페이스를 사용한 실물 자산(RWA) 토큰의 실질적 구현.",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "나만의 OpenClaw 영감 텔레그램 봇 구축: OpenCode SDK와 OpenRouter 모델 에이전트 통합",
       "tag": "AI 에이전트",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
-      "description": "OpenCode SDK를 OpenRouter 에이전트와 통합하여 똑똑하고 자율적인 텔레그램 봇을 구축하는 가이드."
+      "description": "OpenCode SDK를 OpenRouter 에이전트와 통합하여 똑똑하고 자율적인 텔레그램 봇을 구축하는 가이드.",
+      "icon": "fa-brands fa-telegram"
     },
     {
       "title": "이더리움 암호학의 비밀을 풀다: 코드 예제와 함께 디지털 서명부터 스마트 계약까지의 여정",
       "tag": "암호학",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
-      "description": "ECDSA 디지털 서명부터 계약에 이르기까지 이더리움의 기본 암호학 개념에 대한 상세한 설명."
+      "description": "ECDSA 디지털 서명부터 계약에 이르기까지 이더리움의 기본 암호학 개념에 대한 상세한 설명.",
+      "icon": "fa-solid fa-key"
     },
     {
       "title": "Karpathy의 Autoresearch 해체: 실질적 예제와 함께 자율 AI 학습을 위한 라인별 가이드",
       "tag": "AI 에이전트",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
-      "description": "Andrej Karpathy가 설계한 자율 AI 학습 흐름을 이해하고 재현하기 위한 분석 및 단계별 가이드."
+      "description": "Andrej Karpathy가 설계한 자율 AI 학습 흐름을 이해하고 재현하기 위한 분석 및 단계별 가이드.",
+      "icon": "fa-solid fa-brain"
     },
     {
       "title": "DEX 및 AMM 기초: 이더리움 기반 탈중앙화 거래소 및 자동화 시장 조성 소개",
       "tag": "DeFi",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
-      "description": "DeFi 내 탈중앙화 거래소 및 자동화 시장 조성자에 대한 이론 및 실습 소개."
+      "description": "DeFi 내 탈중앙화 거래소 및 자동화 시장 조성자에 대한 이론 및 실습 소개.",
+      "icon": "fa-solid fa-right-left"
     },
     {
       "title": "OpenCode 에이전트 기초: 맞춤형 에이전트 및 워크플로우 생성, 구성 및 배포",
       "tag": "AI 에이전트",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
-      "description": "OpenCode를 사용한 자율 워크플로우 및 스마트 에이전트의 구성, 개발 및 배포."
+      "description": "OpenCode를 사용한 자율 워크플로우 및 스마트 에이전트의 구성, 개발 및 배포.",
+      "icon": "fa-solid fa-robot"
     },
     {
       "title": "이더리움 기반 첫 DeFi 스테이킹 디앱 구축: Next.js와 OpenZeppelin의 ERC-4626 표준을 활용한 실습 가이드",
       "tag": "DeFi / ERC-4626",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
-      "description": "ERC-4626 토큰화 금고 표준을 사용하여 탈중앙화 스테이킹 애플리케이션을 제작하는 개발 가이드."
+      "description": "ERC-4626 토큰화 금고 표준을 사용하여 탈중앙화 스테이킹 애플리케이션을 제작하는 개발 가이드.",
+      "icon": "fa-solid fa-vault"
     },
     {
       "title": "토큰화 해독: Solidity를 활용한 이더리움 자산 토큰화 비기술자용 종합 가이드",
       "tag": "토큰화",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
-      "description": "비기술자 청중을 위한 블록체인 기반 실물 자산 토큰화의 기본 개념과 이점."
+      "description": "비기술자 청중을 위한 블록체인 기반 실물 자산 토큰화의 기본 개념과 이점.",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "탈중앙화 자율 조직 구축: DAO 거버넌스 실습 종합 가이드",
       "tag": "DAO",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
-      "description": "이더리움에서 투명하고 안전한 DAO 거버넌스를 설계, 프로그래밍 및 배포하는 튜토리얼."
+      "description": "이더리움에서 투명하고 안전한 DAO 거버넌스를 설계, 프로그래밍 및 배포하는 튜토리얼.",
+      "icon": "fa-solid fa-users"
     },
     {
       "title": "Vibe2Wizard 아발란체 해커톤 업데이트: 프로젝트 저장소 및 스마트 계약 심층 분석",
       "tag": "해커톤",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
-      "description": "아발란체 해커톤을 위해 생성된 게임화 플랫폼 배후의 기술적 세부 정보, 소스 코드 및 스마트 계약."
+      "description": "아발란체 해커톤을 위해 생성된 게임화 플랫폼 배후의 기술적 세부 정보, 소스 코드 및 스마트 계약.",
+      "icon": "fa-solid fa-trophy"
     },
     {
       "title": "LM Studio에서의 나의 기술적 여정: 로컬 AI 모델 실행을 위한 핵심 질문들",
       "tag": "로컬 AI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
-      "description": "대규모 언어 모델(LLM)의 효율적인 로컬 실행을 위한 핵심 경험 및 구성."
+      "description": "대규모 언어 모델(LLM)의 효율적인 로컬 실행을 위한 핵심 경험 및 구성.",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
       "title": "예제로 배우는 Solidity: 스마트 계약을 위한 프로덕션 품질 코드가 포함된 종합 가이드",
       "tag": "Solidity",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
-      "description": "Solidity의 패턴 and 모범 사례를 학습하기 위한 프로덕션 등급 코드가 포함된 저장소 및 설명."
+      "description": "Solidity의 패턴 and 모범 사례를 학습하기 위한 프로덕션 등급 코드가 포함된 저장소 및 설명.",
+      "icon": "fa-solid fa-file-contract"
     },
     {
       "title": "Hardhat 필수 가이드: 자신 있게 Solidity 스마트 계약을 구축하기 위한 비기술자용 입문서",
       "tag": "Web3 도구",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
-      "description": "스마트 계약을 컴파일, 테스트 및 배포하기 위한 Hardhat 개발 환경 설정의 단계별 가이드."
+      "description": "스마트 계약을 컴파일, 테스트 및 배포하기 위한 Hardhat 개발 환경 설정의 단계별 가이드.",
+      "icon": "fa-solid fa-screwdriver-wrench"
     },
     {
       "title": "나만의 웹 AI 비서 구축: CodeIgniter4, Next.js 및 OpenRouter의 완전한 실습 통합",
       "tag": "풀스택 / AI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
-      "description": "OpenRouter 모델을 사용한 양방향 Next.js 프론트엔드와 CodeIgniter4 백엔드 통합."
+      "description": "OpenRouter 모델을 사용한 양방향 Next.js 프론트엔드와 CodeIgniter4 백엔드 통합.",
+      "icon": "fa-solid fa-wand-magic-sparkles"
     },
     {
       "title": "이더리움 개선 제안(EIP 및 ERC) 종합 핸드북",
       "tag": "Web3 표준",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
-      "description": "이더리움의 표준화 프로세스 및 주요 ERC 표준을 이해하기 위한 포괄적인 가이드."
+      "description": "이더리움의 표준화 프로세스 및 주요 ERC 표준을 이해하기 위한 포괄적인 가이드.",
+      "icon": "fa-solid fa-file-lines"
     },
     {
       "title": "Vibe2Wizard: 게임화된 Web3 학습 플랫폼에서 바이브 코더에서 온체인 마법사로",
       "tag": "Web3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
-      "description": "게임화된 Web3 학습 프로젝트에 대한 정보 및 아발란체에서의 빠른 개발 경험."
+      "description": "게임화된 Web3 학습 프로젝트에 대한 정보 및 아발란체에서의 빠른 개발 경험.",
+      "icon": "fa-solid fa-hat-wizard"
     },
     {
       "title": "AI 에이전트 스킬의 핵심 아키텍처 이해",
       "tag": "AI 에이전트",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
-      "description": "AI 에이전트가 외부 도구를 호출하고 실행하여 기능을 확장하는 구조적 분석."
+      "description": "AI 에이전트가 외부 도구를 호출하고 실행하여 기능을 확장하는 구조적 분석.",
+      "icon": "fa-solid fa-puzzle-piece"
     },
     {
       "title": "애자일 API 개발: CodeIgniter4로 단 며칠 만에 LaunchPad API 구축하기",
       "tag": "API / 백엔드",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
-      "description": "백엔드 개발 모범 사례에 따라 CodeIgniter4로 기능적이고 안전한 API를 빠르게 구축하는 방법."
+      "description": "백엔드 개발 모범 사례에 따라 CodeIgniter4로 기능적이고 안전한 API를 빠르게 구축하는 방법.",
+      "icon": "fa-solid fa-server"
     }
   ],
   "projects": {

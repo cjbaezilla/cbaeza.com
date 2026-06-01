@@ -22,127 +22,148 @@
       "title": "Slither, Solhint & Mythril: セマンティック解析監査ツールを用いたスマートコントラクトの本質的セキュリティ",
       "tag": "セキュリティ",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
-      "description": "Solidityスマートコントラクトにおける脆弱性の特定とセキュリティ向上のための、静的コード解析と自動監査。"
+      "description": "Solidityスマートコントラクトにおける脆弱性の特定とセキュリティ向上のための、静的コード解析と自動監査。",
+      "icon": "fa-solid fa-shield-halved"
     },
     {
       "title": "自動化の基盤: Pythonを用いた自律的なAIエージェントによるGoogle Workspace統合のためのOpenClaw互換スキルフレームワーク",
       "tag": "AIエージェント",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
-      "description": "OpenClawとPythonを使用してワークフローを自動化し、Google Workspaceの管理・操作を自律的に統合。"
+      "description": "OpenClawとPythonを使用してワークフローを自動化し、Google Workspaceの管理・操作を自律的に統合。",
+      "icon": "fa-solid fa-gears"
     },
     {
       "title": "不動産の小口化NFTプラットフォームの構築: SolidityとNext.jsを使用したEthereum上でのトークン化実践チュートリアル",
       "tag": "トークン化",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
-      "description": "SolidityとNext.jsを使い、Ethereumネットワーク上で不動産プロパティを小口化・トークン化するための段階的チュートリアル。"
+      "description": "SolidityとNext.jsを使い、Ethereumネットワーク上で不動産プロパティを小口化・トークン化するための段階的チュートリアル。",
+      "icon": "fa-solid fa-building"
     },
     {
       "title": "Ethereum上のRWAトークン実践ガイド: Solidity、Hardhat、OpenZeppelin、およびNext.jsダッシュボード",
       "tag": "RWA",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
-      "description": "Hardhat、OpenZeppelinライブラリ、およびNext.jsインターフェースを使用した、現実世界資産（RWA）トークンの具体的な実装。"
+      "description": "Hardhat、OpenZeppelinライブラリ、およびNext.jsインターフェースを使用した、現実世界資産（RWA）トークンの具体的な実装。",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "独自のOpenClaw風Telegramボットの構築: OpenCode SDKとOpenRouterモデルエージェントの統合",
       "tag": "AIエージェント",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
-      "description": "OpenCode SDKをOpenRouterエージェントと統合し、インテリジェントで自律的なTelegramボットを構築するガイド。"
+      "description": "OpenCode SDKをOpenRouterエージェントと統合し、インテリジェントで自律的なTelegramボットを構築するガイド。",
+      "icon": "fa-brands fa-telegram"
     },
     {
       "title": "Ethereum暗号技術の解明: デジタル署名からスマートコントラクトまでの道のりとコード例",
       "tag": "暗号技術",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
-      "description": "ECDSAデジタル署名からスマートコントラクトに至るまで、Ethereumの基本的な暗号概念を詳細に解説。"
+      "description": "ECDSAデジタル署名からスマートコントラクトに至るまで、Ethereumの基本的な暗号概念を詳細に解説。",
+      "icon": "fa-solid fa-key"
     },
     {
       "title": "KarpathyのAutoresearchを解剖する: 実践例を交えた自律型AIトレーニングの1行ずつ解説するガイド",
       "tag": "AIエージェント",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
-      "description": "Andrej Karpathyが設計した自律型AIトレーニングフローを理解し、再現するための分析と段階的ガイド。"
+      "description": "Andrej Karpathyが設計した自律型AIトレーニングフローを理解し、再現するための分析と段階的ガイド。",
+      "icon": "fa-solid fa-brain"
     },
     {
       "title": "DEXとAMMの基礎: Ethereumにおける分散型取引所と自動マーケットメイク入門",
       "tag": "DeFi",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
-      "description": "DeFiにおける分散型取引所（DEX）と自動マーケットメーカー（AMM）の理論的および実践的な入門解説。"
+      "description": "DeFiにおける分散型取引所（DEX）と自動マーケットメーカー（AMM）の理論的および実践的な入門解説。",
+      "icon": "fa-solid fa-right-left"
     },
     {
       "title": "OpenCodeエージェントの基礎: カスタムエージェントとワークフローの作成、設定、およびデプロイ",
       "tag": "AIエージェント",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
-      "description": "OpenCodeを使用した、自律的なワークフローとスマートエージェントの設定、開発、およびデプロイ。"
+      "description": "OpenCodeを使用した、自律的なワークフローとスマートエージェントの設定、開発、およびデプロイ。",
+      "icon": "fa-solid fa-robot"
     },
     {
       "title": "Ethereum上で最初のDeFiステーキングDappを構築する: OpenZeppelinのERC-4626規格とNext.jsを活用した実践ガイド",
       "tag": "DeFi / ERC-4626",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
-      "description": "ERC-4626トークン化型ボルト規格を使用して、分散型ステーキングアプリケーションを作成するための開発ガイド。"
+      "description": "ERC-4626トークン化型ボルト規格を使用して、分散型ステーキングアプリケーションを作成するための開発ガイド。",
+      "icon": "fa-solid fa-vault"
     },
     {
       "title": "トークン化の解読: Solidityを用いたEthereum上での資産トークン化に関する完全な非技術者向けガイド",
       "tag": "トークン化",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
-      "description": "非技術的な読者を対象とした、ブロックチェーン上での現実世界資産（RWA）トークン化の基本概念とメリット。"
+      "description": "非技術的な読者を対象とした、ブロックチェーン上での現実世界資産（RWA）トークン化の基本概念とメリット。",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "分散型自律組織（DAO）の構築: DAOガバナンスへの完全な実践ガイド",
       "tag": "DAO",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
-      "description": "Ethereum上で透明かつ安全なDAOガバナンスを設計、プログラミング、およびデプロイするためのチュートリアル。"
+      "description": "Ethereum上で透明かつ安全なDAOガバナンスを設計、プログラミング、およびデプロイするためのチュートリアル。",
+      "icon": "fa-solid fa-users"
     },
     {
       "title": "Vibe2Wizard Avalancheハッカソンアップデート: プロジェクトリポジトリとスマートコントラクトの内部構造",
       "tag": "ハッカソン",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
-      "description": "Avalancheハッカソン向けに作成されたゲーム化学習プラットフォームの技術的詳細、ソースコード、およびスマートコントラクト。"
+      "description": "Avalancheハッカソン向けに作成されたゲーム化学習プラットフォームの技術的詳細、ソースコード、およびスマートコントラクト。",
+      "icon": "fa-solid fa-trophy"
     },
     {
       "title": "LM Studioでの技術的な道のり: ローカルでAIモデルを実行するための重要なポイント",
       "tag": "ローカルAI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
-      "description": "大規模言語モデル（LLM）をローカルで効率的に実行するための重要な経験と設定。"
+      "description": "大規模言語モデル（LLM）をローカルで効率的に実行するための重要な経験と設定。",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
       "title": "実践 Solidity: スマートコントラクト向けプロダクション品質のコードを含む包括的ガイド",
       "tag": "Solidity",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
-      "description": "Solidityにおけるデザインパターンとベストプラクティスを学ぶための、本番グレードのコードを含むリポジトリと解説。"
+      "description": "Solidityにおけるデザインパターンとベストプラクティスを学ぶための、本番グレードのコードを含むリポジトリと解説。",
+      "icon": "fa-solid fa-file-contract"
     },
     {
       "title": "Hardhatの要点: 自信を持ってSolidityスマートコントラクトを構築するための非技術的入門ガイド",
       "tag": "Web3ツール",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
-      "description": "スマートコントラクトをコンパイル、テスト、およびデプロイするためのHardhat開発環境のセットアップ手順。"
+      "description": "スマートコントラクトをコンパイル、テスト、およびデプロイするためのHardhat開発環境のセットアップ手順。",
+      "icon": "fa-solid fa-screwdriver-wrench"
     },
     {
       "title": "独自のWeb AIアシスタントの構築: CodeIgniter4、Next.js、およびOpenRouter의完全な実践統合",
       "tag": "フルスタック / AI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
-      "description": "CodeIgniter4を使用したバックエンド統合と、OpenRouterモデルを呼び出すインタラクティブなNext.jsフロントエンド。"
+      "description": "CodeIgniter4を使用したバックエンド統合と、OpenRouterモデルを呼び出すインタラクティブなNext.jsフロントエンド。",
+      "icon": "fa-solid fa-wand-magic-sparkles"
     },
     {
       "title": "Ethereum改善提案（EIPおよびERC）の完全ハンドブック",
       "tag": "Web3規格",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
-      "description": "Ethereumの標準化プロセスと主要なERC規格を理解するための包括的なガイド。"
+      "description": "Ethereumの標準化プロセスと主要なERC規格を理解するための包括的なガイド。",
+      "icon": "fa-solid fa-file-lines"
     },
     {
       "title": "Vibe2Wizard: ゲーム化Web3学習プラットフォームでVibeコーダーからオンチェーンウィザードへ",
       "tag": "Web3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
-      "description": "ゲーム化されたWeb3学習プロジェクトの詳細と、Avalanche上での迅速な開発体験。"
+      "description": "ゲーム化されたWeb3学習プロジェクトの詳細と、Avalanche上での迅速な開発体験。",
+      "icon": "fa-solid fa-hat-wizard"
     },
     {
       "title": "AIエージェントスキルのコアアーキテクチャを理解する",
       "tag": "AIエージェント",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
-      "description": "AIエージェントがその機能を拡張するために外部ツールを呼び出し、実行する構造の分析。"
+      "description": "AIエージェントがその機能を拡張するために外部ツールを呼び出し、実行する構造の分析。",
+      "icon": "fa-solid fa-puzzle-piece"
     },
     {
       "title": "アジャイルAPI開発: 数ヶ月ではなく数日でCodeIgniter4を使用したLaunchPad APIの構築",
       "tag": "APIs / バックエンド",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
-      "description": "バックエンド開発のベストプラクティスに従い、CodeIgniter4を使用して機能的で安全なAPIを迅速に構築する方法。"
+      "description": "バックエンド開発のベストプラクティスに従い、CodeIgniter4を使用して機能的で安全なAPIを迅速に構築する方法。",
+      "icon": "fa-solid fa-server"
     }
   ],
   "projects": {

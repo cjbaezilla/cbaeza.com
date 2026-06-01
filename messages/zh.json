@@ -22,127 +22,148 @@
       "title": "Slither, Solhint & Mythril: 使用语义分析审计工具保障智能合约本质安全",
       "tag": "安全",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-slither-solhint-activity-7444810116953952257-nV5D",
-      "description": "使用静态代码分析和自动审计来识别漏洞并提高 Solidity 智能合约的安全性。"
+      "description": "使用静态代码分析和自动审计来识别漏洞并提高 Solidity 智能合约的安全性。",
+      "icon": "fa-solid fa-shield-halved"
     },
     {
       "title": "自动化基石：基于 Python 的自主代理 Google Workspace 编排的 OpenClaw 兼容技能框架",
       "tag": "AI 代理",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7442938284940464128-fxuB",
-      "description": "使用 OpenClaw 和 Python 来自动化工作流程并自主集成 Google Workspace 编排。"
+      "description": "使用 OpenClaw 和 Python 来自动化工作流程并自主集成 Google Workspace 编排。",
+      "icon": "fa-solid fa-gears"
     },
     {
       "title": "构建碎片化房地产 NFT 平台：使用 Solidity 和 Next.js 在以太坊上代币化的实战教程",
       "tag": "代币化",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_realestatetokenization-blockchain-solidity-activity-7442228854833741825-Z5T9",
-      "description": "关于在以太坊网络上使用 Solidity 和 Next.js 对房地产进行分拆和代币化的分步教程。"
+      "description": "关于在以太坊网络上使用 Solidity 和 Next.js 对房地产进行分拆和代币化的分步教程。",
+      "icon": "fa-solid fa-building"
     },
     {
       "title": "以太坊 RWA 代币实战指南：Solidity、Hardhat、OpenZeppelin 和 Next.js 控制面板",
       "tag": "RWA",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_rwa-tokenization-solidity-activity-7441482335184773120-seSB",
-      "description": "使用 Hardhat、OpenZeppelin 库和 Next.js 接口的真实世界资产代币的实际实现。"
+      "description": "使用 Hardhat、OpenZeppelin 库和 Next.js 接口的真实世界资产代币的实际实现。",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "构建您自己的类 OpenClaw 智能 Telegram 机器人：OpenCode SDK 与 OpenRouter 模型代理的集成",
       "tag": "AI 代理",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_opencode-telegrambot-ai-activity-7440754776168062976-OHo1",
-      "description": "将 OpenCode SDK 与 OpenRouter 代理集成并构建智能且自主的 Telegram 机器人的指南。"
+      "description": "将 OpenCode SDK 与 OpenRouter 代理集成并构建智能且自主的 Telegram 机器人的指南。",
+      "icon": "fa-brands fa-telegram"
     },
     {
       "title": "以太坊密码学揭秘：从数字签名 to 智能合约的旅程及代码示例",
       "tag": "密码学",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-cryptography-web3-activity-7440081392912474112-9HWp",
-      "description": "对以太坊基本密码学概念的详细解释，从 ECDSA 数字签名到智能合约。"
+      "description": "对以太坊基本密码学概念的详细解释，从 ECDSA 数字签名到智能合约。",
+      "icon": "fa-solid fa-key"
     },
     {
       "title": "解构 Karpathy 的 Autoresearch：自主 AI 训练逐行指南与实用示例",
       "tag": "AI 代理",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_airesearch-autoresearch-karpathy-activity-7439700812118941698-fLB_",
-      "description": "分析并逐步指导理解和复制 Andrej Karpathy 设计的自主 AI 训练流程。"
+      "description": "分析并逐步指导理解和复制 Andrej Karpathy 设计的自主 AI 训练流程。",
+      "icon": "fa-solid fa-brain"
     },
     {
       "title": "DEX 和 AMM 基石：以太坊去中心化交易所和自动做市商介绍",
       "tag": "DeFi",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_decentralizedfinance-defi-dex-activity-7439413858135351296-S3Dp",
-      "description": "DeFi 中去中心化交易所和自动做市商的理论与实践介绍。"
+      "description": "DeFi 中去中心化交易所和自动做市商的理论与实践介绍。",
+      "icon": "fa-solid fa-right-left"
     },
     {
       "title": "OpenCode 代理基础：创建、配置和部署自定义代理与工作流",
       "tag": "AI 代理",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-machinelearning-activity-7438915933835886592-BB1F",
-      "description": "使用 OpenCode 配置、开发和部署自主工作流和智能代理。"
+      "description": "使用 OpenCode 配置、开发和部署自主工作流和智能代理。",
+      "icon": "fa-solid fa-robot"
     },
     {
       "title": "在以太坊上构建您的第一个 DeFi 质押 Dapp：利用 OpenZeppelin 的 ERC-4626 标准与 Next.js 的实战指南",
       "tag": "DeFi / ERC-4626",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_staking-erc4626-erc20-activity-7438194156272959488-LK9B",
-      "description": "使用 ERC-4626 代币化金库标准开发去中心化质押应用程序的开发指南。"
+      "description": "使用 ERC-4626 代币化金库标准开发去中心化质押应用程序的开发指南。",
+      "icon": "fa-solid fa-vault"
     },
     {
       "title": "代币化解码：使用 Solidity 在以太坊上进行资产代币化的完整非技术指南",
       "tag": "代币化",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_tokenization-assettokenization-realworldassets-activity-7437863595197181954-7QF2",
-      "description": "为非技术受众介绍区块链上真实世界资产代币化的基本概念和优势。"
+      "description": "为非技术受众介绍区块链上真实世界资产代币化的基本概念和优势。",
+      "icon": "fa-solid fa-coins"
     },
     {
       "title": "构建去中心化自治组织：DAO 治理的完整实战指南",
       "tag": "DAO",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dao-web3-ethereum-activity-7437461284335509504-b4AJ",
-      "description": "在以太坊上设计、编程和部署透明且安全的 DAO 治理的教程。"
+      "description": "在以太坊上设计、编程和部署透明且安全的 DAO 治理的教程。",
+      "icon": "fa-solid fa-users"
     },
     {
       "title": "Vibe2Wizard Avalanche 黑客松更新：项目仓库和底层合约剖析",
       "tag": "黑客松",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
-      "description": "为 Avalanche 黑客松创建的游戏化平台背后的技术细节、源代码和智能合约。"
+      "description": "为 Avalanche 黑客松创建的游戏化平台背后的技术细节、源代码和智能合约。",
+      "icon": "fa-solid fa-trophy"
     },
     {
       "title": "我在 LM Studio 的技术之旅：在本地运行 AI 模型的核心问题",
       "tag": "本地 AI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-localai-lmstudio-activity-7436866136744316930-9C03",
-      "description": "高效、本地执行大型语言模型（LLM）的关键经验和配置。"
+      "description": "高效、本地执行大型语言模型（LLM）的关键经验和配置。",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
       "title": "Solidity 实例教程：含生产级代码的智能合约全面指南",
       "tag": "Solidity",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_solidity-ethereum-smartcontracts-activity-7435290571696562176-Dx_E",
-      "description": "包含生产级代码的仓库和解释，用于学习 Solidity 中的设计模式和最佳实践。"
+      "description": "包含生产级代码的仓库和解释，用于学习 Solidity 中的设计模式和最佳实践。",
+      "icon": "fa-solid fa-file-contract"
     },
     {
       "title": "Hardhat 精要：自信构建 Solidity 智能合约的非技术入门指南",
       "tag": "Web3 工具",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-solidity-smartcontracts-activity-7434251096681996288-fi7x",
-      "description": "设置 Hardhat 开发环境以编译、测试和部署智能合约的分步指南。"
+      "description": "设置 Hardhat 开发环境以编译、测试和部署智能合约的分步指南。",
+      "icon": "fa-solid fa-screwdriver-wrench"
     },
     {
       "title": "构建您自己的 Web AI 助手：CodeIgniter4、Next.js 和 OpenRouter 的完整实战集成",
       "tag": "全栈 / AI",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_technology-tech-innovation-activity-7433183610213560320-8oQI",
-      "description": "使用 CodeIgniter4 的后端集成与消费 OpenRouter 模型的交互式 Next.js 前端。"
+      "description": "使用 CodeIgniter4 的后端集成与消费 OpenRouter 模型的交互式 Next.js 前端。",
+      "icon": "fa-solid fa-wand-magic-sparkles"
     },
     {
       "title": "以太坊改进提案（EIP 和 ERC）完整手册",
       "tag": "Web3 标准",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ethereum-eip-ethereumimprovementproposals-activity-7432524802030178304-Wnx8",
-      "description": "理解以太坊标准化过程和主要 ERC 标准 of 综合指南。"
+      "description": "理解以太坊标准化过程和主要 ERC 标准 of 综合指南。",
+      "icon": "fa-solid fa-file-lines"
     },
     {
       "title": "Vibe2Wizard：在游戏化 Web3 学习平台中从 Vibe 程序员蜕变为链上巫师",
       "tag": "Web3",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
-      "description": "游戏化 Web3 学习项目的细节以及在 Avalanche 上的快速开发体验。"
+      "description": "游戏化 Web3 学习项目的细节以及在 Avalanche 上的快速开发体验。",
+      "icon": "fa-solid fa-hat-wizard"
     },
     {
       "title": "理解 AI 代理技能的核心架构",
       "tag": "AI 代理",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_ai-artificialintelligence-chatgpt-activity-7431459511338606592-ztOU",
-      "description": "分析 AI 代理如何调用和执行外部工具以扩展其能力的结构分析。"
+      "description": "分析 AI 代理如何调用和执行外部工具以扩展其能力的结构分析。",
+      "icon": "fa-solid fa-puzzle-piece"
     },
     {
       "title": "敏捷 API 开发：在数天（而非数月）内使用 CodeIgniter4 构建 LaunchPad API",
       "tag": "API / 后端",
       "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_vibecoding-apidevelopment-codeigniter4-activity-7429851365989912576-1O10",
-      "description": "遵循后端开发最佳实践，如何使用 CodeIgniter4 快速构建功能齐全且安全的 API。"
+      "description": "遵循后端开发最佳实践，如何使用 CodeIgniter4 快速构建功能齐全且安全的 API。",
+      "icon": "fa-solid fa-server"
     }
   ],
   "projects": {

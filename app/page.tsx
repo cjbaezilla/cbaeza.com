@@ -12,6 +12,7 @@ interface PublicationItem {
   tag: string;
   link: string;
   description?: string;
+  icon?: string;
 }
 
 interface ProjectItem {
@@ -313,10 +314,10 @@ export default function Home() {
                       href={pub.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="size-8 rounded-lg hover:bg-accent flex items-center justify-center text-muted-foreground hover:text-[#0a66c2] cursor-pointer transition-colors"
-                      aria-label="LinkedIn Article"
+                      className="size-8 rounded-lg bg-primary/5 border border-primary/10 hover:bg-primary/10 flex items-center justify-center text-primary cursor-pointer transition-colors"
+                      aria-label="Article Link"
                     >
-                      <i className="fa-brands fa-linkedin text-lg"></i>
+                      <i className={`${pub.icon || "fa-solid fa-newspaper"} text-xs`}></i>
                     </Link>
                   </div>
 
