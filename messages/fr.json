@@ -624,5 +624,63 @@
     "showMore": "Afficher plus de publications",
     "showLess": "Afficher moins",
     "searchPlaceholder": "Rechercher des publications..."
-  }
+  },
+  "news": [
+    {
+      "title": "dApp Web3 interactive pour l'éducation entièrement on-chain",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "Conception et construction d'une dApp interactive (web3-usach-lab.cbaeza.com) fonctionnant entièrement on-chain sur Ethereum Sepolia pour faciliter l'apprentissage pratique de la blockchain.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Structuration et lancement de mon nouveau portefeuille web professionnel",
+      "tag": "Portfolio",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Lancement de cbaeza.com, un espace web minimaliste et optimisé conçu pour centraliser mes projets, mon parcours professionnel et mes contributions techniques dans le Web3 et l'ingénierie logicielle.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Arrivée en tant qu'enseignant dans le programme de troisième cycle Blockchain à l'USACH",
+      "tag": "Enseignement",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "Début de mes activités d'enseignement dans le programme de troisième cycle de l'Université de Santiago (USACH), avec des cours sur les contrats intelligents, les DAOs, la tokenisation et la finance décentralisée.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "Automatisation agentique : Traitement de plus de 100 millions de tokens en un jour",
+      "tag": "Agents IA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "Atteinte de la maturité opérationnelle dans l'automatisation agentique open source, orchestrant de manière autonome les tests Playwright, les audits de sécurité Slither/Mythril et les déploiements Web3.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard et mon expérience au Hackathon Avalanche Build Games",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Réflexions et analyse complète du code de Vibe2Wizard, un écosystème éducatif open source développé pendant le hackathon Avalanche.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Pourquoi j'ai créé Vibe2Wizard : Abaisser les barrières de l'apprentissage Web3 en couvrant les frais de gas",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "Création d'une plateforme d'apprentissage Web3 gamifiée qui prend en charge les frais de gas, offrant des badges soulbound immuables sur la blockchain.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "Sélectionné pour le programme Build Games d'Avalanche",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "Sélectionné pour rejoindre la cohorte de développeurs Avalanche Build Games, participant à un programme de six semaines pour créer des jeux on-chain.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Création de 15m.chat : Un système de messagerie éphémère, chiffré et sécurisé",
+      "tag": "Confidentialité",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "Développement d'un chat privé sans journaux et totalement temporaire construit avec CodeIgniter 4, chiffrement AES-256 et suppression automatique via MySQL Event Scheduler.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

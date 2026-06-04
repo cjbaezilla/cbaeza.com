@@ -624,5 +624,63 @@
     "showMore": "他の出版物を表示",
     "showLess": "表示を減らす",
     "searchPlaceholder": "出版物を検索..."
-  }
+  },
+  "news": [
+    {
+      "title": "完全オンチェーン教育のためのインタラクティブなWeb3 dApp",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "ブロックチェーンの実践的な学習を促進するため、Ethereum Sepolia上で完全にオンチェーンで動作するインタラクティブなdApp（web3-usach-lab.cbaeza.com）の設計と構築。",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "新しいプロフェッショナルWebポートフォリオの構築と公開",
+      "tag": "ポートフォリオ",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Web3とソフトウェア開発における私のプロジェクト、キャリア、技術的貢献を集約するために設計された、ミニマルで最適化されたWebスペース「cbaeza.com」の公開。",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "チリ・サンティアゴ大学のブロックチェーン大学院プログラムの講師に就任",
+      "tag": "教育",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "チリ・サンティアゴ大学（USACH）の大学院プログラムでの講義活動を開始し、スマートコントラクト、DAO、トークン化、分散型金融について指導。",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "エージェント自動化：1日に1億トークン以上を処理",
+      "tag": "AIエージェント",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "オープンソースのエージェント自動化において運用の成熟を達成し、Playwrightテスト、Slither/Mythrilセキュリティ監査、Web3デプロイなどを自律的に調整。",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2WizardとAvalanche Build Gamesハッカソンでの開発体験",
+      "tag": "ハッカソン",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Avalancheハッカソン中に開発されたオープンソースの教育エコシステム「Vibe2Wizard」の振り返りとコードの詳細解説。",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Vibe2Wizardを開発した理由：ガス代をカバーしてWeb3学習の障壁を下げる",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "ガス代を負担し、ブロックチェーン上で変更不可能なソウルバウンド認証情報を提供する、ゲーム化されたWeb3学習プラットフォームの作成。",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "AvalancheのBuild Gamesプログラムに選出",
+      "tag": "ハッカソン",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "AvalancheのBuild Games開発者コホートに選ばれ、オンチェーンゲームを構築する6週間のプログラムに参加。",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "15m.chat의 구축：一時的で暗号化された安全なメッセージングシステム",
+      "tag": "プライバシー",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "CodeIgniter 4、AES-256暗号化、MySQLイベントスケジューラによる自動削除を使用した、ログなしで完全に一時的なプライベートチャットの開発。",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

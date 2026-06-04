@@ -624,5 +624,63 @@
     "showMore": "Mostrar mais publicações",
     "showLess": "Mostrar menos",
     "searchPlaceholder": "Buscar publicações..."
-  }
+  },
+  "news": [
+    {
+      "title": "dApp Web3 Interativo para Educação Totalmente On-Chain",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "Design e construção de um dApp interativo (web3-usach-lab.cbaeza.com) operando totalmente on-chain na Ethereum Sepolia para facilitar o aprendizado prático de blockchain.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Estruturação e Lançamento de meu Novo Portfólio Web Profissional",
+      "tag": "Portfólio",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Lanzamento do cbaeza.com, um espaço web minimalista e otimizado projetado para centralizar meus projetos, trajetória e contribuições técnicas em Web3 e engenharia de software.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Ingresso como Professor no Programa de Pós-Graduação em Blockchain da USACH",
+      "tag": "Docência",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "Início de minhas atividades docentes no programa de pós-graduação da Universidade de Santiago (USACH), ministrando aulas sobre contratos inteligentes, DAOs, tokenização e finanças descentralizadas.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "Automação Agêntica: Processando Mais de 100 Milhões de Tokens em um Dia",
+      "tag": "Agentes de IA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "Alcançada maturidade operacional em automação agêntica de código aberto, orquestrando de forma autônoma testes Playwright, auditorias de segurança Slither/Mythril e implantações Web3.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard e minha Experiência no Hackathon Avalanche Build Games",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Reflexões e análise detalhada do código do Vibe2Wizard, um ecossistema educativo de código aberto desenvolvido durante o hackathon da Avalanche.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Por que Criei o Vibe2Wizard: Facilitando o Acesso ao Aprendizado Web3 sem Custos de Gas",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "Criação de uma plataforma gamificada para aprender Web3 que cobre os custos de gas, oferecendo credenciais soulbound imutáveis na blockchain.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "Seleção no Programa Build Games da Avalanche",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "Selecionado para fazer parte do grupo de desenvolvedores do Avalanche Build Games, participando de um programa de seis semanas para construir jogos onchain.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Construindo 15m.chat: Um Sistema de Mensagem Efêmera, Criptografada e Segura",
+      "tag": "Privacidade",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "Desenvolvimento de um chat privado sem registros e totalmente temporário construído com CodeIgniter 4, criptografia AES-256 e exclusão automática via MySQL Event Scheduler.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

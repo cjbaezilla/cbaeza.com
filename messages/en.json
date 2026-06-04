@@ -624,5 +624,63 @@
     "showMore": "Show more publications",
     "showLess": "Show less",
     "searchPlaceholder": "Search publications..."
-  }
+  },
+  "news": [
+    {
+      "title": "Interactive Web3 dApp for Fully On-Chain Education",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "Design and construction of an interactive dApp (web3-usach-lab.cbaeza.com) operating entirely on-chain on Ethereum Sepolia to facilitate practical blockchain learning.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Structuring and Launch of my New Professional Web Portfolio",
+      "tag": "Portfolio",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Launch of cbaeza.com, a minimalist and optimized web space designed to centralize my projects, career path, and technical contributions in Web3 and software engineering.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Joining as a Lecturer in the Blockchain Postgraduate Program at USACH",
+      "tag": "Teaching",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "Beginning of my teaching activities in the postgraduate program at the University of Santiago (USACH), lecturing on smart contracts, DAOs, tokenization, and decentralized finance.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "Agentic Automation: Processing More than 100 Million Tokens in a Single Day",
+      "tag": "AI Agents",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "Achieved operational maturity in open-source agentic automation, autonomously orchestrating Playwright tests, Slither/Mythril security audits, and Web3 deployments.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard and my Experience in the Avalanche Build Games Hackathon",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Reflections and complete codebase breakdown of Vibe2Wizard, an open-source educational ecosystem developed during the Avalanche hackathon.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Why I Built Vibe2Wizard: Lowering the Barriers to Web3 Learning with Covered Gas Costs",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "Creation of a gamified Web3 learning platform that covers gas costs, offering immutable soulbound credentials on the blockchain.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "Selected for Avalanche's Build Games Program",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "Selected to join the Avalanche Build Games cohort, participating in a six-week program to build on-chain games.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Building 15m.chat: An Ephemeral, Encrypted, and Secure Messaging System",
+      "tag": "Privacy",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "Development of a private chat with no logs and absolute temporality built using CodeIgniter 4, AES-256 encryption, and auto-deletion via MySQL Event Scheduler.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

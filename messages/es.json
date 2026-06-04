@@ -624,5 +624,63 @@
     "showMore": "Mostrar más publicaciones",
     "showLess": "Mostrar menos",
     "searchPlaceholder": "Buscar publicaciones..."
-  }
+  },
+  "news": [
+    {
+      "title": "dApp Interactiva Web3 para Educación Completamente On-Chain",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "Diseño y construcción de una dApp interactiva (web3-usach-lab.cbaeza.com) que opera completamente on-chain en Ethereum Sepolia para facilitar el aprendizaje práctico de blockchain.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Estructuración y Lanzamiento de mi Nuevo Portafolio Web Profesional",
+      "tag": "Portafolio",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Lanzamiento de cbaeza.com, un espacio web minimalista y optimizado diseñado para centralizar mis proyectos, trayectoria y contribuciones técnicas en Web3 y desarrollo de software.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Incorporación como Profesor en el Diplomado de la Universidad de Santiago",
+      "tag": "Docencia",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "Inicio de mis actividades docentes en el diplomado de la USACH, impartiendo clases sobre contratos inteligentes, DAOs, tokenización y finanzas descentralizadas.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "Automatización Agéntica: Procesando Más de 100 Millones de Tokens en un Día",
+      "tag": "Agentes IA",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "Logro de madurez operativa en automatización agéntica de código abierto, ejecutando de forma autónoma pruebas Playwright, auditorías Slither/Mythril y despliegues Web3.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard y mi Experiencia en el Hackathon Avalanche Build Games",
+      "tag": "Hackatones",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Reflexiones y desglose completo del código de Vibe2Wizard, un ecosistema educativo open-source desarrollado durante la hackatón de Avalanche.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Por qué Creé Vibe2Wizard: Facilitando el Acceso al Aprendizaje Web3 sin Costos de Gas",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "Creación de una plataforma gamificada para aprender Web3 que cubre los costos de gas, ofreciendo credenciales soulbound inmutables en la blockchain.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "Selección en el Programa Build Games de Avalanche",
+      "tag": "Hackatones",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "Seleccionado para formar parte de la cohorte de desarrolladores de Avalanche Build Games, participando en un programa de seis semanas para construir videojuegos onchain.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Construyendo 15m.chat: Un Sistema de Mensajería Efímera, Cifrada y Segura",
+      "tag": "Privacidad",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "Desarrollo de un chat privado sin registros y totalmente temporal construido con CodeIgniter 4, cifrado AES-256 y eliminación automática mediante MySQL Event Scheduler.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

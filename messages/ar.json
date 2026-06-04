@@ -624,5 +624,63 @@
     "showMore": "عرض المزيد من المنشورات",
     "showLess": "عرض أقل",
     "searchPlaceholder": "البحث عن المنشورات..."
-  }
+  },
+  "news": [
+    {
+      "title": "تطبيق dApp تفاعلي Web3 للتعليم الكامل على الشبكة",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "تصميم وبناء تطبيق تفاعلي (web3-usach-lab.cbaeza.com) يعمل بالكامل على سلسلة Ethereum Sepolia لتسهيل التعلم العملي لتقنية البلوكشين.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "هيكلة وإطلاق محفظتي المهنية الجديدة على الويب",
+      "tag": "المحفظة",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "إطلاق موقع cbaeza.com، وهو مساحة ويب بسيطة ومحسنة مصممة لمركزة مشاريعي ومسيرتي المهنية وإسهاماتي الفنية في Web3 وهندسة البرمجيات.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "الانضمام كمحاضر في برنامج الدراسات العليا للبلوكشين بجامعة سانتياغو",
+      "tag": "التدريس",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "بدء أنشطتي التدريسية في برنامج الدراسات العليا بجامعة سانتياغو دي تشيلي (USACH)، حيث ألقي محاضرات حول العقود الذكية، والمنظمات المستقلة اللامركزية (DAOs)، والترميز، والتمويل اللامركزي.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "الأتمتة الوكيلة: معالجة أكثر من 100 مليون رمز (Token) في يوم واحد",
+      "tag": "الوكلاء الذكيون",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "تحقيق النضج التشغيلي في الأتمتة الوكيلة مفتوحة المصدر، وتنسيق اختبارات Playwright بشكل مستقل، وتدقيق الأمان Slither/Mythril، ونشر Web3.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "تطبيق Vibe2Wizard وتجربتي في هاكاثون Avalanche Build Games",
+      "tag": "الهاكاثونات",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "تأملات وتحليل كامل للكود المصدري لتطبيق Vibe2Wizard، وهو نظام تعليمي بيئي مفتوح المصدر تم تطويره خلال هاكاثون Avalanche.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "لماذا قمت ببناء Vibe2Wizard: خفض حواجز تعلم Web3 وتغطية تكاليف الغاز",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "إنشاء منصة تعلم Web3 تفاعلية تغطي تكاليف الغاز، وتقدم اعتمادات غير قابلة للنقل (soulbound) وثابتة على البلوكشين.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "الاختيار للمشاركة في برنامج Build Games من Avalanche",
+      "tag": "الهاكاثونات",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "تم اختياري للانضمام إلى مجموعة مطوري Avalanche Build Games، والمشاركة في برنامج مدته ستة أسابيع لبناء ألعاب على الشبكة.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "بناء 15m.chat: نظام مراسلة مؤقت، مشفر وآمن",
+      "tag": "الخصوصية",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "طورت نظام محادثة خاصة بدون سجلات وبصفة مؤقتة بالكامل باستخدام CodeIgniter 4، مع تشفير AES-256 وحذف تلقائي عبر مجدول أحداث MySQL.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

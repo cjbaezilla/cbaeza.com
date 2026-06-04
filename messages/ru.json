@@ -624,5 +624,63 @@
     "showMore": "Показать больше публикаций",
     "showLess": "Показать меньше",
     "searchPlaceholder": "Поиск публикаций..."
-  }
+  },
+  "news": [
+    {
+      "title": "Интерактивное Web3 dApp для полностью ончейн-образования",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "Проектирование и создание интерактивного dApp (web3-usach-lab.cbaeza.com), работающего полностью ончейн в сети Ethereum Sepolia для практического обучения блокчейну.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Структурирование и запуск моего нового профессионального веб-портфолио",
+      "tag": "Портфолио",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Запуск cbaeza.com, минималистичного и оптимизированного веб-пространства, предназначенного для централизации моих проектов, карьерного пути и технических вкладов в Web3 и программную инженерию.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Начало преподавательской деятельности на программе по блокчейну в USACH",
+      "tag": "Преподавание",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "Начало моей преподавательской деятельности на последипломной программе в Университете Сантьяго-де-Чили (USACH), ведение лекций по смарт-контрактам, DAO, токенизации и децентрализованным финансам.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "Агентная автоматизация: обработка более 100 миллионов токенов за один день",
+      "tag": "Агенты ИИ",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "Достижение операционной зрелости в агентной автоматизации с открытым исходным кодом, автономно запускающей тесты Playwright, аудиты безопасности Slither/Mythril и Web3-деплой.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard и мой опыт участия в хакатоне Avalanche Build Games",
+      "tag": "Хакатоны",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Размышления и полный разбор кодовой базы Vibe2Wizard, открытой образовательной экосистемы, разработанной во время хакатона Avalanche.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Зачем я создал Vibe2Wizard: снижение барьеров для изучения Web3 с покрытием расходов на газ",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "Создание геймифицированной обучающей платформы Web3, которая покрывает расходы на газ и предлагает неизменяемые soulbound-сертификаты.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "Участие в программе Build Games от Avalanche",
+      "tag": "Хакатоны",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "Успешный отбор в когорту разработчиков Avalanche Build Games для участия в шестинедельной программе по созданию ончейн-игр.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Создание 15m.chat: эфемерная, зашифрованная и безопасная система сообщений",
+      "tag": "Конфиденциальность",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "Разработка приватного чата без логов и с абсолютной временностью на базе CodeIgniter 4, шифрования AES-256 и автоматического удаления через MySQL Event Scheduler.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

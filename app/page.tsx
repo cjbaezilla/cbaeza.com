@@ -88,6 +88,7 @@ export default function Home() {
 
   // Obtener colecciones desde los diccionarios con tipado explícito
   const publicationsList = (t("publications") as PublicationItem[]) || [];
+  const newsList = (t("news") as PublicationItem[]) || publicationsList;
   const projectsList = (t("projects.items") as ProjectItem[]) || [];
   const foundationsList = (t("foundations.items") as FoundationItem[]) || [];
   const jobsList = (t("background.jobs") as JobItem[]) || [];
@@ -232,7 +233,7 @@ export default function Home() {
             <h2 className="font-heading text-xs font-bold uppercase tracking-wider text-muted-foreground px-1">
               {t("hero.sliderTitle") as string}
             </h2>
-            <Slider items={publicationsList} />
+            <Slider items={newsList} />
           </div>
         </div>
       </header>

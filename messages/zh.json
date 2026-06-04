@@ -624,5 +624,63 @@
     "showMore": "显示更多文章",
     "showLess": "显示更少",
     "searchPlaceholder": "搜索文章..."
-  }
+  },
+  "news": [
+    {
+      "title": "用于完全链上教育的交互式 Web3 dApp",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "设计并构建一个完全在 Ethereum Sepolia 链上运行的交互式 dApp (web3-usach-lab.cbaeza.com)，以促进区块链的实践学习。",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "我的新专业网页个人作品集的构建与发布",
+      "tag": "个人作品集",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "发布 cbaeza.com，一个极简且优化的网页空间，旨在集中展示我在 Web3 和软件工程领域的项目、职业轨迹和技术贡献。",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "加入智利圣地亚哥大学区块链研究生课程担任讲师",
+      "tag": "教学",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "开始在智利圣地亚哥大学 (USACH) 研究生课程中的教学活动，教授智能合约、DAO、代币化和去中心化金融。",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "智能体自动化：单日处理超过 1 亿个 Token",
+      "tag": "人工智能体",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "在开源智能体自动化中实现运营成熟度，自主编排 Playwright 测试、Slither/Mythril 安全审计以及 Web3 部署。",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard 以及我在 Avalanche Build Games 黑客松中的经历",
+      "tag": "黑客松",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Vibe2Wizard 的反思与完整代码解析。Vibe2Wizard 是在 Avalanche 黑客松期间开发的一个开源教育生态系统。",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "我为什么构建 Vibe2Wizard：通过代付 Gas 费降低 Web3 学习门槛",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "创建一个代付 Gas 费的趣味化 Web3 学习平台，在区块链上提供不可篡改的灵魂绑定凭证。",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "入选 Avalanche 的 Build Games 计划",
+      "tag": "黑客松",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "入选 Avalanche Build Games 开发者团队，参加为期六周的链上游戏开发计划。",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "构建 15m.chat：一个临时、加密且安全的即时通讯系统",
+      "tag": "隐私保护",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "基于 CodeIgniter 4 开发一个无记录、完全临时的私密聊天系统，采用 AES-256 加密并通过 MySQL 事件调度器实现自动删除。",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }

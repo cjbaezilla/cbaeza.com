@@ -624,5 +624,63 @@
     "showMore": "Mehr Publikationen anzeigen",
     "showLess": "Weniger anzeigen",
     "searchPlaceholder": "Publikationen suchen..."
-  }
+  },
+  "news": [
+    {
+      "title": "Interaktive Web3 dApp für vollständig On-Chain-Bildung",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_dise%C3%B1%C3%A9-y-constru%C3%AD-una-dapp-interactiva-web3-activity-7467702473563193344-sEL0",
+      "description": "Design und Entwicklung einer interaktiven dApp (web3-usach-lab.cbaeza.com), die vollständig on-chain auf Ethereum Sepolia läuft, um praktisches Blockchain-Lernen zu erleichtern.",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Strukturierung und Start meines neuen professionellen Webportfolios",
+      "tag": "Portfolio",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_acabo-de-terminar-de-estructurar-mi-nuevo-activity-7464355804674981888-YOJd",
+      "description": "Start von cbaeza.com, einem minimalistischen und optimierten Webbereich, der meine Projekte, meine Karriere und meine technischen Beiträge im Bereich Web3 und Softwareentwicklung bündelt.",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Tätigkeit als Dozent im Blockchain-Postgraduiertenprogramm an der USACH",
+      "tag": "Lehre",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_muy-contento-por-esta-oportunidad-gracias-activity-7457750269188132864-248q",
+      "description": "Beginn meiner Lehrtätigkeit im Postgraduiertenprogramm der Universität Santiago de Chile (USACH) mit Vorlesungen über Smart Contracts, DAOs, Tokenisierung und dezentrale Finanzen.",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "title": "Agentenbasierte Automatisierung: Über 100 Millionen Tokens an einem Tag verarbeitet",
+      "tag": "KI-Agenten",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_today-i-processed-more-than-100-million-tokens-activity-7444329457491931136-hstt",
+      "description": "Erreichung der betrieblichen Reife bei der quelloffenen agentenbasierten Automatisierung, die autonom Playwright-Tests, Slither/Mythril-Sicherheitsaudits und Web3-Bereitstellungen orchestriert.",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "title": "Vibe2Wizard und meine Erfahrungen beim Avalanche Build Games Hackathon",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanchebuildgames-hackathon-vibe2wizard-activity-7437125632595124226-FeQJ",
+      "description": "Reflexionen und vollständige Code-Analyse von Vibe2Wizard, einem quelloffenen Bildungs-Ökosystem, das während des Avalanche-Hackathons entwickelt wurde.",
+      "icon": "fa-solid fa-trophy"
+    },
+    {
+      "title": "Warum ich Vibe2Wizard gebaut habe: Senkung der Barrieren für das Web3-Lernen durch Übernahme der Gaskosten",
+      "tag": "Web3",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_web3-avalanche-buildgameshackathon-activity-7432039151312490497-MqSg",
+      "description": "Erstellung einer spielerischen Web3-Lernplattform, die Gaskosten übernimmt und unveränderliche Soulbound-Zertifikate auf der Blockchain anbietet.",
+      "icon": "fa-solid fa-hat-wizard"
+    },
+    {
+      "title": "Ausgewählt für das Build Games-Programm von Avalanche",
+      "tag": "Hackathons",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_avalanche-buildgames-web3gaming-activity-7429570650459107328-87sE",
+      "description": "Auswahl für das Entwicklerprogramm Avalanche Build Games zur Teilnahme an einem sechswöchigen Programm zur Entwicklung von On-Chain-Spielen.",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Entwicklung von 15m.chat: Ein ephemeres, verschlüsseltes und sicheres Nachrichtensystem",
+      "tag": "Privatsphäre",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_desarrolloweb-privacidad-php-activity-7429153759383056384-aNKv",
+      "description": "Entwicklung eines privaten Chats ohne Protokolle und mit absoluter Vergänglichkeit unter Verwendung von CodeIgniter 4, AES-256-Verschlüsselung und automatischer Löschung über den MySQL Event Scheduler.",
+      "icon": "fa-solid fa-lock"
+    }
+  ]
 }
