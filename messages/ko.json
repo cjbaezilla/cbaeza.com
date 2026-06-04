@@ -385,6 +385,27 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
         "icon": "fa-solid fa-bolt",
         "tag": "물리학 및 시스템"
+      },
+      {
+        "title": "비트코인 확률적 보안 공식",
+        "description": "51% 공격 및 이중 지불에 대한 비트코인 보안 모델의 수학적 및 인식론적 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-algoritmo-de-seguridad-probabil%C3%ADstica-activity-7467502020183289856-uIc_",
+        "icon": "fa-solid fa-calculator",
+        "tag": "수학 및 철학"
+      },
+      {
+        "title": "무임승차(Free-Riding) 문제와 P2P 네트워크 인센티브 이론",
+        "description": "Gnutella 및 BitTorrent부터 나카모토 합의의 인센티브 해결까지 P2P 네트워크의 기생 현상에 대한 연구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-fen%C3%B3meno-del-free-riding-o-parasitismo-activity-7467863401315373056-0yyV",
+        "icon": "fa-solid fa-chess",
+        "tag": "경제 및 금융"
+      },
+      {
+        "title": "불완전 계약 이론과 디지털 주권",
+        "description": "잔여 통제권에 관한 그로스만-하트-무어(GHM) 모델을 비트코인을 통한 주권적 수탁에 적용.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
+        "icon": "fa-solid fa-file-contract",
+        "tag": "경제 및 금융"
       }
     ],
     "all": "전체",

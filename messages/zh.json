@@ -385,6 +385,27 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
         "icon": "fa-solid fa-bolt",
         "tag": "物理与系统"
+      },
+      {
+        "title": "比特币概率安全公式",
+        "description": "比特币安全模型针对51%攻击与双花问题的数学与认识论分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-algoritmo-de-seguridad-probabil%C3%ADstica-activity-7467502020183289856-uIc_",
+        "icon": "fa-solid fa-calculator",
+        "tag": "数学与哲学"
+      },
+      {
+        "title": "“搭便车”问题与P2P网络激励理论",
+        "description": "研究P2P网络中的寄生现象，从Gnutella和BitTorrent到中本聪共识中激励机制的解决。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-fen%C3%B3meno-del-free-riding-o-parasitismo-activity-7467863401315373056-0yyV",
+        "icon": "fa-solid fa-chess",
+        "tag": "经济与金融"
+      },
+      {
+        "title": "不完全合约理论与数字主权",
+        "description": "将关于剩余控制权的Grossman-Hart-Moore模型应用于比特币自主托管。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
+        "icon": "fa-solid fa-file-contract",
+        "tag": "经济与金融"
       }
     ],
     "all": "全部",

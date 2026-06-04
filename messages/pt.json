@@ -385,6 +385,27 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
         "icon": "fa-solid fa-bolt",
         "tag": "Física e Sistemas"
+      },
+      {
+        "title": "Fórmula de Segurança Probabilística do Bitcoin",
+        "description": "Análise matemática e epistemológica do modelo de segurança do Bitcoin contra ataques de 51% e gasto duplo.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-algoritmo-de-seguridad-probabil%C3%ADstica-activity-7467502020183289856-uIc_",
+        "icon": "fa-solid fa-calculator",
+        "tag": "Matemática e Filosofia"
+      },
+      {
+        "title": "O Problema do 'Free-Riding' e a Teoria de Incentivos",
+        "description": "Estudo sobre parasitismo em redes P2P, de Gnutella e BitTorrent à resolução de incentivos no consenso Nakamoto.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-fen%C3%B3meno-del-free-riding-o-parasitismo-activity-7467863401315373056-0yyV",
+        "icon": "fa-solid fa-chess",
+        "tag": "Economia e Finanças"
+      },
+      {
+        "title": "Teoria dos Contratos Incompletos e Soberania Digital",
+        "description": "Aplicação do modelo Grossman-Hart-Moore sobre direitos de controle residual à custódia soberana com Bitcoin.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
+        "icon": "fa-solid fa-file-contract",
+        "tag": "Economia e Finanças"
       }
     ],
     "all": "Todos",

@@ -385,6 +385,27 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
         "icon": "fa-solid fa-bolt",
         "tag": "物理・システム"
+      },
+      {
+        "title": "ビットコインの確率的セキュリティ数式",
+        "description": "51%攻撃および二重支払いに対するビットコインのセキュリティモデルの数学的・認識論的分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-algoritmo-de-seguridad-probabil%C3%ADstica-activity-7467502020183289856-uIc_",
+        "icon": "fa-solid fa-calculator",
+        "tag": "数学・哲学"
+      },
+      {
+        "title": "「フリーライダー」問題とP2Pネットワークのインセンティブ理論",
+        "description": "GnutellaやBitTorrentからナカモト合意におけるインセンティブの解決に至るまで、P2Pネットワークにおける寄生現象に関する研究。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-fen%C3%B3meno-del-free-riding-o-parasitismo-activity-7467863401315373056-0yyV",
+        "icon": "fa-solid fa-chess",
+        "tag": "経済・金融"
+      },
+      {
+        "title": "不完全契約理論とデジタル主権",
+        "description": "残余コントロール権に関するグロスマン＝ハート＝ムーア（GHM）モデルを、ビットコインによる自己主権型カストディへ適用。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
+        "icon": "fa-solid fa-file-contract",
+        "tag": "経済・金融"
       }
     ],
     "all": "すべて",

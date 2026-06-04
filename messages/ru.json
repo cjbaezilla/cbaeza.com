@@ -385,6 +385,27 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
         "icon": "fa-solid fa-bolt",
         "tag": "Физика и системы"
+      },
+      {
+        "title": "Формула вероятностной безопасности Биткоина",
+        "description": "Математический и эпистемологический анализ модели безопасности Биткоина против атак 51% и двойного расходования.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-algoritmo-de-seguridad-probabil%C3%ADstica-activity-7467502020183289856-uIc_",
+        "icon": "fa-solid fa-calculator",
+        "tag": "Математика и философия"
+      },
+      {
+        "title": "Проблема «бесплатного проезда» и теория стимулов",
+        "description": "Исследование паразитизма в P2P-сетях, от Gnutella и BitTorrent до решения проблемы стимулов в консенсусе Накамото.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-fen%C3%B3meno-del-free-riding-o-parasitismo-activity-7467863401315373056-0yyV",
+        "icon": "fa-solid fa-chess",
+        "tag": "Экономика и финансы"
+      },
+      {
+        "title": "Теория неполных контрактов и цифровой суверенитет",
+        "description": "Применение модели Гроссмана — Харта — Мура о правах остаточного контроля к самостоятельному хранению с помощью Биткоина.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
+        "icon": "fa-solid fa-file-contract",
+        "tag": "Экономика и финансы"
       }
     ],
     "all": "Все",

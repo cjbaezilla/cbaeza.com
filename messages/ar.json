@@ -385,6 +385,27 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-estabilidad-de-bitcoin-puede-modelarse-activity-7467166479046705152--G10",
         "icon": "fa-solid fa-bolt",
         "tag": "الفيزياء والأنظمة"
+      },
+      {
+        "title": "صيغة الأمان الاحتمالي للبيتكوين",
+        "description": "تحليل رياضي وإبستمولوجي لنموذج أمان بيتكوين ضد هجمات 51% والإنفاق المزدوج.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-algoritmo-de-seguridad-probabil%C3%ADstica-activity-7467502020183289856-uIc_",
+        "icon": "fa-solid fa-calculator",
+        "tag": "الرياضيات والفلسفة"
+      },
+      {
+        "title": "مشكلة \"الركوب المجاني\" ونظرية الحوافز",
+        "description": "دراسة حول التطفل في شبكات الند للند (P2P)، من Gnutella وBitTorrent إلى حل الحوافز في إجماع ناكاموتو.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-fen%C3%B3meno-del-free-riding-o-parasitismo-activity-7467863401315373056-0yyV",
+        "icon": "fa-solid fa-chess",
+        "tag": "الاقتصاد والمالية"
+      },
+      {
+        "title": "نظرية العقود غير المكتملة والسيادة الرقمية",
+        "description": "تطبيق نموذج غروسمان-هارت-مور لحقوق التحكم المتبقي على الحفظ السيادي باستخدام بيتكوين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
+        "icon": "fa-solid fa-file-contract",
+        "tag": "الاقتصاد والمالية"
       }
     ],
     "all": "الكل",
