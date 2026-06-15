@@ -406,6 +406,69 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
         "icon": "fa-solid fa-file-contract",
         "tag": "الاقتصاد والمالية"
+      },
+      {
+        "title": "حوكمة الموارد المشتركة لإلينور أوستروم وبروتوكول البيتكوين",
+        "description": "دراسة حول تطبيق قواعد الحوكمة المؤسسية لإلينور أوستروم على الاستدامة واللامركزية في بروتوكول البيتكوين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-econom%C3%ADa-institucional-de-elinor-ostrom-activity-7468622589309902848-NWEi",
+        "icon": "fa-solid fa-users",
+        "tag": "الاقتصاد والتمويل"
+      },
+      {
+        "title": "أكواد المحو (Erasure Coding) وإثباتات إتاحة البيانات",
+        "description": "تحليل لأكواد المحو ودورها في ضمان سلامة البيانات وإتاحتها (Data Availability) في الشبكات الموزعة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-integridad-de-los-registros-distribuidos-activity-7468980813616037889-gKys",
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "الفيزياء والأنظمة"
+      },
+      {
+        "title": "بيئة عمل EVM المعزولة: عزل كامل",
+        "description": "استكشاف بيئة التنفيذ المعزولة للآلة الافتراضية لإيثيريوم (EVM)، مع توضيح كيفية منع الوصول غير المصرح به للحالة الخارجية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-se-concibe-activity-7471004486858223616-0ZKa",
+        "icon": "fa-solid fa-cube",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تشريح الحسابات في EVM",
+        "description": "دراسة هيكلية لمكونات حساب إيثيريوم: nonce و balance و storageRoot و codeHash.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-el-dise%C3%B1o-estructural-de-la-cadena-de-activity-7471148215875186688-ZGfW",
+        "icon": "fa-solid fa-address-card",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "الحسابات في EVM: الهيكل واشتقاق العناوين",
+        "description": "تحليل رياضي لعملية اشتقاق العناوين للحسابات المملوكة خارجيًا (EOA) والعقود باستخدام CREATE و CREATE2.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-despliegue-de-contratos-inteligentes-en-activity-7471504896123432960-jPsk",
+        "icon": "fa-solid fa-key",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "دالة انتقال الحالة لإيثيريوم",
+        "description": "شرح رسمي لإيثيريوم كآلة حالة معاملات، مع تفصيل تدفق المعادلة Y = Υ(S, T).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-global-de-la-red-de-ethereum-activity-7471705755067375616-G9f9",
+        "icon": "fa-solid fa-code-branch",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "مترجم سوليديتي - تنظيف المتغيرات",
+        "description": "تحليل لعملية تنظيف المتغيرات (cleanup) بواسطة مترجم سوليديتي قبل الكتابة في التخزين أو الذاكرة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-de-forma-activity-7471860741373997056-MIDi",
+        "icon": "fa-solid fa-broom",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "بنية المكدس (Stack) في EVM",
+        "description": "استكشاف هيكل بيانات المكدس في EVM، وقيود عمقه، وخطأ Stack Too Deep.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-unidad-de-procesamiento-aritm%C3%A9tica-de-activity-7472079683883565056-UTGb",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التوافقية التراجعية في سوليديتي و EVM",
+        "description": "تحليل التوافقية التراجعية في سوليديتي، واستخدام خيار evmVersion وتأثيره على البايت كود المولد.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "tag": "EVM وسوليديتي"
       }
     ],
     "all": "الكل",

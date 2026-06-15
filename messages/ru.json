@@ -406,6 +406,69 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
         "icon": "fa-solid fa-file-contract",
         "tag": "Экономика и финансы"
+      },
+      {
+        "title": "Управление общими ресурсами Элинор Остром и протокол Биткойн",
+        "description": "Исследование применения правил институционального управления Элинор Остром к обеспечению устойчивости и децентрализации протокола Биткойн.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-econom%C3%ADa-institucional-de-elinor-ostrom-activity-7468622589309902848-NWEi",
+        "icon": "fa-solid fa-users",
+        "tag": "Экономика и финансы"
+      },
+      {
+        "title": "Коды стирания (Erasure Coding) и доказательства доступности данных",
+        "description": "Анализ кодов стирания и их роли в обеспечении целостности и доступности данных (Data Availability) в распределенных сетях.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-integridad-de-los-registros-distribuidos-activity-7468980813616037889-gKys",
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "Физика и системы"
+      },
+      {
+        "title": "Песочница EVM: Полная изоляция",
+        "description": "Исследование изолированной среды выполнения EVM и способов предотвращения несанкционированного доступа к внешнему состоянию.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-se-concibe-activity-7471004486858223616-0ZKa",
+        "icon": "fa-solid fa-cube",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Анатомия учетных записей в EVM",
+        "description": "Структурное исследование компонентов учетной записи Ethereum: nonce, balance, storageRoot и codeHash.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-el-dise%C3%B1o-estructural-de-la-cadena-de-activity-7471148215875186688-ZGfW",
+        "icon": "fa-solid fa-address-card",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Учетные записи в EVM: Структура и деривация адресов",
+        "description": "Математический анализ процесса деривации адресов для EOA и контрактов с использованием CREATE и CREATE2.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-despliegue-de-contratos-inteligentes-en-activity-7471504896123432960-jPsk",
+        "icon": "fa-solid fa-key",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Функция перехода состояний Ethereum",
+        "description": "Формальное объяснение Ethereum как транзакционного автомата состояний с подробным описанием перехода Y = Υ(S, T).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-global-de-la-red-de-ethereum-activity-7471705755067375616-G9f9",
+        "icon": "fa-solid fa-code-branch",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Solidity Compiler - Variable Cleanup",
+        "description": "Анализ процесса очистки переменных (cleanup) компилятором Solidity перед их записью в память или хранилище.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-de-forma-activity-7471860741373997056-MIDi",
+        "icon": "fa-solid fa-broom",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Архитектура стека EVM",
+        "description": "Исследование стековой структуры данных EVM, ограничений ее глубины и ошибки Stack Too Deep.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-unidad-de-procesamiento-aritm%C3%A9tica-de-activity-7472079683883565056-UTGb",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Обратная совместимость в Solidity и EVM",
+        "description": "Анализ обратной совместимости в Solidity, использования параметра evmVersion и его влияния на генерируемый байт-код.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "tag": "EVM и Solidity"
       }
     ],
     "all": "Все",

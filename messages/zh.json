@@ -406,6 +406,69 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
         "icon": "fa-solid fa-file-contract",
         "tag": "经济与金融"
+      },
+      {
+        "title": "埃莉诺·奥斯特罗姆的公共事务治理与比特币协议",
+        "description": "研究埃莉诺·奥斯特罗姆的制度治理规则对比特币协议长期可持续性与去中心化的应用。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-econom%C3%ADa-institucional-de-elinor-ostrom-activity-7468622589309902848-NWEi",
+        "icon": "fa-solid fa-users",
+        "tag": "经济与金融"
+      },
+      {
+        "title": "纠删码（Erasure Coding）与数据可用性证明",
+        "description": "分析纠删码及其在确保分布式网络中数据完整性与可用性（Data Availability）的关键作用。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-integridad-de-los-registros-distribuidos-activity-7468980813616037889-gKys",
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "物理与系统"
+      },
+      {
+        "title": "EVM 沙盒：完全隔离",
+        "description": "探索 EVM 的隔离执行环境，详细分析如何防止对外部状态的未授权访问。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-se-concibe-activity-7471004486858223616-0ZKa",
+        "icon": "fa-solid fa-cube",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 账户解剖",
+        "description": "对 Ethereum 账户组成部分的结构性研究：nonce、balance、storageRoot 和 codeHash。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-el-dise%C3%B1o-estructural-de-la-cadena-de-activity-7471148215875186688-ZGfW",
+        "icon": "fa-solid fa-address-card",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 账户：结构与地址派生",
+        "description": "使用 CREATE 和 CREATE2 派生 EOA 与合约地址的过程的数学分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-despliegue-de-contratos-inteligentes-en-activity-7471504896123432960-jPsk",
+        "icon": "fa-solid fa-key",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊状态过渡函数",
+        "description": "将以太坊视为交易状态机的形式化解释，详细剖析 Y = Υ(S, T) 的执行流程。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-global-de-la-red-de-ethereum-activity-7471705755067375616-G9f9",
+        "icon": "fa-solid fa-code-branch",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "Solidity 编译器 - 变量清理",
+        "description": "分析 Solidity 编译器在向存储或内存写入 data 前进行的变量清理（cleanup）过程。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-de-forma-activity-7471860741373997056-MIDi",
+        "icon": "fa-solid fa-broom",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 栈架构",
+        "description": "探索 EVM 的栈式数据结构、其深度限制以及 Stack Too Deep 错误的产生机制。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-unidad-de-procesamiento-aritm%C3%A9tica-de-activity-7472079683883565056-UTGb",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "Solidity 与 EVM 的向后兼容性",
+        "description": "分析 Solidity 中的向后兼容性、evmVersion 选项的使用及其对所生成字节码的影响。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "tag": "EVM 与 Solidity"
       }
     ],
     "all": "全部",

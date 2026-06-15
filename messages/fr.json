@@ -406,6 +406,69 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
         "icon": "fa-solid fa-file-contract",
         "tag": "Économie et Finance"
+      },
+      {
+        "title": "La gouvernance des biens communs d'Elinor Ostrom et le protocole Bitcoin",
+        "description": "Étude sur l'application des règles de gouvernance institutionnelle d'Elinor Ostrom à la durabilité et à la décentralisation du protocole Bitcoin.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-econom%C3%ADa-institucional-de-elinor-ostrom-activity-7468622589309902848-NWEi",
+        "icon": "fa-solid fa-users",
+        "tag": "Économie & Finance"
+      },
+      {
+        "title": "Codes d'effacement (Erasure Coding) et preuves de disponibilité des données",
+        "description": "Analyse des codes d'effacement et de leur rôle dans la garantie de l'intégrité et de la disponibilité des données (Data Availability) dans les réseaux distribués.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-integridad-de-los-registros-distribuidos-activity-7468980813616037889-gKys",
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "Physique & Systèmes"
+      },
+      {
+        "title": "EVM Sandbox : Isolement Total",
+        "description": "Exploration de l'environnement d'exécution isolé de l'EVM, détaillant comment l'accès non autorisé à l'état externe est empêché.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-se-concibe-activity-7471004486858223616-0ZKa",
+        "icon": "fa-solid fa-cube",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Anatomie des comptes dans l'EVM",
+        "description": "Étude structurelle des composants d'un compte Ethereum : nonce, balance, storageRoot et codeHash.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-el-dise%C3%B1o-estructural-de-la-cadena-de-activity-7471148215875186688-ZGfW",
+        "icon": "fa-solid fa-address-card",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Comptes dans l'EVM : Structure et dérivation d'adresses",
+        "description": "Analyse mathématique du processus de dérivation d'adresses pour les EOA et les contrats à l'aide de CREATE et CREATE2.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-despliegue-de-contratos-inteligentes-en-activity-7471504896123432960-jPsk",
+        "icon": "fa-solid fa-key",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Fonction de transition d'état d'Ethereum",
+        "description": "Explication formelle d'Ethereum conçu comme une machine à états de transaction, détaillant le flux de Y = Υ(S, T).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-global-de-la-red-de-ethereum-activity-7471705755067375616-G9f9",
+        "icon": "fa-solid fa-code-branch",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Solidity Compiler - Variable Cleanup",
+        "description": "Analyse du processus de nettoyage des variables (cleanup) du compilateur Solidity avant l'écriture en stockage ou en mémoire.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-de-forma-activity-7471860741373997056-MIDi",
+        "icon": "fa-solid fa-broom",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Architecture de la pile de l'EVM",
+        "description": "Exploration de la structure de données de type pile (Stack) de l'EVM, de ses limites de profondeur et de l'erreur Stack Too Deep.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-unidad-de-procesamiento-aritm%C3%A9tica-de-activity-7472079683883565056-UTGb",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Compatibilité descendante dans Solidity et l'EVM",
+        "description": "Analyse de la compatibilité descendante dans Solidity, de l'utilisation de l'option evmVersion et de son impact sur le bytecode généré.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "tag": "EVM & Solidity"
       }
     ],
     "all": "Tous",

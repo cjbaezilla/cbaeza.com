@@ -406,6 +406,69 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
         "icon": "fa-solid fa-file-contract",
         "tag": "경제 및 금융"
+      },
+      {
+        "title": "엘리너 오스트롬의 공유지 거버넌스와 비트코인 프로토콜",
+        "description": "엘리너 오스트롬의 제도적 거버넌스 규칙을 비트코인 프로토콜의 지속 가능성과 탈중앙화에 적용한 연구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-econom%C3%ADa-institucional-de-elinor-ostrom-activity-7468622589309902848-NWEi",
+        "icon": "fa-solid fa-users",
+        "tag": "경제 및 금융"
+      },
+      {
+        "title": "소실 정정 부호(Erasure Coding) 및 데이터 가용성 증명",
+        "description": "소실 정정 부호 분석 및 분산 네트워크에서 데이터 무결성과 가용성(Data Availability)을 보장하는 역할.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-integridad-de-los-registros-distribuidos-activity-7468980813616037889-gKys",
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "물리 및 시스템"
+      },
+      {
+        "title": "EVM 샌드박스: 완전한 격리",
+        "description": "EVM의 격리된 실행 환경을 탐구하고, 외부 상태에 대한 무단 접근이 방지되는 방식을 상세히 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-se-concibe-activity-7471004486858223616-0ZKa",
+        "icon": "fa-solid fa-cube",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 계정의 구조",
+        "description": "이더리움 계정 구성 요소(nonce, balance, storageRoot, codeHash)의 구조적 조사.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-el-dise%C3%B1o-estructural-de-la-cadena-de-activity-7471148215875186688-ZGfW",
+        "icon": "fa-solid fa-address-card",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 계정: 구조 및 주소 도출",
+        "description": "CREATE 및 CREATE2를 사용한 EOA 및 컨트랙트 주소 도출 프로세스에 대한 수학적 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-despliegue-de-contratos-inteligentes-en-activity-7471504896123432960-jPsk",
+        "icon": "fa-solid fa-key",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "이더리움 상태 전이 함수",
+        "description": "트랜잭션 상태 머신으로 고안된 이더리움에 대한 공식 설명 및 Y = Υ(S, T) 흐름의 상세 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-global-de-la-red-de-ethereum-activity-7471705755067375616-G9f9",
+        "icon": "fa-solid fa-code-branch",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Solidity 컴파일러 - 변수 정리",
+        "description": "스토리지나 메모리에 쓰기 전에 수행되는 Solidity 컴파일러의 변수 정리(cleanup) 프로세스 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-de-forma-activity-7471860741373997056-MIDi",
+        "icon": "fa-solid fa-broom",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스택 아키텍처",
+        "description": "EVM의 스택 기반 데이터 구조, 깊이 제한 및 Stack Too Deep 에러 탐구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-unidad-de-procesamiento-aritm%C3%A9tica-de-activity-7472079683883565056-UTGb",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Solidity 및 EVM의 하위 호환성",
+        "description": "Solidity 하위 호환성 분석, evmVersion 옵션 사용 및 생성된 바이트코드에 미치는 영향.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "tag": "EVM 및 Solidity"
       }
     ],
     "all": "전체",

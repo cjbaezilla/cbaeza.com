@@ -406,6 +406,69 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-tesis-de-oliver-hart-y-john-moore-publicada-activity-7468298630978867200-gDd9",
         "icon": "fa-solid fa-file-contract",
         "tag": "経済・金融"
+      },
+      {
+        "title": "エリノア・オストロムの共有地ガバナンスとビットコインプロトコル",
+        "description": "エリノア・オストロムの制度的ガバナンスルールをビットコインプロトコルの持続可能性と分散化に適用した研究。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-econom%C3%ADa-institucional-de-elinor-ostrom-activity-7468622589309902848-NWEi",
+        "icon": "fa-solid fa-users",
+        "tag": "経済と金融"
+      },
+      {
+        "title": "消失訂正符号（Erasure Coding）とデータ可用性証明",
+        "description": "消失訂正符号の分析と、分散ネットワークにおけるデータの整合性および可用性（Data Availability）の確保におけるその役割。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-integridad-de-los-registros-distribuidos-activity-7468980813616037889-gKys",
+        "icon": "fa-solid fa-shield-halved",
+        "tag": "物理とシステム"
+      },
+      {
+        "title": "EVM サンドボックス：完全な隔離",
+        "description": "EVMの隔離された実行環境を探索し、外部状態への不正アクセスがどのように防止されるかを詳細に解説。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-se-concibe-activity-7471004486858223616-0ZKa",
+        "icon": "fa-solid fa-cube",
+        "tag": "EVM と Solidity"
+      },
+      {
+        "title": "EVM アカウントの構造",
+        "description": "イーサリアムアカウントの構成要素（nonce、balance、storageRoot、codeHash）の構造的調査。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_en-el-dise%C3%B1o-estructural-de-la-cadena-de-activity-7471148215875186688-ZGfW",
+        "icon": "fa-solid fa-address-card",
+        "tag": "EVM と Solidity"
+      },
+      {
+        "title": "EVM アカウント：構造とアドレス導出",
+        "description": "CREATEおよびCREATE2を使用したEOAおよびコントラクトのアアドレス導出プロセスの数学的分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-despliegue-de-contratos-inteligentes-en-activity-7471504896123432960-jPsk",
+        "icon": "fa-solid fa-key",
+        "tag": "EVM と Solidity"
+      },
+      {
+        "title": "イーサリアム状態遷移関数",
+        "description": "トランザクション状態マシンとしてのイーサリアムのフォーマルな解説と、Y = Υ(S, T) フローの詳細。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-global-de-la-red-de-ethereum-activity-7471705755067375616-G9f9",
+        "icon": "fa-solid fa-code-branch",
+        "tag": "EVM と Solidity"
+      },
+      {
+        "title": "Solidity コンパイラ - 変数クリーンアップ",
+        "description": "ストレージやメモリへの書き込み前に行われる、Solidityコンパイラの変数クリーンアップ（cleanup）プロセスの分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-de-forma-activity-7471860741373997056-MIDi",
+        "icon": "fa-solid fa-broom",
+        "tag": "EVM と Solidity"
+      },
+      {
+        "title": "EVM スタックアーキテクチャ",
+        "description": "EVMのスタック型データ構造、その深さ制限、およびStack Too Deepエラーの探索。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-unidad-de-procesamiento-aritm%C3%A9tica-de-activity-7472079683883565056-UTGb",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM と Solidity"
+      },
+      {
+        "title": "Solidity と EVM における後方互換性",
+        "description": "Solidityにおける後方互換性の分析、evmVersionオプションの使用、および生成されたバイトコードへの影響。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "tag": "EVM と Solidity"
       }
     ],
     "all": "すべて",
