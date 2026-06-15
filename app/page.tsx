@@ -241,8 +241,11 @@ export default function Home() {
       {/* Sección Dedicada de Publicaciones */}
       <section id="publications" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10">
         <div className="flex flex-col gap-4 mb-8">
-          <h2 className="font-heading text-3xl font-black tracking-tight">
-            {t("publicationsSection.title") as string}
+          <h2 className="font-heading text-3xl font-black tracking-tight flex items-center gap-3">
+            <span>{t("publicationsSection.title") as string}</span>
+            <span className="inline-flex items-center justify-center rounded-full bg-primary/10 px-2.5 py-0.5 text-sm font-bold text-primary">
+              {publicationsList.length}
+            </span>
           </h2>
           <p className="text-sm text-muted-foreground">
             {t("publicationsSection.subtitle") as string}
@@ -278,6 +281,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 max-w-full">
             {allTags.map((tag) => {
               const isActive = selectedTag === tag;
+              const count = tag === "all" ? publicationsList.length : publicationsList.filter((p) => p.tag === tag).length;
               return (
                 <button
                   key={tag}
@@ -285,13 +289,20 @@ export default function Home() {
                     setSelectedTag(tag);
                     setShowAllPublications(false); // Reiniciar visualización al cambiar tag
                   }}
-                  className={`inline-flex items-center px-4 py-2 rounded-xl text-xs font-semibold border transition-all cursor-pointer select-none ${
+                  className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold border transition-all cursor-pointer select-none ${
                     isActive
                       ? "bg-primary border-primary text-primary-foreground shadow-sm"
                       : "bg-card border-border/60 text-muted-foreground hover:bg-accent hover:text-foreground"
                   }`}
                 >
-                  {tag === "all" ? (t("publicationsSection.all") as string) : tag}
+                  <span>{tag === "all" ? (t("publicationsSection.all") as string) : tag}</span>
+                  <span className={`inline-flex items-center justify-center rounded-md px-1.5 py-0.5 text-[10px] font-bold transition-all ${
+                    isActive
+                      ? "bg-primary-foreground/20 text-primary-foreground"
+                      : "bg-muted text-muted-foreground"
+                  }`}>
+                    {count}
+                  </span>
                 </button>
               );
             })}
@@ -387,8 +398,11 @@ export default function Home() {
       {/* Fundamentos (Ensayos Técnicos) */}
       <section id="foundations" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10 relative">
         <div className="flex flex-col gap-4 mb-8">
-          <h2 className="font-heading text-3xl font-black tracking-tight">
-            {t("foundations.title") as string}
+          <h2 className="font-heading text-3xl font-black tracking-tight flex items-center gap-3">
+            <span>{t("foundations.title") as string}</span>
+            <span className="inline-flex items-center justify-center rounded-full bg-primary/10 px-2.5 py-0.5 text-sm font-bold text-primary">
+              {foundationsList.length}
+            </span>
           </h2>
           <p className="text-sm text-muted-foreground">
             {t("foundations.subtitle") as string}
@@ -424,6 +438,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 max-w-full">
             {allFoundationTags.map((tag) => {
               const isActive = selectedFoundationTag === tag;
+              const count = tag === "all" ? foundationsList.length : foundationsList.filter((f) => f.tag === tag).length;
               return (
                 <button
                   key={tag}
@@ -431,13 +446,20 @@ export default function Home() {
                     setSelectedFoundationTag(tag);
                     setShowAllFoundations(false); // Reiniciar visualización al cambiar tag
                   }}
-                  className={`inline-flex items-center px-4 py-2 rounded-xl text-xs font-semibold border transition-all cursor-pointer select-none ${
+                  className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold border transition-all cursor-pointer select-none ${
                     isActive
                       ? "bg-primary border-primary text-primary-foreground shadow-sm"
                       : "bg-card border-border/60 text-muted-foreground hover:bg-accent hover:text-foreground"
                   }`}
                 >
-                  {tag === "all" ? (t("foundations.all") as string) : tag}
+                  <span>{tag === "all" ? (t("foundations.all") as string) : tag}</span>
+                  <span className={`inline-flex items-center justify-center rounded-md px-1.5 py-0.5 text-[10px] font-bold transition-all ${
+                    isActive
+                      ? "bg-primary-foreground/20 text-primary-foreground"
+                      : "bg-muted text-muted-foreground"
+                  }`}>
+                    {count}
+                  </span>
                 </button>
               );
             })}
