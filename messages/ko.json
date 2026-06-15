@@ -224,6 +224,18 @@
         "description": "게임화 플랫폼 Vibe2Wizard를 위해 Avalanche Build Games 해커톤 기간 동안 개발된 스마트 계약 및 웹 구성 요소 생태계.",
         "stack": "Solidity, Avalanche, Hardhat, React",
         "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      },
+      {
+        "title": "Web3 실험실 및 트레이닝 DApp",
+        "description": "USACH 대학원 과정을 위한 Web3 트레이닝 실험실로 설계된 대화형 탈중앙화 애플리케이션.",
+        "stack": "Next.js, React, ethers.js, Web3",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp"
+      },
+      {
+        "title": "USACH 대학원 스마트 계약",
+        "description": "대학원 과정의 Web3 트레이닝 실험실을 구동하기 위한 온체인 백엔드로 작동하는 Solidity 개발 스마트 계약.",
+        "stack": "Solidity, Hardhat, OpenZeppelin",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp-contracts"
       }
     ]
   },

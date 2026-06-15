@@ -224,6 +224,18 @@
         "description": "منظومة من العقود الذكية ومكونات الويب التي تم تطويرها خلال هكاثون Avalanche Build Games لمنصة Vibe2Wizard الملعّبة.",
         "stack": "Solidity, Avalanche, Hardhat, React",
         "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      },
+      {
+        "title": "مختبر Web3 وتطبيق DApp للتدريب",
+        "description": "تطبيق لا مركزي تفاعلي مصمم كمختبر تدريب Web3 لبرنامج الدراسات العليا في جامعة سانتياغو دي تشيلي (USACH).",
+        "stack": "Next.js, React, ethers.js, Web3",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp"
+      },
+      {
+        "title": "العقود الذكية لبرنامج الدراسات العليا USACH",
+        "description": "عقود ذكية تم تطويرها بلغة Solidity لتعمل كخلفية برمجية على الشبكة (on-chain backend) لتشغيل مختبر تدريب Web3 الخاص بالبرنامج.",
+        "stack": "Solidity, Hardhat, OpenZeppelin",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp-contracts"
       }
     ]
   },

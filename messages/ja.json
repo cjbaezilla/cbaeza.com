@@ -224,6 +224,18 @@
         "description": "Avalanche Build Games Hackathon中にVibe2Wizardゲーム化プラットフォーム向けに開発されたスマートコントラクトとWebコンポーネントのエコシステム。",
         "stack": "Solidity, Avalanche, Hardhat, React",
         "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      },
+      {
+        "title": "Web3ラボ＆トレーニング用DApp",
+        "description": "USACHのポストグラジエイトプログラム向けWeb3トレーニングラボとして設計されたインタラクティブな分散型アプリケーション。",
+        "stack": "Next.js, React, ethers.js, Web3",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp"
+      },
+      {
+        "title": "USACH大学院スマートコントラクト",
+        "description": "大学院プログラム의 Web3トレーニングラボを動かすオンチェーンバックエンドとして機能する、Solidityで開発されたスマートコントラクト。",
+        "stack": "Solidity, Hardhat, OpenZeppelin",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp-contracts"
       }
     ]
   },

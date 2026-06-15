@@ -224,6 +224,18 @@
         "description": "Экосистема смарт-контрактов и веб-компонентов, разработанная во время хакатона Avalanche Build Games для геймифицированной платформы Vibe2Wizard.",
         "stack": "Solidity, Avalanche, Hardhat, React",
         "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      },
+      {
+        "title": "Лаборатория Web3 и обучающее DApp",
+        "description": "Интерактивное децентрализованное приложение, разработанное в качестве обучающей лаборатории Web3 для аспирантуры USACH.",
+        "stack": "Next.js, React, ethers.js, Web3",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp"
+      },
+      {
+        "title": "Смарт-контракты аспирантуры USACH",
+        "description": "Смарт-контракты на Solidity, служащие ончейн-бэкендом для обеспечения работы обучающей лаборатории Web3.",
+        "stack": "Solidity, Hardhat, OpenZeppelin",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp-contracts"
       }
     ]
   },

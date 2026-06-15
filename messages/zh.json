@@ -224,6 +224,18 @@
         "description": "在 Avalanche Build Games 黑客松期间为 Vibe2Wizard 游戏化平台开发的智能合约和 Web 组件生态系统。",
         "stack": "Solidity, Avalanche, Hardhat, React",
         "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      },
+      {
+        "title": "Web3 实验室与训练 DApp",
+        "description": "专为智利圣地亚哥大学（USACH）研究生课程设计的互动式去中心化 Web3 训练实验室应用。",
+        "stack": "Next.js, React, ethers.js, Web3",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp"
+      },
+      {
+        "title": "USACH 研究生智能合约",
+        "description": "使用 Solidity 开发的智能合约，作为链上后端为研究生课程的 Web3 训练实验室提供支持。",
+        "stack": "Solidity, Hardhat, OpenZeppelin",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp-contracts"
       }
     ]
   },

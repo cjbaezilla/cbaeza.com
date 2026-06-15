@@ -224,6 +224,18 @@
         "description": "Ecossistema de contratos inteligentes e componentes web desenvolvidos durante o Avalanche Build Games Hackathon para a plataforma de aprendizagem gamificada Vibe2Wizard.",
         "stack": "Solidity, Avalanche, Hardhat, React",
         "github": "https://github.com/cjbaezilla/Avalanche-Build-Games-Hackathon-Monorepo"
+      },
+      {
+        "title": "Laboratório Web3 e DApp de Treinamento",
+        "description": "Aplicativo descentralizado interativo projetado como um laboratório de treinamento Web3 para o programa de pós-graduação da USACH.",
+        "stack": "Next.js, React, ethers.js, Web3",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp"
+      },
+      {
+        "title": "Contratos Inteligentes do Diplomado USACH",
+        "description": "Contratos inteligentes desenvolvidos em Solidity que servem como backend on-chain para alimentar o laboratório de treinamento Web3 do diplomado.",
+        "stack": "Solidity, Hardhat, OpenZeppelin",
+        "github": "https://github.com/cjbaezilla/diplomado-usach-training-dapp-contracts"
       }
     ]
   },
