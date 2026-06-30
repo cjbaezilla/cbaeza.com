@@ -481,6 +481,216 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
         "icon": "fa-solid fa-clock-rotate-left",
         "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "حساب الأعداد الصحيحة بـ 256 بت في EVM",
+        "description": "دراسة الدقة الحسابية ومعالجة الفائض في EVM باستخدام سجلات أصلية بسعة 256 بت.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-precisi%C3%B3n-aritm%C3%A9tica-en-la-gesti%C3%B3n-de-activity-7472457171155415040--xWZ",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "المعاملات في EVM: الهيكل والتكاليف",
+        "description": "تحليل مفصل لهيكل المعاملات في Ethereum وتكاليف الغاز المرتبطة بها.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_toda-transacci%C3%B3n-enviada-a-la-red-de-ethereum-activity-7472592559702405121-7EC9",
+        "icon": "fa-solid fa-receipt",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "دورة حياة المعاملة في Ethereum",
+        "description": "رحلة المعاملة من توقيع المستخدم حتى إدراجها وتأكيدها على البلوكشين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-de-una-transacci%C3%B3n-en-ethereum-activity-7472811757741416449-gNAW",
+        "icon": "fa-solid fa-rotate",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تطور مجموعة تعليمات EVM",
+        "description": "كيف تطورت مجموعة أكواد تشغيل EVM للتكيف مع متطلبات الأمان والكفاءة الجديدة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-repertorio-de-instrucciones-de-bajo-nivel-activity-7472932805069619201-VxU1",
+        "icon": "fa-solid fa-arrow-trend-up",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "حلقة التنفيذ الداخلية لـ EVM",
+        "description": "استكشاف محرك تنفيذ EVM وكيفية معالجته المتسلسلة لكل كود تشغيل.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-motor-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7473167098953809920-4KX4",
+        "icon": "fa-solid fa-circle-notch",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التنفيذ: مركزي مقابل لامركزي (EVM)",
+        "description": "مقارنة بين نماذج التنفيذ وتكرار الحالة العالمية في الشبكات الموزعة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-paradigma-inform%C3%A1tico-adoptado-por-la-activity-7473310292429565952-SEf6",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "العنوان في EVM: 160 بت (20 بايت)",
+        "description": "تحليل رياضي وتشفيري لهيكل واشتقاق العناوين في Ethereum.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-direccionamiento-de-la-m%C3%A1quina-activity-7473535778262999040-NZSf",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: التنفيذ الحتمي والمعزول",
+        "description": "كيف تضمن EVM أن تكون نتيجة العقد الذكي متطابقة عبر جميع عقد الشبكة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-consenso-global-en-un-sistema-inform%C3%A1tico-activity-7473687779865055234-6s0h",
+        "icon": "fa-solid fa-lock",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تخزين EVM: التعبئة والمحاذاة",
+        "description": "قواعد مترجم Solidity لتعبئة متغيرات الحالة في فتحات 32 بايت لتوفير الغاز.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7473890620164599808-3qnI",
+        "icon": "fa-solid fa-boxes-stacked",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "انتقال الحالة العالمية في Ethereum",
+        "description": "الدالة الرياضية التي تحول الحالة العالمية S بعد تطبيق كتلة من المعاملات.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-red-ethereum-funciona-formalmente-como-activity-7474042222569709568-yBHV",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تخزين EVM: هائل ومتفرّق وغير قابل للعد",
+        "description": "نموذج تخزين المفتاح والقيمة المخطط عبر مساحة افتراضية تبلغ 2^256 فتحة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-almacenamiento-persistente-activity-7474230859148079105-5JlK",
+        "icon": "fa-solid fa-database",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "أكواد تشغيل EVM بحجم 1 بايت",
+        "description": "بنية EVM منخفضة المستوى التي تحد من حجم كل تعليمة إلى بايت واحد فقط.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-ejecuci%C3%B3n-de-baja-denominaci%C3%B3n-activity-7474393932869787648-qRfn",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "حساب تكلفة الغاز الديناميكية (EIP-2929)",
+        "description": "كيف تحسب EVM تكاليف الغاز الديناميكية لمنع هجمات حجب الخدمة (DoS).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-de-gas-din%C3%A1mico-introducido-activity-7474615908615786496-hWl8",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "هيكل رسوم الغاز في EVM",
+        "description": "تحليل نموذج الرسوم في Ethereum: الرسوم الأساسية، ورسوم الأولوية، وتأثير EIP-1559.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-gas-en-ethereum-constituye-una-activity-7474775195090587648-q00C",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EIP-2929: الغاز الديناميكي (بارد مقابل دافئ)",
+        "description": "فروق التكلفة بين عمليات الوصول الباردة والدافئة للحسابات وفتحات التخزين في EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mejora-eip-2929-transform%C3%B3-transversalmente-activity-7474898752818843648-apx0",
+        "icon": "fa-solid fa-temperature-half",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: الغاز ومشكلة التوقف",
+        "description": "استخدام الغاز كحل لتورينغ لمنع الحلقات اللانهائية أثناء تنفيذ العقود.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-funciona-de-activity-7475120218520932352-0UYv",
+        "icon": "fa-solid fa-hand",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التخزين في Ethereum: Merkle Patricia Trie",
+        "description": "بنية تشفيرية لتخزين والتحقق من البيانات المحلية لكل عقد بكفاءة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-persistente-de-cada-contrato-activity-7475348227391942656--4-8",
+        "icon": "fa-solid fa-tree",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "مكدس EVM (Stack)",
+        "description": "تشغيل منطقة التنفيذ المستندة إلى المكدس في EVM، بحد أقصى 1024 عنصرًا.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-operaciones-o-stack-constituye-activity-7475495043659841536-jVAW",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "شجرة الحالة العالمية وشجرة التخزين المحلي",
+        "description": "العلاقة الهرمية بين شجرة الحالة العالمية وأشجار التخزين الفردية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-trie-de-estado-global-de-ethereum-t%C3%A9cnicamente-activity-7475710614259130369-c5Yz",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "مكدس الـ EVM",
+        "description": "تحليل تقني لكيفية تفاعل أكواد التشغيل مع قمة المكدس ذي الـ 256 بت.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-f%C3%ADsico-de-transferencia-de-datos-activity-7475862107196952578-MqfP",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "بنية قاعدة البيانات الهرمية لإيثيريوم",
+        "description": "تصميم قاعدة البيانات متعدد المستويات الذي يدعم تخزين الحالة والسجل التاريخي.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-base-de-datos-de-estado-de-la-m%C3%A1quina-activity-7476072996844261376-DV9q",
+        "icon": "fa-solid fa-folder-tree",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "مكدس EVM: الحد، والتدفق الزائد، والتدفق الناقص",
+        "description": "آليات الأمان لمنع التدفق الزائد أو الوصول الفارغ في مكدس التنفيذ.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-comportamiento-operacional-de-la-pila-activity-7476208137247657985-DNrf",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تفاعل الحالة متعدد المستويات في Ethereum",
+        "description": "كيف تتواصل ذاكرة التخزين المؤقت وقاعدة بيانات الحالة والقرص المحلي.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-procesamiento-de-transacciones-en-un-nodo-activity-7476435392737632256-FF7v",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "الذاكرة المؤقتة لـ EVM",
+        "description": "العنونة الخطية وهيكل التكلفة التربيعية لتوسيع الذاكرة في EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-direccionamiento-y-el-acceso-f%C3%ADsico-a-activity-7476564233728581632-e2DR",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "هرمية حالة Ethereum وإثبات التخزين",
+        "description": "استخدام إثباتات التخزين التشفيرية للتحقق من بيانات محددة دون تنزيل الحالة بأكملها.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-jerarqu%C3%ADa-criptogr%C3%A1fica-de-ethereum-se-activity-7476797991278964736-Cctl",
+        "icon": "fa-solid fa-certificate",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "مخطط الذاكرة في Solidity",
+        "description": "كيف تنظم Solidity الذاكرة الخطية، مع حجز فتحات محددة للمؤشر الحر ولوحة الخدش.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7476934171328888832-1Ghe",
+        "icon": "fa-solid fa-table-cells",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "هيكل كتلة Ethereum",
+        "description": "تحليل الترويسة والجسم والبيانات الوصفية التي تشكل كتلة في البلوكشين.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bloque-de-ethereum-representa-la-unidad-activity-7477160160952676352-8D5W",
+        "icon": "fa-solid fa-cubes",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "الغاز في Ethereum: التدفق ونفاد الغاز",
+        "description": "تدفق استهلاك الغاز وسلوك الاستثناء عندما يتجاوز التنفيذ الحد المسموح به.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-econ%C3%B3mico-y-de-procesamiento-de-activity-7477289009405149184-EoYr",
+        "icon": "fa-solid fa-gauge-high",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "TSTORE / TLOAD في EVM",
+        "description": "التخزين المؤقت الذي تم إدخاله في EIP-1153 لتحسين تكاليف غاز المعاملات الداخلية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-transitorio-introducido-activity-7477522548814053376-vfgV",
+        "icon": "fa-solid fa-bolt",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "نفاد الغاز (OOG) في EVM",
+        "description": "تأثير وعكس الحالة في المعاملات التي تفشل بسبب نقص الغاز الكافي.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
+        "icon": "fa-solid fa-circle-exclamation",
+        "tag": "EVM وسوليديتي"
       }
     ],
     "all": "الكل",
@@ -701,6 +911,13 @@
     "searchPlaceholder": "البحث عن المنشورات..."
   },
   "news": [
+    {
+      "title": "تقرير المختبر العملي DeFi لجامعة سانتياغو دي تشيلي (USACH) على شبكة Ethereum Sepolia",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_me-complace-presentar-el-reporte-obtenido-ugcPost-7474950801463885824-PTho/",
+      "description": "نشر التقرير النهائي لمختبر DeFi لجامعة USACH، مسجلاً 2,460 معاملة و3,331 حدثًا على الشبكة عبر 115 عقدًا فرديًا، و98 مجمع سيولة، واعتمادًا آمنًا بالتوقيعات التشفيرية.",
+      "icon": "fa-solid fa-chart-line"
+    },
     {
       "title": "تطبيق dApp تفاعلي Web3 للتعليم الكامل على الشبكة",
       "tag": "Web3",

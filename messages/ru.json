@@ -481,6 +481,216 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
         "icon": "fa-solid fa-clock-rotate-left",
         "tag": "EVM и Solidity"
+      },
+      {
+        "title": "256-битная целочисленная арифметика в EVM",
+        "description": "Исследование арифметической точности и обработки переполнения в EVM с использованием встроенных 256-битных регистров.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-precisi%C3%B3n-aritm%C3%A9tica-en-la-gesti%C3%B3n-de-activity-7472457171155415040--xWZ",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Транзакция в EVM: структура и затраты",
+        "description": "Подробный анализ структуры транзакции Ethereum и связанных с ней затрат на газ.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_toda-transacci%C3%B3n-enviada-a-la-red-de-ethereum-activity-7472592559702405121-7EC9",
+        "icon": "fa-solid fa-receipt",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Жизненный цикл транзакции в Ethereum",
+        "description": "Путь транзакции от подписи пользователя до ее включения и подтверждения в блокчейне.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-de-una-transacci%C3%B3n-en-ethereum-activity-7472811757741416449-gNAW",
+        "icon": "fa-solid fa-rotate",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Эволюция набора инструкций EVM",
+        "description": "Как развивался репертуар опкодов EVM для адаптации к новым требованиям безопасности и эффективности.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-repertorio-de-instrucciones-de-bajo-nivel-activity-7472932805069619201-VxU1",
+        "icon": "fa-solid fa-arrow-trend-up",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Внутренний цикл выполнения EVM",
+        "description": "Исследование механизма выполнения EVM и того, как он последовательно обрабатывает каждый опкод.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-motor-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7473167098953809920-4KX4",
+        "icon": "fa-solid fa-circle-notch",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Выполнение: централизованное против децентрализованного (EVM)",
+        "description": "Сравнение парадигм выполнения и репликации глобального состояния в распределенных сетях.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-paradigma-inform%C3%A1tico-adoptado-por-la-activity-7473310292429565952-SEf6",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Адрес в EVM: 160 бит (20 байт)",
+        "description": "Математический и криптографический анализ структуры и вывода адресов в Ethereum.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-direccionamiento-de-la-m%C3%A1quina-activity-7473535778262999040-NZSf",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "EVM: детерминированное и изолированное выполнение",
+        "description": "Как EVM гарантирует, что результат выполнения смарт-контракта будет идентичным на всех узлах сети.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-consenso-global-en-un-sistema-inform%C3%A1tico-activity-7473687779865055234-6s0h",
+        "icon": "fa-solid fa-lock",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Хранилище EVM: упаковка и выравнивание",
+        "description": "Правила компилятора Solidity для упаковки переменных состояния в 32-байтовые слоты для экономии газа.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7473890620164599808-3qnI",
+        "icon": "fa-solid fa-boxes-stacked",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Переход глобального состояния в Ethereum",
+        "description": "Математическая функция, которая преобразует глобальное состояние S после применения блока транзакций.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-red-ethereum-funciona-formalmente-como-activity-7474042222569709568-yBHV",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Хранилище EVM: огромное, разреженное и неисчислимое",
+        "description": "Модель хранения ключей и значений, сопоставленная с виртуальным пространством из 2^256 слотов.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-almacenamiento-persistente-activity-7474230859148079105-5JlK",
+        "icon": "fa-solid fa-database",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "1-байтовые опкоды EVM",
+        "description": "Низкоуровневая архитектура EVM, ограничивающая размер каждой инструкции одним байтом.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-ejecuci%C3%B3n-de-baja-denominaci%C3%B3n-activity-7474393932869787648-qRfn",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Расчет динамической стоимости газа (EIP-2929)",
+        "description": "Как EVM рассчитывает динамическую стоимость газа для предотвращения атак типа «отказ в обслуживании» (DoS).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-de-gas-din%C3%A1mico-introducido-activity-7474615908615786496-hWl8",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Структура платы за газ в EVM",
+        "description": "Анализ модели оплаты в Ethereum: базовая плата, плата за приоритет и влияние EIP-1559.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-gas-en-ethereum-constituye-una-activity-7474775195090587648-q00C",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "EIP-2929: Динамический газ (холодный против теплого)",
+        "description": "Разница в стоимости между холодным и теплым доступом к учетным записям и слотам хранения в EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mejora-eip-2929-transform%C3%B3-transversalmente-activity-7474898752818843648-apx0",
+        "icon": "fa-solid fa-temperature-half",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "EVM: газ и проблема остановки",
+        "description": "Использование газа как решения Тьюринга для предотвращения бесконечных циклов во время выполнения контракта.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-funciona-de-activity-7475120218520932352-0UYv",
+        "icon": "fa-solid fa-hand",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Хранилище в Ethereum: Merkle Patricia Trie",
+        "description": "Криптографическая структура для эффективного хранения и проверки локальных данных каждого контракта.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-persistente-de-cada-contrato-activity-7475348227391942656--4-8",
+        "icon": "fa-solid fa-tree",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Стек EVM (Stack)",
+        "description": "Работа области выполнения на основе стека EVM с ограничением в 1024 элемента.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-operaciones-o-stack-constituye-activity-7475495043659841536-jVAW",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Дерево глобального состояния и дерево локального хранилища",
+        "description": "Иерархическая связь между деревом глобального состояния и отдельными деревьями хранилищ.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-trie-de-estado-global-de-ethereum-t%C3%A9cnicamente-activity-7475710614259130369-c5Yz",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Стек EVM",
+        "description": "Технический анализ взаимодействия опкодов с вершиной 256-битного стека.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-f%C3%ADsico-de-transferencia-de-datos-activity-7475862107196952578-MqfP",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Иерархическая структура базы данных Ethereum",
+        "description": "Многоуровневая структура базы данных, поддерживающая хранение состояний и истории.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-base-de-datos-de-estado-de-la-m%C3%A1quina-activity-7476072996844261376-DV9q",
+        "icon": "fa-solid fa-folder-tree",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Стек EVM: лимит, переполнение и антипереполнение",
+        "description": "Механизмы безопасности для предотвращения переполнения или пустого доступа в стеке выполнения.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-comportamiento-operacional-de-la-pila-activity-7476208137247657985-DNrf",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Многоуровневое взаимодействие состояний в Ethereum",
+        "description": "Как взаимодействуют кэш-память, база данных состояний и локальный диск.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-procesamiento-de-transacciones-en-un-nodo-activity-7476435392737632256-FF7v",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Летучая память EVM",
+        "description": "Линейная адресация и квадратичная структура стоимости расширения памяти в EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-direccionamiento-y-el-acceso-f%C3%ADsico-a-activity-7476564233728581632-e2DR",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Иерархия состояний Ethereum и Storage Proof",
+        "description": "Использование криптографических доказательств хранения для проверки конкретных данных без загрузки всего состояния.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-jerarqu%C3%ADa-criptogr%C3%A1fica-de-ethereum-se-activity-7476797991278964736-Cctl",
+        "icon": "fa-solid fa-certificate",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Макет памяти Solidity",
+        "description": "Как Solidity организует линейную память, резервируя определенные слоты для свободного указателя и scratchpad.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7476934171328888832-1Ghe",
+        "icon": "fa-solid fa-table-cells",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Структура блока Ethereum",
+        "description": "Анализ заголовка, тела и метаданных, из которых состоит блок в блокчейне.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bloque-de-ethereum-representa-la-unidad-activity-7477160160952676352-8D5W",
+        "icon": "fa-solid fa-cubes",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Газ в Ethereum: поток и Out-Of-Gas",
+        "description": "Поток потребления газа и поведение при исключениях, когда выполнение превышает лимит.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-econ%C3%B3mico-y-de-procesamiento-de-activity-7477289009405149184-EoYr",
+        "icon": "fa-solid fa-gauge-high",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "TSTORE / TLOAD в EVM",
+        "description": "Временное хранилище, введенное в EIP-1153 для оптимизации затрат на газ внутри транзакции.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-transitorio-introducido-activity-7477522548814053376-vfgV",
+        "icon": "fa-solid fa-bolt",
+        "tag": "EVM и Solidity"
+      },
+      {
+        "title": "Нехватка газа (OOG) в EVM",
+        "description": "Влияние и откат состояния в транзакциях, которые завершаются сбоем из-за нехватки газа.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
+        "icon": "fa-solid fa-circle-exclamation",
+        "tag": "EVM и Solidity"
       }
     ],
     "all": "Все",
@@ -701,6 +911,13 @@
     "searchPlaceholder": "Поиск публикаций..."
   },
   "news": [
+    {
+      "title": "Отчет о практической лаборатории DeFi для USACH в сети Ethereum Sepolia",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_me-complace-presentar-el-reporte-obtenido-ugcPost-7474950801463885824-PTho/",
+      "description": "Публикация финального отчета лаборатории DeFi для USACH, зафиксировавшего 2460 транзакций и 3331 ончейн-событие на базе 115 индивидуальных контрактов, 98 пулов ликвидности и безопасной сертификации с криптографическими подписями.",
+      "icon": "fa-solid fa-chart-line"
+    },
     {
       "title": "Интерактивное Web3 dApp для полностью ончейн-образования",
       "tag": "Web3",

@@ -481,6 +481,216 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
         "icon": "fa-solid fa-clock-rotate-left",
         "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 256 位整数算术",
+        "description": "研究在 EVM 中使用原生 256 位寄存器进行算术精度和溢出处理。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-precisi%C3%B3n-aritm%C3%A9tica-en-la-gesti%C3%B3n-de-activity-7472457171155415040--xWZ",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 交易：结构与成本",
+        "description": "详细分析以太坊交易结构及其相关 gas 成本。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_toda-transacci%C3%B3n-enviada-a-la-red-de-ethereum-activity-7472592559702405121-7EC9",
+        "icon": "fa-solid fa-receipt",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊交易生命周期",
+        "description": "交易从用户签名到被纳入区块链并确认的过程。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-de-una-transacci%C3%B3n-en-ethereum-activity-7472811757741416449-gNAW",
+        "icon": "fa-solid fa-rotate",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 指令集的演变",
+        "description": "EVM 操作码集如何演变以适应新的安全性和效率要求。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-repertorio-de-instrucciones-de-bajo-nivel-activity-7472932805069619201-VxU1",
+        "icon": "fa-solid fa-arrow-trend-up",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 内部执行循环",
+        "description": "探索 EVM 执行引擎以及它如何顺序处理每个操作码。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-motor-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7473167098953809920-4KX4",
+        "icon": "fa-solid fa-circle-notch",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "执行：集中式 vs. 分布式 (EVM)",
+        "description": "分布式网络中执行范式与全局状态复制的比较。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-paradigma-inform%C3%A1tico-adoptado-por-la-activity-7473310292429565952-SEf6",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 地址：160 位（20 字节）",
+        "description": "以太坊中地址结构及推导的数学和密码学分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-direccionamiento-de-la-m%C3%A1quina-activity-7473535778262999040-NZSf",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：确定性与隔离执行",
+        "description": "EVM 如何保证智能合约的结果在所有网络节点上是相同的。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-consenso-global-en-un-sistema-inform%C3%A1tico-activity-7473687779865055234-6s0h",
+        "icon": "fa-solid fa-lock",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 存储：打包与对齐",
+        "description": "Solidity 编译器将状态变量打包到 32 字节插槽中以节省 gas 的规则。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7473890620164599808-3qnI",
+        "icon": "fa-solid fa-boxes-stacked",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊全局状态转换",
+        "description": "在应用交易区块后转换全局状态 S 的数学函数。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-red-ethereum-funciona-formalmente-como-activity-7474042222569709568-yBHV",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 存储：巨大、稀疏且不可数",
+        "description": "映射在 2^256 插槽虚拟空间上的键值存储模型。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-almacenamiento-persistente-activity-7474230859148079105-5JlK",
+        "icon": "fa-solid fa-database",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "1 字节 EVM 操作码",
+        "description": "将每个指令大小限制为单个字节的低级 EVM 架构。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-ejecuci%C3%B3n-de-baja-denominaci%C3%B3n-activity-7474393932869787648-qRfn",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "动态 Gas 成本计算 (EIP-2929)",
+        "description": "EVM 如何计算动态 gas 成本以防止拒绝服务 (DoS) 攻击。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-de-gas-din%C3%A1mico-introducido-activity-7474615908615786496-hWl8",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 Gas 费用结构",
+        "description": "分析以太坊中的收费模型：基础费、优先费以及 EIP-1559 的影响。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-gas-en-ethereum-constituye-una-activity-7474775195090587648-q00C",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EIP-2929：动态 Gas（冷访问 vs. 热访问）",
+        "description": "EVM 中对账户和存储插槽进行冷访问和热访问的成本差异。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mejora-eip-2929-transform%C3%B3-transversalmente-activity-7474898752818843648-apx0",
+        "icon": "fa-solid fa-temperature-half",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：Gas 与停机问题",
+        "description": "使用 gas 作为图灵解决方案，以防止合约执行期间出现无限循环。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-funciona-de-activity-7475120218520932352-0UYv",
+        "icon": "fa-solid fa-hand",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊中的存储：Merkle Patricia Trie",
+        "description": "高效存储和验证每个合约本地数据的密码学结构。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-persistente-de-cada-contrato-activity-7475348227391942656--4-8",
+        "icon": "fa-solid fa-tree",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 栈 (Stack)",
+        "description": "EVM 基于栈的执行区域的操作，限制为 1024 个元素。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-operaciones-o-stack-constituye-activity-7475495043659841536-jVAW",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "全局状态 Trie 和本地存储 Trie",
+        "description": "全局状态树与单个存储树之间的分层关系。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-trie-de-estado-global-de-ethereum-t%C3%A9cnicamente-activity-7475710614259130369-c5Yz",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 栈结构",
+        "description": "操作码如何与 256 位栈顶交互的技术分析。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-f%C3%ADsico-de-transferencia-de-datos-activity-7475862107196952578-MqfP",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊的分层数据库结构",
+        "description": "支持状态和历史存储的多级数据库设计。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-base-de-datos-de-estado-de-la-m%C3%A1quina-activity-7476072996844261376-DV9q",
+        "icon": "fa-solid fa-folder-tree",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 栈：限制、溢出和下溢",
+        "description": "防止执行栈中出现溢出或空访问的安全机制。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-comportamiento-operacional-de-la-pila-activity-7476208137247657985-DNrf",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊状态的多级交互",
+        "description": "内存缓存、状态数据库和本地磁盘如何进行通信。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-procesamiento-de-transacciones-en-un-nodo-activity-7476435392737632256-FF7v",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 易失性内存",
+        "description": "EVM 中线性寻址和内存扩展的二次成本结构。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-direccionamiento-y-el-acceso-f%C3%ADsico-a-activity-7476564233728581632-e2DR",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊状态分层与存储证明",
+        "description": "使用密码学存储证明来验证特定数据，而无需下载整个状态。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-jerarqu%C3%ADa-criptogr%C3%A1fica-de-ethereum-se-activity-7476797991278964736-Cctl",
+        "icon": "fa-solid fa-certificate",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "Solidity 内存布局",
+        "description": "Solidity 如何组织线性内存，为自由指针和临时存储保留特定插槽。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7476934171328888832-1Ghe",
+        "icon": "fa-solid fa-table-cells",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊区块结构",
+        "description": "分析组成区块链中区块的区块头、区块体和元数据。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bloque-de-ethereum-representa-la-unidad-activity-7477160160952676352-8D5W",
+        "icon": "fa-solid fa-cubes",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊中的 Gas：流程与 Gas 耗尽",
+        "description": "当执行超出限制时的 gas 消耗流程和异常行为。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-econ%C3%B3mico-y-de-procesamiento-de-activity-7477289009405149184-EoYr",
+        "icon": "fa-solid fa-gauge-high",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 TSTORE / TLOAD",
+        "description": "EIP-1153 中引入的瞬态存储，用于优化单笔交易内的 gas 成本。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-transitorio-introducido-activity-7477522548814053376-vfgV",
+        "icon": "fa-solid fa-bolt",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 Gas 耗尽 (OOG)",
+        "description": "由于缺乏足够 gas 而失败的交易中的影响和状态恢复。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
+        "icon": "fa-solid fa-circle-exclamation",
+        "tag": "EVM 与 Solidity"
       }
     ],
     "all": "全部",
@@ -701,6 +911,13 @@
     "searchPlaceholder": "搜索文章..."
   },
   "news": [
+    {
+      "title": "智利圣地亚哥大学（USACH）在 Ethereum Sepolia 上的 DeFi 实践实验室报告",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_me-complace-presentar-el-reporte-obtenido-ugcPost-7474950801463885824-PTho/",
+      "description": "发布 USACH 最终 DeFi 实验室报告。通过 115 个独立合约、98 个流动性池以及基于加密签名的安全证书授予，记录了 2,460 笔交易和 3,331 次链上事件。",
+      "icon": "fa-solid fa-chart-line"
+    },
     {
       "title": "用于完全链上教育的交互式 Web3 dApp",
       "tag": "Web3",

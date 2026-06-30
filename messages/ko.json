@@ -481,6 +481,216 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
         "icon": "fa-solid fa-clock-rotate-left",
         "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 256비트 정수 연산",
+        "description": "네이티브 256비트 레지스터를 사용하여 EVM 내에서 산술 정밀도와 오버플로우 처리에 대한 연구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-precisi%C3%B3n-aritm%C3%A9tica-en-la-gesti%C3%B3n-de-activity-7472457171155415040--xWZ",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 트랜잭션: 구조 및 비용",
+        "description": "Ethereum 트랜잭션 구조와 이와 관련된 가스 비용에 대한 상세 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_toda-transacci%C3%B3n-enviada-a-la-red-de-ethereum-activity-7472592559702405121-7EC9",
+        "icon": "fa-solid fa-receipt",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 트랜잭션 라이프사이클",
+        "description": "사용자 서명부터 블록체인 포함 및 확인까지 트랜잭션의 이동 과정.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-de-una-transacci%C3%B3n-en-ethereum-activity-7472811757741416449-gNAW",
+        "icon": "fa-solid fa-rotate",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 명령 세트의 진화",
+        "description": "새로운 보안 및 효율성 요구사항에 적응하기 위해 EVM opcode 레파토리가 어떻게 진화했는지.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-repertorio-de-instrucciones-de-bajo-nivel-activity-7472932805069619201-VxU1",
+        "icon": "fa-solid fa-arrow-trend-up",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 내부 실행 루프",
+        "description": "EVM 실행 엔진 탐색 및 각 opcode를 순차적으로 처리하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-motor-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7473167098953809920-4KX4",
+        "icon": "fa-solid fa-circle-notch",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "실행: 중앙집중식 vs 분산식 (EVM)",
+        "description": "분산 네트워크에서의 실행 패러다임과 글로벌 상태 복제 비교.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-paradigma-inform%C3%A1tico-adoptado-por-la-activity-7473310292429565952-SEf6",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 주소: 160비트 (20바이트)",
+        "description": "Ethereum의 주소 구조와 유도 과정에 대한 수학적 및 암호학적 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-direccionamiento-de-la-m%C3%A1quina-activity-7473535778262999040-NZSf",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: 결정론적 및 격리된 실행",
+        "description": "스마트 계약의 결과가 모든 네트워크 노드에서 동일함을 EVM이 보장하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-consenso-global-en-un-sistema-inform%C3%A1tico-activity-7473687779865055234-6s0h",
+        "icon": "fa-solid fa-lock",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스토리지: 패킹 및 정렬",
+        "description": "가스를 절약하기 위해 상태 변수를 32바이트 슬롯에 패킹하는 Solidity 컴파일러 규칙.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7473890620164599808-3qnI",
+        "icon": "fa-solid fa-boxes-stacked",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 글로벌 상태 전이",
+        "description": "트랜잭션 블록을 적용한 후 글로벌 상태 S를 변환하는 수학적 함수.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-red-ethereum-funciona-formalmente-como-activity-7474042222569709568-yBHV",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스토리지: 거대함, 희소함 및 셀 수 없음",
+        "description": "2^256 슬롯의 가상 공간에 매핑된 키-값 스토리지 모델.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-almacenamiento-persistente-activity-7474230859148079105-5JlK",
+        "icon": "fa-solid fa-database",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "1바이트 EVM Opcode",
+        "description": "각 명령의 크기를 단일 바이트로 제한하는 저수준 EVM 아키텍처.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-ejecuci%C3%B3n-de-baja-denominaci%C3%B3n-activity-7474393932869787648-qRfn",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "동적 가스 비용 계산 (EIP-2929)",
+        "description": "서비스 거부 (DoS) 공격을 방지하기 위해 EVM이 동적 가스 비용을 계산하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-de-gas-din%C3%A1mico-introducido-activity-7474615908615786496-hWl8",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 가스 요금 구조",
+        "description": "Ethereum의 요금 모델 분석: 기본 수수료, 우선 수수료 및 EIP-1559의 영향.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-gas-en-ethereum-constituye-una-activity-7474775195090587648-q00C",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EIP-2929: 동적 가스 (Cold vs Warm)",
+        "description": "EVM의 계정 및 스토리지 슬롯에 대한 콜드 액세스와 웜 액세스의 비용 차이.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mejora-eip-2929-transform%C3%B3-transversalmente-activity-7474898752818843648-apx0",
+        "icon": "fa-solid fa-temperature-half",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: 가스와 정지 문제",
+        "description": "계약 실행 중 무한 루프를 방지하기 위해 튜링 솔루션으로서 가스의 사용.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-funciona-de-activity-7475120218520932352-0UYv",
+        "icon": "fa-solid fa-hand",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 스토리지: Merkle Patricia Trie",
+        "description": "각 계약의 로컬 데이터를 효율적으로 저장하고 검증하기 위한 암호화 구조.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-persistente-de-cada-contrato-activity-7475348227391942656--4-8",
+        "icon": "fa-solid fa-tree",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스택 (Stack)",
+        "description": "최대 1024개 요소 제한이 있는 EVM의 스택 기반 실행 영역 작동.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-operaciones-o-stack-constituye-activity-7475495043659841536-jVAW",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "글로벌 상태 트라이 및 로컬 스토리지 트라이",
+        "description": "글로벌 상태 트리와 개별 스토리지 트리 간의 계층적 관계.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-trie-de-estado-global-de-ethereum-t%C3%A9cnicamente-activity-7475710614259130369-c5Yz",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스택 구조",
+        "description": "opcode가 256비트 스택의 맨 위와 상호작용하는 방법에 대한 기술적 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-f%C3%ADsico-de-transferencia-de-datos-activity-7475862107196952578-MqfP",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum의 계층적 데이터베이스 구조",
+        "description": "상태 및 이력 스토리지를 지원하는 다단계 데이터베이스 설계.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-base-de-datos-de-estado-de-la-m%C3%A1quina-activity-7476072996844261376-DV9q",
+        "icon": "fa-solid fa-folder-tree",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스택: 제한, 오버플로우 및 언더플로우",
+        "description": "실행 스택에서 오버플로우나 빈 액세스를 방지하기 위한 보안 메커니즘.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-comportamiento-operacional-de-la-pila-activity-7476208137247657985-DNrf",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 상태의 다단계 상호작용",
+        "description": "메모리 캐싱, 상태 데이터베이스 및 로컬 디스크가 통신하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-procesamiento-de-transacciones-en-un-nodo-activity-7476435392737632256-FF7v",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 휘발성 메모리",
+        "description": "EVM의 선형 주소 지정 및 메모리 확장의 2차 비용 구조.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-direccionamiento-y-el-acceso-f%C3%ADsico-a-activity-7476564233728581632-e2DR",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 상태 계층 및 스토리지 프루프",
+        "description": "전체 상태를 다운로드하지 않고 특정 데이터를 검증하기 위한 암호학적 스토리지 증명 사용.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-jerarqu%C3%ADa-criptogr%C3%A1fica-de-ethereum-se-activity-7476797991278964736-Cctl",
+        "icon": "fa-solid fa-certificate",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Solidity 메모리 레이아웃",
+        "description": "Solidity가 선형 메모리를 정리하고 프리 포인터와 스크래치패드용으로 특정 슬롯을 예약하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7476934171328888832-1Ghe",
+        "icon": "fa-solid fa-table-cells",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 블록 구조",
+        "description": "블록체인 내부 블록을 구성하는 헤더, 바디 및 메타데이터 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bloque-de-ethereum-representa-la-unidad-activity-7477160160952676352-8D5W",
+        "icon": "fa-solid fa-cubes",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 가스: 흐름 및 Out-Of-Gas",
+        "description": "실행이 제한을 초과할 때 가스 소비 흐름 및 예외 동작.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-econ%C3%B3mico-y-de-procesamiento-de-activity-7477289009405149184-EoYr",
+        "icon": "fa-solid fa-gauge-high",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 TSTORE / TLOAD",
+        "description": "트랜잭션 내부 가스 비용을 최적화하기 위해 EIP-1153에서 도입한 임시 스토리지.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-transitorio-introducido-activity-7477522548814053376-vfgV",
+        "icon": "fa-solid fa-bolt",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 Out-Of-Gas (OOG)",
+        "description": "가스 부족으로 인해 실패한 트랜잭션에서의 영향 및 상태 복구.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
+        "icon": "fa-solid fa-circle-exclamation",
+        "tag": "EVM 및 Solidity"
       }
     ],
     "all": "전체",
@@ -701,6 +911,13 @@
     "searchPlaceholder": "간행물 검색..."
   },
   "news": [
+    {
+      "title": "Ethereum Sepolia 기반 USACH를 위한 DeFi 실습 실험실 보고서",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_me-complace-presentar-el-reporte-obtenido-ugcPost-7474950801463885824-PTho/",
+      "description": "USACH의 최종 DeFi 실험실 보고서 발표. 115개의 개별 계약, 98개의 유동성 풀 및 암호화 서명을 통한 안전한 인증을 통해 2,460건의 트랜잭션과 3,331건의 온체인 이벤트를 기록했습니다.",
+      "icon": "fa-solid fa-chart-line"
+    },
     {
       "title": "완전 온체인 교육을 위한 인터랙티브 Web3 dApp",
       "tag": "Web3",

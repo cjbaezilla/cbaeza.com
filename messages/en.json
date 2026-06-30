@@ -481,6 +481,216 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-selecci%C3%B3n-de-la-versi%C3%B3n-de-destino-de-activity-7472215578871619584-qvTA",
         "icon": "fa-solid fa-clock-rotate-left",
         "tag": "EVM & Solidity"
+      },
+      {
+        "title": "256-Bit Integer Arithmetic in the EVM",
+        "description": "Study of arithmetic precision and overflow handling in the EVM using native 256-bit registers.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-precisi%C3%B3n-aritm%C3%A9tica-en-la-gesti%C3%B3n-de-activity-7472457171155415040--xWZ",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Transaction in the EVM: Structure and Costs",
+        "description": "Detailed analysis of the structure of an Ethereum transaction and its associated gas costs.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_toda-transacci%C3%B3n-enviada-a-la-red-de-ethereum-activity-7472592559702405121-7EC9",
+        "icon": "fa-solid fa-receipt",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Lifecycle of an Ethereum Transaction",
+        "description": "The journey of a transaction from user signature to inclusion and confirmation on the blockchain.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-de-una-transacci%C3%B3n-en-ethereum-activity-7472811757741416449-gNAW",
+        "icon": "fa-solid fa-rotate",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Evolution of the EVM Instruction Set",
+        "description": "How the EVM opcode repertoire has evolved to adapt to new security and efficiency requirements.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-repertorio-de-instrucciones-de-bajo-nivel-activity-7472932805069619201-VxU1",
+        "icon": "fa-solid fa-arrow-trend-up",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Internal Execution Loop of the EVM",
+        "description": "Exploration of the EVM execution engine and how it sequentially processes each opcode.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-motor-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7473167098953809920-4KX4",
+        "icon": "fa-solid fa-circle-notch",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Execution: Centralized vs. Decentralized (EVM)",
+        "description": "Comparison between execution paradigms and global state replication in distributed networks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-paradigma-inform%C3%A1tico-adoptado-por-la-activity-7473310292429565952-SEf6",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Address in the EVM: 160 Bits (20 Bytes)",
+        "description": "Mathematical and cryptographic analysis of the structure and derivation of addresses in Ethereum.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-direccionamiento-de-la-m%C3%A1quina-activity-7473535778262999040-NZSf",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM: Deterministic and Isolated Execution",
+        "description": "How the EVM guarantees that the outcome of a smart contract is identical across all network nodes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-consenso-global-en-un-sistema-inform%C3%A1tico-activity-7473687779865055234-6s0h",
+        "icon": "fa-solid fa-lock",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Storage: Packing and Alignment",
+        "description": "Solidity compiler rules for packing state variables into 32-byte slots to save gas.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7473890620164599808-3qnI",
+        "icon": "fa-solid fa-boxes-stacked",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Global State Transition in Ethereum",
+        "description": "The mathematical function that transforms the global state S after applying a block of transactions.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-red-ethereum-funciona-formalmente-como-activity-7474042222569709568-yBHV",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Storage: Immense, Sparse, and Uncountable",
+        "description": "The key-value storage model mapped over a virtual space of 2^256 slots.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-espacio-de-almacenamiento-persistente-activity-7474230859148079105-5JlK",
+        "icon": "fa-solid fa-database",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "1-Byte EVM Opcodes",
+        "description": "The low-level EVM architecture that limits the size of each instruction to a single byte.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-ejecuci%C3%B3n-de-baja-denominaci%C3%B3n-activity-7474393932869787648-qRfn",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Dynamic Gas Cost Calculation (EIP-2929)",
+        "description": "How the EVM calculates dynamic gas costs to prevent denial of service (DoS) attacks.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-de-gas-din%C3%A1mico-introducido-activity-7474615908615786496-hWl8",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Gas Fee Structure in the EVM",
+        "description": "Analysis of the charging model in Ethereum: base fee, priority fee, and the impact of EIP-1559.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-de-gas-en-ethereum-constituye-una-activity-7474775195090587648-q00C",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EIP-2929: Dynamic Gas (Cold vs. Warm)",
+        "description": "Cost differences between cold and warm accesses to accounts and storage slots in the EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mejora-eip-2929-transform%C3%B3-transversalmente-activity-7474898752818843648-apx0",
+        "icon": "fa-solid fa-temperature-half",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM: Gas and the Halting Problem",
+        "description": "The use of gas as a Turing solution to prevent infinite loops during contract execution.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-funciona-de-activity-7475120218520932352-0UYv",
+        "icon": "fa-solid fa-hand",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Storage in Ethereum: Merkle Patricia Trie",
+        "description": "Cryptographic structure to efficiently store and validate the local data of each contract.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-persistente-de-cada-contrato-activity-7475348227391942656--4-8",
+        "icon": "fa-solid fa-tree",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Stack",
+        "description": "The operation of the stack-based execution area of the EVM, with a limit of 1024 elements.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-operaciones-o-stack-constituye-activity-7475495043659841536-jVAW",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Global State Trie and Local Storage Trie",
+        "description": "The hierarchical relationship between the global state tree and individual storage trees.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-trie-de-estado-global-de-ethereum-t%C3%A9cnicamente-activity-7475710614259130369-c5Yz",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "The EVM Stack",
+        "description": "Technical analysis of how opcodes interact with the top of the 256-bit stack.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-f%C3%ADsico-de-transferencia-de-datos-activity-7475862107196952578-MqfP",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Hierarchical Database Structure of Ethereum",
+        "description": "The multi-level database design supporting state and history storage.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-base-de-datos-de-estado-de-la-m%C3%A1quina-activity-7476072996844261376-DV9q",
+        "icon": "fa-solid fa-folder-tree",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Stack: Limit, Overflow, and Underflow",
+        "description": "Security mechanisms to prevent overflows or empty accesses in the execution stack.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-comportamiento-operacional-de-la-pila-activity-7476208137247657985-DNrf",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Multi-level State Interaction in Ethereum",
+        "description": "How memory caching, the state database, and the local disk communicate.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-procesamiento-de-transacciones-en-un-nodo-activity-7476435392737632256-FF7v",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Volatile Memory",
+        "description": "Linear addressing and the quadratic cost structure of memory expansion in the EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-direccionamiento-y-el-acceso-f%C3%ADsico-a-activity-7476564233728581632-e2DR",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Ethereum State Hierarchy and Storage Proof",
+        "description": "Use of cryptographic storage proofs to validate specific data without downloading the entire state.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-jerarqu%C3%ADa-criptogr%C3%A1fica-de-ethereum-se-activity-7476797991278964736-Cctl",
+        "icon": "fa-solid fa-certificate",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Solidity Memory Layout",
+        "description": "How Solidity organizes linear memory, reserving specific slots for the free pointer and scratchpad.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7476934171328888832-1Ghe",
+        "icon": "fa-solid fa-table-cells",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Structure of an Ethereum Block",
+        "description": "Analysis of the header, body, and metadata that make up a block in the blockchain.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bloque-de-ethereum-representa-la-unidad-activity-7477160160952676352-8D5W",
+        "icon": "fa-solid fa-cubes",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Gas in Ethereum: Flow and Out-Of-Gas",
+        "description": "The flow of gas consumption and exception behavior when execution runs out of the limit.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-econ%C3%B3mico-y-de-procesamiento-de-activity-7477289009405149184-EoYr",
+        "icon": "fa-solid fa-gauge-high",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "TSTORE / TLOAD in the EVM",
+        "description": "Transient storage introduced in EIP-1153 to optimize intra-transaction gas costs.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-almacenamiento-transitorio-introducido-activity-7477522548814053376-vfgV",
+        "icon": "fa-solid fa-bolt",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Out-Of-Gas (OOG) in the EVM",
+        "description": "Impact and state reversion in transactions that fail due to lack of sufficient gas.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
+        "icon": "fa-solid fa-circle-exclamation",
+        "tag": "EVM & Solidity"
       }
     ],
     "all": "All",
@@ -701,6 +911,13 @@
     "searchPlaceholder": "Search publications..."
   },
   "news": [
+    {
+      "title": "DeFi Practical Laboratory Report for USACH on Ethereum Sepolia",
+      "tag": "DeFi",
+      "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_me-complace-presentar-el-reporte-obtenido-ugcPost-7474950801463885824-PTho/",
+      "description": "Publication of the final DeFi laboratory report for USACH, registering 2,460 transactions and 3,331 on-chain events via 115 individual contracts, 98 liquidity pools, and secure accreditation with cryptographic signatures.",
+      "icon": "fa-solid fa-chart-line"
+    },
     {
       "title": "Interactive Web3 dApp for Fully On-Chain Education",
       "tag": "Web3",
