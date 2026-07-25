@@ -691,6 +691,349 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
         "icon": "fa-solid fa-circle-exclamation",
         "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EIP-1153: TSTORE / TLOAD - دورة حياة البيانات واستمراريتها",
+        "description": "تحليل مفصل للثبات الزمني للبيانات في EVM وكيف يعمل التخزين العابر على تحسين الغاز داخل المعاملة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-del-almacenamiento-transitorio-activity-7477885065742708736-BNMR",
+        "icon": "fa-solid fa-arrows-spin",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "CALLDATA في EVM: التدفق، رموز التشغيل والغاز",
+        "description": "دراسة تدفق إدخال البيانات في EVM، وفحص ثباتها، ورموز التشغيل المرتبطة بها، واستهلاك الغاز.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-calldata-se-define-en-la-especificaci%C3%B3n-activity-7478021334841798656-XOuJ",
+        "icon": "fa-solid fa-arrow-right-to-bracket",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "DELEGATECALL على الإيثيريوم",
+        "description": "استكشاف التعليمات ذات المستوى المنخفض DELEGATECALL ودورها الأساسي في إنشاء الوكلاء والعقود القابلة للتحديث.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-bajo-nivel-delegatecall-activity-7478247461338333185-0hb8",
+        "icon": "fa-solid fa-user-gear",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EIP-214: STATICCALL",
+        "description": "تحليل المواصفات الفنية لـ STATICCALL وكيف يضمن عزل الحالة عن طريق منع الكتابة غير المقصودة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-especificaci%C3%B3n-t%C3%A9cnica-de-seguridad-introducida-activity-7478383722568794113-wWn0",
+        "icon": "fa-solid fa-eye",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تشريح Runtime Bytecode",
+        "description": "التحليل الهيكلي للكود الثانوي في وقت التشغيل، وتمييز أقسامه التشغيلية وتدفق فك التشفير.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bytecode-de-tiempo-de-ejecuci%C3%B3n-t%C3%A9cnicamente-activity-7478609712859643904-dZ4g",
+        "icon": "fa-solid fa-barcode",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM المكدس: حد الوصول و\"المكدس عميق جدًا\"",
+        "description": "دراسة التصميم القائم على المكدس لـ EVM وحدود الوصول المتغيرة واستراتيجيات التخفيف من أخطاء التجميع.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-error-de-compilaci%C3%B3n-stack-too-deep-representa-activity-7478745104095084544-yBsX",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EOF (EIP-3540): بنية الرمز الثانوي لـ EVM",
+        "description": "شرح تنسيق الكائن EVM (EOF)، الذي يوضح بالتفصيل الفصل الصريح للتعليمات البرمجية والبيانات للتحقق من صحة وقت النشر.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-formato-de-objeto-de-la-evm-t%C3%A9cnicamente-activity-7478972099802546176-dDo0",
+        "icon": "fa-solid fa-box",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "توسيع الذاكرة في EVM",
+        "description": "دراسة الذاكرة الخطية المتطايرة لـ EVM والسلوك التربيعي لتكلفة الغاز بسبب توسع الذاكرة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7479100948385091584-XQcg",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "الاستثناءات المادية ذات المستوى المنخفض في EVM",
+        "description": "تحليل أسباب الأعطال المادية في EVM، مثل تجاوز سعة المكدس وتجاوز الغاز والتعليمات غير الصالحة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-implementa-activity-7479334488087429120-e0yd",
+        "icon": "fa-solid fa-circle-xmark",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "MCOPY (EIP-5656) مقابل الطريقة التقليدية في EVM",
+        "description": "مقارنة بين نسخة الذاكرة الخطية الفعالة مع MCOPY والتقنيات التقليدية السابقة التي تستهلك المزيد من الغاز.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-copia-interna-de-bloques-de-datos-en-la-activity-7479478435652984833-HWJ8",
+        "icon": "fa-solid fa-copy",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "بنية عقدة ما بعد الدمج للإيثريوم",
+        "description": "دراسة التفاعل متعدد المستويات بين عميل التنفيذ وعميل الإجماع من خلال Engine API بعد التغيير إلى إثبات الحصة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-actualizaci%C3%B3n-post-merge-de-ethereum-transform%C3%B3-activity-7479697006857416704-xhpY",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "رمز الإنشاء (Initcode) مقابل Runtime Code",
+        "description": "تحليل رمز إنشاء العقد الذكي وكيف يقوم رمز initcode بإرجاع رمز البايت النهائي المخزن في blockchain.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-proceso-de-despliegue-de-un-contrato-inteligente-activity-7479833273884426241-2w_-",
+        "icon": "fa-solid fa-wand-magic-sparkles",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "مناطق التخزين الأربعة في EVM",
+        "description": "شرح مادي لمناطق التخزين EVM: المكدس، والذاكرة، والتخزين، وبيانات الاتصال، وتحليل التكاليف والاستمرارية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480059264796090368-g0-l",
+        "icon": "fa-solid fa-box-archive",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "إنشاء العقد في EVM",
+        "description": "تفاصيل حول كيفية تهيئة العقد الذكي وتنفيذ قواعد المنشئ ذات المستوى المنخفض.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instanciaci%C3%B3n-de-un-nuevo-contrato-inteligente-activity-7480195661800431616-Bva5",
+        "icon": "fa-solid fa-plus",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التخزين والتسلسل الهرمي للذاكرة في EVM",
+        "description": "مقارنة التخزين المستمر مع التخزين المستمر والتصميم المتقلب في العقود الذكية لتحسين التكلفة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-contratos-inteligentes-eficientes-activity-7480436751317200897-7EgF",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "اشتقاق العناوين في EVM",
+        "description": "دراسة الخوارزمية الرياضية لحساب عناوين العقود باستخدام CREATE (nonce) و CREATE2 (الملح).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-generaci%C3%B3n-de-direcciones-de-contratos-activity-7480565599341928448-7Vg3",
+        "icon": "fa-solid fa-signature",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "العنوان والأصل والمتصل في EVM",
+        "description": "تحليل متغيرات السياق العام tx.origin وmsg.sender والمخاطر الأمنية عند استخدامها للترخيص.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480784049557524480-M4u0",
+        "icon": "fa-solid fa-users-viewfinder",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "المكالمة مقابل Staticcall مقابل Delegatecall في EVM",
+        "description": "المقارنة الفنية لطرق الاتصال الثلاثة الرئيسية بين العقود ووراثة السياق في EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comunicaci%C3%B3n-inter-contrato-en-la-m%C3%A1quina-activity-7480927735708831749-9KoZ",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التوازن مقابل التوازن الذاتي (EIP-1884)",
+        "description": "تم إدخال التغيير لتحسين استشارة رصيد الفرد مقابل رصيد الحسابات الخارجية في blockchain.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-lectura-de-saldos-en-la-cadena-de-bloques-activity-7481146429906939904-rJPS",
+        "icon": "fa-solid fa-coins",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "الاتصال مقابل Staticcall مقابل Delegatecall",
+        "description": "تحليل مقارن متعمق لأكواد تشغيل المكالمات ذات المستوى المنخفض في Solidity وسلوك الفشل.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-comparativo-de-los-c%C3%B3digos-de-activity-7481275276057047040-JdoT",
+        "icon": "fa-solid fa-arrows-split-up-and-left",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM رمز التشغيل: قيمة المكالمة",
+        "description": "كيف يقوم EVM بنقل الأثير المرتبط بمكالمة واستخدام CALLVALUE للتحقق من الصحة الداخلي.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-transferencia-y-recepci%C3%B3n-de-ether-en-activity-7481508815339909120-Moie",
+        "icon": "fa-solid fa-dollar-sign",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التنفيذ في EVM: القفزات الداخلية مقابل المكالمات الخارجية",
+        "description": "الاختلافات بين القفزات المنطقية داخل نفس العقد (JUMP/JUMPI) وتنفيذ السياقات الفرعية الخارجية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-del-flujo-de-ejecuci%C3%B3n-dentro-activity-7481652763001556992-6S6Z",
+        "icon": "fa-solid fa-share",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "إدارة المكدس في EVM",
+        "description": "تحليل تفصيلي لكيفية قيام محرك EVM LIFO بتنظيم العمليات والبيانات في فتحات مكدس التنفيذ.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7481871202840465409-nlSl",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: التدفق العكسي وانتشار الأخطاء",
+        "description": "تحليل آليات REVERT، وفقاعة الأخطاء بين العقود، والاستعادة التلقائية للحالة العالمية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_cuando-una-transacci%C3%B3n-o-llamada-inter-contrato-activity-7482004077812350976-M1Px",
+        "icon": "fa-solid fa-rotate-left",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: تحميل سياق الكتلة الحالي",
+        "description": "كيف تسمح أكواد تشغيل TIMESTAMP وNUMBER وCOINBASE بالوصول إلى البيانات التعريفية الفعلية للكتلة الحالية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-proporciona-activity-7482233591746183168-_Kns",
+        "icon": "fa-solid fa-clock",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EIP-5780 (كانكون) - التدمير الذاتي",
+        "description": "شرح القيود الجديدة المطبقة على SELFDESTRUCT في تحديث Dencun وعواقبها.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-autodestrucci%C3%B3n-o-selfdestruct-activity-7482369988855619584-UIXX",
+        "icon": "fa-solid fa-fire",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM الوصول إلى المعلمات الاقتصادية والشبكة",
+        "description": "استخدام رموز التشغيل العالمية للتفاعل مع معدلات الغاز وحدود الكتلة والتجزئة التاريخية على Ethereum.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-acceso-a-los-par%C3%A1metros-globales-de-la-activity-7482595983739252736-Qvp_",
+        "icon": "fa-solid fa-globe",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: عمق مكدس الاتصال وقاعدة 63/64 (EIP-150)",
+        "description": "دراسة حد عمق النداءات الخارجية عند مستويات 1024 والاحتفاظ بـ 1/64 من الغاز لتجنب الأعطال الكارثية.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-llamadas-de-la-m%C3%A1quina-virtual-activity-7482743953201569792-8vKd",
+        "icon": "fa-solid fa-water",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "التشريح الداخلي لحسابات الايثيريوم",
+        "description": "التفاصيل الهيكلية للحسابات الخارجية وحسابات العقود وكيفية ربطها بحالة الشبكة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-almacenamiento-y-representaci%C3%B3n-activity-7482958367452422144-KcBI",
+        "icon": "fa-solid fa-user-check",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "63/64 قاعدة الغاز (EIP-150)",
+        "description": "آلية الأمان الرياضية التي تحتفظ بجزء من الغاز في المكالمات بين العقود لضمان إعدام المتصل.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-matem%C3%A1tico-que-implementa-la-activity-7483079665147113472-060n",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: الحتمية والاتساق العالمي",
+        "description": "تحليل ثبات تنفيذ الرمز الثانوي وكيف يضمن التصميم الحتمي تكافؤ الحالة عبر الشبكة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-la-m%C3%A1quina-virtual-de-ethereum-activity-7483320754298748929-z8dp",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EIP-1559: هيكل الرسوم في الإيثيريوم",
+        "description": "دراسة سوق غاز الإيثريوم الحديث: الرسوم الأساسية ورسوم الأولوية وحرق الإيثريوم.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mercado-de-tarifas-de-gas-de-ethereum-activity-7483464702283538432-SnXF",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "رموز التشغيل مع تسجيل مقابل عدم تسجيل الدخول EVM",
+        "description": "تحليل الحساب الثنائي في EVM وكيفية تطبيق الفرق بين العمليات الموقعة وغير الموقعة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-a-nivel-activity-7483683142114017280-9yqV",
+        "icon": "fa-solid fa-plus-minus",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "استرداد الغاز في EVM (EIP-3529)",
+        "description": "تفاصيل فنية عن سداد الغاز مقابل إطلاق المخزون (SSTORE/SELFDESTRUCT) وقيوده الحديثة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-incorpora-activity-7483796891156074496-DQ9e",
+        "icon": "fa-solid fa-hand-holding-dollar",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: أددمود ومولمود",
+        "description": "شرح رياضي لرموز التشغيل ADDMOD وMULMOD التي تعمل على العمليات الحسابية المعيارية بدقة مزدوجة ومتوسطة لتجنب التجاوز.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evm-implementa-la-aritm%C3%A9tica-modular-de-activity-7484045712209539072-QYDe",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "PUSH0 (EIP-3855) مقابل الطريقة الكلاسيكية",
+        "description": "مقارنة تكاليف الغاز وحجم الكود الثانوي عند تكديس القيمة الصفرية بـ PUSH0 مقابل الطرق التقليدية ثنائية البايت.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-optimizaci%C3%B3n-del-almacenamiento-permanente-activity-7484178405891174400-rSos",
+        "icon": "fa-solid fa-down-long",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM رمز التشغيل: Signextend",
+        "description": "كيف تعمل التعليمة SIGNEXTEND على الحفاظ على الإشارة الرياضية في تمثيلات رقمية أصغر.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-signextend-es-una-instrucci%C3%B3n-de-activity-7484407917820178432-JZZl",
+        "icon": "fa-solid fa-arrows-left-right",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "Solidity بنية المُحسِّن",
+        "description": "كيف يعمل محرك التحسين المستند إلى Yul للمترجم Solidity وتأثيره على تقليل غاز الكود الثانوي.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-pipeline-de-compilaci%C3%B3n-moderna-de-solidity-activity-7484529216961765376-H2zc",
+        "icon": "fa-solid fa-sliders",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM: SHL مقابل SHR مقابل SAR",
+        "description": "الاختلافات بين إزاحات البت المنطقية (يسار/يمين) والحسابية (الحفاظ على الإشارة) في EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-desplazamientos-de-bits-en-la-evm-se-activity-7484770308306993152-FUV3",
+        "icon": "fa-solid fa-left-right",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "قاعدة الغاز 63/64 (EIP-150)",
+        "description": "تحليل تدفق توزيع ميزانية الغاز للمكالمات الفرعية والحماية من هجمات إعادة الدخول.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-flujo-de-distribuci%C3%B3n-de-gas-en-las-subllamadas-activity-7484914254106746880-cJkd",
+        "icon": "fa-solid fa-droplet",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EVM رموز التشغيل المنطقية على مستوى البت",
+        "description": "تشغيل عوامل التشغيل AND وOR وXOR وNOT على مستوى البت في حزمة 256 بت من EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_las-operaciones-l%C3%B3gicas-en-la-m%C3%A1quina-virtual-activity-7485132693911789569-4XgM",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "العقود المترجمة مسبقًا في EVM",
+        "description": "آليات التنفيذ لعناوين العقود المترجمة مسبقًا (0x01 إلى 0x0a) لعمليات التشفير المعقدة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-contratos-precompilados-de-la-m%C3%A1quina-activity-7485246694553677826-KnCC",
+        "icon": "fa-solid fa-gears",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "الحدود المادية للمكدس EVM",
+        "description": "دراسة تصميم وقيود الأجهزة الافتراضية في EVM: عمق المكدس والإدارة الداخلية للذاكرة المؤقتة.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7485495081848717312-jg3U",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "عقود الايثيريوم المعدة مسبقًا",
+        "description": "كتالوج ومواصفات وظائف التشفير (التجزئة، التوقيعات، أزواج المنحنيات) المنفذة على مستوى العميل.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-cat%C3%A1logo-de-contratos-precompilados-en-activity-7485631480077975552-tFyi",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "PUSH0 (0x5f) - EIP-3855",
+        "description": "التقديم الرسمي لـ PUSH0 في شنغهاي وكيف يؤدي تنفيذه إلى تقليل تكلفة الغاز للتخزين المؤقت بشكل كبير.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-push0-introducido-formalmente-activity-7485857658340765696-LAL-",
+        "icon": "fa-solid fa-arrow-down-9-1",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "EOF (EVM تنسيق الكائن): هيكلة المكدس والتحقق من صحته",
+        "description": "كيف يقوم تنسيق الكائن EVM الجديد بالتحقق من صحة المكدس مسبقًا ويضمن عدم تجاوز السعة/التجاوز.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mec%C3%A1nica-operativa-de-los-contratos-precompilados-activity-7485993867603927040-JXPq",
+        "icon": "fa-solid fa-shield",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "Mstore مقابل Mstore8",
+        "description": "تحليل الكتابة في الذاكرة الخطية لـ EVM: الاختلافات في التكلفة والعنوان عند حفظ 32 بايت مقابل 1 بايت.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7486219860658683904-mUjx",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "بنية EVM",
+        "description": "دراسة التصميم العام لمعالج الايثيريوم: السجلات الافتراضية والذاكرة والثبات اللامركزي.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-desv%C3%ADo-de-llamadas-en-activity-7486367831895465984-vDwK",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM وسوليديتي"
+      },
+      {
+        "title": "تنفيذ القفزات في EVM: Jump vs. Jump1",
+        "description": "كيف يتحكم EVM في تدفق البرنامج باستخدام JUMP وJUMPI والتحقق الإلزامي من خلال JUMPDEST.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-de-flujo-dentro-de-la-evm-se-gestiona-activity-7486582245114310656-ApgS",
+        "icon": "fa-solid fa-right-long",
+        "tag": "EVM وسوليديتي"
       }
     ],
     "all": "الكل",

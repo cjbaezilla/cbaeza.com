@@ -691,6 +691,349 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
         "icon": "fa-solid fa-circle-exclamation",
         "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EIP-1153 : TSTORE / TLOAD - Cycle de vie et persistance des données",
+        "description": "Analyse détaillée de la persistance temporelle des données dans EVM et de la manière dont le stockage transitoire optimise le gaz intra-transaction.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-del-almacenamiento-transitorio-activity-7477885065742708736-BNMR",
+        "icon": "fa-solid fa-arrows-spin",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "CALLDATA dans EVM : Débit, Opcodes et Gaz",
+        "description": "Etude du flux d'entrée des données dans le EVM, en examinant son immuabilité, les opcodes associés et la consommation de gaz.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-calldata-se-define-en-la-especificaci%C3%B3n-activity-7478021334841798656-XOuJ",
+        "icon": "fa-solid fa-arrow-right-to-bracket",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "DELEGATECALL sur Ethereum",
+        "description": "Exploration de l'instruction de bas niveau DELEGATECALL et de son rôle fondamental dans la création de proxys et de contrats actualisables.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-bajo-nivel-delegatecall-activity-7478247461338333185-0hb8",
+        "icon": "fa-solid fa-user-gear",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EIP-214 : STATICCALL",
+        "description": "Analyse de la spécification technique de STATICCALL et de la manière dont elle garantit l'isolation de l'état en empêchant les écritures accidentelles.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-especificaci%C3%B3n-t%C3%A9cnica-de-seguridad-introducida-activity-7478383722568794113-wWn0",
+        "icon": "fa-solid fa-eye",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Anatomie du Runtime Bytecode",
+        "description": "Analyse structurelle du bytecode au moment de l'exécution, en distinguant ses sections opérationnelles et son flux de décodage.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bytecode-de-tiempo-de-ejecuci%C3%B3n-t%C3%A9cnicamente-activity-7478609712859643904-dZ4g",
+        "icon": "fa-solid fa-barcode",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Pile EVM : limite d'accès et « pile trop profonde »",
+        "description": "Étude de la conception basée sur la pile du EVM, des limites d'accès aux variables et des stratégies pour atténuer les erreurs de compilation.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-error-de-compilaci%C3%B3n-stack-too-deep-representa-activity-7478745104095084544-yBsX",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EOF (EIP-3540) : structure de bytecode du EVM",
+        "description": "Explication du format d'objet (EOF) EVM, détaillant la séparation explicite du code et des données pour la validation au moment du déploiement.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-formato-de-objeto-de-la-evm-t%C3%A9cnicamente-activity-7478972099802546176-dDo0",
+        "icon": "fa-solid fa-box",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Extension de mémoire dans le EVM",
+        "description": "Etude de la mémoire volatile linéaire du EVM et du comportement quadratique du coût du gaz dû à l'extension mémoire.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7479100948385091584-XQcg",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Exceptions physiques de bas niveau dans EVM",
+        "description": "Analyse des causes des défaillances physiques du EVM, telles que débordement de cheminée, débordement de gaz et instructions invalides.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-implementa-activity-7479334488087429120-e0yd",
+        "icon": "fa-solid fa-circle-xmark",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "MCOPY (EIP-5656) par rapport à la méthode traditionnelle en EVM",
+        "description": "Comparaison entre une copie de mémoire linéaire efficace avec MCOPY et les techniques traditionnelles précédentes qui consommaient plus de gaz.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-copia-interna-de-bloques-de-datos-en-la-activity-7479478435652984833-HWJ8",
+        "icon": "fa-solid fa-copy",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Architecture de nœud post-fusion Ethereum",
+        "description": "Etude de l'interaction multiniveau entre le Client d'Exécution et le Client Consensus via l'API Engine après le passage au Proof of Stake.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-actualizaci%C3%B3n-post-merge-de-ethereum-transform%C3%B3-activity-7479697006857416704-xhpY",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Code de création (Initcode) contre Runtime Code",
+        "description": "Analyse du code de création du contrat intelligent et de la manière dont le code d'initialisation renvoie le bytecode final stocké dans la blockchain.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-proceso-de-despliegue-de-un-contrato-inteligente-activity-7479833273884426241-2w_-",
+        "icon": "fa-solid fa-wand-magic-sparkles",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Les 4 zones de stockage du EVM",
+        "description": "Explication physique des zones de stockage EVM : Stack, Mémoire, Stockage et Calldata, analyse des coûts et de la persistance.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480059264796090368-g0-l",
+        "icon": "fa-solid fa-box-archive",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Création du contrat dans EVM",
+        "description": "Détails sur la façon dont un contrat intelligent est initialisé et les règles de constructeur de bas niveau sont exécutées.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instanciaci%C3%B3n-de-un-nuevo-contrato-inteligente-activity-7480195661800431616-Bva5",
+        "icon": "fa-solid fa-plus",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Hiérarchie de stockage et de mémoire dans EVM",
+        "description": "Comparaison du stockage persistant et persistant et conception volatile dans les contrats intelligents pour l'optimisation des coûts.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-contratos-inteligentes-eficientes-activity-7480436751317200897-7EgF",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Dérivation des adresses dans EVM",
+        "description": "Etude de l'algorithme mathématique derrière le calcul des adresses de contrats en utilisant CREATE (nonce) et CREATE2 (sel).",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-generaci%C3%B3n-de-direcciones-de-contratos-activity-7480565599341928448-7Vg3",
+        "icon": "fa-solid fa-signature",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Adresse, origine et appelant dans EVM",
+        "description": "Analyse des variables de contexte globales tx.origin et msg.sender, et des risques de sécurité lors de leur utilisation pour l'autorisation.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480784049557524480-M4u0",
+        "icon": "fa-solid fa-users-viewfinder",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Appel contre appel statique contre appel délégué dans EVM",
+        "description": "Comparaison technique des trois principales méthodes d'appel inter-contrats et héritage de contexte dans EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comunicaci%C3%B3n-inter-contrato-en-la-m%C3%A1quina-activity-7480927735708831749-9KoZ",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Équilibre vs équilibre personnel (EIP-1884)",
+        "description": "Le changement introduit pour optimiser la consultation de son propre solde par rapport au solde des comptes externes dans la blockchain.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-lectura-de-saldos-en-la-cadena-de-bloques-activity-7481146429906939904-rJPS",
+        "icon": "fa-solid fa-coins",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Appel contre appel statique contre appel délégué",
+        "description": "Analyse comparative approfondie des opcodes d'appel de bas niveau dans Solidity et du comportement d'échec.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-comparativo-de-los-c%C3%B3digos-de-activity-7481275276057047040-JdoT",
+        "icon": "fa-solid fa-arrows-split-up-and-left",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Opcode : valeur d'appel",
+        "description": "Comment EVM traite le transfert d'Ether attaché à un appel et utilise CALLVALUE pour la validation interne.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-transferencia-y-recepci%C3%B3n-de-ether-en-activity-7481508815339909120-Moie",
+        "icon": "fa-solid fa-dollar-sign",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Exécution dans EVM : sauts internes vs appels externes",
+        "description": "Différences entre les sauts logiques au sein d'un même contrat (JUMP/JUMPI) et l'exécution de sous-contextes externes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-del-flujo-de-ejecuci%C3%B3n-dentro-activity-7481652763001556992-6S6Z",
+        "icon": "fa-solid fa-share",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Gestion de la pile dans EVM",
+        "description": "Analyse détaillée de la façon dont le moteur EVM LIFO organise les opérations et les données dans les emplacements de la pile d'exécution.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7481871202840465409-nlSl",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM : retour du flux et propagation des erreurs",
+        "description": "Analyse de la mécanique du REVERT, de la bulle d'erreur inter-contrats et de la restauration automatique de l'état global.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_cuando-una-transacci%C3%B3n-o-llamada-inter-contrato-activity-7482004077812350976-M1Px",
+        "icon": "fa-solid fa-rotate-left",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM : Charge de contexte de bloc actuel",
+        "description": "Comment les opcodes TIMESTAMP, NUMBER et COINBASE permettent d'accéder aux métadonnées physiques du bloc actuel.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-proporciona-activity-7482233591746183168-_Kns",
+        "icon": "fa-solid fa-clock",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EIP-5780 (Cancun) - Autodestruction",
+        "description": "Explication des nouvelles restrictions appliquées à SELFDESTRUCT dans la mise à jour Dencun et leurs conséquences.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-autodestrucci%C3%B3n-o-selfdestruct-activity-7482369988855619584-UIXX",
+        "icon": "fa-solid fa-fire",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Accès aux paramètres économiques et de réseau",
+        "description": "Utiliser des opcodes globaux pour interagir avec les tarifs du gaz, les limites de bloc et les hachages historiques sur Ethereum.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-acceso-a-los-par%C3%A1metros-globales-de-la-activity-7482595983739252736-Qvp_",
+        "icon": "fa-solid fa-globe",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM : profondeur de la pile d'appels et règle 63/64 (EIP-150)",
+        "description": "Etude de la limite de profondeur des appels externes aux niveaux 1024 et de la rétention de 1/64 de gaz pour éviter des pannes catastrophiques.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-llamadas-de-la-m%C3%A1quina-virtual-activity-7482743953201569792-8vKd",
+        "icon": "fa-solid fa-water",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Anatomie interne des comptes Ethereum",
+        "description": "Détails structurels des comptes externes et des comptes contractuels, et comment ils correspondent à l'état du réseau.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-almacenamiento-y-representaci%C3%B3n-activity-7482958367452422144-KcBI",
+        "icon": "fa-solid fa-user-check",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Règle du gaz 63/64 (EIP-150)",
+        "description": "Le mécanisme de sécurité mathématique qui réserve une partie du gaz dans les appels inter-contrats pour garantir l'exécution de l'appelant.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-matem%C3%A1tico-que-implementa-la-activity-7483079665147113472-060n",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM : Déterminisme et cohérence globale",
+        "description": "Analyse de l'invariabilité de l'exécution du bytecode et de la manière dont la conception déterministe garantit la parité d'état sur le réseau.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-la-m%C3%A1quina-virtual-de-ethereum-activity-7483320754298748929-z8dp",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EIP-1559 : Structure des frais dans Ethereum",
+        "description": "Etude du marché moderne du gaz Ethereum : frais de base, frais prioritaires et gravure d'ETH.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mercado-de-tarifas-de-gas-de-ethereum-activity-7483464702283538432-SnXF",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Opcodes avec signe ou sans connexion EVM",
+        "description": "Analyse de l'arithmétique binaire dans EVM et comment la différence entre les opérations signées et non signées est implémentée.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-a-nivel-activity-7483683142114017280-9yqV",
+        "icon": "fa-solid fa-plus-minus",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Remboursements d'essence en EVM (EIP-3529)",
+        "description": "Détails techniques sur le remboursement du gaz pour la libération du stockage (SSTORE/SELFDESTRUCT) et ses limites modernes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-incorpora-activity-7483796891156074496-DQ9e",
+        "icon": "fa-solid fa-hand-holding-dollar",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM : Addmod et Mulmod",
+        "description": "Explication mathématique des opcodes ADDMOD et MULMOD qui opèrent l'arithmétique modulaire avec une précision double et intermédiaire pour éviter les débordements.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evm-implementa-la-aritm%C3%A9tica-modular-de-activity-7484045712209539072-QYDe",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "PUSH0 (EIP-3855) vs méthode classique",
+        "description": "Comparaison des coûts de gaz et de la taille du bytecode lors de l'empilement de la valeur zéro avec PUSH0 par rapport aux méthodes traditionnelles à 2 octets.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-optimizaci%C3%B3n-del-almacenamiento-permanente-activity-7484178405891174400-rSos",
+        "icon": "fa-solid fa-down-long",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Opcode : Signextend",
+        "description": "Comment fonctionne l'instruction SIGNEXTEND pour préserver le signe mathématique dans des représentations numériques plus petites.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-signextend-es-una-instrucci%C3%B3n-de-activity-7484407917820178432-JZZl",
+        "icon": "fa-solid fa-arrows-left-right",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Solidity Architecture de l'optimiseur",
+        "description": "Fonctionnement du moteur d'optimisation basé sur Yul du compilateur Solidity et son impact sur la réduction du gaz de bytecode.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-pipeline-de-compilaci%C3%B3n-moderna-de-solidity-activity-7484529216961765376-H2zc",
+        "icon": "fa-solid fa-sliders",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM : SHL contre SHR contre SAR",
+        "description": "Différences entre les décalages de bits logiques (gauche/droite) et arithmétiques (préservation du signe) dans EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-desplazamientos-de-bits-en-la-evm-se-activity-7484770308306993152-FUV3",
+        "icon": "fa-solid fa-left-right",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Règle Gaz 63/64 (EIP-150)",
+        "description": "Analyse des flux de distribution du budget gaz pour les sous-appels et protection contre les attaques réentrantes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-flujo-de-distribuci%C3%B3n-de-gas-en-las-subllamadas-activity-7484914254106746880-cJkd",
+        "icon": "fa-solid fa-droplet",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EVM Opcodes logiques au niveau bit",
+        "description": "Fonctionnement des opérateurs AND, OR, XOR et NOT au niveau bit sur la pile 256 bits du EVM.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_las-operaciones-l%C3%B3gicas-en-la-m%C3%A1quina-virtual-activity-7485132693911789569-4XgM",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Contrats précompilés dans EVM",
+        "description": "Mécaniques d'exécution d'adresses de contrat précompilées (0x01 à 0x0a) pour des opérations cryptographiques complexes.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-contratos-precompilados-de-la-m%C3%A1quina-activity-7485246694553677826-KnCC",
+        "icon": "fa-solid fa-gears",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Limites physiques de la pile EVM",
+        "description": "Etude du design et des restrictions du matériel virtuel dans le EVM : profondeur de stack et gestion interne de la mémoire temporaire.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7485495081848717312-jg3U",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Contrats Ethereum prédéfinis",
+        "description": "Catalogue et spécifications des fonctions cryptographiques (hash, signatures, appariements de courbes) implémentées au niveau client.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-cat%C3%A1logo-de-contratos-precompilados-en-activity-7485631480077975552-tFyi",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "PUSH0 (0x5f) - EIP-3855",
+        "description": "Introduction formelle du PUSH0 à Shanghai et comment sa mise en œuvre réduit considérablement le coût du gaz du stockage temporaire.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-push0-introducido-formalmente-activity-7485857658340765696-LAL-",
+        "icon": "fa-solid fa-arrow-down-9-1",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "EOF (format d'objet EVM) : structuration et validation de la pile",
+        "description": "Comment le nouveau format d'objet EVM valide la pile au préalable et garantit l'absence de dépassement/débordement.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mec%C3%A1nica-operativa-de-los-contratos-precompilados-activity-7485993867603927040-JXPq",
+        "icon": "fa-solid fa-shield",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Mstore contre Mstore8",
+        "description": "Analyse de l'écriture en mémoire linéaire du EVM : différences de coût et d'adressage en économisant 32 octets contre 1 octet.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7486219860658683904-mUjx",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Architecture du EVM",
+        "description": "Etude du design général du processeur Ethereum : registres virtuels, mémoire et persistance décentralisée.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-desv%C3%ADo-de-llamadas-en-activity-7486367831895465984-vDwK",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM & Solidity"
+      },
+      {
+        "title": "Exécution de sauts dans EVM : Jump vs Jump1",
+        "description": "Comment EVM contrôle le déroulement du programme à l'aide de JUMP et JUMPI et validation obligatoire avec JUMPDEST.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-de-flujo-dentro-de-la-evm-se-gestiona-activity-7486582245114310656-ApgS",
+        "icon": "fa-solid fa-right-long",
+        "tag": "EVM & Solidity"
       }
     ],
     "all": "Tous",

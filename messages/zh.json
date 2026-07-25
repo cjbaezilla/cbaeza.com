@@ -691,6 +691,349 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
         "icon": "fa-solid fa-circle-exclamation",
         "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EIP-1153: TSTORE / TLOAD - 数据生命周期和持久性",
+        "description": "详细分析 EVM 中数据的时间持久性以及瞬态存储如何优化交易内的 Gas。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-del-almacenamiento-transitorio-activity-7477885065742708736-BNMR",
+        "icon": "fa-solid fa-arrows-spin",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 CALLDATA：流程、操作码和 Gas",
+        "description": "研究 EVM 中的数据输入流，检查其不变性、相关操作码和 Gas 消耗。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-calldata-se-define-en-la-especificaci%C3%B3n-activity-7478021334841798656-XOuJ",
+        "icon": "fa-solid fa-arrow-right-to-bracket",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊上的 DELEGATECALL",
+        "description": "探索低级指令 DELEGATECALL 及其在创建代理和可更新合约中的基本作用。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-bajo-nivel-delegatecall-activity-7478247461338333185-0hb8",
+        "icon": "fa-solid fa-user-gear",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EIP-214：STATICCALL",
+        "description": "分析STATICCALL的技术规范以及它如何通过防止意外写入来保证状态隔离。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-especificaci%C3%B3n-t%C3%A9cnica-de-seguridad-introducida-activity-7478383722568794113-wWn0",
+        "icon": "fa-solid fa-eye",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "Runtime Bytecode 的解剖",
+        "description": "运行时字节码的结构分析，区分其操作部分和解码流程。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bytecode-de-tiempo-de-ejecuci%C3%B3n-t%C3%A9cnicamente-activity-7478609712859643904-dZ4g",
+        "icon": "fa-solid fa-barcode",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 堆栈：访问限制和“堆栈太深”",
+        "description": "研究 EVM 的基于堆栈的设计、变量访问限制和减轻编译错误的策略。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-error-de-compilaci%C3%B3n-stack-too-deep-representa-activity-7478745104095084544-yBsX",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EOF (EIP-3540)：EVM 的字节码结构",
+        "description": "EVM 对象格式 (EOF) 的说明，详细说明了部署时验证的代码和数据的显式分离。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-formato-de-objeto-de-la-evm-t%C3%A9cnicamente-activity-7478972099802546176-dDo0",
+        "icon": "fa-solid fa-box",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的内存扩展",
+        "description": "研究 EVM 的线性易失性存储器以及由于存储器扩展而导致的 Gas 成本的二次行为。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7479100948385091584-XQcg",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的低级物理异常",
+        "description": "分析EVM中物理故障的原因，如堆栈溢出、气体溢出和无效指令。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-implementa-activity-7479334488087429120-e0yd",
+        "icon": "fa-solid fa-circle-xmark",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "MCOPY (EIP-5656) 与 EVM 中的传统方法",
+        "description": "使用 MCOPY 进行高效线性内存复制与之前消耗更多 Gas 的传统技术之间的比较。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-copia-interna-de-bloques-de-datos-en-la-activity-7479478435652984833-HWJ8",
+        "icon": "fa-solid fa-copy",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊合并后节点架构",
+        "description": "研究权益证明变更后执行客户端和共识客户端之间通过引擎 API 进行的多级交互。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-actualizaci%C3%B3n-post-merge-de-ethereum-transform%C3%B3-activity-7479697006857416704-xhpY",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "创建代码 (Initcode) 与 Runtime Code",
+        "description": "分析智能合约创建代码以及initcode如何返回存储在区块链中的最终字节码。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-proceso-de-despliegue-de-un-contrato-inteligente-activity-7479833273884426241-2w_-",
+        "icon": "fa-solid fa-wand-magic-sparkles",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 4 个存储区域",
+        "description": "EVM 存储区域的物理解释：堆栈、内存、存储和调用数据，分析成本和持久性。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480059264796090368-g0-l",
+        "icon": "fa-solid fa-box-archive",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "在 EVM 中创建合同",
+        "description": "有关如何初始化智能合约和执行低级构造函数规则的详细信息。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instanciaci%C3%B3n-de-un-nuevo-contrato-inteligente-activity-7480195661800431616-Bva5",
+        "icon": "fa-solid fa-plus",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的存储和内存层次结构",
+        "description": "持久存储与持久存储比较以及智能合约中易失性设计以实现成本优化。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-contratos-inteligentes-eficientes-activity-7480436751317200897-7EgF",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中地址的推导",
+        "description": "研究使用 CREATE (nonce) 和 CREATE2 (salt) 计算合约地址背后的数学算法。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-generaci%C3%B3n-de-direcciones-de-contratos-activity-7480565599341928448-7Vg3",
+        "icon": "fa-solid fa-signature",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的地址、出发地和呼叫者",
+        "description": "分析全局上下文变量tx.origin和msg.sender，以及使用它们进行授权时的安全风险。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480784049557524480-M4u0",
+        "icon": "fa-solid fa-users-viewfinder",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的 Call、Staticcall 与 Delegatecall",
+        "description": "EVM中三种主要合约间调用方式和上下文继承的技术对比。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comunicaci%C3%B3n-inter-contrato-en-la-m%C3%A1quina-activity-7480927735708831749-9KoZ",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "平衡与自我平衡 (EIP-1884)",
+        "description": "引入的更改是为了优化区块链中自身余额与外部账户余额的协商。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-lectura-de-saldos-en-la-cadena-de-bloques-activity-7481146429906939904-rJPS",
+        "icon": "fa-solid fa-coins",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "调用、静态调用、委托调用",
+        "description": "深入比较分析Solidity中的低级调用操作码和失败行为。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-comparativo-de-los-c%C3%B3digos-de-activity-7481275276057047040-JdoT",
+        "icon": "fa-solid fa-arrows-split-up-and-left",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 操作码：调用值",
+        "description": "EVM 如何处理传输附加到调用的 Ether 并使用 CALLVALUE 进行内部验证。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-transferencia-y-recepci%C3%B3n-de-ether-en-activity-7481508815339909120-Moie",
+        "icon": "fa-solid fa-dollar-sign",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的执行：内部跳转与外部调用",
+        "description": "同一合约（JUMP/JUMPI）内逻辑跳转和外部子上下文执行之间的差异。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-del-flujo-de-ejecuci%C3%B3n-dentro-activity-7481652763001556992-6S6Z",
+        "icon": "fa-solid fa-share",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的堆栈管理",
+        "description": "详细分析EVM LIFO引擎如何组织执行堆栈槽中的操作和数据。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7481871202840465409-nlSl",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：恢复流和错误传播",
+        "description": "分析REVERT的机制、合约间错误泡沫和全局状态的自动恢复。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_cuando-una-transacci%C3%B3n-o-llamada-inter-contrato-activity-7482004077812350976-M1Px",
+        "icon": "fa-solid fa-rotate-left",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：当前块上下文加载",
+        "description": "TIMESTAMP、NUMBER 和 COINBASE 操作码如何允许访问当前块的物理元数据。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-proporciona-activity-7482233591746183168-_Kns",
+        "icon": "fa-solid fa-clock",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EIP-5780 (坎昆) - 自毁",
+        "description": "解释 Dencun 更新中适用于 SELFDESTRUCT 的新限制及其后果。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-autodestrucci%C3%B3n-o-selfdestruct-activity-7482369988855619584-UIXX",
+        "icon": "fa-solid fa-fire",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 访问经济和网络参数",
+        "description": "使用全局操作码与以太坊上的 Gas 费率、区块限制和历史哈希进行交互。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-acceso-a-los-par%C3%A1metros-globales-de-la-activity-7482595983739252736-Qvp_",
+        "icon": "fa-solid fa-globe",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：调用堆栈深度和 63/64 规则 (EIP-150)",
+        "description": "研究外部调用深度限制在1024级，并保留1/64的gas以避免灾难性故障。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-llamadas-de-la-m%C3%A1quina-virtual-activity-7482743953201569792-8vKd",
+        "icon": "fa-solid fa-water",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "以太坊账户的内部剖析",
+        "description": "外部账户和合约账户的结构细节，以及它们如何映射到网络状态树上。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-almacenamiento-y-representaci%C3%B3n-activity-7482958367452422144-KcBI",
+        "icon": "fa-solid fa-user-check",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "63/64 气体规则 (EIP-150)",
+        "description": "在合约间调用中保留一部分gas以保证调用者执行的数学安全机制。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-matem%C3%A1tico-que-implementa-la-activity-7483079665147113472-060n",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：决定论和全局一致性",
+        "description": "分析字节码执行的不变性以及确定性设计如何确保整个网络的状态奇偶校验。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-la-m%C3%A1quina-virtual-de-ethereum-activity-7483320754298748929-z8dp",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EIP-1559：以太坊的费用结构",
+        "description": "现代以太坊 Gas 市场研究：基本费用、优先费用和 ETH 燃烧。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mercado-de-tarifas-de-gas-de-ethereum-activity-7483464702283538432-SnXF",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中带符号与不带符号的操作码",
+        "description": "分析EVM中的二进制算术以及有符号和无符号运算的区别是如何实现的。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-a-nivel-activity-7483683142114017280-9yqV",
+        "icon": "fa-solid fa-plus-minus",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM (EIP-3529) 中的汽油退款",
+        "description": "有关释放存储的天然气补偿 (SSTORE/SELFDESTRUCT) 的技术细节及其现代局限性。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-incorpora-activity-7483796891156074496-DQ9e",
+        "icon": "fa-solid fa-hand-holding-dollar",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：Addmod 和 Mulmod",
+        "description": "ADDMOD 和 MULMOD 操作码的数学解释，这些操作码以双精度和中间精度进行模算术以避免溢出。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evm-implementa-la-aritm%C3%A9tica-modular-de-activity-7484045712209539072-QYDe",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "PUSH0 (EIP-3855) 与经典方法",
+        "description": "使用 PUSH0 与传统 2 字节方法堆叠零值时的 Gas 成本和字节码大小的比较。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-optimizaci%C3%B3n-del-almacenamiento-permanente-activity-7484178405891174400-rSos",
+        "icon": "fa-solid fa-down-long",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 操作码：Signextend",
+        "description": "SIGNEXTEND 指令如何以较小的数字表示形式保留数学符号。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-signextend-es-una-instrucci%C3%B3n-de-activity-7484407917820178432-JZZl",
+        "icon": "fa-solid fa-arrows-left-right",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "Solidity 优化器架构",
+        "description": "Solidity 编译器基于 Yul 的优化引擎如何工作及其对字节码 Gas 减少的影响。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-pipeline-de-compilaci%C3%B3n-moderna-de-solidity-activity-7484529216961765376-H2zc",
+        "icon": "fa-solid fa-sliders",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM：SHL 与 SHR 与 SAR",
+        "description": "EVM 中逻辑（左/右）和算术（符号保留）位移之间的差异。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-desplazamientos-de-bits-en-la-evm-se-activity-7484770308306993152-FUV3",
+        "icon": "fa-solid fa-left-right",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "气体规则 63/64 (EIP-150)",
+        "description": "用于子调用的 Gas 预算分配流分析以及针对重入攻击的防护。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-flujo-de-distribuci%C3%B3n-de-gas-en-las-subllamadas-activity-7484914254106746880-cJkd",
+        "icon": "fa-solid fa-droplet",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 位级逻辑操作码",
+        "description": "AND、OR、XOR 和 NOT 运算符在 EVM 的 256 位堆栈上进行位级操作。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_las-operaciones-l%C3%B3gicas-en-la-m%C3%A1quina-virtual-activity-7485132693911789569-4XgM",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中的预编译合约",
+        "description": "用于复杂加密操作的预编译合约地址（0x01 至 0x0a）的执行机制。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-contratos-precompilados-de-la-m%C3%A1quina-activity-7485246694553677826-KnCC",
+        "icon": "fa-solid fa-gears",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 堆栈的物理限制",
+        "description": "研究EVM中虚拟硬件的设计和限制：堆栈深度和临时内存的内部管理。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7485495081848717312-jg3U",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "预构建的以太坊合约",
+        "description": "在客户端级别实现的加密函数（哈希、签名、曲线配对）的目录和规范。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-cat%C3%A1logo-de-contratos-precompilados-en-activity-7485631480077975552-tFyi",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "PUSH0 (0x5f) - EIP-3855",
+        "description": "上海正式引入PUSH0，其实施如何大幅降低临时存储的燃气成本。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-push0-introducido-formalmente-activity-7485857658340765696-LAL-",
+        "icon": "fa-solid fa-arrow-down-9-1",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EOF（EVM 对象格式）：堆栈结构和验证",
+        "description": "新的 EVM 对象格式如何预先验证堆栈并确保没有下溢/上溢。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mec%C3%A1nica-operativa-de-los-contratos-precompilados-activity-7485993867603927040-JXPq",
+        "icon": "fa-solid fa-shield",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "Mstore 与 Mstore8",
+        "description": "EVM 线性存储器写入分析：保存 32 字节与 1 字节时的成本和寻址差异。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7486219860658683904-mUjx",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 的架构",
+        "description": "研究以太坊处理器的总体设计：虚拟寄存器、内存和去中心化持久性。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-desv%C3%ADo-de-llamadas-en-activity-7486367831895465984-vDwK",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM 与 Solidity"
+      },
+      {
+        "title": "EVM 中跳转的执行：Jump 与 Jump1",
+        "description": "EVM 如何使用 JUMP 和 JUMPI 控制程序流以及如何使用 JUMPDEST 进行强制验证。",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-de-flujo-dentro-de-la-evm-se-gestiona-activity-7486582245114310656-ApgS",
+        "icon": "fa-solid fa-right-long",
+        "tag": "EVM 与 Solidity"
       }
     ],
     "all": "全部",

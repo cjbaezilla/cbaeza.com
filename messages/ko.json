@@ -691,6 +691,349 @@
         "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-modelo-at%C3%B3mico-de-transici%C3%B3n-de-estado-activity-7477651397254135808-Q-Gi",
         "icon": "fa-solid fa-circle-exclamation",
         "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EIP-1153: TSTORE / TLOAD - 데이터 수명 주기 및 지속성",
+        "description": "EVM에 있는 데이터의 시간적 지속성에 대한 자세한 분석과 임시 저장이 트랜잭션 내 가스를 최적화하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-ciclo-de-vida-del-almacenamiento-transitorio-activity-7477885065742708736-BNMR",
+        "icon": "fa-solid fa-arrows-spin",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 CALLDATA: 흐름, 연산 코드 및 가스",
+        "description": "EVM의 데이터 입력 흐름을 연구하여 불변성, 관련 연산 코드 및 가스 소비를 조사합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-calldata-se-define-en-la-especificaci%C3%B3n-activity-7478021334841798656-XOuJ",
+        "icon": "fa-solid fa-arrow-right-to-bracket",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "이더리움의 DELEGATECALL",
+        "description": "저수준 명령 DELEGATECALL과 프록시 및 업데이트 가능한 계약 생성에서의 기본 역할에 대해 알아봅니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-bajo-nivel-delegatecall-activity-7478247461338333185-0hb8",
+        "icon": "fa-solid fa-user-gear",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EIP-214: STATICCALL",
+        "description": "STATICCALL의 기술 사양 분석 및 실수로 인한 쓰기를 방지하여 상태 격리를 보장하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-especificaci%C3%B3n-t%C3%A9cnica-de-seguridad-introducida-activity-7478383722568794113-wWn0",
+        "icon": "fa-solid fa-eye",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Runtime Bytecode의 해부학",
+        "description": "런타임 시 바이트코드의 구조 분석, 작동 섹션과 디코딩 흐름 구별.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-bytecode-de-tiempo-de-ejecuci%C3%B3n-t%C3%A9cnicamente-activity-7478609712859643904-dZ4g",
+        "icon": "fa-solid fa-barcode",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스택: 액세스 제한 및 \"스택이 너무 깊음\"",
+        "description": "EVM의 스택 기반 설계, 변수 액세스 제한 및 컴파일 오류 완화 전략에 대해 연구합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-error-de-compilaci%C3%B3n-stack-too-deep-representa-activity-7478745104095084544-yBsX",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EOF (EIP-3540): EVM의 바이트코드 구조",
+        "description": "배포 시간 유효성 검사를 위한 코드와 데이터의 명시적인 분리를 자세히 설명하는 EVM 개체 형식(EOF)에 대한 설명입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-formato-de-objeto-de-la-evm-t%C3%A9cnicamente-activity-7478972099802546176-dDo0",
+        "icon": "fa-solid fa-box",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 메모리 확장",
+        "description": "EVM의 선형 휘발성 메모리와 메모리 확장으로 인한 가스 비용의 2차 거동에 대한 연구입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7479100948385091584-XQcg",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 저수준 물리적 예외",
+        "description": "스택 오버플로, 가스 오버플로, 잘못된 명령 등 EVM의 물리적 오류 원인을 분석합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-implementa-activity-7479334488087429120-e0yd",
+        "icon": "fa-solid fa-circle-xmark",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "MCOPY(EIP-5656) 대 EVM의 전통적인 방법",
+        "description": "MCOPY을 사용한 효율적인 선형 메모리 복사와 더 많은 가스를 소비하는 이전 기존 기술 간의 비교.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-copia-interna-de-bloques-de-datos-en-la-activity-7479478435652984833-HWJ8",
+        "icon": "fa-solid fa-copy",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Ethereum 사후 병합 노드 아키텍처",
+        "description": "Proof of Stake로 변경 후 Engine API를 통한 Execution Client와 Consensus Client 간의 다단계 상호 작용에 대해 연구합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-actualizaci%C3%B3n-post-merge-de-ethereum-transform%C3%B3-activity-7479697006857416704-xhpY",
+        "icon": "fa-solid fa-network-wired",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "생성 코드(Initcode)와 Runtime Code",
+        "description": "스마트 계약 생성 코드 분석 및 initcode가 블록체인에 저장된 최종 바이트코드를 반환하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-proceso-de-despliegue-de-un-contrato-inteligente-activity-7479833273884426241-2w_-",
+        "icon": "fa-solid fa-wand-magic-sparkles",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 4개 저장 영역",
+        "description": "EVM 스토리지 영역에 대한 물리적 설명: 스택, 메모리, 스토리지 및 호출 데이터, 비용 및 지속성 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480059264796090368-g0-l",
+        "icon": "fa-solid fa-box-archive",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM에서 계약 생성",
+        "description": "스마트 계약이 초기화되는 방법과 하위 수준 생성자 규칙이 실행되는 방법에 대한 세부 정보입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instanciaci%C3%B3n-de-un-nuevo-contrato-inteligente-activity-7480195661800431616-Bva5",
+        "icon": "fa-solid fa-plus",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 저장소 및 메모리 계층 구조",
+        "description": "비용 최적화를 위한 스마트 계약의 영구 스토리지와 영구 스토리지 비교 및 ​​설계 변동성.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-contratos-inteligentes-eficientes-activity-7480436751317200897-7EgF",
+        "icon": "fa-solid fa-sitemap",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM에서 주소 파생",
+        "description": "CREATE(nonce) 및 CREATE2(salt)을 사용하여 계약 주소를 계산하는 수학적 알고리즘에 대한 연구입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-generaci%C3%B3n-de-direcciones-de-contratos-activity-7480565599341928448-7Vg3",
+        "icon": "fa-solid fa-signature",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 주소, 발신지 및 발신자",
+        "description": "전역 컨텍스트 변수 tx.origin 및 msg.sender에 대한 분석과 이를 인증에 사용할 때의 보안 위험.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-entorno-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7480784049557524480-M4u0",
+        "icon": "fa-solid fa-users-viewfinder",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 호출 vs. 정적 호출 vs. Delegatecall",
+        "description": "EVM의 세 가지 주요 계약 간 호출 방법 및 컨텍스트 상속에 대한 기술적 비교입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-comunicaci%C3%B3n-inter-contrato-en-la-m%C3%A1quina-activity-7480927735708831749-9KoZ",
+        "icon": "fa-solid fa-shuffle",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "균형 대 자기 균형(EIP-1884)",
+        "description": "블록체인의 외부 계정 잔액에 대한 자신의 잔액 상담을 최적화하기 위해 도입된 변경입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-lectura-de-saldos-en-la-cadena-de-bloques-activity-7481146429906939904-rJPS",
+        "icon": "fa-solid fa-coins",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "호출 vs. 정적 호출 vs. Delegatecall",
+        "description": "Solidity의 하위 수준 호출 opcode와 실패 동작에 대한 심층 비교 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-an%C3%A1lisis-comparativo-de-los-c%C3%B3digos-de-activity-7481275276057047040-JdoT",
+        "icon": "fa-solid fa-arrows-split-up-and-left",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM Opcode: 호출 값",
+        "description": "EVM이 호출에 첨부된 Ether를 전송하고 내부 검증을 위해 CALLVALUE을 사용하여 처리하는 방법입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-transferencia-y-recepci%C3%B3n-de-ether-en-activity-7481508815339909120-Moie",
+        "icon": "fa-solid fa-dollar-sign",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 실행: 내부 점프와 외부 호출",
+        "description": "동일한 계약(JUMP/JUMPI) 내의 논리적 점프와 외부 하위 컨텍스트 실행 간의 차이점입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-del-flujo-de-ejecuci%C3%B3n-dentro-activity-7481652763001556992-6S6Z",
+        "icon": "fa-solid fa-share",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 스택 관리",
+        "description": "EVM LIFO 엔진이 실행 스택 슬롯에서 작업과 데이터를 구성하는 방법에 대한 자세한 분석입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-organiza-su-activity-7481871202840465409-nlSl",
+        "icon": "fa-solid fa-layer-group",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: 흐름 및 오류 전파 되돌리기",
+        "description": "REVERT의 메커니즘, 계약 간 오류 버블 및 전역 상태의 자동 복원 분석.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_cuando-una-transacci%C3%B3n-o-llamada-inter-contrato-activity-7482004077812350976-M1Px",
+        "icon": "fa-solid fa-rotate-left",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: 현재 블록 컨텍스트 로드",
+        "description": "TIMESTAMP, NUMBER 및 COINBASE opcode를 사용하여 현재 블록의 물리적 메타데이터에 대한 액세스를 허용하는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-proporciona-activity-7482233591746183168-_Kns",
+        "icon": "fa-solid fa-clock",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EIP-5780 (칸쿤) - 자폭",
+        "description": "Dencun 업데이트에서 SELFDESTRUCT에 적용된 새로운 제한 사항과 그 결과에 대한 설명입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-instrucci%C3%B3n-de-autodestrucci%C3%B3n-o-selfdestruct-activity-7482369988855619584-UIXX",
+        "icon": "fa-solid fa-fire",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 경제적 및 네트워크 매개변수에 대한 접근",
+        "description": "전역 opcode를 사용하여 Ethereum의 가스 요금, 블록 제한 및 기록 해시와 상호 작용합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-acceso-a-los-par%C3%A1metros-globales-de-la-activity-7482595983739252736-Qvp_",
+        "icon": "fa-solid fa-globe",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: 호출 스택 깊이 및 63/64 규칙(EIP-150)",
+        "description": "1024 레벨의 외부 호출 깊이 제한과 치명적인 오류를 방지하기 위한 가스의 1/64 보유에 대한 연구입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-llamadas-de-la-m%C3%A1quina-virtual-activity-7482743953201569792-8vKd",
+        "icon": "fa-solid fa-water",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "이더리움 계정의 내부 분석",
+        "description": "외부 계정 및 계약 계정의 구조적 세부 사항과 이들이 네트워크 상태 트리에 매핑되는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-almacenamiento-y-representaci%C3%B3n-activity-7482958367452422144-KcBI",
+        "icon": "fa-solid fa-user-check",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "63/64 가스 규칙 (EIP-150)",
+        "description": "호출자 실행을 보장하기 위해 계약 간 호출에서 가스의 일부를 예약하는 수학적 보안 메커니즘입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mecanismo-matem%C3%A1tico-que-implementa-la-activity-7483079665147113472-060n",
+        "icon": "fa-solid fa-gas-pump",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: 결정론과 전역 일관성",
+        "description": "바이트코드 실행의 불변성과 결정론적 설계가 네트워크 전체에서 상태 패리티를 보장하는 방법을 분석합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-dise%C3%B1o-de-la-m%C3%A1quina-virtual-de-ethereum-activity-7483320754298748929-z8dp",
+        "icon": "fa-solid fa-scale-balanced",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EIP-1559: 이더리움의 수수료 구조",
+        "description": "현대 이더리움 가스 시장 연구: 기본 수수료, 우선 수수료 및 ETH 소각.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-mercado-de-tarifas-de-gas-de-ethereum-activity-7483464702283538432-SnXF",
+        "icon": "fa-solid fa-money-bill-wave",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "부호가 있는 opcode와 부호가 없는 opcode EVM",
+        "description": "EVM의 이진 산술 분석 및 부호 있는 연산과 부호 없는 연산의 차이점이 구현되는 방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-opera-a-nivel-activity-7483683142114017280-9yqV",
+        "icon": "fa-solid fa-plus-minus",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM(EIP-3529)의 가스 환불",
+        "description": "저장소 해제(SSTORE/SELFDESTRUCT)에 대한 가스 상환에 대한 기술 세부 사항 및 최신 제한 사항입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-m%C3%A1quina-virtual-de-ethereum-incorpora-activity-7483796891156074496-DQ9e",
+        "icon": "fa-solid fa-hand-holding-dollar",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: Addmod 및 Mulmod",
+        "description": "오버플로를 방지하기 위해 배정밀도 및 중간 정밀도로 모듈러 산술을 작동하는 ADDMOD 및 MULMOD opcode에 대한 수학적 설명입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-evm-implementa-la-aritm%C3%A9tica-modular-de-activity-7484045712209539072-QYDe",
+        "icon": "fa-solid fa-calculator",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "PUSH0 (EIP-3855) 대 클래식 방법",
+        "description": "PUSH0로 0 값을 스택할 때의 가스 비용과 바이트코드 크기를 기존 2바이트 방법과 비교합니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-optimizaci%C3%B3n-del-almacenamiento-permanente-activity-7484178405891174400-rSos",
+        "icon": "fa-solid fa-down-long",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM Opcode: Signextend",
+        "description": "SIGNEXTEND 명령이 작동하여 더 작은 숫자 표현으로 수학적 기호를 보존하는 방법입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-signextend-es-una-instrucci%C3%B3n-de-activity-7484407917820178432-JZZl",
+        "icon": "fa-solid fa-arrows-left-right",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "Solidity 최적화 아키텍처",
+        "description": "Solidity 컴파일러의 Yul 기반 최적화 엔진이 작동하는 방식과 바이트코드 가스 감소에 미치는 영향.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-pipeline-de-compilaci%C3%B3n-moderna-de-solidity-activity-7484529216961765376-H2zc",
+        "icon": "fa-solid fa-sliders",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM: SHL 대 SHR 대 SAR",
+        "description": "EVM의 논리(왼쪽/오른쪽) 및 산술(부호 보존) 비트 이동 간의 차이점.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-desplazamientos-de-bits-en-la-evm-se-activity-7484770308306993152-FUV3",
+        "icon": "fa-solid fa-left-right",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "가스 규정 63/64(EIP-150)",
+        "description": "하위 호출을 위한 가스 예산 분포 흐름 분석 및 재진입 공격 방지.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-flujo-de-distribuci%C3%B3n-de-gas-en-las-subllamadas-activity-7484914254106746880-cJkd",
+        "icon": "fa-solid fa-droplet",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 비트 수준 논리 연산 코드",
+        "description": "EVM의 256비트 스택에 있는 비트 수준에서 AND, OR, XOR 및 NOT 연산자의 연산입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_las-operaciones-l%C3%B3gicas-en-la-m%C3%A1quina-virtual-activity-7485132693911789569-4XgM",
+        "icon": "fa-solid fa-microchip",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 사전 컴파일된 계약",
+        "description": "복잡한 암호화 작업을 위해 미리 컴파일된 계약 주소(0x01~0x0a)에 대한 실행 메커니즘입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_los-contratos-precompilados-de-la-m%C3%A1quina-activity-7485246694553677826-KnCC",
+        "icon": "fa-solid fa-gears",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM 스택의 물리적 한계",
+        "description": "EVM의 가상 하드웨어 설계 및 제한 사항 연구: 스택 깊이 및 임시 메모리의 내부 관리.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-pila-de-ejecuci%C3%B3n-de-la-m%C3%A1quina-virtual-activity-7485495081848717312-jg3U",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "사전 구축된 이더리움 계약",
+        "description": "클라이언트 수준에서 구현된 암호화 기능(해시, 서명, 곡선 쌍)의 카탈로그 및 사양입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-cat%C3%A1logo-de-contratos-precompilados-en-activity-7485631480077975552-tFyi",
+        "icon": "fa-solid fa-address-book",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "PUSH0 (0x5f) - EIP-3855",
+        "description": "상하이에서 PUSH0의 공식 도입과 그 구현으로 임시 저장에 필요한 가스 비용이 어떻게 실질적으로 절감되는지 알아보십시오.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-opcode-push0-introducido-formalmente-activity-7485857658340765696-LAL-",
+        "icon": "fa-solid fa-arrow-down-9-1",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EOF(EVM 개체 형식): 스택 구조화 및 유효성 검사",
+        "description": "새로운 EVM 개체 형식이 스택을 미리 검증하고 언더플로/오버플로가 발생하지 않도록 하는 방법입니다.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-mec%C3%A1nica-operativa-de-los-contratos-precompilados-activity-7485993867603927040-JXPq",
+        "icon": "fa-solid fa-shield",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "엠스토어 vs. 엠스토어8",
+        "description": "EVM의 선형 메모리 쓰기 분석: 32바이트와 1바이트를 저장할 때 비용 및 주소 지정의 차이.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-memoria-lineal-de-la-m%C3%A1quina-virtual-de-activity-7486219860658683904-mUjx",
+        "icon": "fa-solid fa-memory",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM의 아키텍처",
+        "description": "Ethereum 프로세서의 일반 설계 연구: 가상 레지스터, 메모리 및 분산 지속성.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_la-arquitectura-de-desv%C3%ADo-de-llamadas-en-activity-7486367831895465984-vDwK",
+        "icon": "fa-solid fa-diagram-project",
+        "tag": "EVM 및 Solidity"
+      },
+      {
+        "title": "EVM에서 점프 실행: 점프 대 점프1",
+        "description": "EVM이 JUMP 및 JUMPI을 사용하고 JUMPDEST을 통한 필수 검증을 사용하여 프로그램 흐름을 제어하는 ​​방법.",
+        "link": "https://www.linkedin.com/posts/carlos-baeza-negroni_el-control-de-flujo-dentro-de-la-evm-se-gestiona-activity-7486582245114310656-ApgS",
+        "icon": "fa-solid fa-right-long",
+        "tag": "EVM 및 Solidity"
       }
     ],
     "all": "전체",
