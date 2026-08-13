@@ -88,7 +88,7 @@ export default function LanguageSelector() {
   };
 
   const modalContent = isOpen && mounted ? (
-    <div className="fixed inset-0 z-[9999] flex items-end sm:items-center justify-center sm:p-4">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-3.5 sm:p-6">
       {/* Backdrop con Blur */}
       <div
         className="fixed inset-0 bg-black/75 backdrop-blur-md transition-opacity duration-200"
@@ -96,18 +96,13 @@ export default function LanguageSelector() {
         aria-hidden="true"
       />
 
-      {/* Contenedor del Modal / Sheet */}
+      {/* Contenedor del Modal con márgenes perimetrales */}
       <div
-        className="relative w-full max-w-xl bg-card/95 backdrop-blur-2xl border border-border/80 rounded-t-3xl sm:rounded-2xl shadow-2xl z-10 flex flex-col max-h-[85dvh] sm:max-h-[80vh] overflow-hidden transition-all duration-200"
+        className="relative w-full max-w-xl bg-card/95 backdrop-blur-2xl border border-border/80 rounded-2xl shadow-2xl z-10 flex flex-col max-h-[85dvh] sm:max-h-[80vh] overflow-hidden transition-all duration-200"
         role="dialog"
         aria-modal="true"
         aria-labelledby="language-modal-title"
       >
-        {/* Indicador de arrastre para dispositivos móviles */}
-        <div className="sm:hidden flex justify-center pt-2.5 pb-1">
-          <div className="w-12 h-1.5 bg-muted-foreground/30 rounded-full" />
-        </div>
-
         {/* Header del Modal */}
         <div className="px-4 py-3 sm:p-5 border-b border-border/50 flex items-center justify-between gap-3 bg-card/50">
           <div className="flex items-center gap-2.5">
