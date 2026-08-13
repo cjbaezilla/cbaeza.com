@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/context/I18nContext";
 import LanguageSelector from "@/components/LanguageSelector";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -72,8 +73,9 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Lado Derecho: Selector de Idioma Moderno */}
-        <div className="flex items-center gap-3">
+        {/* Lado Derecho: Selector de Tema + Selector de Idioma */}
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
           <LanguageSelector />
         </div>
       </div>

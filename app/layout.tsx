@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Outfit, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { I18nProvider } from "@/context/I18nContext";
+import { ThemeProvider } from "@/context/ThemeContext";
 import { GoogleTranslate } from "@/components/GoogleTranslate";
 
 const sans = Plus_Jakarta_Sans({
@@ -146,9 +147,27 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${sans.variable} ${heading.variable} ${mono.variable} h-full antialiased dark`}
+      suppressHydrationWarning
+      className={`${sans.variable} ${heading.variable} ${mono.variable} h-full antialiased`}
     >
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var stored = localStorage.getItem('theme');
+                  var isDark = stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                  if (isDark) {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -163,7 +182,9 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <GoogleTranslate />
-        <I18nProvider>{children}</I18nProvider>
+        <ThemeProvider>
+          <I18nProvider>{children}</I18nProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
