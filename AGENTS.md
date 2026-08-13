@@ -39,7 +39,7 @@ Dado que el proyecto está configurado con `output: "export"` en `next.config.ts
 
 ## 🌐 Sistema de Internacionalización (I18n)
 
-El proyecto utiliza **Google Website Translator** en el cliente junto a un catálogo de más de 30 idiomas soportados y un único diccionario maestro en español:
+El proyecto utiliza **Google Website Translator** en el cliente junto a un catálogo de más de 80 idiomas soportados y un único diccionario maestro en español:
 
 ### Reglas para Modificar Textos o Idiomas:
 - **Diccionario Maestro**: La única fuente de verdad es `messages/es.json`. No se requieren archivos JSON para otros idiomas.

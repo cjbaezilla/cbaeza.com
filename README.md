@@ -61,7 +61,7 @@ El repositorio está organizado de forma modular siguiendo los estándares moder
 
 ## 🌍 Sistema de Internacionalización (I18n)
 
-El portafolio integra **Google Website Translator** junto a un catálogo de más de 30 idiomas globales con banderas y selector responsive:
+El portafolio integra **Google Website Translator** junto a un catálogo de más de 80 idiomas globales con banderas y selector responsive:
 
 - **Fuente Única de Contenido**: Solo se mantiene `messages/es.json`.
 - **Selector Moderno & Mobile-First**: `components/LanguageSelector.tsx` ofrece un modal/drawer intuitivo, barra de búsqueda en tiempo real, chips de acceso rápido a idiomas populares y banderas de alta fidelidad.

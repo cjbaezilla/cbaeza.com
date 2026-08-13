@@ -76,6 +76,7 @@ export default function LanguageSelector() {
       { key: "europe", title: REGION_NAMES.europe, items: languages.filter((l) => l.region === "europe") },
       { key: "asia", title: REGION_NAMES.asia, items: languages.filter((l) => l.region === "asia") },
       { key: "middle_east_africa", title: REGION_NAMES.middle_east_africa, items: languages.filter((l) => l.region === "middle_east_africa") },
+      { key: "americas", title: REGION_NAMES.americas, items: languages.filter((l) => l.region === "americas") },
     ];
 
     return regions.filter((group) => group.items.length > 0);
@@ -86,12 +87,8 @@ export default function LanguageSelector() {
     setIsOpen(false);
   };
 
-  const popularChips = useMemo(() => {
-    return languages.filter((l) => ["es", "en", "zh-CN", "pt", "fr", "de", "ja", "ar"].includes(l.code));
-  }, [languages]);
-
   const modalContent = isOpen && mounted ? (
-    <div className="fixed inset-0 z-[9999] flex items-end sm:items-center justify-center">
+    <div className="fixed inset-0 z-[9999] flex items-end sm:items-center justify-center sm:p-4">
       {/* Backdrop con Blur */}
       <div
         className="fixed inset-0 bg-black/75 backdrop-blur-md transition-opacity duration-200"
@@ -101,7 +98,7 @@ export default function LanguageSelector() {
 
       {/* Contenedor del Modal / Sheet */}
       <div
-        className="relative w-full max-w-lg bg-card/95 backdrop-blur-2xl border border-border/80 rounded-t-3xl sm:rounded-2xl shadow-2xl z-10 flex flex-col max-h-[85dvh] sm:max-h-[80vh] overflow-hidden transition-all duration-200"
+        className="relative w-full max-w-xl bg-card/95 backdrop-blur-2xl border border-border/80 rounded-t-3xl sm:rounded-2xl shadow-2xl z-10 flex flex-col max-h-[85dvh] sm:max-h-[80vh] overflow-hidden transition-all duration-200"
         role="dialog"
         aria-modal="true"
         aria-labelledby="language-modal-title"
@@ -137,9 +134,8 @@ export default function LanguageSelector() {
           </button>
         </div>
 
-        {/* Barra de Búsqueda y Chips Rápidos */}
-        <div className="p-4 pb-2 space-y-3 bg-muted/20 border-b border-border/40">
-          {/* Buscador */}
+        {/* Barra de Búsqueda */}
+        <div className="p-4 bg-muted/20 border-b border-border/40">
           <div className="relative flex items-center">
             <Search className="absolute left-3.5 size-4 text-muted-foreground pointer-events-none" />
             <input
@@ -161,33 +157,6 @@ export default function LanguageSelector() {
               </button>
             )}
           </div>
-
-          {/* Chips Rápidos Populares */}
-          {!searchQuery && (
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs">
-              <span className="text-[11px] font-medium text-muted-foreground shrink-0 flex items-center gap-1 mr-1">
-                🔥 Populares:
-              </span>
-              {popularChips.map((lang) => {
-                const isSelected = locale === lang.code;
-                return (
-                  <button
-                    key={lang.code}
-                    type="button"
-                    onClick={() => handleSelect(lang.code)}
-                    className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border transition-all shrink-0 cursor-pointer ${
-                      isSelected
-                        ? "bg-primary text-primary-foreground border-primary shadow-xs"
-                        : "bg-background/80 hover:bg-accent border-border/70 text-foreground"
-                    }`}
-                  >
-                    <FlagIcon countryCode={lang.countryCode} className="h-2.5 w-3.5 rounded-[1px] object-cover" />
-                    <span>{lang.nativeName}</span>
-                  </button>
-                );
-              })}
-            </div>
-          )}
         </div>
 
         {/* Lista Desplazable de Idiomas */}
