@@ -132,20 +132,20 @@ export default function Home() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <header id="hero" className="w-full pt-16 pb-12 md:pt-28 md:pb-20 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 relative overflow-hidden">
+        <header id="hero" className="w-full pt-16 pb-12 md:pt-28 md:pb-20 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40 relative overflow-hidden">
         {/* Fondo decorativo geométrico */}
         <div className="absolute top-0 ltr:right-0 rtl:left-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none ltr:-mr-32 rtl:-ml-32 -mt-32"></div>
         <div className="absolute bottom-0 ltr:left-0 rtl:right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none ltr:-ml-32 rtl:-mr-32 -mb-32"></div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full relative z-10">
           {/* Información Principal */}
-          <div className="lg:col-span-7 flex flex-col gap-6 items-start">
+          <div className="lg:col-span-7 flex flex-col gap-6 items-start order-1">
             <span className="inline-flex items-center gap-1.5 rounded-xl bg-card border border-border/80 px-3.5 py-1.5 text-xs font-semibold text-muted-foreground shadow-sm">
               <i className="fa-solid fa-code text-primary"></i>
               {t("hero.badge") as string}
             </span>
 
-            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-none">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight">
               {t("hero.title") as string}
             </h1>
 
@@ -156,90 +156,91 @@ export default function Home() {
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-justify">
               {t("hero.description") as string}
             </p>
-
-            <div className="flex flex-wrap gap-4 mt-2">
-              <Link
-                href="https://www.linkedin.com/in/carlos-baeza-negroni/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3.5 text-xs font-bold transition-all shadow-sm cursor-pointer"
-              >
-                <i className="fa-brands fa-linkedin text-base"></i>
-                LinkedIn
-              </Link>
-
-              <Link
-                href="https://github.com/cjbaezilla/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
-              >
-                <i className="fa-brands fa-github text-base"></i>
-                {t("hero.cta") as string}
-              </Link>
-
-              <Link
-                href="https://x.com/cjbaezilla"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
-              >
-                <i className="fa-brands fa-x-twitter text-base"></i>
-                Twitter
-              </Link>
-
-              <Link
-                href="https://www.youtube.com/@cjbaezilla"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
-              >
-                <i className="fa-brands fa-youtube text-base"></i>
-                YouTube
-              </Link>
-
-              <Link
-                href="mailto:hola@cbaeza.com"
-                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
-              >
-                <i className="fa-solid fa-envelope text-base"></i>
-                Email
-              </Link>
-
-              <Link
-                href="https://wa.me/56985644026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
-              >
-                <i className="fa-brands fa-whatsapp text-base"></i>
-                WhatsApp
-              </Link>
-
-              <Link
-                href="https://t.me/VELVET_T_99"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 hover:bg-accent px-6 py-3.5 text-xs font-bold transition-all cursor-pointer"
-              >
-                <i className="fa-brands fa-telegram text-base"></i>
-                Telegram
-              </Link>
-            </div>
           </div>
 
-          {/* Carrusel de Publicaciones */}
-          <div className="lg:col-span-5 w-full flex flex-col gap-3">
+          {/* Carrusel de Publicaciones (Slider) */}
+          <div className="lg:col-span-5 w-full flex flex-col gap-3 order-3 lg:order-2">
             <h2 className="font-heading text-xs font-bold uppercase tracking-wider text-muted-foreground px-1">
               {t("hero.sliderTitle") as string}
             </h2>
             <Slider items={newsList} />
           </div>
+
+          {/* Tarjetas de Redes Sociales y Contacto (En móvil: order-2 arriba del slider; En desktop: order-3 en 1 sola fila continua) */}
+          <div className="lg:col-span-12 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3 w-full pt-4 border-t border-border/40 order-2 lg:order-3">
+            <Link
+              href="https://www.linkedin.com/in/carlos-baeza-negroni/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-brands fa-linkedin text-base text-[#0a66c2] group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">LinkedIn</span>
+            </Link>
+
+            <Link
+              href="https://github.com/cjbaezilla/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-brands fa-github text-base text-foreground group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">{t("hero.cta") as string}</span>
+            </Link>
+
+            <Link
+              href="https://x.com/cjbaezilla"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-brands fa-x-twitter text-base text-foreground group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">Twitter</span>
+            </Link>
+
+            <Link
+              href="https://www.youtube.com/@cjbaezilla"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-brands fa-youtube text-base text-[#ff0000] group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">YouTube</span>
+            </Link>
+
+            <Link
+              href="mailto:hola@cbaeza.com"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-solid fa-envelope text-base text-primary group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">Email</span>
+            </Link>
+
+            <Link
+              href="https://wa.me/56985644026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-brands fa-whatsapp text-base text-[#25d366] group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">WhatsApp</span>
+            </Link>
+
+            <Link
+              href="https://t.me/VELVET_T_99"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+            >
+              <i className="fa-brands fa-telegram text-base text-[#229ed9] group-hover:scale-110 transition-transform"></i>
+              <span className="truncate">Telegram</span>
+            </Link>
+          </div>
         </div>
       </header>
 
       {/* Sección Dedicada de Publicaciones */}
-      <section id="publications" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10">
+      <section id="publications" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40 bg-card/10">
         <div className="flex flex-col gap-4 mb-8">
           <h2 className="font-heading text-3xl font-black tracking-tight flex items-center gap-3">
             <span>{t("publicationsSection.title") as string}</span>
@@ -255,7 +256,7 @@ export default function Home() {
         {/* Buscador y Filtros */}
         <div className="flex flex-col gap-5 mb-8">
           {/* Fila de Búsqueda */}
-          <div className="relative w-full max-w-md">
+          <div className="relative w-full sm:w-96">
             <span className="absolute inset-y-0 left-3 flex items-center pl-1 text-muted-foreground pointer-events-none">
               <i className="fa-solid fa-magnifying-glass text-sm"></i>
             </span>
@@ -278,7 +279,7 @@ export default function Home() {
           </div>
 
           {/* Fila de Filtros de Etiquetas */}
-          <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 max-w-full">
+          <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 w-full">
             {allTags.map((tag) => {
               const isActive = selectedTag === tag;
               const count = tag === "all" ? publicationsList.length : publicationsList.filter((p) => p.tag === tag).length;
@@ -396,7 +397,7 @@ export default function Home() {
       </section>
 
       {/* Fundamentos (Ensayos Técnicos) */}
-      <section id="foundations" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10 relative">
+      <section id="foundations" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40 bg-card/10 relative">
         <div className="flex flex-col gap-4 mb-8">
           <h2 className="font-heading text-3xl font-black tracking-tight flex items-center gap-3">
             <span>{t("foundations.title") as string}</span>
@@ -412,7 +413,7 @@ export default function Home() {
         {/* Buscador y Filtros */}
         <div className="flex flex-col gap-5 mb-8">
           {/* Fila de Búsqueda */}
-          <div className="relative w-full max-w-md">
+          <div className="relative w-full sm:w-96">
             <span className="absolute inset-y-0 left-3 flex items-center pl-1 text-muted-foreground pointer-events-none">
               <i className="fa-solid fa-magnifying-glass text-sm"></i>
             </span>
@@ -435,7 +436,7 @@ export default function Home() {
           </div>
 
           {/* Fila de Filtros de Etiquetas */}
-          <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 max-w-full">
+          <div className="flex flex-wrap gap-2 items-center overflow-x-auto pb-1 w-full">
             {allFoundationTags.map((tag) => {
               const isActive = selectedFoundationTag === tag;
               const count = tag === "all" ? foundationsList.length : foundationsList.filter((f) => f.tag === tag).length;
@@ -570,7 +571,7 @@ export default function Home() {
       </section>
 
       {/* Repositorios de Proyectos */}
-      <section id="projects" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40">
+      <section id="projects" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40">
         <div className="flex flex-col gap-4 mb-10">
           <h2 className="font-heading text-3xl font-black tracking-tight">
             {t("projects.title") as string}
@@ -640,7 +641,7 @@ export default function Home() {
       </section>
 
       {/* Trayectoria Profesional */}
-      <section id="background" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40">
+      <section id="background" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40">
         <div className="flex flex-col gap-8 w-full">
           <div className="flex flex-col gap-3">
             <h2 className="font-heading text-3xl font-black tracking-tight">
@@ -682,7 +683,7 @@ export default function Home() {
       </section>
 
       {/* Certificaciones & Hackatones */}
-      <section id="certifications" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] border-b border-border/40 bg-card/10">
+      <section id="certifications" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40 bg-card/10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 w-full">
           {/* Certificaciones */}
           <div className="lg:col-span-6 flex flex-col gap-6">
@@ -764,7 +765,7 @@ export default function Home() {
       </main>
 
       {/* Footer / Contact Section */}
-      <footer id="contact" className="w-full py-16 px-4 md:px-[8%] lg:px-[12%] bg-gradient-to-t from-card/80 to-card/10 border-t border-border/40 mt-auto relative overflow-hidden">
+      <footer id="contact" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 bg-gradient-to-t from-card/80 to-card/10 border-t border-border/40 mt-auto relative overflow-hidden">
         {/* Fondo decorativo y gradiente sutil */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
 

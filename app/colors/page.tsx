@@ -153,7 +153,7 @@ export default function ColorsPlayground() {
   return (
     <div className="flex-1 bg-[oklch(0.08_0.005_228)] text-[oklch(0.95_0.005_228)] flex flex-col font-sans">
       {/* Header */}
-      <header className="border-b border-[oklch(0.18_0.005_228)] bg-[oklch(0.1_0.005_228)]/50 backdrop-blur-md sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
+      <header className="border-b border-[oklch(0.18_0.005_228)] bg-[oklch(0.1_0.005_228)]/50 backdrop-blur-md sticky top-0 z-50 px-4 sm:px-6 md:px-8 lg:px-12 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="bg-gradient-to-tr from-purple-500 to-pink-500 p-2 rounded-lg text-white shadow-lg">
             <Palette className="size-6 animate-pulse" />
@@ -175,7 +175,7 @@ export default function ColorsPlayground() {
       </header>
 
       {/* Contenido Principal */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <main className="flex-1 w-full px-4 sm:px-6 md:px-8 lg:px-12 py-6 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
         {/* Panel Izquierdo: Controles */}
         <section className="lg:col-span-5 flex flex-col gap-6">

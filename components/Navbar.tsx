@@ -33,7 +33,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/70 backdrop-blur-md px-4 md:px-[8%] lg:px-[12%] py-3">
+    <nav className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/70 backdrop-blur-md px-4 sm:px-6 md:px-8 lg:px-12 py-3">
       <div className="flex items-center justify-between">
         {/* Contenedor Izquierdo: Botón Menú Móvil + Logo */}
         <div className="flex items-center gap-3">
