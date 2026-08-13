@@ -39,13 +39,14 @@ Dado que el proyecto está configurado con `output: "export"` en `next.config.ts
 
 ## 🌐 Sistema de Internacionalización (I18n)
 
-El proyecto implementa un sistema multilingüe a nivel de cliente para dar soporte a **10 idiomas** sin recargar la página.
+El proyecto utiliza **Google Website Translator** en el cliente junto a un catálogo de más de 30 idiomas soportados y un único diccionario maestro en español:
 
 ### Reglas para Modificar Textos o Idiomas:
-- **Ubicación de Diccionarios**: Los archivos de traducción se encuentran en `messages/` (ej. `es.json`, `en.json`, `zh.json`, etc.).
-- **Consistencia de Claves**: Si agregas, modificas o eliminas una clave de traducción (ej. `hero.title`), **debes realizar el mismo cambio exactamente en los 10 archivos JSON** para evitar errores de renderizado.
-- **Direccionalidad (RTL / LTR)**: El contexto `I18nProvider` (en `context/I18nContext.tsx`) maneja automáticamente la dirección del documento. Para el idioma árabe (`ar`), define `document.documentElement.dir = "rtl"`, mientras que para los demás es `"ltr"`.
-- **Estructuras Complejas**: La función `t()` soporta traducción de objetos y arreglos (como listas de proyectos y publicaciones). Asegúrate de realizar el tipado correspondiente al consumir el retorno de `t()`.
+- **Diccionario Maestro**: La única fuente de verdad es `messages/es.json`. No se requieren archivos JSON para otros idiomas.
+- **Traducción Automática**: Google Translate traduce dinámicamente el DOM en tiempo de ejecución en base a la selección del usuario.
+- **Selector de Idiomas**: Implementado en `components/LanguageSelector.tsx` con soporte para búsqueda, categorías regionales, chips populares y diseño móvil-first con flags de `country-flag-icons`.
+- **Direccionalidad (RTL / LTR)**: El contexto `I18nProvider` (en `context/I18nContext.tsx`) y el selector ajustan automáticamente la dirección del documento (`dir="rtl"` para árabe, hebreo, persa, etc., y `"ltr"` para los demás).
+- **Estructuras Complejas**: La función `t()` resuelve claves anidadas a partir de `messages/es.json` para renderizar el contenido base que luego Google Translate traduce en vivo.
 
 ---
 

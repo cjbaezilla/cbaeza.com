@@ -4,17 +4,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/context/I18nContext";
-import { ES, US, CN, SA, RU, JP, BR, KR, DE, FR } from "country-flag-icons/react/3x2";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import LanguageSelector from "@/components/LanguageSelector";
 
 export default function Navbar() {
-  const { locale, setLocale, t } = useTranslation();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -39,7 +32,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur-md px-4 md:px-[8%] lg:px-[12%] py-3">
+    <nav className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/70 backdrop-blur-md px-4 md:px-[8%] lg:px-[12%] py-3">
       <div className="flex items-center justify-between">
         {/* Contenedor Izquierdo: Botón Menú Móvil + Logo */}
         <div className="flex items-center gap-3">
@@ -79,203 +72,9 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Lado Derecho: Controles (Escritorio y Móvil) */}
-        <div className="flex items-center gap-4">
-          {/* Acciones y Controles (Escritorio) */}
-          <div className="hidden md:block">
-            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja" | "pt" | "ko" | "de" | "fr")}>
-              <SelectTrigger className="w-[130px] h-9 text-sm cursor-pointer">
-                <span className="flex items-center gap-2">
-                  {locale === "es" ? (
-                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "fr" ? (
-                    <FR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "zh" ? (
-                    <CN className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ar" ? (
-                    <SA className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ru" ? (
-                    <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ja" ? (
-                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "pt" ? (
-                    <BR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ko" ? (
-                    <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "de" ? (
-                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : (
-                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  )}
-                  <SelectValue>
-                    {(value: string | null) =>
-                      value === "es" ? "Español" : value === "fr" ? "Français" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : value === "pt" ? "Português" : value === "ko" ? "한국어" : value === "de" ? "Deutsch" : "English"
-                    }
-                  </SelectValue>
-                </span>
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="es" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Español</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="fr" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <FR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Français</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="en" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>English</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="zh" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <CN className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>简体中文</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ar" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <SA className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>العربية</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ru" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Русский</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ja" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>日本語</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="pt" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <BR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Português</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ko" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>한국어</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="de" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Deutsch</span>
-                  </span>
-                </SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-
-          {/* Selector de Idioma (Móvil) */}
-          <div className="block md:hidden">
-            <Select value={locale} onValueChange={(val) => setLocale(val as "es" | "en" | "zh" | "ar" | "ru" | "ja" | "pt" | "ko" | "de" | "fr")}>
-              <SelectTrigger className="w-[120px] h-8 text-xs cursor-pointer">
-                <span className="flex items-center gap-1.5">
-                  {locale === "es" ? (
-                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "fr" ? (
-                    <FR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "zh" ? (
-                    <CN className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ar" ? (
-                    <SA className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ru" ? (
-                    <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ja" ? (
-                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "pt" ? (
-                    <BR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "ko" ? (
-                    <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : locale === "de" ? (
-                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  ) : (
-                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                  )}
-                  <SelectValue>
-                    {(value: string | null) =>
-                      value === "es" ? "Español" : value === "fr" ? "Français" : value === "zh" ? "简体中文" : value === "ar" ? "العربية" : value === "ru" ? "Русский" : value === "ja" ? "日本語" : value === "pt" ? "Português" : value === "ko" ? "한국어" : value === "de" ? "Deutsch" : "English"
-                    }
-                  </SelectValue>
-                </span>
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="es" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <ES className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Español</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="fr" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <FR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Français</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="en" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <US className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>English</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="zh" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <CN className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>简体中文</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ar" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <SA className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>العربية</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ru" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <RU className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Русский</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ja" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <JP className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>日本語</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="pt" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <BR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Português</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="ko" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <KR className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>한국어</span>
-                  </span>
-                </SelectItem>
-                <SelectItem value="de" className="cursor-pointer">
-                  <span className="flex items-center gap-2">
-                    <DE className="h-3 w-4.5 rounded-[1px] object-cover shrink-0" />
-                    <span>Deutsch</span>
-                  </span>
-                </SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+        {/* Lado Derecho: Selector de Idioma Moderno */}
+        <div className="flex items-center gap-3">
+          <LanguageSelector />
         </div>
       </div>
 

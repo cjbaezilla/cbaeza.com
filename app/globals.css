@@ -128,3 +128,35 @@
     @apply font-sans;
   }
 }
+
+/* Integración limpia de Google Website Translator */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#google_translate_element,
+.goog-te-gadget {
+  display: none !important;
+}
+
+/* Ocultar elementos de interfaz inyectados por Google */
+body > .skiptranslate {
+  display: none !important;
+}

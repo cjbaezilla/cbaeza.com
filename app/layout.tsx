@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Outfit, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { I18nProvider } from "@/context/I18nContext";
+import { GoogleTranslate } from "@/components/GoogleTranslate";
 
 const sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -161,6 +162,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <GoogleTranslate />
         <I18nProvider>{children}</I18nProvider>
       </body>
     </html>

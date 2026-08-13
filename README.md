@@ -38,15 +38,18 @@ El repositorio está organizado de forma modular siguiendo los estándares moder
 │   └── sitemap.ts         # Generación dinámica del mapa del sitio para SEO
 ├── components/            # Componentes de React compartidos
 │   ├── Navbar.tsx         # Barra de navegación con desplazamiento suave y selector de idioma
+│   ├── LanguageSelector.tsx # Selector moderno de idiomas (mobile-first, buscador, categorías y banderas)
+│   ├── GoogleTranslate.tsx # Integración con Google Website Translator
 │   ├── Slider.tsx         # Carrusel interactivo y responsivo para publicaciones del Hero
 │   └── ui/                # Componentes base e independientes de shadcn/ui
 │       ├── badge.tsx, button.tsx, card.tsx, checkbox.tsx, etc.
 ├── context/               # Contextos globales de React
-│   └── I18nContext.tsx    # Sistema y proveedor de internacionalización (I18n) a nivel de cliente
+│   └── I18nContext.tsx    # Proveedor de internacionalización y puente con Google Translate
 ├── lib/                   # Funciones utilitarias del sistema
+│   ├── languages.ts       # Catálogo estructurado de +30 idiomas globales soportados
 │   └── utils.ts           # Utilidades compartidas (ej. fusión de clases con tailwind-merge)
-├── messages/              # Diccionarios de traducción en formato JSON (10 idiomas)
-│   ├── ar.json, de.json, en.json, es.json, fr.json, ja.json, ko.json, pt.json, ru.json, zh.json
+├── messages/              # Diccionario maestro en español
+│   └── es.json
 ├── public/                # Recursos estáticos (imágenes, logos, etc.)
 │   └── images/
 ├── next.config.ts         # Configuración del compilador y comportamiento de Next.js
@@ -58,23 +61,13 @@ El repositorio está organizado de forma modular siguiendo los estándares moder
 
 ## 🌍 Sistema de Internacionalización (I18n)
 
-El portafolio cuenta con un sistema personalizado de traducción a nivel de cliente, lo que permite ofrecer una experiencia nativa sin recargas de página en **10 idiomas**:
+El portafolio integra **Google Website Translator** junto a un catálogo de más de 30 idiomas globales con banderas y selector responsive:
 
-1. 🇪🇸 **Español** (`es.json`)
-2. 🇺🇸 **Inglés** (`en.json`)
-3. 🇨🇳 **Chino Simplificado** (`zh.json`)
-4. 🇸🇦 **Árabe** (`ar.json` - *con soporte nativo para lectura RTL derecha a izquierda*)
-5. 🇷🇺 **Ruso** (`ru.json`)
-6. 🇯🇵 **日本語 / Japonés** (`ja.json`)
-7. 🇧🇷 **Portugués** (`pt.json`)
-8. 🇰🇷 **한국어 / Coreano** (`ko.json`)
-9. 🇩🇪 **Deutsch / Alemán** (`de.json`)
-10. 🇫🇷 **Français / Francés** (`fr.json`)
-
-### Funcionamiento Clave:
-- El contexto `I18nProvider` (en `context/I18nContext.tsx`) inicializa el idioma basándose en el valor almacenado en `localStorage`. Si no existe, utiliza español (`es`) por defecto.
-- Configura automáticamente el atributo `dir` (`rtl` para árabe, `ltr` para los demás) y `lang` en la etiqueta `<html>`.
-- Expone la función de traducción `t(key)` que soporta lectura de rutas anidadas con notación de punto (ej. `t("projects.items")`).
+- **Fuente Única de Contenido**: Solo se mantiene `messages/es.json`.
+- **Selector Moderno & Mobile-First**: `components/LanguageSelector.tsx` ofrece un modal/drawer intuitivo, barra de búsqueda en tiempo real, chips de acceso rápido a idiomas populares y banderas de alta fidelidad.
+- **Traducción Dinámica**: Las traducciones se generan de forma nativa en el navegador mediante el motor de Google Translate.
+- **Direccionalidad Inteligente**: Soporte automático para lenguajes RTL (Árabe, Hebreo, Persa, etc.) configurando `document.documentElement.dir = "rtl"`.
+- **Persistencia**: Recuerda las preferencias del usuario a través de cookies de Google Translate (`googtrans`) y `localStorage`.
 
 ---
 
