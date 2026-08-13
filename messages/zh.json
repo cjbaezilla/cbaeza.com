@@ -172,6 +172,12 @@
     "code": "代码",
     "items": [
       {
+        "title": "Decentraland Web3 实验室智能合约",
+        "description": "面向 Ethereum Sepolia 上 Decentraland 场景的生产级智能合约安全环境，包含 MANA 水龙头、链上消息注册表及 Gas 优化。",
+        "stack": "Solidity, Hardhat, Viem, Ethers.js, Sepolia",
+        "github": "https://github.com/cjbaezilla/dcl-experiment-contracts"
+      },
+      {
         "title": "Google Workspace 技能框架",
         "description": "用于使用基于 Python 的语言代理自主编排 Google Workspace 行政任务的模块化技能框架和工具。",
         "stack": "Python, Google Workspace API, OpenClaw",
@@ -1236,7 +1242,6 @@
   "contact": {
     "title": "联系方式与链接",
     "email": "电子邮件地址",
-    "scans": "探索 POAP 纪念章",
     "ens": "ENS 钱包",
     "copied": "已复制！",
     "copy": "复制 ENS",

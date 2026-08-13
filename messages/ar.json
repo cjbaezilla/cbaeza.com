@@ -172,6 +172,12 @@
     "code": "الكود",
     "items": [
       {
+        "title": "عقود مختبر Web3 في Decentraland",
+        "description": "بيئة عقود ذكية وأمان لمشاهد Decentraland على شبكة Ethereum Sepolia مع صنبور MANA وسجل رسائل على البلوكشين وتحسينات استهلاك الغاز.",
+        "stack": "Solidity, Hardhat, Viem, Ethers.js, Sepolia",
+        "github": "https://github.com/cjbaezilla/dcl-experiment-contracts"
+      },
+      {
         "title": "إطار عمل المهارات لـ Google Workspace",
         "description": "إطار عمل للمهارات وأدوات برمجية لتنسيق المهام الإدارية لـ Google Workspace بشكل مستقل باستخدام وكلاء يعتمدون على بايثون.",
         "stack": "Python, Google Workspace API, OpenClaw",
@@ -1236,7 +1242,6 @@
   "contact": {
     "title": "الاتصال والروابط",
     "email": "البريد الإلكتروني",
-    "scans": "استكشاف رموز POAPs",
     "ens": "محفظة ENS",
     "copied": "تم النسخ!",
     "copy": "نسخ ENS",

@@ -172,6 +172,12 @@
     "code": "코드",
     "items": [
       {
+        "title": "디센트럴랜드 Web3 샌드박스 스마트 컨트랙트",
+        "description": "Ethereum Sepolia 기반 디센트럴랜드 씬을 위한 스마트 컨트랙트 보안 환경. MANA 포셋, 온체인 메시지 레지스트리 및 가스 최적화 구현.",
+        "stack": "Solidity, Hardhat, Viem, Ethers.js, Sepolia",
+        "github": "https://github.com/cjbaezilla/dcl-experiment-contracts"
+      },
+      {
         "title": "구글 워크스페이스용 스킬 프레임워크",
         "description": "Python 기반 언어 에이전트를 사용하여 구글 워크스페이스의 관리 작업을 자율적으로 조정하기 위한 모듈식 스킬 프레임워크 및 도구.",
         "stack": "Python, Google Workspace API, OpenClaw",
@@ -1236,7 +1242,6 @@
   "contact": {
     "title": "연락처 및 링크",
     "email": "이메일 주소",
-    "scans": "POAP 탐색",
     "ens": "ENS 지갑",
     "copied": "복사 완료!",
     "copy": "ENS 복사",

@@ -172,6 +172,12 @@
     "code": "Código",
     "items": [
       {
+        "title": "Laboratorio Web3 en Decentraland",
+        "description": "Entorno de contratos inteligentes y seguridad para escenas de Decentraland en Ethereum Sepolia con faucet de MANA, registro de mensajes on-chain y optimización de gas.",
+        "stack": "Solidity, Hardhat, Viem, Ethers.js, Sepolia",
+        "github": "https://github.com/cjbaezilla/dcl-experiment-contracts"
+      },
+      {
         "title": "Skills Framework para Google Workspace",
         "description": "Marco de habilidades y herramientas modulares para la orquestación autónoma de tareas administrativas de Google Workspace utilizando agentes de lenguaje en Python.",
         "stack": "Python, Google Workspace API, OpenClaw",
@@ -1236,7 +1242,6 @@
   "contact": {
     "title": "Contacto y Enlaces",
     "email": "Correo Electrónico",
-    "scans": "Explorar POAPs",
     "ens": "Billetera ENS",
     "copied": "¡Copiado!",
     "copy": "Copiar ENS",

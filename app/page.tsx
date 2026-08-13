@@ -55,7 +55,7 @@ export default function Home() {
   const [copiedBtc, setCopiedBtc] = React.useState(false);
 
   const handleCopyEth = () => {
-    navigator.clipboard.writeText("0xaEeaA55ED4f7df9E4C5688011cEd1E2A1b696772");
+    navigator.clipboard.writeText("0x2AEc06E4c3e85672b1BDe46CA45FB6fB574791c2");
     setCopiedEth(true);
     setTimeout(() => setCopiedEth(false), 2000);
   };
@@ -783,23 +783,7 @@ export default function Home() {
             <p className="text-xs text-muted-foreground leading-relaxed">
               {t("hero.subtitle") as string}
             </p>
-            {/* POAP Card */}
-            <Link
-              href="https://collectors.poap.xyz/scan/baeza.eth"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-between p-3.5 rounded-2xl border border-border/80 bg-card/60 shadow-sm hover:border-primary/30 transition-all group/poap cursor-pointer w-full"
-            >
-              <div className="flex items-center gap-2">
-                <div className="size-7 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center text-primary group-hover/poap:bg-primary/10 transition-colors">
-                  <i className="fa-solid fa-qrcode text-xs"></i>
-                </div>
-                <span className="text-xs font-bold text-foreground group-hover/poap:text-primary transition-colors">
-                  {t("contact.scans") as string}
-                </span>
-              </div>
-              <i className="fa-solid fa-chevron-right text-[10px] text-muted-foreground group-hover/poap:translate-x-0.5 rtl:group-hover/poap:-translate-x-0.5 rtl:rotate-180 transition-transform"></i>
-            </Link>
+
             {/* Redes Sociales */}
             <div className="flex items-center gap-3 mt-2">
               <Link
@@ -940,7 +924,7 @@ export default function Home() {
                   </div>
                 </div>
                 <span className="text-[10px] text-muted-foreground font-mono truncate select-all">
-                  0xaEeaA55ED4f7df9E4C5688011cEd1E2A1b696772
+                  0x2AEc06E4c3e85672b1BDe46CA45FB6fB574791c2
                 </span>
               </div>
 

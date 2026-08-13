@@ -172,6 +172,12 @@
     "code": "コード",
     "items": [
       {
+        "title": "Decentraland Web3ラボ・スマートコントラクト",
+        "description": "Ethereum Sepolia上のDecentralandシーン向けスマートコントラクト環境。MANAフォーセット、オンチェーンメッセージ登録、ガス最適化を実装。",
+        "stack": "Solidity, Hardhat, Viem, Ethers.js, Sepolia",
+        "github": "https://github.com/cjbaezilla/dcl-experiment-contracts"
+      },
+      {
         "title": "Google Workspace向けスキルフレームワーク",
         "description": "Pythonベースの言語エージェントを使用して、Google Workspaceの管理タスクを自律的にオーケストレーションするためのモジュール式スキルフレームワークとツール。",
         "stack": "Python, Google Workspace API, OpenClaw",
@@ -1236,7 +1242,6 @@
   "contact": {
     "title": "連絡先 ＆ リンク",
     "email": "メールアドレス",
-    "scans": "POAPの探索",
     "ens": "ENSウォレット",
     "copied": "コピーしました！",
     "copy": "ENSをコピー",

@@ -172,6 +172,12 @@
     "code": "Код",
     "items": [
       {
+        "title": "Смарт-контракты Web3-лаборатории в Decentraland",
+        "description": "Среда смарт-контрактов для сцен Decentraland в сети Ethereum Sepolia с краном MANA, реестром сообщений ончейн и оптимизацией газа.",
+        "stack": "Solidity, Hardhat, Viem, Ethers.js, Sepolia",
+        "github": "https://github.com/cjbaezilla/dcl-experiment-contracts"
+      },
+      {
         "title": "Фреймворк навыков для Google Workspace",
         "description": "Модульный фреймворк навыков и инструменты для автономной оркестровки административных задач Google Workspace с использованием языковых агентов на Python.",
         "stack": "Python, Google Workspace API, OpenClaw",
@@ -1236,7 +1242,6 @@
   "contact": {
     "title": "Контакты и ссылки",
     "email": "Электронная почта",
-    "scans": "Исследовать POAP",
     "ens": "ENS-кошелек",
     "copied": "Скопировано!",
     "copy": "Копировать ENS",
