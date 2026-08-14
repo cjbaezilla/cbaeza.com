@@ -123,10 +123,21 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  // Configuración de marked para renderizado HTML seguro y limpio
+  // Configuración de marked para renderizado HTML seguro, limpio y soporte de diagramas Mermaid
   marked.setOptions({
     gfm: true,
     breaks: true,
+  });
+
+  marked.use({
+    renderer: {
+      code({ text, lang }: { text: string; lang?: string }) {
+        if (lang === "mermaid") {
+          return `<div class="mermaid-wrapper"><pre class="mermaid notranslate">${text}</pre></div>\n`;
+        }
+        return false as unknown as string;
+      },
+    },
   });
 
   const contentHtml = await marked.parse(content);

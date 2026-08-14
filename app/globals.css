@@ -339,3 +339,34 @@ body > .skiptranslate {
   margin: 1.5rem 0;
   border: 1px solid var(--border);
 }
+
+/* Soporte y Estilizado para Diagramas Mermaid */
+.prose-blog .mermaid-wrapper {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: color-mix(in oklch, var(--card) 60%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  backdrop-filter: blur(8px);
+}
+
+.prose-blog .mermaid-wrapper pre.mermaid {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: visible;
+}
+
+.prose-blog .mermaid-wrapper svg {
+  max-width: 100%;
+  height: auto;
+}

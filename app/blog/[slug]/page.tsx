@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { ShareButton } from "@/components/blog/ShareButton";
+import { MermaidRenderer } from "@/components/blog/MermaidRenderer";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 
 export const dynamic = "force-static";
@@ -210,6 +211,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
             {/* Contenido Markdown del Artículo */}
             <div className="prose-blog p-6 sm:p-10 md:p-12">
               <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+              <MermaidRenderer />
             </div>
           </article>
 
