@@ -213,28 +213,6 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
             </div>
           </article>
 
-          {/* Tags al pie del artículo */}
-          {post.tags.length > 0 && (
-            <div className="pt-2 flex flex-wrap items-center gap-2">
-              <div className="flex items-center gap-1.5 text-xs font-semibold text-muted-foreground mr-2">
-                <TagIcon className="size-3.5" />
-                <span>Etiquetas:</span>
-              </div>
-              {post.tags.map((tag, idx) => {
-                const tagSlug = post.tagSlugs[idx];
-                return (
-                  <Link key={tagSlug} href={`/blog/tag/${tagSlug}/`}>
-                    <Badge
-                      variant="outline"
-                      className="text-xs py-1 px-3 rounded-lg hover:bg-primary/10 hover:text-primary hover:border-primary/40 transition-colors"
-                    >
-                      #{tag}
-                    </Badge>
-                  </Link>
-                );
-              })}
-            </div>
-          )}
 
           {/* Tarjeta de Perfil del Autor */}
           <div className="w-full p-6 rounded-2xl bg-muted/30 border border-border/40 flex flex-col sm:flex-row items-center sm:items-start gap-5">
