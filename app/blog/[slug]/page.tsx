@@ -192,6 +192,20 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
 
         {/* Cuerpo del Artículo */}
         <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 space-y-10">
+          {/* Imagen de Portada Destacada */}
+          {post.coverImage && (
+            <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] max-h-[520px] rounded-3xl overflow-hidden border border-border/50 shadow-md bg-muted/20">
+              <Image
+                src={post.coverImage}
+                alt={post.title}
+                fill
+                priority
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                className="object-cover object-center"
+              />
+            </div>
+          )}
+
           <article className="w-full prose-blog bg-card/40 border border-border/40 rounded-3xl p-6 sm:p-10 md:p-12 shadow-xs backdrop-blur-xs">
             <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
           </article>

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Calendar, Clock, ArrowRight, Tag as TagIcon, Folder } from "lucide-react";
 import { BlogPostMeta } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
@@ -15,8 +16,24 @@ export function BlogCard({ post }: BlogCardProps) {
   const { t } = useTranslation();
 
   return (
-    <article className="group relative flex flex-col justify-between rounded-2xl border border-border/50 bg-card/80 p-6 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300 backdrop-blur-xs">
+    <article className="group relative flex flex-col justify-between rounded-2xl border border-border/50 bg-card/80 p-5 sm:p-6 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300 backdrop-blur-xs overflow-hidden">
       <div>
+        {/* Imagen de Portada */}
+        {post.coverImage && (
+          <Link
+            href={`/blog/${post.slug}/`}
+            className="block relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-5 bg-muted/30 border border-border/40"
+          >
+            <Image
+              src={post.coverImage}
+              alt={post.title}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+          </Link>
+        )}
+
         {/* Categoría y Tiempo de lectura */}
         <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
           <Link
