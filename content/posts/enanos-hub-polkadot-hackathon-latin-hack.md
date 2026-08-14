@@ -15,36 +15,36 @@ readTime: "6 min de lectura"
 
 El proyecto fue presentado y evaluado en el hackathon internacional **LATIN HACK**, organizado por **Nerdconf** y el ecosistema **Polkadot** a través de la plataforma DoraHacks.
 
+![Nerdconf LATIN HACK](/images/blog/nerdconf_hackathon_promo.png)
+
 ---
 
-## 🎥 Demostraciones en Video del Proyecto
+## Demostraciones en Video del Proyecto
 
 A continuación puedes ver los videos oficiales de demostración y presentación técnica del proyecto:
 
 ### 1. Presentación y Visión General
 <iframe src="https://www.youtube-nocookie.com/embed/q1Eeodps-9E" title="Enanos Hub - Presentación" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-- Ver en YouTube: [https://www.youtube.com/watch?v=q1Eeodps-9E](https://www.youtube.com/watch?v=q1Eeodps-9E)
 
 ### 2. Demostración y Flujo de Interacción
 <iframe src="https://www.youtube-nocookie.com/embed/esQc6P4Dytc" title="Enanos Hub - Demo de Interacción" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-- Ver en YouTube: [https://www.youtube.com/watch?v=esQc6P4Dytc](https://www.youtube.com/watch?v=esQc6P4Dytc)
 
 ### 3. Recorrido Completo de Funcionalidades y DApp
 <iframe src="https://www.youtube-nocookie.com/embed/o9_mwP0P2u8" title="Enanos Hub - Walkthrough Completo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-- Ver en YouTube: [https://www.youtube.com/watch?v=o9_mwP0P2u8](https://www.youtube.com/watch?v=o9_mwP0P2u8)
 
 ---
 
-## 🔗 Enlaces y Repositorios del Proyecto
+## Enlaces y Repositorios del Proyecto
 
 - **DApp Frontend (Next.js)**: [https://github.com/cjbaezilla/NextApp-Hackathon-Polkadot](https://github.com/cjbaezilla/NextApp-Hackathon-Polkadot)
 - **Smart Contracts (Hardhat & Solidity)**: [https://github.com/cjbaezilla/Hardhat-Contratos-Hackathon-Polkadot](https://github.com/cjbaezilla/Hardhat-Contratos-Hackathon-Polkadot)
 - **Ficha del Proyecto en DoraHacks BUIDL**: [https://dorahacks.io/buidl/34225/](https://dorahacks.io/buidl/34225/)
+- **Nerdconf LATIN HACK en DoraHacks**: [https://dorahacks.io/hackathon/latinhack](https://dorahacks.io/hackathon/latinhack)
 - **DApp en Vivo (Testnet)**: [https://polka.enanos.club](https://polka.enanos.club)
 
 ---
 
-## 🏆 El Hackathon: LATIN HACK (Nerdconf & Polkadot)
+## El Hackathon: LATIN HACK (Nerdconf & Polkadot)
 
 El hackathon **LATIN HACK** reunió a desarrolladores de toda Latinoamérica para construir soluciones de impacto sobre la infraestructura de Polkadot y sus parachains.
 
@@ -56,7 +56,7 @@ Este reconocimiento valida el esfuerzo de diseñar e implementar una arquitectur
 
 ---
 
-## 🏗️ Arquitectura y Componentes de Enanos Hub
+## Arquitectura y Componentes de Enanos Hub
 
 Enanos Hub integra múltiples primitivas cripto en una sola interfaz fluida:
 
@@ -108,7 +108,7 @@ Enanos Hub integra múltiples primitivas cripto en una sola interfaz fluida:
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 | Capa | Tecnología | Rol |
 | :--- | :--- | :--- |
@@ -120,7 +120,7 @@ Enanos Hub integra múltiples primitivas cripto en una sola interfaz fluida:
 
 ---
 
-## 📋 Conclusiones
+## Conclusiones
 
 Haber obtenido la mención honrosa en el **LATIN HACK** de Polkadot y Nerdconf demostró que es posible construir una suite DeFi y de gobernanza completa, robusta y con experiencia de usuario moderna dentro del creciente ecosistema EVM de Polkadot.
 
