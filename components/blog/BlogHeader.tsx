@@ -31,7 +31,7 @@ export function BlogHeader({
 
   return (
     <header className="relative w-full py-10 sm:py-14 border-b border-border/40 bg-gradient-to-b from-muted/40 via-background to-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-6xl">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12">
         {/* Migas de pan (Breadcrumbs) */}
         {breadcrumbs && breadcrumbs.length > 0 && (
           <nav aria-label="Breadcrumb" className="mb-6">
@@ -58,7 +58,7 @@ export function BlogHeader({
                         {item.label}
                       </Link>
                     ) : (
-                      <span className="font-semibold text-foreground truncate max-w-[200px] sm:max-w-xs">
+                      <span className="font-semibold text-foreground truncate">
                         {item.label}
                       </span>
                     )}
@@ -99,7 +99,7 @@ export function BlogHeader({
 
         {/* Descripción */}
         {description && (
-          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl leading-relaxed">
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
             {description}
           </p>
         )}

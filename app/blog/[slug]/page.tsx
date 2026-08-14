@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Calendar, Clock, ArrowLeft, Folder, Tag as TagIcon, User, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { ShareButton } from "@/components/blog/ShareButton";
@@ -117,7 +118,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
       <main className="flex-1">
         {/* Cabecera del Artículo */}
         <header className="relative w-full py-10 sm:py-14 border-b border-border/40 bg-gradient-to-b from-muted/40 via-background to-background">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-4xl">
+          <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12">
             {/* Navegación y Botón Volver */}
             <div className="flex items-center justify-between gap-4 mb-6">
               <Link
@@ -130,48 +131,74 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
               <ShareButton title={post.title} />
             </div>
 
-            {/* Categoría */}
-            <div className="mb-4">
-              <Link href={`/blog/categoria/${post.categorySlug}/`}>
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-colors">
-                  <Folder className="size-3" />
-                  {post.category}
-                </span>
-              </Link>
-            </div>
-
             {/* Título Principal */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-foreground font-heading mb-6 leading-tight">
               {post.title}
             </h1>
 
-            {/* Metadatos (Autor, Fecha, Tiempo de lectura) */}
-            <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-muted-foreground pt-4 border-t border-border/40">
-              <div className="flex items-center gap-1.5 font-medium text-foreground">
-                <User className="size-3.5 text-primary" />
-                <span>{post.author}</span>
+            {/* Metadatos (Autor + Categoría en fila 1 móvil, Fecha + Tiempo de lectura en fila 2 móvil) */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-6 text-xs text-muted-foreground pt-4 border-t border-border/40">
+              {/* Fila 1 en móvil: Autor y Categoría */}
+              <div className="flex items-center gap-2.5 flex-wrap">
+                <div className="flex items-center gap-1.5 font-medium text-foreground">
+                  <User className="size-3.5 text-primary" />
+                  <span>{post.author}</span>
+                </div>
+                <Link href={`/blog/categoria/${post.categorySlug}/`}>
+                  <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-colors">
+                    <Folder className="size-3" />
+                    {post.category}
+                  </span>
+                </Link>
               </div>
-              <div className="flex items-center gap-1.5">
-                <Calendar className="size-3.5" />
-                <time dateTime={post.date}>{post.date}</time>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <Clock className="size-3.5" />
-                <span>{post.readTime}</span>
+
+              {/* Fila 2 en móvil: Fecha y Tiempo de Lectura */}
+              <div className="flex items-center gap-4 sm:gap-6">
+                <div className="flex items-center gap-1.5">
+                  <Calendar className="size-3.5" />
+                  <time dateTime={post.date}>{post.date}</time>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <Clock className="size-3.5" />
+                  <span>{post.readTime}</span>
+                </div>
               </div>
             </div>
+
+            {/* Etiquetas (Tags) en la cabecera */}
+            {post.tags.length > 0 && (
+              <div className="flex flex-wrap items-center gap-2 pt-3">
+                <div className="flex items-center gap-1.5 text-xs font-semibold text-muted-foreground mr-1">
+                  <TagIcon className="size-3 text-muted-foreground/70" />
+                  <span>Etiquetas:</span>
+                </div>
+                {post.tags.map((tag, idx) => {
+                  const tagSlug = post.tagSlugs[idx];
+                  return (
+                    <Link key={tagSlug} href={`/blog/tag/${tagSlug}/`}>
+                      <Badge
+                        variant="outline"
+                        className="text-[11px] py-0.5 px-2.5 rounded-md hover:bg-primary/10 hover:text-primary hover:border-primary/40 transition-colors"
+                      >
+                        #{tag}
+                      </Badge>
+                    </Link>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </header>
 
         {/* Cuerpo del Artículo */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-4xl py-10">
-          <article className="prose-blog bg-card/40 border border-border/40 rounded-3xl p-6 sm:p-10 md:p-12 shadow-xs backdrop-blur-xs">
+        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 space-y-10">
+          <article className="w-full prose-blog bg-card/40 border border-border/40 rounded-3xl p-6 sm:p-10 md:p-12 shadow-xs backdrop-blur-xs">
             <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
           </article>
 
           {/* Tags al pie del artículo */}
           {post.tags.length > 0 && (
-            <div className="mt-8 pt-6 border-t border-border/40 flex flex-wrap items-center gap-2">
+            <div className="pt-2 flex flex-wrap items-center gap-2">
               <div className="flex items-center gap-1.5 text-xs font-semibold text-muted-foreground mr-2">
                 <TagIcon className="size-3.5" />
                 <span>Etiquetas:</span>
@@ -193,7 +220,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
           )}
 
           {/* Tarjeta de Perfil del Autor */}
-          <div className="mt-10 p-6 rounded-2xl bg-muted/30 border border-border/40 flex flex-col sm:flex-row items-center sm:items-start gap-5">
+          <div className="w-full p-6 rounded-2xl bg-muted/30 border border-border/40 flex flex-col sm:flex-row items-center sm:items-start gap-5">
             <div className="size-16 rounded-2xl bg-card border border-border flex items-center justify-center p-2 shrink-0">
               <Image
                 src="/images/logo.png"
@@ -231,7 +258,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
 
           {/* Artículos Relacionados */}
           {relatedPosts.length > 0 && (
-            <section className="mt-16 pt-10 border-t border-border/40">
+            <section className="pt-6 border-t border-border/40">
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl font-bold text-foreground font-heading">
                   Artículos Relacionados
@@ -253,10 +280,8 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
         </div>
       </main>
 
-      {/* Pie de página */}
-      <footer className="w-full border-t border-border/40 py-6 text-center text-xs text-muted-foreground bg-muted/20">
-        <p>© {new Date().getFullYear()} Carlos Baeza Negroni. Todos los derechos reservados.</p>
-      </footer>
+      {/* Footer completo del sitio */}
+      <Footer />
     </div>
   );
 }

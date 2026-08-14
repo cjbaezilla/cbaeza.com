@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { BlogHeader } from "@/components/blog/BlogHeader";
 import { BlogSearchFilter } from "@/components/blog/BlogSearchFilter";
 import { getAllPosts, getAllCategories, getAllTags } from "@/lib/blog";
@@ -41,7 +42,7 @@ export default function BlogPage() {
         />
 
         {/* Contenido Principal con Buscador y Filtros */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-6xl py-10">
+        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10">
           <BlogSearchFilter
             posts={posts}
             categories={categories}
@@ -50,10 +51,8 @@ export default function BlogPage() {
         </div>
       </main>
 
-      {/* Pie de página condensado */}
-      <footer className="w-full border-t border-border/40 py-6 text-center text-xs text-muted-foreground bg-muted/20">
-        <p>© {new Date().getFullYear()} Carlos Baeza Negroni. Todos los derechos reservados.</p>
-      </footer>
+      {/* Footer completo del sitio */}
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { BlogHeader } from "@/components/blog/BlogHeader";
 import { BlogSearchFilter } from "@/components/blog/BlogSearchFilter";
 import {
@@ -77,7 +78,7 @@ export default async function TagPage(props: TagPageProps) {
           ]}
         />
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-6xl py-10">
+        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10">
           <BlogSearchFilter
             posts={allPosts}
             categories={categories}
@@ -87,9 +88,7 @@ export default async function TagPage(props: TagPageProps) {
         </div>
       </main>
 
-      <footer className="w-full border-t border-border/40 py-6 text-center text-xs text-muted-foreground bg-muted/20">
-        <p>© {new Date().getFullYear()} Carlos Baeza Negroni. Todos los derechos reservados.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

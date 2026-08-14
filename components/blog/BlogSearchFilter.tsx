@@ -208,7 +208,7 @@ function BlogSearchFilterContent({
           <h3 className="text-lg font-bold text-foreground mb-2">
             {(t("blog.noResults") as string) || "No se encontraron artículos"}
           </h3>
-          <p className="text-sm text-muted-foreground max-w-md mb-6">
+          <p className="text-sm text-muted-foreground mb-6">
             {(t("blog.tryAnotherSearch") as string) || "Intenta ajustar las palabras clave o seleccionar otra categoría/etiqueta."}
           </p>
           <button
