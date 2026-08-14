@@ -63,8 +63,50 @@ Este proyecto tiene instalado y configurado **shadcn/ui** con soporte nativo par
 
 ---
 
+## 📰 Sistema de Blog Estático (Markdown + Frontmatter)
+
+El sitio cuenta con un sistema de blog 100% estático que no requiere bases de datos externas y está optimizado para **servidores compartidos de hosting** (Apache/cPanel/Nginx) con `trailingSlash: true`:
+
+### 1. Ubicación y Estructura de Artículos:
+- **Directorio de Posts**: `content/posts/*.md`.
+- **Formato**: Markdown estándar con metadatos en Frontmatter YAML.
+- **Estructura Frontmatter requerida**:
+  ```markdown
+  ---
+  title: "Título descriptivo del artículo"
+  date: "YYYY-MM-DD"
+  excerpt: "Resumen conciso del artículo para tarjetas y SEO..."
+  author: "Carlos Baeza Negroni"
+  category: "Seguridad" # O "Blockchain", "DeFi", "General", etc.
+  tags: ["Solidity", "EVM", "Auditoría"]
+  coverImage: "/images/logo.png" # Opcional
+  readTime: "5 min de lectura" # Opcional (se autocalcula si se omite)
+  ---
+  ```
+
+### 2. Capa de Datos (`lib/blog.ts`):
+- `getAllPosts()`: Retorna todos los artículos ordenados cronológicamente descendente.
+- `getPostBySlug(slug)`: Lee el archivo Markdown y compila el contenido a HTML usando `marked`.
+- `getAllCategories()` y `getAllTags()`: Proveen categorías y etiquetas con conteo de posts para generación estática y filtros.
+- `getPostsByCategory(slug)` y `getPostsByTag(slug)`: Filtrado estático.
+- `getRelatedPosts(slug, tags, limit)`: Sugiere artículos recomendados.
+
+### 3. Rutas y Vistas Estáticas:
+- `/blog`: Catálogo general con buscador en vivo en cliente (`components/blog/BlogSearchFilter.tsx`) y filtros interactivos por categoría y tags.
+- `/blog/categoria/[category]`: Página estática pre-renderizada por categoría mediante `generateStaticParams()`.
+- `/blog/tag/[tag]`: Página estática pre-renderizada por etiqueta mediante `generateStaticParams()`.
+- `/blog/[slug]`: Página estática del artículo con `generateStaticParams()`, SEO dinámico (`generateMetadata`), esquema JSON-LD `BlogPosting` y estilos `.prose-blog`.
+
+### 4. Internacionalización del Blog:
+- Los artículos se redactan exclusivamente en español (fuente única de verdad).
+- Google Translate traduce todo el contenido del artículo, categorías y etiquetas dinámicamente en tiempo de ejecución al seleccionar cualquiera de los 80+ idiomas.
+
+---
+
 ## 🤖 Directrices de Contribución para Agentes
 
 1. **Prioridad Absoluta de la Documentación Local**: Antes de proponer o escribir cualquier código relacionado con Next.js, lee la documentación empotrada en `node_modules/next/dist/docs/`.
-2. **Validación de Compilación**: Siempre que realices cambios en componentes o layouts, ejecuta localmente `npm run build` para garantizar que la exportación estática de Next.js funcione correctamente y no haya fallos de TypeScript o de ESLint.
+2. **Validación de Compilación**: Siempre que realices cambios en componentes, rutas del blog o layouts, ejecuta localmente `npm run build` para garantizar que la exportación estática de Next.js funcione correctamente y no haya fallos de TypeScript o de ESLint.
+3. **Nuevos Artículos del Blog**: Añade únicamente archivos `.md` válidos en `content/posts/` con los campos obligatorios de Frontmatter (`title`, `date`, `excerpt`, `category`, `tags`).
+
 

@@ -14,14 +14,19 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // Función para realizar un desplazamiento suave hacia un elemento por su ID
+  // Función para realizar un desplazamiento suave hacia un elemento por su ID o navegar a la ruta
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    const id = href.replace("#", "");
-    const element = document.getElementById(id);
-    if (element) {
-      e.preventDefault();
-      element.scrollIntoView({ behavior: "smooth" });
-      window.history.pushState(null, "", href);
+    if (href.startsWith("#")) {
+      const id = href.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        e.preventDefault();
+        element.scrollIntoView({ behavior: "smooth" });
+        window.history.pushState(null, "", href);
+      } else {
+        // Si no estamos en la página principal, redirigir a /#seccion
+        window.location.href = `/${href}`;
+      }
     }
   };
 
@@ -31,6 +36,7 @@ export default function Navbar() {
     { href: "#projects", label: t("nav.projects") as string },
     { href: "#background", label: t("nav.background") as string },
     { href: "#certifications", label: t("nav.certifications") as string },
+    { href: "/blog", label: (t("nav.blog") as string) || "Blog" },
   ];
 
   const ventureLinks = [
@@ -57,11 +63,11 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 w-full bg-background/80 backdrop-blur-md border-b border-border/40">
       {/* Barra de Navegación Superior Condensada (Emprendimientos / Ecosistema) */}
-      <div className="w-full border-b border-border/30 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12 py-1.5 text-xs">
-        <div className="flex items-center justify-between gap-3">
-          {/* Lado Izquierdo: Emprendimientos */}
-          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden w-full md:w-auto py-0.5">
-            <span className="hidden lg:inline-flex items-center gap-1.5 font-semibold text-muted-foreground/80 pr-2 border-r border-border/50 text-[11px] uppercase tracking-wider shrink-0">
+      <div className="w-full border-b border-border/30 bg-muted/30 px-2 sm:px-6 md:px-8 lg:px-12 py-1 text-xs">
+        <div className="flex items-center gap-2">
+          {/* Emprendimientos (Grid de 3 columnas en móvil para auto-ajuste perfecto sin scroll) */}
+          <div className="grid grid-cols-3 gap-1 w-full md:w-auto md:flex md:items-center md:gap-2">
+            <span className="hidden xl:inline-flex items-center gap-1.5 font-semibold text-muted-foreground/80 pr-2 border-r border-border/50 text-[11px] uppercase tracking-wider shrink-0">
               <span className="size-1.5 rounded-full bg-primary animate-pulse" />
               {t("ventures.title") as string}
             </span>
@@ -73,25 +79,20 @@ export default function Navbar() {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-muted-foreground hover:text-foreground hover:bg-card/90 border border-transparent hover:border-border/60 shadow-none hover:shadow-xs transition-all group whitespace-nowrap text-xs"
+                  className="flex items-center justify-center md:justify-start gap-1 sm:gap-1.5 px-1 sm:px-2.5 py-1 rounded-md text-muted-foreground hover:text-foreground hover:bg-card/90 border border-transparent hover:border-border/60 shadow-none hover:shadow-xs transition-all group w-full md:w-auto min-w-0"
                   title={`${item.name} - ${item.tag}`}
                 >
-                  <Icon className="size-3.5 text-primary/80 group-hover:text-primary transition-colors shrink-0" />
-                  <span className="font-semibold text-foreground/90 group-hover:text-primary transition-colors">
+                  <Icon className="size-3 sm:size-3.5 text-primary/80 group-hover:text-primary transition-colors shrink-0" />
+                  <span className="font-semibold text-foreground/90 group-hover:text-primary transition-colors text-[10.5px] sm:text-xs truncate">
                     {item.name}
                   </span>
-                  <span className="hidden sm:inline-block text-[10px] text-muted-foreground/80 bg-background/80 px-1.5 py-0.5 rounded border border-border/40 font-medium">
+                  <span className="hidden lg:inline-block text-[10px] text-muted-foreground/80 bg-background/80 px-1.5 py-0.5 rounded border border-border/40 font-medium whitespace-nowrap">
                     {item.tag}
                   </span>
-                  <ArrowUpRight className="size-3 text-muted-foreground/50 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform shrink-0" />
+                  <ArrowUpRight className="size-2.5 sm:size-3 text-muted-foreground/50 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform shrink-0" />
                 </a>
               );
             })}
-          </div>
-
-          {/* Lado Derecho Opcional en Escritorio (indicador estético sutil) */}
-          <div className="hidden md:flex items-center gap-2 text-[11px] text-muted-foreground/60 shrink-0 font-mono">
-            <span>web3 & ai network</span>
           </div>
         </div>
       </div>
