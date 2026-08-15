@@ -40,7 +40,7 @@ function BlogSearchFilterContent({
   const filteredPosts = useMemo(() => {
     return posts.filter((post) => {
       // Filtro por categoría
-      if (selectedCategory !== "all" && post.categorySlug !== selectedCategory) {
+      if (selectedCategory !== "all" && !post.categorySlugs.includes(selectedCategory)) {
         return false;
       }
 
@@ -54,7 +54,7 @@ function BlogSearchFilterContent({
         const query = searchQuery.toLowerCase().trim();
         const matchesTitle = post.title.toLowerCase().includes(query);
         const matchesExcerpt = post.excerpt.toLowerCase().includes(query);
-        const matchesCategory = post.category.toLowerCase().includes(query);
+        const matchesCategory = post.categories.some((cat) => cat.toLowerCase().includes(query));
         const matchesTags = post.tags.some((tag) => tag.toLowerCase().includes(query));
 
         if (!matchesTitle && !matchesExcerpt && !matchesCategory && !matchesTags) {

@@ -105,7 +105,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
       "@id": `https://cbaeza.com/blog/${post.slug}/`,
     },
     "keywords": post.tags.join(", "),
-    "articleSection": post.category,
+    "articleSection": post.categories.join(", "),
   };
 
   return (
@@ -137,20 +137,25 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
               {post.title}
             </h1>
 
-            {/* Metadatos (Autor + Categoría en fila 1 móvil, Fecha + Tiempo de lectura en fila 2 móvil) */}
+            {/* Metadatos (Autor + Categorías en fila 1 móvil, Fecha + Tiempo de lectura en fila 2 móvil) */}
             <div className="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-6 text-xs text-muted-foreground pt-4 border-t border-border/40">
-              {/* Fila 1 en móvil: Autor y Categoría */}
+              {/* Fila 1 en móvil: Autor y Categorías */}
               <div className="flex items-center gap-2.5 flex-wrap">
                 <div className="flex items-center gap-1.5 font-medium text-foreground">
                   <User className="size-3.5 text-primary" />
                   <span>{post.author}</span>
                 </div>
-                <Link href={`/blog/categoria/${post.categorySlug}/`}>
-                  <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-colors">
-                    <Folder className="size-3" />
-                    {post.category}
-                  </span>
-                </Link>
+                {post.categories.map((cat, idx) => {
+                  const catSlug = post.categorySlugs[idx];
+                  return (
+                    <Link key={catSlug} href={`/blog/categoria/${catSlug}/`}>
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-colors">
+                        <Folder className="size-3" />
+                        {cat}
+                      </span>
+                    </Link>
+                  );
+                })}
               </div>
 
               {/* Fila 2 en móvil: Fecha y Tiempo de Lectura */}

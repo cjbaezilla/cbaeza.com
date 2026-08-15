@@ -3,7 +3,7 @@ title: "Vibe2Wizard Hackathon Update: Repositorio del Proyecto y Contratos Bajo 
 date: "10-03-2026"
 excerpt: "Análisis técnico exhaustivo de la arquitectura de Vibe2Wizard en Avalanche: contratos inteligentes en Solidity con cálculo de nivel por búsqueda binaria, pasaportes NFT soulbound, sistema de registro on-chain y frontend en Next.js con Wagmi y RainbowKit."
 author: "Carlos Baeza Negroni"
-category: "Noticias"
+categories: ["Noticias", "Hackathons"]
 tags: ["Avalanche", "Solidity", "Smart Contracts", "Next.js", "React", "Wagmi", "RainbowKit", "ERC-721", "Soulbound", "Web3", "Hackathon", "TypeScript"]
 coverImage: "/images/blog/vibe2wizard-portada3.png"
 readTime: "40 min de lectura"

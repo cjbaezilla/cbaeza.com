@@ -47,15 +47,23 @@ export function BlogCard({ post }: BlogCardProps) {
       {/* Contenido de la Tarjeta */}
       <div className="p-5 sm:p-6 flex flex-col flex-1 justify-between">
         <div>
-          {/* Categoría y Tiempo de lectura */}
+          {/* Categorías y Tiempo de lectura */}
           <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-            <Link
-              href={`/blog/categoria/${post.categorySlug}/`}
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline"
-            >
-              <Folder className="size-3.5" />
-              <span>{post.category}</span>
-            </Link>
+            <div className="flex flex-wrap items-center gap-1.5">
+              {post.categories.map((cat, idx) => {
+                const catSlug = post.categorySlugs[idx];
+                return (
+                  <Link
+                    key={catSlug}
+                    href={`/blog/categoria/${catSlug}/`}
+                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-primary hover:underline bg-primary/10 px-2 py-0.5 rounded-md border border-primary/20 hover:bg-primary/20 transition-colors"
+                  >
+                    <Folder className="size-3" />
+                    <span>{cat}</span>
+                  </Link>
+                );
+              })}
+            </div>
             <div className="flex items-center gap-1 text-xs text-muted-foreground font-medium">
               <Clock className="size-3.5" />
               <span>{post.readTime}</span>

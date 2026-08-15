@@ -12,8 +12,10 @@ export interface BlogPostMeta {
   dateIso?: string; // Formato ISO YYYY-MM-DD para SEO/OpenGraph/Schema.org
   excerpt: string;
   author: string;
-  category: string;
-  categorySlug: string;
+  categories: string[];
+  categorySlugs: string[];
+  category: string; // Primera categoría para retrocompatibilidad
+  categorySlug: string; // Slug de primera categoría para retrocompatibilidad
   tags: string[];
   tagSlugs: string[];
   coverImage?: string;
@@ -35,6 +37,25 @@ export interface TagInfo {
   name: string;
   slug: string;
   count: number;
+}
+
+/**
+ * Normaliza las categorías desde el Frontmatter (soporta arrays de strings, strings separados por coma o campos singulares).
+ */
+export function extractCategories(data: Record<string, unknown>): string[] {
+  const raw = data.categories ?? data.category;
+  if (Array.isArray(raw)) {
+    const list = raw.map((c) => String(c).trim()).filter(Boolean);
+    return list.length > 0 ? list : ["General"];
+  }
+  if (typeof raw === "string" && raw.trim()) {
+    if (raw.includes(",")) {
+      const list = raw.split(",").map((c) => c.trim()).filter(Boolean);
+      return list.length > 0 ? list : ["General"];
+    }
+    return [raw.trim()];
+  }
+  return ["General"];
 }
 
 /**
@@ -138,8 +159,10 @@ export function getAllPosts(): BlogPostMeta[] {
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content } = matter(fileContents);
 
-    const category = (data.category as string) || "General";
-    const categorySlug = slugify(category);
+    const categories = extractCategories(data);
+    const categorySlugs = categories.map((cat) => slugify(cat));
+    const category = categories[0] || "General";
+    const categorySlug = categorySlugs[0] || "general";
     const tags = Array.isArray(data.tags) ? (data.tags as string[]) : [];
     const tagSlugs = tags.map((tag) => slugify(tag));
     const readTime = (data.readTime as string) || calculateReadingTime(content);
@@ -153,6 +176,8 @@ export function getAllPosts(): BlogPostMeta[] {
       dateIso,
       excerpt: (data.excerpt as string) || content.slice(0, 160).trim() + "...",
       author: (data.author as string) || "Carlos Baeza Negroni",
+      categories,
+      categorySlugs,
       category,
       categorySlug,
       tags,
@@ -199,8 +224,10 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
 
   const contentHtml = await marked.parse(content);
 
-  const category = (data.category as string) || "General";
-  const categorySlug = slugify(category);
+  const categories = extractCategories(data);
+  const categorySlugs = categories.map((cat) => slugify(cat));
+  const category = categories[0] || "General";
+  const categorySlug = categorySlugs[0] || "general";
   const tags = Array.isArray(data.tags) ? (data.tags as string[]) : [];
   const tagSlugs = tags.map((tag) => slugify(tag));
   const readTime = (data.readTime as string) || calculateReadingTime(content);
@@ -214,6 +241,8 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     dateIso,
     excerpt: (data.excerpt as string) || content.slice(0, 160).trim() + "...",
     author: (data.author as string) || "Carlos Baeza Negroni",
+    categories,
+    categorySlugs,
     category,
     categorySlug,
     tags,
@@ -233,12 +262,14 @@ export function getAllCategories(): CategoryInfo[] {
   const categoryMap = new Map<string, { name: string; count: number }>();
 
   posts.forEach((post) => {
-    const slug = post.categorySlug;
-    if (categoryMap.has(slug)) {
-      categoryMap.get(slug)!.count += 1;
-    } else {
-      categoryMap.set(slug, { name: post.category, count: 1 });
-    }
+    post.categories.forEach((cat, idx) => {
+      const slug = post.categorySlugs[idx];
+      if (categoryMap.has(slug)) {
+        categoryMap.get(slug)!.count += 1;
+      } else {
+        categoryMap.set(slug, { name: cat, count: 1 });
+      }
+    });
   });
 
   return Array.from(categoryMap.entries()).map(([slug, info]) => ({
@@ -278,7 +309,7 @@ export function getAllTags(): TagInfo[] {
  */
 export function getPostsByCategory(categorySlug: string): BlogPostMeta[] {
   const posts = getAllPosts();
-  return posts.filter((post) => post.categorySlug === categorySlug);
+  return posts.filter((post) => post.categorySlugs.includes(categorySlug));
 }
 
 /**

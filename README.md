@@ -86,7 +86,7 @@ title: "Título de la Publicación"
 date: "14-08-2026"
 excerpt: "Breve resumen explicativo del artículo..."
 author: "Carlos Baeza Negroni"
-category: "Blockchain"
+categories: ["Blockchain", "Seguridad"]
 tags: ["Ethereum", "Solidity", "Web3"]
 coverImage: "/images/logo.png"
 readTime: "4 min de lectura"

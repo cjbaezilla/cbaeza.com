@@ -3,7 +3,7 @@ title: "Mi 2025 con Cursor AI: Top 1% en Chile, Top 7% Mundial y 4 Billones de T
 date: "08-01-2026"
 excerpt: "Retrospectiva de mi año con Cursor AI: más de 4 mil millones de tokens consumidos, Top 1% en Chile, Top 7% mundial, 15.4K agentes ejecutados y la invitación exclusiva del equipo de Cursor a Café Cursor en Santiago."
 author: "Carlos Baeza Negroni"
-category: "Noticias"
+categories: ["Noticias", "AI"]
 tags: ["Cursor", "Inteligencia Artificial", "Productividad", "Tokens", "Claude Sonnet", "Agentes de IA", "Desarrollo", "Software Engineering", "Santiago", "Chile"]
 coverImage: "/images/blog/cursor-year-in-review-top-tokens.png"
 readTime: "7 min de lectura"

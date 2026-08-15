@@ -77,7 +77,7 @@ El sitio cuenta con un sistema de blog 100% estático que no requiere bases de d
   date: "DD-MM-YYYY"
   excerpt: "Resumen conciso del artículo para tarjetas y SEO..."
   author: "Carlos Baeza Negroni"
-  category: "Seguridad" # O "Blockchain", "DeFi", "General", etc.
+  categories: ["Seguridad", "Blockchain"] # Admite 2 o más categorías (o category: "Seguridad")
   tags: ["Solidity", "EVM", "Auditoría"]
   coverImage: "/images/logo.png" # Opcional
   readTime: "5 min de lectura" # Opcional (se autocalcula si se omite)

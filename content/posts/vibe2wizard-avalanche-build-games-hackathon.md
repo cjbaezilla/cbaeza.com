@@ -3,7 +3,7 @@ title: "Vibe2Wizard: De Vibe Coder a Mago On-Chain en el Hackathon Build Games d
 date: "24-02-2026"
 excerpt: "Mi selección para el programa Build Games de Avalanche y el desarrollo completo de Vibe2Wizard: la plataforma gamificada que transforma a creadores y vibe coders en maestros de Solidity con pasaporte on-chain, credenciales soulbound y gas patrocinado."
 author: "Carlos Baeza Negroni"
-category: "Noticias"
+categories: ["Noticias", "Hackathons"]
 tags: ["Avalanche", "Hackathon", "Web3", "Gaming", "Solidity", "Smart Contracts", "ERC-5192", "ERC-7510", "Vibe Coding", "Gamificación"]
 coverImage: "/images/blog/vibe2wizard-portada2.png"
 readTime: "30 min de lectura"
