@@ -3,7 +3,7 @@ title: "Mi Experiencia en Ethereum Devconnect Argentina: La Primera Feria Mundia
 date: "28-11-2025"
 excerpt: "Crónica completa, fotografías y aprendizajes de mi experiencia en Ethereum Devconnect Buenos Aires (Ethereum World's Fair) en La Rural. +14.000 asistentes, 8 distritos temáticos, networking con líderes como Hudson Jameson y LefterisJP, y las últimas innovaciones en Web3."
 author: "Carlos Baeza Negroni"
-category: "Blockchain"
+category: "Noticias"
 tags: ["Ethereum", "Devconnect", "Buenos Aires", "Web3", "Blockchain", "ENS", "Celo", "Tally", "Rotki", "DeFi", "L2", "Comunidad"]
 coverImage: "/images/blog/devconnect_portada.png"
 readTime: "9 min de lectura"

@@ -55,16 +55,7 @@ export default function Footer() {
           </p>
 
           {/* Redes Sociales */}
-          <div className="flex items-center gap-3 mt-2">
-            <Link
-              href="https://github.com/cjbaezilla"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-foreground hover:border-foreground flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
-              aria-label="GitHub Profile"
-            >
-              <i className="fa-brands fa-github text-base"></i>
-            </Link>
+          <div className="flex flex-wrap items-center gap-2.5 mt-2">
             <Link
               href="https://www.linkedin.com/in/carlos-baeza-negroni/"
               target="_blank"
@@ -75,10 +66,19 @@ export default function Footer() {
               <i className="fa-brands fa-linkedin text-base"></i>
             </Link>
             <Link
-              href="https://twitter.com/cjbaezilla"
+              href="https://github.com/cjbaezilla"
               target="_blank"
               rel="noopener noreferrer"
-              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-[#1da1f2] hover:border-[#1da1f2]/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-foreground hover:border-foreground flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+              aria-label="GitHub Profile"
+            >
+              <i className="fa-brands fa-github text-base"></i>
+            </Link>
+            <Link
+              href="https://x.com/cjbaezilla"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-foreground hover:border-foreground flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
               aria-label="Twitter Profile"
             >
               <i className="fa-brands fa-x-twitter text-base"></i>
@@ -91,6 +91,31 @@ export default function Footer() {
               aria-label="YouTube Channel"
             >
               <i className="fa-brands fa-youtube text-base"></i>
+            </Link>
+            <Link
+              href="mailto:hola@cbaeza.com"
+              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-primary hover:border-primary/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+              aria-label="Email de Contacto"
+            >
+              <i className="fa-solid fa-envelope text-base"></i>
+            </Link>
+            <Link
+              href="https://wa.me/56985644026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-[#25d366] hover:border-[#25d366]/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+              aria-label="WhatsApp Contact"
+            >
+              <i className="fa-brands fa-whatsapp text-base"></i>
+            </Link>
+            <Link
+              href="https://t.me/VELVET_T_99"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="size-9 rounded-xl bg-card border border-border/80 text-muted-foreground hover:text-[#229ed9] hover:border-[#229ed9]/40 flex items-center justify-center transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer"
+              aria-label="Telegram Contact"
+            >
+              <i className="fa-brands fa-telegram text-base"></i>
             </Link>
           </div>
         </div>

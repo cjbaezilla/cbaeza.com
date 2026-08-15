@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { Calendar, Clock, ArrowLeft, Folder, Tag as TagIcon, User, Sparkles } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, Folder, Tag as TagIcon, User } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
@@ -227,13 +227,13 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
 
           {/* Tarjeta de Perfil del Autor */}
           <div className="w-full p-6 rounded-2xl bg-muted/30 border border-border/40 flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="size-16 rounded-2xl bg-card border border-border flex items-center justify-center p-2 shrink-0">
+            <div className="size-20 sm:size-24 rounded-full overflow-hidden border-2 border-primary/25 bg-card shrink-0 shadow-md">
               <Image
-                src="/images/logo.png"
-                alt="Carlos Baeza"
-                width={64}
-                height={64}
-                className="w-full h-auto object-contain"
+                src="/images/carlos_avatar.jpg"
+                alt="Carlos Baeza Negroni"
+                width={96}
+                height={96}
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="flex-1 text-center sm:text-left">
@@ -243,20 +243,67 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
               <p className="text-xs text-muted-foreground leading-relaxed mb-3">
                 Ingeniero Consultor Senior Especializado en Blockchain, EVM, Seguridad en Smart Contracts, DeFi y Arquitecturas Descentralizadas. Docente en USACH.
               </p>
-              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
+              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5">
                 <Link
-                  href="/"
-                  className="font-semibold text-primary hover:underline inline-flex items-center gap-1"
+                  href="https://www.linkedin.com/in/carlos-baeza-negroni/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-[#0a66c2] hover:border-[#0a66c2]/40 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="LinkedIn de Carlos Baeza"
                 >
-                  <Sparkles className="size-3" />
-                  Ver perfil y proyectos
+                  <i className="fa-brands fa-linkedin text-sm"></i>
                 </Link>
-                <span className="text-muted-foreground/40">•</span>
                 <Link
-                  href="/blog/"
-                  className="font-semibold text-muted-foreground hover:text-foreground"
+                  href="https://github.com/cjbaezilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-foreground hover:border-foreground/50 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="GitHub de Carlos Baeza"
                 >
-                  Más artículos
+                  <i className="fa-brands fa-github text-sm"></i>
+                </Link>
+                <Link
+                  href="https://x.com/cjbaezilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-foreground hover:border-foreground/50 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="X (Twitter) de Carlos Baeza"
+                >
+                  <i className="fa-brands fa-x-twitter text-sm"></i>
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@cjbaezilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-[#ff0000] hover:border-[#ff0000]/40 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="YouTube de Carlos Baeza"
+                >
+                  <i className="fa-brands fa-youtube text-sm"></i>
+                </Link>
+                <Link
+                  href="mailto:hola@cbaeza.com"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-primary hover:border-primary/40 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="Email de Carlos Baeza"
+                >
+                  <i className="fa-solid fa-envelope text-sm"></i>
+                </Link>
+                <Link
+                  href="https://wa.me/56985644026"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-[#25d366] hover:border-[#25d366]/40 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="WhatsApp de Carlos Baeza"
+                >
+                  <i className="fa-brands fa-whatsapp text-sm"></i>
+                </Link>
+                <Link
+                  href="https://t.me/VELVET_T_99"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-8 rounded-lg bg-card border border-border/80 text-muted-foreground hover:text-[#229ed9] hover:border-[#229ed9]/40 flex items-center justify-center transition-all shadow-xs hover:-translate-y-0.5"
+                  aria-label="Telegram de Carlos Baeza"
+                >
+                  <i className="fa-brands fa-telegram text-sm"></i>
                 </Link>
               </div>
             </div>
