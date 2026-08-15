@@ -101,7 +101,7 @@ export function BlogCard({ post }: BlogCardProps) {
           <div className="flex items-center justify-between pt-1 text-xs text-muted-foreground">
             <div className="flex items-center gap-1.5">
               <Calendar className="size-3.5" />
-              <time dateTime={post.date}>{post.date}</time>
+              <time dateTime={post.dateIso || post.date}>{post.date}</time>
             </div>
             <Link
               href={`/blog/${post.slug}/`}

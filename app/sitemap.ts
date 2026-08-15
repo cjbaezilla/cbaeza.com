@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllPosts, getAllCategories, getAllTags } from "@/lib/blog";
+import { getAllPosts, getAllCategories, getAllTags, parseDate } from "@/lib/blog";
 
 export const dynamic = "force-static";
 
@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}/`,
-    lastModified: new Date(post.date),
+    lastModified: parseDate(post.date),
     changeFrequency: "monthly",
     priority: 0.8,
   }));

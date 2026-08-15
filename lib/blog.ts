@@ -8,7 +8,8 @@ const postsDirectory = path.join(process.cwd(), "content/posts");
 export interface BlogPostMeta {
   slug: string;
   title: string;
-  date: string;
+  date: string; // Formato de visualización DD-MM-YYYY
+  dateIso?: string; // Formato ISO YYYY-MM-DD para SEO/OpenGraph/Schema.org
   excerpt: string;
   author: string;
   category: string;
@@ -34,6 +35,59 @@ export interface TagInfo {
   name: string;
   slug: string;
   count: number;
+}
+
+/**
+ * Normaliza cualquier entrada de fecha (Date, "DD-MM-YYYY", "YYYY-MM-DD", ISO) a un objeto Date de JavaScript.
+ */
+export function parseDate(dateInput: string | Date | undefined | null): Date {
+  if (!dateInput) return new Date();
+  if (dateInput instanceof Date) return isNaN(dateInput.getTime()) ? new Date() : dateInput;
+
+  const str = String(dateInput).trim();
+
+  // Coincidencia con formato DD-MM-YYYY o DD/MM/YYYY
+  const ddmmyyyyMatch = str.match(/^(\d{1,2})[-/](\d{1,2})[-/](\d{4})$/);
+  if (ddmmyyyyMatch) {
+    const day = parseInt(ddmmyyyyMatch[1], 10);
+    const month = parseInt(ddmmyyyyMatch[2], 10) - 1;
+    const year = parseInt(ddmmyyyyMatch[3], 10);
+    return new Date(year, month, day);
+  }
+
+  // Coincidencia con formato YYYY-MM-DD o YYYY/MM/DD
+  const yyyymmddMatch = str.match(/^(\d{4})[-/](\d{1,2})[-/](\d{1,2})$/);
+  if (yyyymmddMatch) {
+    const year = parseInt(yyyymmddMatch[1], 10);
+    const month = parseInt(yyyymmddMatch[2], 10) - 1;
+    const day = parseInt(yyyymmddMatch[3], 10);
+    return new Date(year, month, day);
+  }
+
+  const parsed = new Date(str);
+  return isNaN(parsed.getTime()) ? new Date() : parsed;
+}
+
+/**
+ * Formatea una fecha a la representación estándar "DD-MM-YYYY".
+ */
+export function formatDate(dateInput: string | Date | undefined | null): string {
+  const d = parseDate(dateInput);
+  const day = String(d.getDate()).padStart(2, "0");
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const year = d.getFullYear();
+  return `${day}-${month}-${year}`;
+}
+
+/**
+ * Formatea una fecha a la representación ISO estándar "YYYY-MM-DD" para metadatos y schemas.
+ */
+export function formatIsoDate(dateInput: string | Date | undefined | null): string {
+  const d = parseDate(dateInput);
+  const day = String(d.getDate()).padStart(2, "0");
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const year = d.getFullYear();
+  return `${year}-${month}-${day}`;
 }
 
 /**
@@ -89,11 +143,14 @@ export function getAllPosts(): BlogPostMeta[] {
     const tags = Array.isArray(data.tags) ? (data.tags as string[]) : [];
     const tagSlugs = tags.map((tag) => slugify(tag));
     const readTime = (data.readTime as string) || calculateReadingTime(content);
+    const date = formatDate(data.date);
+    const dateIso = formatIsoDate(data.date);
 
     return {
       slug,
       title: (data.title as string) || slug,
-      date: (data.date as string) || new Date().toISOString().split("T")[0],
+      date,
+      dateIso,
       excerpt: (data.excerpt as string) || content.slice(0, 160).trim() + "...",
       author: (data.author as string) || "Carlos Baeza Negroni",
       category,
@@ -106,7 +163,7 @@ export function getAllPosts(): BlogPostMeta[] {
   });
 
   // Ordenar cronológicamente descendente
-  return allPosts.sort((a, b) => (new Date(b.date).getTime() - new Date(a.date).getTime()));
+  return allPosts.sort((a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime());
 }
 
 /**
@@ -147,11 +204,14 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   const tags = Array.isArray(data.tags) ? (data.tags as string[]) : [];
   const tagSlugs = tags.map((tag) => slugify(tag));
   const readTime = (data.readTime as string) || calculateReadingTime(content);
+  const date = formatDate(data.date);
+  const dateIso = formatIsoDate(data.date);
 
   return {
     slug,
     title: (data.title as string) || slug,
-    date: (data.date as string) || new Date().toISOString().split("T")[0],
+    date,
+    dateIso,
     excerpt: (data.excerpt as string) || content.slice(0, 160).trim() + "...",
     author: (data.author as string) || "Carlos Baeza Negroni",
     category,

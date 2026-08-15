@@ -83,7 +83,7 @@ Para publicar un nuevo artículo, crea un archivo `.md` en la carpeta `content/p
 ```markdown
 ---
 title: "Título de la Publicación"
-date: "2026-08-14"
+date: "14-08-2026"
 excerpt: "Breve resumen explicativo del artículo..."
 author: "Carlos Baeza Negroni"
 category: "Blockchain"

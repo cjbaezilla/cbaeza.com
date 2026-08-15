@@ -1,6 +1,6 @@
 ---
 title: "Tu primer Smart Contract con IA en Cursor desde Cero: Solidity, Next.js, MetaMask, RainbowKit y Remix"
-date: "2025-10-04"
+date: "04-10-2025"
 excerpt: "Guía completa paso a paso y conversatorio práctico para construir y desplegar tu primera dApp completa y Smart Contract en Solidity utilizando el editor asistido por IA Cursor, Remix IDE, Next.js, MetaMask y RainbowKit."
 author: "Carlos Baeza Negroni"
 category: "Blockchain"

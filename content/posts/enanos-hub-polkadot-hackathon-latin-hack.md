@@ -1,6 +1,6 @@
 ---
 title: "Enanos Hub: Mención Honrosa en el Hackathon LATIN HACK de Polkadot & Nerdconf"
-date: "2025-10-28"
+date: "28-10-2025"
 excerpt: "Análisis exhaustivo, arquitectura técnica, catálogo de smart contracts y la experiencia completa detrás de Enanos Hub, proyecto galardonado con Mención Honrosa en el hackathon LATIN HACK (Nerdconf / Polkadot) entre 101 proyectos y 223 hackers."
 author: "Carlos Baeza Negroni"
 category: "Blockchain"
@@ -26,6 +26,8 @@ La competencia reunió a **223 hackers** y un total de **101 proyectos enviados*
 ![Mención Honrosa Enanos Hub en Hackathon Polkadot Nerdconf](/images/blog/enanos_mencion.jpg)
 
 ![Mención Honrosa Enanos Hub en Hackathon Polkadot Nerdconf](/images/blog/enanos_mencion2.jpg)
+
+- Tweet sobre la mención honrosa: https://x.com/cjbaezilla/status/1983170815429627931
 
 Este reconocimiento valida la viabilidad técnica de una suite Web3 completa de extremo a extremo, desarrollada de manera individual (equipo unipersonal) en un plazo intensivo.
 

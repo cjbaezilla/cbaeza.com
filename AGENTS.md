@@ -74,7 +74,7 @@ El sitio cuenta con un sistema de blog 100% estático que no requiere bases de d
   ```markdown
   ---
   title: "Título descriptivo del artículo"
-  date: "YYYY-MM-DD"
+  date: "DD-MM-YYYY"
   excerpt: "Resumen conciso del artículo para tarjetas y SEO..."
   author: "Carlos Baeza Negroni"
   category: "Seguridad" # O "Blockchain", "DeFi", "General", etc.

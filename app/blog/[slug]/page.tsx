@@ -52,7 +52,7 @@ export async function generateMetadata(props: BlogPostPageProps): Promise<Metada
       description: post.excerpt,
       url,
       type: "article",
-      publishedTime: post.date,
+      publishedTime: post.dateIso || post.date,
       authors: [post.author],
       tags: post.tags,
       images: [
@@ -88,8 +88,8 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
     "headline": post.title,
     "description": post.excerpt,
     "image": post.coverImage ? `https://cbaeza.com${post.coverImage}` : "https://cbaeza.com/images/logo.png",
-    "datePublished": post.date,
-    "dateModified": post.date,
+    "datePublished": post.dateIso || post.date,
+    "dateModified": post.dateIso || post.date,
     "author": {
       "@type": "Person",
       "name": post.author,
@@ -157,7 +157,7 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
               <div className="flex items-center gap-4 sm:gap-6">
                 <div className="flex items-center gap-1.5">
                   <Calendar className="size-3.5" />
-                  <time dateTime={post.date}>{post.date}</time>
+                  <time dateTime={post.dateIso || post.date}>{post.date}</time>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Clock className="size-3.5" />
