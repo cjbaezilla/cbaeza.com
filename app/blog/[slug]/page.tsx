@@ -196,14 +196,23 @@ export default async function BlogPostPage(props: BlogPostPageProps) {
           <article className="w-full bg-card/40 border border-border/40 rounded-3xl overflow-hidden shadow-xs backdrop-blur-xs">
             {/* Imagen de Portada en toda la cabecera del contenedor */}
             {post.coverImage && (
-              <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] max-h-[520px] overflow-hidden border-b border-border/40 bg-muted/20">
+              <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] max-h-[520px] overflow-hidden border-b border-border/40 bg-muted/20 flex items-center justify-center">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <Image
+                    src={post.coverImage}
+                    alt=""
+                    fill
+                    aria-hidden="true"
+                    className="object-cover blur-xl scale-125 opacity-30"
+                  />
+                </div>
                 <Image
                   src={post.coverImage}
                   alt={post.title}
                   fill
                   priority
                   sizes="(max-width: 1200px) 100vw, 1200px"
-                  className="object-cover object-center"
+                  className="relative z-10 object-contain object-center"
                 />
               </div>
             )}

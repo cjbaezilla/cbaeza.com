@@ -25,6 +25,8 @@ La competencia reunió a **223 hackers** y un total de **101 proyectos enviados*
 
 ![Mención Honrosa Enanos Hub en Hackathon Polkadot Nerdconf](/images/blog/enanos_mencion.jpg)
 
+![Mención Honrosa Enanos Hub en Hackathon Polkadot Nerdconf](/images/blog/enanos_mencion2.jpg)
+
 Este reconocimiento valida la viabilidad técnica de una suite Web3 completa de extremo a extremo, desarrollada de manera individual (equipo unipersonal) en un plazo intensivo.
 
 ---

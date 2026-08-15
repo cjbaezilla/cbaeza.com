@@ -17,18 +17,29 @@ export function BlogCard({ post }: BlogCardProps) {
 
   return (
     <article className="group relative flex flex-col justify-between rounded-2xl border border-border/50 bg-card/80 shadow-sm hover:shadow-md hover:border-primary/40 transition-all duration-300 backdrop-blur-xs overflow-hidden">
-      {/* Imagen de Portada en toda la cabecera de la tarjeta */}
+      {/* Imagen de Portada completa en la cabecera de la tarjeta */}
       {post.coverImage && (
         <Link
           href={`/blog/${post.slug}/`}
-          className="block relative w-full aspect-[16/9] overflow-hidden bg-muted/30 border-b border-border/40"
+          className="block relative w-full aspect-[16/9] overflow-hidden bg-muted/20 border-b border-border/40 flex items-center justify-center"
         >
+          {/* Fondo ambiental sutil para portadas con diferentes proporciones */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <Image
+              src={post.coverImage}
+              alt=""
+              fill
+              aria-hidden="true"
+              className="object-cover blur-lg scale-125 opacity-25"
+            />
+          </div>
+          {/* Imagen frontal desplegada completamente sin recorte */}
           <Image
             src={post.coverImage}
             alt={post.title}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className="relative z-10 object-contain transition-transform duration-500 group-hover:scale-105"
           />
         </Link>
       )}
