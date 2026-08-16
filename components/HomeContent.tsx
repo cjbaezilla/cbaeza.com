@@ -45,8 +45,8 @@ export default function HomeContent({ newsPosts }: HomeContentProps) {
           <div className="absolute bottom-0 ltr:left-0 rtl:right-0 size-96 bg-primary/5 rounded-full blur-3xl pointer-events-none ltr:-ml-32 rtl:-mr-32 -mb-32"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center w-full relative z-10">
-            {/* Información Principal */}
-            <div className="lg:col-span-7 flex flex-col gap-6 items-start order-1">
+            {/* Información Principal (Lado Izquierdo) */}
+            <div className="lg:col-span-7 flex flex-col gap-6 items-start">
               <span className="inline-flex items-center gap-1.5 rounded-xl bg-card border border-border/80 px-3.5 py-1.5 text-xs font-semibold text-muted-foreground shadow-sm">
                 <i className="fa-solid fa-code text-primary"></i>
                 {t("hero.badge") as string}
@@ -63,10 +63,81 @@ export default function HomeContent({ newsPosts }: HomeContentProps) {
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-justify">
                 {t("hero.description") as string}
               </p>
+
+              {/* Tarjetas de Redes Sociales y Contacto */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full pt-2">
+                <Link
+                  href="https://www.linkedin.com/in/carlos-baeza-negroni/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-brands fa-linkedin text-base text-[#0a66c2] group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">LinkedIn</span>
+                </Link>
+
+                <Link
+                  href="https://github.com/cjbaezilla/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-brands fa-github text-base text-foreground group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">{t("hero.cta") as string}</span>
+                </Link>
+
+                <Link
+                  href="https://x.com/cjbaezilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-brands fa-x-twitter text-base text-foreground group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">Twitter</span>
+                </Link>
+
+                <Link
+                  href="https://www.youtube.com/@cjbaezilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-brands fa-youtube text-base text-[#ff0000] group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">YouTube</span>
+                </Link>
+
+                <Link
+                  href="mailto:hola@cbaeza.com"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-solid fa-envelope text-base text-primary group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">Email</span>
+                </Link>
+
+                <Link
+                  href="https://wa.me/56985644026"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-brands fa-whatsapp text-base text-[#25d366] group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">WhatsApp</span>
+                </Link>
+
+                <Link
+                  href="https://t.me/VELVET_T_99"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
+                >
+                  <i className="fa-brands fa-telegram text-base text-[#229ed9] group-hover:scale-110 transition-transform"></i>
+                  <span className="truncate">Telegram</span>
+                </Link>
+              </div>
             </div>
 
-            {/* Carrusel de Noticias del Blog (Slider) */}
-            <div className="lg:col-span-5 w-full flex flex-col gap-3 order-3 lg:order-2">
+            {/* Carrusel de Noticias del Blog (Slider - Lado Derecho) */}
+            <div className="lg:col-span-5 w-full flex flex-col gap-3">
               <div className="flex items-center justify-between px-1">
                 <h2 className="font-heading text-xs font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-2">
                   <span className="size-2 rounded-full bg-primary animate-pulse inline-block"></span>
@@ -81,77 +152,6 @@ export default function HomeContent({ newsPosts }: HomeContentProps) {
                 </Link>
               </div>
               <Slider posts={newsPosts} />
-            </div>
-
-            {/* Tarjetas de Redes Sociales y Contacto */}
-            <div className="lg:col-span-12 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3 w-full pt-4 border-t border-border/40 order-2 lg:order-3">
-              <Link
-                href="https://www.linkedin.com/in/carlos-baeza-negroni/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-brands fa-linkedin text-base text-[#0a66c2] group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">LinkedIn</span>
-              </Link>
-
-              <Link
-                href="https://github.com/cjbaezilla/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-brands fa-github text-base text-foreground group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">{t("hero.cta") as string}</span>
-              </Link>
-
-              <Link
-                href="https://x.com/cjbaezilla"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-brands fa-x-twitter text-base text-foreground group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">Twitter</span>
-              </Link>
-
-              <Link
-                href="https://www.youtube.com/@cjbaezilla"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-brands fa-youtube text-base text-[#ff0000] group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">YouTube</span>
-              </Link>
-
-              <Link
-                href="mailto:hola@cbaeza.com"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-solid fa-envelope text-base text-primary group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">Email</span>
-              </Link>
-
-              <Link
-                href="https://wa.me/56985644026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-brands fa-whatsapp text-base text-[#25d366] group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">WhatsApp</span>
-              </Link>
-
-              <Link
-                href="https://t.me/VELVET_T_99"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2.5 rounded-2xl bg-card border border-border/80 hover:border-primary/50 hover:bg-accent/80 p-3.5 text-xs font-bold text-foreground transition-all shadow-sm hover:-translate-y-0.5 cursor-pointer group"
-              >
-                <i className="fa-brands fa-telegram text-base text-[#229ed9] group-hover:scale-110 transition-transform"></i>
-                <span className="truncate">Telegram</span>
-              </Link>
             </div>
           </div>
         </header>
