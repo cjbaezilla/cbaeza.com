@@ -103,13 +103,26 @@ export default function DefiLabSection() {
         {/* ========================================================================= */}
         {/* BANNER PRINCIPAL & LLAMADOS A LA ACCIÓN (HERO CARD) */}
         {/* ========================================================================= */}
-        <div className="rounded-3xl border border-border/80 bg-card/60 backdrop-blur-sm p-6 sm:p-8 lg:p-10 shadow-sm relative overflow-hidden flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-          {/* Fondo sutil interno */}
-          <div className="absolute top-0 right-0 size-72 bg-primary/5 rounded-full blur-2xl pointer-events-none" />
+        <div className="rounded-3xl border border-border/80 bg-card/60 backdrop-blur-sm shadow-sm relative overflow-hidden flex flex-col w-full">
+          {/* Header de la Tarjeta: Imagen a Ancho Completo */}
+          <div className="w-full relative overflow-hidden border-b border-border/60 bg-muted/40 aspect-[16/8] sm:aspect-[21/9] lg:aspect-[24/9] max-h-[380px]">
+            <Image
+              src="/images/blog/usach-lab/hero_page.png"
+              alt="Laboratorio Web3 DeFi USACH en Ethereum Sepolia"
+              fill
+              className="object-cover object-top"
+              unoptimized
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-black/20 pointer-events-none" />
+          </div>
 
-          {/* Lado Izquierdo: Descripción, Beneficios Inmediatos y CTAs */}
-          <div className="flex flex-col gap-6 lg:w-1/2 z-10">
-            <div className="flex flex-col gap-2">
+          {/* Contenedor Principal a Ancho Completo */}
+          <div className="p-6 sm:p-8 lg:p-10 flex flex-col gap-8 w-full relative z-10">
+            {/* Fondo sutil interno */}
+            <div className="absolute top-0 right-0 size-72 bg-primary/5 rounded-full blur-2xl pointer-events-none" />
+
+            <div className="flex flex-col gap-3">
               <span className="text-xs font-bold uppercase tracking-wider text-primary flex items-center gap-2">
                 <Sparkles className="size-3.5" />
                 {(t("defiLabSection.actions.learnFromZero") as string) || "Comenzar Gratis desde Cero"}
@@ -117,32 +130,44 @@ export default function DefiLabSection() {
               <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground font-heading">
                 Laboratorio Práctico Totalmente Abierto
               </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed max-w-4xl">
                 Sin registros en bases de datos centralizadas ni cobros ocultos. Sólo necesitas una billetera Web3 (MetaMask, Rainbow, Coinbase Wallet o WalletConnect) configurada en la red Sepolia con fondos gratuitos de grifo para interactuar directamente con la Máquina Virtual de Ethereum (EVM).
               </p>
             </div>
 
-            {/* Lista Rápida de Ventajas */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 py-1">
-              <div className="flex items-start gap-2.5">
+            {/* Lista Rápida de Ventajas (3 Columnas para ancho completo) */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 py-1">
+              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-card/80 border border-border/60">
+                <CheckCircle2 className="size-4 text-primary shrink-0 mt-0.5" />
+                <span className="text-xs text-foreground/90 font-medium leading-snug">
+                  Ethereum Sepolia (Chain ID 11155111)
+                </span>
+              </div>
+              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-card/80 border border-border/60">
+                <CheckCircle2 className="size-4 text-primary shrink-0 mt-0.5" />
+                <span className="text-xs text-foreground/90 font-medium leading-snug">
+                  100% Serverless On-Chain
+                </span>
+              </div>
+              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-card/80 border border-border/60">
                 <CheckCircle2 className="size-4 text-primary shrink-0 mt-0.5" />
                 <span className="text-xs text-foreground/90 font-medium leading-snug">
                   Crea y despliega tus propios tokens ERC-20
                 </span>
               </div>
-              <div className="flex items-start gap-2.5">
+              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-card/80 border border-border/60">
                 <CheckCircle2 className="size-4 text-primary shrink-0 mt-0.5" />
                 <span className="text-xs text-foreground/90 font-medium leading-snug">
                   Provee liquidez y opera en el AMM DEX
                 </span>
               </div>
-              <div className="flex items-start gap-2.5">
+              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-card/80 border border-border/60">
                 <CheckCircle2 className="size-4 text-primary shrink-0 mt-0.5" />
                 <span className="text-xs text-foreground/90 font-medium leading-snug">
                   Gana 10 Reliquias NFT con firmas ECDSA
                 </span>
               </div>
-              <div className="flex items-start gap-2.5">
+              <div className="flex items-start gap-2.5 p-3 rounded-xl bg-card/80 border border-border/60">
                 <CheckCircle2 className="size-4 text-primary shrink-0 mt-0.5" />
                 <span className="text-xs text-foreground/90 font-medium leading-snug">
                   Compite en el ranking de liquidez en vivo
@@ -150,34 +175,34 @@ export default function DefiLabSection() {
               </div>
             </div>
 
-            {/* Grupo de Botones de Acción */}
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            {/* Grupo de Botones de Acción (CTAs Prominentes Centrados) */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-3 w-full">
               {/* Botón Principal: Lanzar dApp */}
               <a
                 href="https://web3-usach-lab.cbaeza.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground font-bold text-sm px-5 py-3 hover:bg-primary/90 shadow-md hover:shadow-primary/25 hover:-translate-y-0.5 transition-all cursor-pointer group"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 rounded-2xl bg-primary text-primary-foreground font-black text-base sm:text-lg px-8 py-4.5 hover:bg-primary/95 shadow-xl shadow-primary/30 hover:shadow-2xl hover:shadow-primary/45 hover:-translate-y-1 active:translate-y-0 transition-all duration-200 cursor-pointer group"
               >
-                <Flame className="size-4 text-amber-300 group-hover:scale-110 transition-transform" />
-                <span>{(t("defiLabSection.actions.launchApp") as string) || "Abrir Laboratorio Web3"}</span>
-                <ExternalLink className="size-3.5 group-hover:translate-x-0.5 transition-transform" />
+                <Flame className="size-5 sm:size-6 text-amber-300 group-hover:scale-125 transition-transform duration-300 animate-pulse" />
+                <span className="tracking-tight">{(t("defiLabSection.actions.launchApp") as string) || "Abrir Laboratorio Web3"}</span>
+                <ExternalLink className="size-4 sm:size-5 group-hover:translate-x-1 group-hover:-translate-y-0.5 transition-transform duration-200" />
               </a>
 
-              {/* Botón Ranking */}
+              {/* Botón Secundario: Ranking */}
               <a
                 href="https://web3-usach-lab.cbaeza.com/ranking"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-card border border-border/80 text-foreground font-semibold text-xs sm:text-sm px-4 py-3 hover:bg-accent hover:border-primary/40 transition-all cursor-pointer group"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-2xl bg-card border-2 border-border/80 hover:border-primary/50 text-foreground hover:text-primary font-bold text-sm sm:text-base px-6 py-4.5 hover:bg-primary/5 shadow-md hover:shadow-lg hover:-translate-y-1 active:translate-y-0 transition-all duration-200 cursor-pointer group"
               >
-                <Trophy className="size-4 text-amber-500" />
+                <Trophy className="size-5 text-amber-500 group-hover:scale-115 transition-transform duration-200" />
                 <span>{(t("defiLabSection.actions.openRanking") as string) || "Ver Ranking en Vivo"}</span>
               </a>
             </div>
 
-            {/* Enlaces a los Artículos Técnicos del Blog y Repositorios */}
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 pt-2 border-t border-border/50 text-xs text-muted-foreground">
+            {/* Enlaces a los Artículos Técnicos del Blog y Repositorios (Centrados) */}
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 pt-4 border-t border-border/50 text-xs text-muted-foreground text-center">
               <Link
                 href="/blog/laboratorio-web3-usach-dapp-defi-smart-contracts-sepolia/"
                 className="inline-flex items-center gap-1.5 text-primary hover:underline font-semibold transition-colors"
@@ -213,29 +238,6 @@ export default function DefiLabSection() {
                 <i className="fa-brands fa-github text-xs" />
                 <span>GitHub Contratos</span>
               </a>
-            </div>
-          </div>
-
-          {/* Lado Derecho: Imagen Ilustrativa de la dApp con Efecto Glassmorphism */}
-          <div className="w-full lg:w-1/2 relative group z-10">
-            <div className="relative rounded-2xl overflow-hidden border border-border/80 shadow-xl bg-card/80 transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-2xl">
-              <Image
-                src="/images/blog/usach-lab/hero_page.png"
-                alt="Laboratorio Web3 DeFi USACH en Ethereum Sepolia"
-                width={800}
-                height={480}
-                className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-                unoptimized
-              />
-              {/* Badge Flotante sobre la imagen */}
-              <div className="absolute top-3 ltr:left-3 rtl:right-3 bg-background/90 backdrop-blur-md border border-border/80 px-3 py-1.5 rounded-xl shadow-md flex items-center gap-2">
-                <span className="size-2 rounded-full bg-emerald-500 animate-pulse" />
-                <span className="text-[11px] font-bold text-foreground">Ethereum Sepolia (Chain ID 11155111)</span>
-              </div>
-              <div className="absolute bottom-3 ltr:right-3 rtl:left-3 bg-background/90 backdrop-blur-md border border-border/80 px-3 py-1.5 rounded-xl shadow-md flex items-center gap-1.5">
-                <i className="fa-solid fa-server text-xs text-primary" />
-                <span className="text-[11px] font-bold text-foreground">100% Serverless On-Chain</span>
-              </div>
             </div>
           </div>
         </div>
