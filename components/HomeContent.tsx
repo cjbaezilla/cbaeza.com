@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Slider from "@/components/Slider";
 import { BlogCard } from "@/components/blog/BlogCard";
+import DefiLabSection from "@/components/DefiLabSection";
 import { BlogPostMeta } from "@/lib/blog";
 import { useTranslation } from "@/context/I18nContext";
 
@@ -160,6 +161,9 @@ export default function HomeContent({ newsPosts, tutorialPosts = [] }: HomeConte
             </div>
           </div>
         </header>
+
+        {/* Sección del Laboratorio DeFi Web3 On-Chain */}
+        <DefiLabSection />
 
         {/* Sección de Tutoriales del Blog */}
         {tutorialPosts && tutorialPosts.length > 0 && (

@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Inicio",
+    "defiLab": "Laboratorio DeFi",
     "tutorials": "Tutoriales",
     "publications": "Publicaciones",
     "projects": "Proyectos",
@@ -69,6 +70,120 @@
     "sliderTitle": "Últimas Noticias & Novedades",
     "viewAllNews": "Ver todas",
     "readMore": "Leer artículo"
+  },
+  "defiLabSection": {
+    "badge": "Laboratorio DeFi Web3 On-Chain",
+    "title": "Aprende Web3 y DeFi desde Cero en Ethereum Sepolia",
+    "subtitle": "Plataforma educativa y curso práctico interactivo 100% gratuito y libre de riesgo financiero. Diseñado para estudiantes, desarrolladores y cualquier persona curiosa que desee dominar contratos inteligentes, creación de tokens, piscinas de liquidez AMM y validación criptográfica en un entorno descentralizado real.",
+    "tags": {
+      "free": "100% Gratuito y Abierto",
+      "testnet": "Ethereum Sepolia Testnet",
+      "noRisk": "Sin Riesgo de Capital",
+      "onChain": "Arquitectura 100% On-Chain",
+      "relics": "10 Desafíos & Reliquias NFT"
+    },
+    "featuresTitle": "Módulos Interactivos y Arquitectura On-Chain",
+    "featuresSubtitle": "Un entorno completo que opera sin servidores ni bases de datos tradicionales: la blockchain es la única fuente de verdad.",
+    "features": [
+      {
+        "icon": "fa-solid fa-id-card",
+        "title": "Identidad Digital Soberana",
+        "description": "Vincula tu billetera Web3 con un perfil académico inmutable registrado en StudentIdentity.sol, con enlaces a GitHub, redes y avatar."
+      },
+      {
+        "icon": "fa-solid fa-coins",
+        "title": "Fábrica de Tokens ERC-20 & Permit",
+        "description": "Despliega tus propios activos fungibles con soporte para emisión (mint), quema, pausabilidad y transferencias sin gas vía EIP-2612."
+      },
+      {
+        "icon": "fa-solid fa-right-left",
+        "title": "Envoltura de Ether Canónica (WETH)",
+        "description": "Custodia y envuelve ETH en paridad 1:1 para operar fluidamente dentro de piscinas de liquidez y protocolos descentralizados."
+      },
+      {
+        "icon": "fa-solid fa-chart-line",
+        "title": "Creador de Mercado AMM & Piscinas DEX",
+        "description": "Algoritmo de producto constante x · y = k con comisiones del 0.3%, emisión proporcional de tokens LP y deslizamiento dinámico."
+      },
+      {
+        "icon": "fa-solid fa-shield-halved",
+        "title": "Acreditación Criptográfica ECDSA",
+        "description": "Validación híbrida off-chain y acuñación on-chain de insignias NFT (ERC-1155) respaldadas por firmas criptográficas EIP-191."
+      },
+      {
+        "icon": "fa-solid fa-trophy",
+        "title": "Ranking de Liquidez en Tiempo Real",
+        "description": "Indexación en vivo de contratos y seguimiento de TVL en WETH para fomentar la coordinación comunitaria y la liquidez."
+      }
+    ],
+    "metricsTitle": "Métricas On-Chain y Resultados Reales",
+    "metricsSubtitle": "Datos verificables en el historial inmutable de Ethereum Sepolia durante las sesiones formativas:",
+    "metrics": [
+      {
+        "value": "+2,460",
+        "label": "Transacciones On-Chain",
+        "description": "Ejecutadas directamente en la EVM",
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "value": "+3,331",
+        "label": "Eventos Registrados",
+        "description": "Logs inmutables emitidos",
+        "icon": "fa-solid fa-list-check"
+      },
+      {
+        "value": "33.32 WETH",
+        "label": "TVL Bloqueado",
+        "description": "Liquidez agregada en piscinas",
+        "icon": "fa-brands fa-ethereum"
+      },
+      {
+        "value": "115",
+        "label": "Tokens Desplegados",
+        "description": "Contratos ERC-20 instanciados",
+        "icon": "fa-solid fa-coins"
+      },
+      {
+        "value": "98",
+        "label": "Piscinas DEX Creadas",
+        "description": "Mercados de intercambio activos",
+        "icon": "fa-solid fa-water"
+      },
+      {
+        "value": "241",
+        "label": "Reliquias NFT Acuñadas",
+        "description": "Insignias de logros ERC-1155",
+        "icon": "fa-solid fa-award"
+      }
+    ],
+    "perksTitle": "¿Por qué unirte a la experiencia?",
+    "perks": [
+      {
+        "title": "Aprende Experimentando (Hands-On)",
+        "desc": "Conecta MetaMask u otra billetera Web3 y opera directamente contra la EVM con llamadas JSON-RPC sin intermediarios."
+      },
+      {
+        "title": "Cero Riesgo Financiero",
+        "desc": "Todo funciona en la red de pruebas Sepolia con ETH gratuito de grifo (faucet), permitiéndote probar y experimentar con total libertad."
+      },
+      {
+        "title": "Certificación Demostrable en Cadena",
+        "desc": "Supera la senda de 10 desafíos progresivos y obtén reliquias NFT inmutables asociadas a tu dirección pública como portafolio técnico."
+      },
+      {
+        "title": "100% Código Abierto & Transparente",
+        "desc": "Acceso libre a todos los repositorios: frontend en React 19/Next.js y suite de contratos inteligentes en Solidity."
+      }
+    ],
+    "actions": {
+      "launchApp": "Abrir Laboratorio Web3",
+      "readArchitecture": "Guía de Arquitectura de Contratos",
+      "readResults": "Reporte de Métricas On-Chain",
+      "githubFrontend": "Repositorio Frontend",
+      "githubContracts": "Repositorio Contratos",
+      "openRanking": "Ver Ranking en Vivo",
+      "learnFromZero": "Comenzar Gratis desde Cero"
+    }
   },
   "tutorialsSection": {
     "badge": "Tutoriales & Guías Paso a Paso",

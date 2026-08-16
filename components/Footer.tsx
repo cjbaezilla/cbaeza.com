@@ -126,6 +126,15 @@ export default function Footer() {
             </li>
             <li>
               <Link
+                href="/#defi-lab"
+                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
+              >
+                <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
+                {(t("nav.defiLab") as string) || "Laboratorio DeFi"}
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/blog/categoria/tutoriales/"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
               >
