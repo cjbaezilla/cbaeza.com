@@ -3,7 +3,7 @@ title: "15m.chat: Chat Privado y Encriptado que se Autodestruye en 15 Minutos"
 date: "21-02-2026"
 excerpt: "Documentación técnica completa sobre la arquitectura, seguridad y desarrollo de 15m.chat: una aplicación web de mensajería efímera construida con CodeIgniter 4, encriptación AES-256 y autodestrucción automática."
 author: "Carlos Baeza Negroni"
-categories: ["Desarrollo Web", "Tutoriales"]
+categories: ["Desarrollo", "Tutoriales"]
 tags: ["PHP", "CodeIgniter", "Seguridad", "Criptografía", "MySQL", "Tailwind CSS", "Privacidad", "Chat Efímero", "Open Source", "Web Development"]
 coverImage: "/images/blog/15chat_cover.png"
 readTime: "25 min de lectura"
