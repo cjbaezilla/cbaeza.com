@@ -31,7 +31,6 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { href: "#publications", label: t("nav.publications") as string },
     { href: "#foundations", label: t("nav.foundations") as string },
     { href: "#projects", label: t("nav.projects") as string },
     { href: "#background", label: t("nav.background") as string },
@@ -151,7 +150,7 @@ export default function Navbar() {
             {/* Enlaces de Secciones */}
             <div className="flex flex-col gap-1">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground/70 px-2 pb-1">
-                {t("nav.publications") ? "Secciones" : "Menú"}
+                Secciones
               </span>
               {navLinks.map((link) => (
                 <Link

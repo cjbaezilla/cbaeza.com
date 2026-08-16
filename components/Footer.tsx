@@ -128,16 +128,6 @@ export default function Footer() {
           <ul className="flex flex-col gap-3 text-xs font-medium w-full">
             <li>
               <Link
-                href="#publications"
-                onClick={(e) => handleScrollTo(e, "publications")}
-                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
-              >
-                <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
-                {t("nav.publications") as string}
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="#projects"
                 onClick={(e) => handleScrollTo(e, "projects")}
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
