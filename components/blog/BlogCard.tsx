@@ -10,9 +10,10 @@ import { useTranslation } from "@/context/I18nContext";
 
 interface BlogCardProps {
   post: BlogPostMeta;
+  showTags?: boolean;
 }
 
-export function BlogCard({ post }: BlogCardProps) {
+export function BlogCard({ post, showTags = false }: BlogCardProps) {
   const { t } = useTranslation();
 
   return (
@@ -38,17 +39,17 @@ export function BlogCard({ post }: BlogCardProps) {
             src={post.coverImage}
             alt={post.title}
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             className="relative z-10 object-contain transition-transform duration-500 group-hover:scale-105"
           />
         </Link>
       )}
 
       {/* Contenido de la Tarjeta */}
-      <div className="p-5 sm:p-6 flex flex-col flex-1 justify-between">
+      <div className="p-4 sm:p-5 flex flex-col flex-1 justify-between">
         <div>
           {/* Categorías y Tiempo de lectura */}
-          <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+          <div className="flex flex-wrap items-center justify-between gap-2 mb-2.5">
             <div className="flex flex-wrap items-center gap-1.5">
               {post.categories.map((cat, idx) => {
                 const catSlug = post.categorySlugs[idx];
@@ -71,22 +72,22 @@ export function BlogCard({ post }: BlogCardProps) {
           </div>
 
           {/* Título del artículo */}
-          <h3 className="text-xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-2">
+          <h3 className="text-base sm:text-lg font-bold tracking-tight text-foreground group-hover:text-primary transition-colors mb-2.5 line-clamp-2">
             <Link href={`/blog/${post.slug}/`} className="focus:outline-hidden">
               {post.title}
             </Link>
           </h3>
 
           {/* Extracto */}
-          <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3 mb-5">
+          <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed line-clamp-3 mb-4">
             {post.excerpt}
           </p>
         </div>
 
-        {/* Pie de tarjeta: Fecha, Tags y Botón de lectura */}
-        <div className="pt-4 border-t border-border/40 mt-auto flex flex-col gap-3">
+        {/* Pie de tarjeta: Fecha, Tags (opcional) y Botón de lectura */}
+        <div className="pt-3.5 border-t border-border/40 mt-auto flex flex-col gap-2.5">
           {/* Tags */}
-          {post.tags.length > 0 && (
+          {showTags && post.tags.length > 0 && (
             <div className="flex flex-wrap gap-1.5 items-center">
               <TagIcon className="size-3 text-muted-foreground/60 shrink-0" />
               {post.tags.map((tag, idx) => {
@@ -106,14 +107,14 @@ export function BlogCard({ post }: BlogCardProps) {
           )}
 
           {/* Fecha y Enlace */}
-          <div className="flex items-center justify-between pt-1 text-xs text-muted-foreground">
+          <div className="flex items-center justify-between pt-0.5 text-xs text-muted-foreground">
             <div className="flex items-center gap-1.5">
               <Calendar className="size-3.5" />
               <time dateTime={post.dateIso || post.date}>{post.date}</time>
             </div>
             <Link
               href={`/blog/${post.slug}/`}
-              className="inline-flex items-center gap-1 font-semibold text-primary group-hover:translate-x-0.5 transition-transform"
+              className="inline-flex items-center gap-1 font-semibold text-primary group-hover:translate-x-0.5 transition-transform text-xs"
             >
               <span>{(t("blog.readArticle") as string) || "Leer más"}</span>
               <ArrowRight className="size-3.5" />

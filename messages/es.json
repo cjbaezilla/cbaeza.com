@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Inicio",
+    "tutorials": "Tutoriales",
     "publications": "Publicaciones",
     "projects": "Proyectos",
     "foundations": "Fundamentos",
@@ -68,6 +69,14 @@
     "sliderTitle": "Últimas Noticias & Novedades",
     "viewAllNews": "Ver todas",
     "readMore": "Leer artículo"
+  },
+  "tutorialsSection": {
+    "badge": "Tutoriales & Guías Paso a Paso",
+    "title": "Tutoriales Técnicos",
+    "subtitle": "Guías prácticas completas, código fuente e implementaciones reales de Web3, IA, Solidity y desarrollo de software.",
+    "viewAll": "Ver todos los tutoriales",
+    "showMore": "Mostrar más tutoriales",
+    "showLess": "Mostrar menos"
   },
   "publications": [
     {

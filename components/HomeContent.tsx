@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Slider from "@/components/Slider";
+import { BlogCard } from "@/components/blog/BlogCard";
 import { BlogPostMeta } from "@/lib/blog";
 import { useTranslation } from "@/context/I18nContext";
 
@@ -23,14 +24,18 @@ interface HackathonItem {
 
 interface HomeContentProps {
   newsPosts: BlogPostMeta[];
+  tutorialPosts: BlogPostMeta[];
 }
 
-export default function HomeContent({ newsPosts }: HomeContentProps) {
+export default function HomeContent({ newsPosts, tutorialPosts = [] }: HomeContentProps) {
   const { t } = useTranslation();
 
   // Obtener colecciones desde los diccionarios con tipado explícito
   const certificationsList = (t("certifications.items") as CertificationItem[]) || [];
   const hackathonsList = (t("hackathons.items") as HackathonItem[]) || [];
+
+  // Mostrar únicamente 2 filas de resultados con los más nuevos (4 columnas x 2 filas = 8 artículos)
+  const latestTutorials = tutorialPosts.slice(0, 8);
 
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
@@ -156,6 +161,49 @@ export default function HomeContent({ newsPosts }: HomeContentProps) {
           </div>
         </header>
 
+        {/* Sección de Tutoriales del Blog */}
+        {tutorialPosts && tutorialPosts.length > 0 && (
+          <section id="tutorials" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40 relative overflow-hidden bg-card/20">
+            {/* Fondo decorativo sutil */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[600px] bg-primary/[0.03] rounded-full blur-3xl pointer-events-none"></div>
+
+            <div className="flex flex-col gap-10 relative z-10 w-full">
+              {/* Cabecera de la Sección */}
+              <div className="flex flex-col gap-3">
+                <span className="inline-flex items-center gap-2 rounded-xl bg-card border border-border/80 px-3.5 py-1.5 text-xs font-semibold text-muted-foreground shadow-sm w-fit">
+                  <i className="fa-solid fa-graduation-cap text-primary"></i>
+                  {t("tutorialsSection.badge") as string}
+                </span>
+
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-black tracking-tight">
+                    {t("tutorialsSection.title") as string}
+                  </h2>
+
+                  {/* Enlace directo a la categoría de tutoriales alineado con el título */}
+                  <Link
+                    href="/blog/categoria/tutoriales/"
+                    className="inline-flex items-center gap-2 text-xs font-bold text-primary hover:text-primary/80 bg-primary/10 hover:bg-primary/20 px-4 py-2.5 rounded-xl border border-primary/20 transition-all group shrink-0 w-fit"
+                  >
+                    <span>{t("tutorialsSection.viewAll") as string} ({tutorialPosts.length})</span>
+                    <i className="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition-transform"></i>
+                  </Link>
+                </div>
+
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed max-w-3xl">
+                  {t("tutorialsSection.subtitle") as string}
+                </p>
+              </div>
+
+              {/* Grid de Artículos de Tutoriales (4 tarjetas por fila, 2 filas) */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                {latestTutorials.map((post) => (
+                  <BlogCard key={post.slug} post={post} showTags={false} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Certificaciones & Hackatones */}
         <section id="certifications" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 border-b border-border/40 bg-card/10">
