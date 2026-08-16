@@ -81,6 +81,7 @@ El sitio cuenta con un sistema de blog 100% estático que no requiere bases de d
   tags: ["Solidity", "EVM", "Auditoría"]
   coverImage: "/images/logo.png" # Opcional
   readTime: "5 min de lectura" # Opcional (se autocalcula si se omite)
+  featured: false # Opcional booleano para destacar artículos
   ---
   ```
 

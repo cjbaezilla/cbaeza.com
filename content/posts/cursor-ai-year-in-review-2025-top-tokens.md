@@ -7,6 +7,7 @@ categories: ["Noticias", "AI"]
 tags: ["Cursor", "Inteligencia Artificial", "Productividad", "Tokens", "Claude Sonnet", "Agentes de IA", "Desarrollo", "Software Engineering", "Santiago", "Chile"]
 coverImage: "/images/blog/cursor-year-in-review-top-tokens.png"
 readTime: "7 min de lectura"
+featured: false
 ---
 
 El año 2025 marcó un punto de inflexión definitivo en la manera en que los desarrolladores e ingenieros de software conceptualizamos, escribimos y mantenemos sistemas digitales. La transición de los asistentes de código reactivos hacia entornos integrados impulsados por **agentes autónomos y modelos de razonamiento avanzado** transformó por completo los flujos de trabajo diarios.

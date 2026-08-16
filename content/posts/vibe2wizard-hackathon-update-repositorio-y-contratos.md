@@ -7,6 +7,7 @@ categories: ["Noticias", "Hackathons"]
 tags: ["Avalanche", "Solidity", "Smart Contracts", "Next.js", "React", "Wagmi", "RainbowKit", "ERC-721", "Soulbound", "Web3", "Hackathon", "TypeScript"]
 coverImage: "/images/blog/vibe2wizard-portada3.png"
 readTime: "40 min de lectura"
+featured: false
 ---
 
 Quiero compartir con ustedes lo que nuestro equipo logró durante el **Hackathon Build Games de Avalanche**, porque creo firmemente que lo que construimos representa un aporte genuinamente significativo para la comunidad Web3, aun cuando nuestra participación en este hackathon en particular haya alcanzado su conclusión natural. Pusimos todo nuestro corazón en crear **Vibe2Wizard**, una plataforma de aprendizaje gamificada que guía a las personas desde el nivel de principiantes absolutos hasta convertirse en desarrolladores verificados on-chain, y estoy profundamente orgulloso de todo lo que entregamos durante este intenso sprint creativo.

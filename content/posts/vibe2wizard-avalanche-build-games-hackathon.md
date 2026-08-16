@@ -7,6 +7,7 @@ categories: ["Noticias", "Hackathons"]
 tags: ["Avalanche", "Hackathon", "Web3", "Gaming", "Solidity", "Smart Contracts", "ERC-5192", "ERC-7510", "Vibe Coding", "Gamificación"]
 coverImage: "/images/blog/vibe2wizard-portada2.png"
 readTime: "30 min de lectura"
+featured: false
 ---
 
 ¡Emocionado de compartir que he sido seleccionado para el programa **Build Games** de **Avalanche**!

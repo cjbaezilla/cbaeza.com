@@ -20,6 +20,7 @@ export interface BlogPostMeta {
   tagSlugs: string[];
   coverImage?: string;
   readTime: string;
+  featured?: boolean;
 }
 
 export interface BlogPost extends BlogPostMeta {
@@ -168,6 +169,7 @@ export function getAllPosts(): BlogPostMeta[] {
     const readTime = (data.readTime as string) || calculateReadingTime(content);
     const date = formatDate(data.date);
     const dateIso = formatIsoDate(data.date);
+    const featured = Boolean(data.featured ?? data.destacado ?? false);
 
     return {
       slug,
@@ -184,6 +186,7 @@ export function getAllPosts(): BlogPostMeta[] {
       tagSlugs,
       coverImage: data.coverImage as string | undefined,
       readTime,
+      featured,
     };
   });
 
@@ -233,6 +236,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   const readTime = (data.readTime as string) || calculateReadingTime(content);
   const date = formatDate(data.date);
   const dateIso = formatIsoDate(data.date);
+  const featured = Boolean(data.featured ?? data.destacado ?? false);
 
   return {
     slug,
@@ -249,6 +253,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     tagSlugs,
     coverImage: data.coverImage as string | undefined,
     readTime,
+    featured,
     contentHtml,
     contentRaw: content,
   };

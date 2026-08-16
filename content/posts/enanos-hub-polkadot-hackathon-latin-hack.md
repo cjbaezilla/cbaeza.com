@@ -7,6 +7,7 @@ categories: ["Noticias", "Hackathons"]
 tags: ["Polkadot", "Hackathon", "Solidity", "DeFi", "DAO", "NFT", "Smart Contracts", "Next.js", "Uniswap"]
 coverImage: "/images/blog/portada-enanos-hub.png"
 readTime: "10 min de lectura"
+featured: false
 ---
 
 **Enanos Hub** (Enanos Club) es un ecosistema integral de finanzas descentralizadas (DeFi) y gobernanza comunitaria diseñado y desplegado en la testnet de **Polkadot Asset Hub**. Su propósito central es dotar de utilidad económica y herramientas operativas a creadores de comunidades y colecciones NFT, permitiéndoles emitir tokens ERC-20 propios, gestionar organizaciones autónomas descentralizadas (DAOs), proveer liquidez en pools automatizados y realizar intercambios de tokens (*swaps*) de manera eficiente y descentralizada.

@@ -7,6 +7,7 @@ categories: ["Tutoriales", "Desarrollo"]
 tags: ["Cursor", "Inteligencia Artificial", "Solidity", "Smart Contracts", "Next.js", "RainbowKit", "MetaMask", "Remix", "Web3", "DApps"]
 coverImage: "/images/blog/smart-contract-ia-cursor.png"
 readTime: "8 min de lectura"
+featured: false
 ---
 
 El desarrollo en **Web3** y la creación de aplicaciones descentralizadas (**dApps**) solían tener una curva de aprendizaje intimidante para muchos programadores. Entre entender la sintaxis de Solidity, configurar proveedores RPC, gestionar billeteras y conectar contratos inteligentes con interfaces modernas de React, el proceso requería dominar múltiples capas técnicas en simultáneo.

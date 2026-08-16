@@ -7,6 +7,7 @@ categories: ["Desarrollo Web", "Tutoriales"]
 tags: ["Vibe Coding", "API", "CodeIgniter", "PHP", "Shield", "Backend", "IA", "REST API", "Seguridad", "OpenCode", "Laragon", "Despliegue"]
 coverImage: "/images/blog/vibe-coding-launchpad-api-portada.png"
 readTime: "45 min de lectura"
+featured: false
 ---
 
 ## Cómo Usar Esta Guía (Sí, Es Larga; He Aquí Por Qué Eso Es Algo Bueno)

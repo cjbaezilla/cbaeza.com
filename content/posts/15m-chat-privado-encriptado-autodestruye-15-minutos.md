@@ -7,6 +7,7 @@ categories: ["Desarrollo Web", "Tutoriales"]
 tags: ["PHP", "CodeIgniter", "Seguridad", "Criptografía", "MySQL", "Tailwind CSS", "Privacidad", "Chat Efímero", "Open Source", "Web Development"]
 coverImage: "/images/blog/15chat_cover.png"
 readTime: "25 min de lectura"
+featured: false
 ---
 
 ## Introducción

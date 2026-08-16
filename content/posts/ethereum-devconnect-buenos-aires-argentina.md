@@ -7,6 +7,7 @@ categories: ["Noticias", "Eventos"]
 tags: ["Ethereum", "Devconnect", "Buenos Aires", "Web3", "Blockchain", "ENS", "Celo", "Tally", "Rotki", "DeFi", "L2", "Comunidad"]
 coverImage: "/images/blog/devconnect_portada.png"
 readTime: "9 min de lectura"
+featured: false
 ---
 
 Del **17 al 22 de noviembre de 2025**, la vibrante ciudad de Buenos Aires, Argentina, se convirtió en la capital mundial del ecosistema Web3 al ser la sede oficial de la **primera Feria Mundial de Ethereum (Ethereum World’s Fair)**, enmarcada en la histórica edición de **[Ethereum Devconnect](https://devconnect.org/)**.
