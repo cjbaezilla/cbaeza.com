@@ -314,7 +314,8 @@ export function getAllTags(): TagInfo[] {
  */
 export function getPostsByCategory(categorySlug: string): BlogPostMeta[] {
   const posts = getAllPosts();
-  return posts.filter((post) => post.categorySlugs.includes(categorySlug));
+  const target = slugify(categorySlug);
+  return posts.filter((post) => post.categorySlugs.includes(target));
 }
 
 /**
@@ -322,7 +323,8 @@ export function getPostsByCategory(categorySlug: string): BlogPostMeta[] {
  */
 export function getPostsByTag(tagSlug: string): BlogPostMeta[] {
   const posts = getAllPosts();
-  return posts.filter((post) => post.tagSlugs.includes(tagSlug));
+  const target = slugify(tagSlug);
+  return posts.filter((post) => post.tagSlugs.includes(target));
 }
 
 /**

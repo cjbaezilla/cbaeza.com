@@ -61,7 +61,8 @@
     "description": "Ingeniero de software especializado en Solidity, DeFi y todo el ecosistema de Ethereum y su máquina virtual EVM. Su trayectoria incluye el diseño e implementación de arquitecturas complejas como DAOs, colecciones de NFTs, tokenización de activos del mundo real (RWA), emisión de stablecoins, sistemas de pagos transfronterizos y mecanismos avanzados de staking y tokenomics. Destaca por su capacidad para desplegar y gestionar redes de Capa 1 y Capa 2 (L1/L2), diseñando desde entornos privados y permisionados para consorcios cerrados hasta redes públicas basadas en consensos de minado. Asimismo, complementa su perfil técnico con una sólida experiencia en plataformas de medios de comunicación a gran escala y un fuerte compromiso con la docencia en ciencias de la computación.",
     "badge": "Desarrollo Web3 y Sistemas Descentralizados",
     "cta": "GitHub",
-    "sliderTitle": "Publicaciones Recientes",
+    "sliderTitle": "Últimas Noticias & Novedades",
+    "viewAllNews": "Ver todas",
     "readMore": "Leer artículo"
   },
   "publications": [
