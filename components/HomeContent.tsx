@@ -198,7 +198,7 @@ export default function HomeContent({ newsPosts, tutorialPosts = [] }: HomeConte
               {/* Grid de Artículos de Tutoriales (4 tarjetas por fila, 2 filas) */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
                 {latestTutorials.map((post) => (
-                  <BlogCard key={post.slug} post={post} showTags={false} />
+                  <BlogCard key={post.slug} post={post} showTags={false} showDate={false} />
                 ))}
               </div>
             </div>

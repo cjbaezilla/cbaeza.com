@@ -11,9 +11,10 @@ import { useTranslation } from "@/context/I18nContext";
 interface BlogCardProps {
   post: BlogPostMeta;
   showTags?: boolean;
+  showDate?: boolean;
 }
 
-export function BlogCard({ post, showTags = false }: BlogCardProps) {
+export function BlogCard({ post, showTags = false, showDate = true }: BlogCardProps) {
   const { t } = useTranslation();
 
   return (
@@ -107,11 +108,17 @@ export function BlogCard({ post, showTags = false }: BlogCardProps) {
           )}
 
           {/* Fecha y Enlace */}
-          <div className="flex items-center justify-between pt-0.5 text-xs text-muted-foreground">
-            <div className="flex items-center gap-1.5">
-              <Calendar className="size-3.5" />
-              <time dateTime={post.dateIso || post.date}>{post.date}</time>
-            </div>
+          <div
+            className={`flex items-center pt-0.5 text-xs text-muted-foreground ${
+              showDate ? "justify-between" : "justify-start"
+            }`}
+          >
+            {showDate && (
+              <div className="flex items-center gap-1.5">
+                <Calendar className="size-3.5" />
+                <time dateTime={post.dateIso || post.date}>{post.date}</time>
+              </div>
+            )}
             <Link
               href={`/blog/${post.slug}/`}
               className="inline-flex items-center gap-1 font-semibold text-primary group-hover:translate-x-0.5 transition-transform text-xs"
