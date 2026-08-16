@@ -257,24 +257,31 @@ export default function DefiLabSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
             {metrics.map((metric, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center sm:items-start text-center sm:text-start p-4 rounded-2xl bg-card border border-border/80 hover:border-primary/40 hover:bg-card/90 shadow-2xs hover:shadow-sm transition-all group"
+                className="flex flex-col justify-between gap-2.5 p-4 rounded-2xl bg-card border border-border/80 hover:border-primary/40 hover:bg-card/90 shadow-2xs hover:shadow-sm transition-all group"
               >
-                <div className="size-9 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:scale-110 transition-transform mb-3">
-                  <i className={`${metric.icon} text-sm`} />
+                {/* Fila Superior: Ícono a la izquierda + Textos Blancos/Destacados a la derecha */}
+                <div className="flex items-center gap-2.5">
+                  <div className="size-7.5 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center text-primary shrink-0 group-hover:scale-105 group-hover:bg-primary group-hover:text-primary-foreground transition-all">
+                    <i className={`${metric.icon} text-xs`} />
+                  </div>
+                  <div className="flex flex-col min-w-0">
+                    <span className="text-base sm:text-lg font-black text-foreground tracking-tight group-hover:text-primary transition-colors truncate">
+                      {metric.value}
+                    </span>
+                    <span className="text-[11px] font-bold text-foreground/90 leading-tight truncate">
+                      {metric.label}
+                    </span>
+                  </div>
                 </div>
-                <span className="text-xl sm:text-2xl font-black text-foreground tracking-tight group-hover:text-primary transition-colors">
-                  {metric.value}
-                </span>
-                <span className="text-xs font-bold text-foreground/90 mt-0.5 leading-snug">
-                  {metric.label}
-                </span>
-                <span className="text-[11px] text-muted-foreground mt-1 leading-tight">
+
+                {/* Texto Gris descriptivo abajo a ancho completo */}
+                <p className="text-[11.5px] text-muted-foreground leading-snug w-full pt-1.5 border-t border-border/40">
                   {metric.description}
-                </span>
+                </p>
               </div>
             ))}
           </div>
@@ -301,13 +308,18 @@ export default function DefiLabSection() {
                 key={index}
                 className="flex flex-col gap-3 p-5 rounded-2xl bg-card border border-border/70 hover:border-primary/50 hover:bg-card/90 shadow-2xs hover:shadow-md transition-all group"
               >
-                <div className="size-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:scale-105 group-hover:bg-primary group-hover:text-primary-foreground transition-all">
-                  <i className={`${feature.icon} text-base`} />
+                {/* Fila Superior: Ícono a la izquierda + Título Blanco a la derecha */}
+                <div className="flex items-center gap-3">
+                  <div className="size-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary shrink-0 group-hover:scale-105 group-hover:bg-primary group-hover:text-primary-foreground transition-all">
+                    <i className={`${feature.icon} text-base`} />
+                  </div>
+                  <h4 className="text-base font-bold text-foreground group-hover:text-primary transition-colors leading-snug">
+                    {feature.title}
+                  </h4>
                 </div>
-                <h4 className="text-base font-bold text-foreground group-hover:text-primary transition-colors">
-                  {feature.title}
-                </h4>
-                <p className="text-xs text-muted-foreground leading-relaxed">
+
+                {/* Texto Gris descriptivo abajo a ancho completo */}
+                <p className="text-xs text-muted-foreground leading-relaxed w-full">
                   {feature.description}
                 </p>
               </div>
