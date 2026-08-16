@@ -370,3 +370,15 @@ body > .skiptranslate {
   max-width: 100%;
   height: auto;
 }
+
+.prose-blog .mermaid-wrapper svg text {
+  font-family: inherit !important;
+  font-size: 14px;
+}
+
+.prose-blog .mermaid-wrapper svg .node rect,
+.prose-blog .mermaid-wrapper svg .node circle,
+.prose-blog .mermaid-wrapper svg .node polygon {
+  rx: 8px;
+  ry: 8px;
+}
