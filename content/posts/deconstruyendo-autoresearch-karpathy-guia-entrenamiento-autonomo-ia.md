@@ -3,7 +3,7 @@ title: "Deconstruyendo Autoresearch de Andrej Karpathy: Guía Línea por Línea 
 date: "18-05-2026"
 excerpt: "Guía completa y exhaustiva sobre Autoresearch de Andrej Karpathy: cómo funciona un agente de IA que optimiza su propio código de entrenamiento de forma autónoma mediante un ciclo de experimentos de 5 minutos, analizando prepare.py, train.py y program.md al detalle."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["Autoresearch", "Andrej Karpathy", "Agentes de IA", "Machine Learning", "Deep Learning", "PyTorch", "Transformers", "GPT", "Optimizadores", "Muon", "Entrenamiento Autónomo"]
 coverImage: "/images/blog/autoresearch_cover.png"
 readTime: "45 min de lectura"

@@ -3,7 +3,7 @@ title: "Construye tu Propio Bot de Telegram Inspirado en OpenClaw: Guía Prácti
 date: "04-06-2026"
 excerpt: "Aprende a integrar el SDK de OpenCode con un bot de Telegram y agentes de OpenRouter para controlar funciones de desarrollo y recibir asistencia de IA directamente desde tu teléfono móvil."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["OpenCode", "Telegram Bot", "OpenRouter", "Node.js", "Agentes de IA", "Automatización", "SDK", "Desarrollo Móvil", "JavaScript"]
 coverImage: "/images/blog/openclaw_cover.png"
 readTime: "45 min de lectura"

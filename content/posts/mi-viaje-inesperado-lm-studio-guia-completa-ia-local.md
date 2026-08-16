@@ -3,7 +3,7 @@ title: "Mi viaje inesperado en LM Studio: Guía completa para ejecutar Inteligen
 date: "08-04-2026"
 excerpt: "Guía exhaustiva y práctica para ejecutar modelos de inteligencia artificial en tu propia computadora con LM Studio: requerimientos de hardware, cuantizaciones GGUF/AWQ/GPTQ, arquitecturas MoE/SOTA, uso de herramientas, visión multimodal e integración con OpenCode Desktop."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["LM Studio", "Inteligencia Artificial", "IA Local", "OpenCode", "GGUF", "GPTQ", "AWQ", "MoE", "SOTA", "Hardware", "CUDA", "Privacidad", "Vibe Coding"]
 coverImage: "/images/blog/lmstudio_cover.png"
 readTime: "45 min de lectura"

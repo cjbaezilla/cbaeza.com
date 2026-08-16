@@ -3,7 +3,7 @@ title: "El Manual Completo de las Propuestas de Mejora de Ethereum (EIPs y ERCs)
 date: "16-03-2026"
 excerpt: "Guía exhaustiva sobre el ecosistema de las Ethereum Improvement Proposals (EIPs) y estándares ERC: gobernanza técnica, ciclo de vida, desarrollo y casos emblemáticos."
 author: "Carlos Baeza Negroni"
-categories: ["Ethereum", "Tutoriales"]
+categories: ["Tutoriales", "Ethereum"]
 tags: ["Ethereum", "EIP", "ERC", "Smart Contracts", "Gobernanza", "EVM", "ERC-20", "ERC-721", "ERC-4337", "EIP-1559", "Layer 2", "Desarrollo Web3"]
 coverImage: "/images/blog/eiperc_cover.png"
 readTime: "45 min de lectura"

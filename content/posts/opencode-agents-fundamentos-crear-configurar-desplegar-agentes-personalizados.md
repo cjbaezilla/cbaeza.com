@@ -3,7 +3,7 @@ title: "Fundamentos de Agentes en OpenCode: Crea, Configura y Despliega Agentes 
 date: "03-05-2026"
 excerpt: "Guía completa y exhaustiva sobre agentes en OpenCode: aprende a utilizar el equipo integrado, crear agentes personalizados, configurar herramientas, permisos y optimizar flujos de trabajo en tu editor de código."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["OpenCode", "Agentes de IA", "Automatización", "Productividad", "Desarrollo", "Prompt Engineering", "IA", "Programación"]
 coverImage: "/images/blog/opencode_cover.png"
 readTime: "35 min de lectura"

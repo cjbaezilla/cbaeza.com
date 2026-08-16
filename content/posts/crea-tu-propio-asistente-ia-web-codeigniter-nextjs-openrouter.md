@@ -3,7 +3,7 @@ title: "Construyendo tu propio asistente de IA web: Guía práctica completa con
 date: "24-03-2026"
 excerpt: "Guía paso a paso exhaustiva para construir un asistente de chat impulsado por IA desde cero, integrando backend en CodeIgniter 4, frontend en Next.js 16 y la API de OpenRouter."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["Inteligencia Artificial", "CodeIgniter", "Next.js", "OpenRouter", "React", "TypeScript", "Tailwind CSS", "PHP", "Desarrollo Web", "Full Stack", "API REST"]
 coverImage: "/images/blog/webaiassit.png"
 readTime: "35 min de lectura"

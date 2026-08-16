@@ -3,7 +3,7 @@ title: "Fundamentos de Automatización para Principiantes: Un Framework de Skill
 date: "19-06-2026"
 excerpt: "Aprende a construir e integrar un framework de skills modular y compatible con OpenClaw para que agentes autónomos de IA gestionen correos en Gmail y eventos en Google Calendar mediante Python y OAuth 2.0."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["OpenClaw", "OpenCode", "Google Workspace", "Python", "Agentes de IA", "Skills", "Gmail API", "Google Calendar API", "OAuth 2.0", "Automatización"]
 coverImage: "/images/blog/openclaw_skills_cover.png"
 readTime: "55 min de lectura"

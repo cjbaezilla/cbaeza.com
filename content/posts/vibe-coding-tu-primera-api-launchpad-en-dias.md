@@ -3,7 +3,7 @@ title: "Vibe Coding de Tu Primera API: Cómo Construimos LaunchPad API en Días 
 date: "17-02-2026"
 excerpt: "Guía completa y práctica para emprendedores que desean construir un backend robusto, seguro y listo para producción con CodeIgniter 4, autenticación Shield y desarrollo asistido por IA mediante Vibe Coding."
 author: "Carlos Baeza Negroni"
-categories: ["Desarrollo", "Tutoriales"]
+categories: ["Tutoriales", "Desarrollo"]
 tags: ["Vibe Coding", "API", "CodeIgniter", "PHP", "Shield", "Backend", "IA", "REST API", "Seguridad", "OpenCode", "Laragon", "Despliegue"]
 coverImage: "/images/blog/vibe-coding-launchpad-api-portada.png"
 readTime: "45 min de lectura"

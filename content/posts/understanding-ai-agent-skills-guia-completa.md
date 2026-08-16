@@ -3,7 +3,7 @@ title: "Entendiendo las Skills de los Agentes de IA: Guía Completa y Práctica"
 date: "11-03-2026"
 excerpt: "Guía completa y exhaustiva para comprender, crear, configurar y optimizar Skills para agentes de IA en Claude Code, OpenAI Codex, GitHub Copilot y Claude.ai."
 author: "Carlos Baeza Negroni"
-categories: ["AI", "Tutoriales"]
+categories: ["Tutoriales", "AI"]
 tags: ["Agentes de IA", "Skills", "Claude Code", "OpenAI Codex", "GitHub Copilot", "Claude.ai", "Productividad", "Desarrollo", "Prompt Engineering", "Automatización"]
 coverImage: "/images/blog/skills_portada.png"
 readTime: "40 min de lectura"
