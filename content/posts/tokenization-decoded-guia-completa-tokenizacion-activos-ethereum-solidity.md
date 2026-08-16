@@ -3,7 +3,7 @@ title: "Tokenization Decoded: La Guía Completa de Tokenización de Activos en E
 date: "18-04-2026"
 excerpt: "Guía exhaustiva y accesible sobre tokenización en Ethereum con Solidity: estándares ERC-20, ERC-721, ERC-1155 y ERC-3643, smart contracts con OpenZeppelin, tokenomics, casos de uso del mundo real, seguridad y regulación."
 author: "Carlos Baeza Negroni"
-categories: ["Ethereum", "Tutoriales"]
+categories: ["Tutoriales", "Solidity"]
 tags: ["Tokenización", "Ethereum", "Solidity", "ERC-20", "ERC-721", "ERC-1155", "ERC-3643", "RWA", "Smart Contracts", "OpenZeppelin", "Tokenomics", "DeFi"]
 coverImage: "/images/blog/tokenizacion_cover.png"
 readTime: "50 min de lectura"
