@@ -580,7 +580,7 @@ bytes32 structHash = keccak256(
 
 4. **Hash Final EIP-712**: Se combinan el prefijo `\x19\x01`, el separador de dominio y el hash de la estructura:
 
-$$\text{Hash Final} = \text{keccak256}\left(\texttt{"\\x19\\x01"} \parallel \text{domainSeparator} \parallel \text{structHash}\right)$$
+$$\text{Hash Final} = \text{keccak256}\left(\texttt{"\textbackslash x19\textbackslash x01"} \parallel \text{domainSeparator} \parallel \text{structHash}\right)$$
 
 A continuación se muestra una implementación completa utilizando el contrato `EIP712` de OpenZeppelin:
 

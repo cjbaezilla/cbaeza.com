@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import katex from "katex";
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
 
@@ -197,6 +198,132 @@ export function getAllPosts(): BlogPostMeta[] {
 /**
  * Obtiene el contenido completo y metadatos de un artículo por su slug.
  */
+/**
+ * Valida si una cadena delimitada por $ corresponde a una expresión matemática
+ * evitando falsos positivos con precios o menciones de moneda (ej: "$10.000 USD").
+ */
+function isMathExpression(content: string): boolean {
+  if (!content || !content.trim()) return false;
+
+  const trimmed = content.trim();
+
+  // Descartar si empieza con dígito y no contiene operadores matemáticos o comandos LaTeX
+  if (/^\d/.test(trimmed) && !/\\[a-zA-Z]+|[_\^=]/.test(trimmed)) {
+    return false;
+  }
+
+  // Descartar si parece un valor monetario simple (ej: "280M", "10.000", "50.000 dólares")
+  if (/^\d+([.,]\d+)?\s*(M|k|K|USD|dólares|dolares|EUR|ETH|CLP|%|\+)?$/i.test(trimmed)) {
+    return false;
+  }
+
+  // Descartar si tiene paréntesis o corchetes desbalanceados
+  const openParen = (trimmed.match(/\(/g) || []).length;
+  const closeParen = (trimmed.match(/\)/g) || []).length;
+  if (openParen !== closeParen) return false;
+
+  // Descartar si contiene muchas palabras normales sin sintaxis matemática
+  const words = trimmed.split(/\s+/);
+  const hasLatexCommands = /\\[a-zA-Z]+|[_\^=+\-*\/\\]/.test(trimmed);
+  if (words.length > 3 && !hasLatexCommands) {
+    return false;
+  }
+
+  return true;
+}
+
+// Extensión para expresiones matemáticas en bloque: $$ ... $$
+const blockKatexExtension = {
+  name: "blockKatex",
+  level: "block" as const,
+  start(src: string) {
+    return src.indexOf("$$");
+  },
+  tokenizer(src: string) {
+    const match = src.match(/^\$\$([\s\S]+?)\$\$/);
+    if (match) {
+      return {
+        type: "blockKatex",
+        raw: match[0],
+        text: match[1].trim(),
+      };
+    }
+  },
+  renderer(token: { text: string }) {
+    try {
+      const rendered = katex.renderToString(token.text, {
+        displayMode: true,
+        throwOnError: false,
+        strict: false,
+      });
+      return `<div class="katex-display-wrapper notranslate">${rendered}</div>\n`;
+    } catch {
+      return `<pre class="katex-error">${token.text}</pre>\n`;
+    }
+  },
+};
+
+// Extensión para expresiones matemáticas en línea: $ ... $
+const inlineKatexExtension = {
+  name: "inlineKatex",
+  level: "inline" as const,
+  start(src: string) {
+    let index = src.indexOf("$");
+    while (index !== -1) {
+      if (src[index + 1] === "$") {
+        index = src.indexOf("$", index + 2);
+        continue;
+      }
+      return index;
+    }
+    return -1;
+  },
+  tokenizer(src: string) {
+    const match = src.match(/^\$((?!\s)[^$\n]+?(?<!\s))\$/);
+    if (match) {
+      const content = match[1];
+      if (!isMathExpression(content)) {
+        return;
+      }
+      return {
+        type: "inlineKatex",
+        raw: match[0],
+        text: content,
+      };
+    }
+  },
+  renderer(token: { text: string }) {
+    try {
+      const rendered = katex.renderToString(token.text, {
+        displayMode: false,
+        throwOnError: false,
+        strict: false,
+      });
+      return `<span class="katex-inline notranslate">${rendered}</span>`;
+    } catch {
+      return `<code>${token.text}</code>`;
+    }
+  },
+};
+
+// Configuración global de marked para renderizado HTML seguro, limpio y extensiones
+marked.setOptions({
+  gfm: true,
+  breaks: true,
+});
+
+marked.use({
+  extensions: [blockKatexExtension, inlineKatexExtension],
+  renderer: {
+    code({ text, lang }: { text: string; lang?: string }) {
+      if (lang === "mermaid") {
+        return `<div class="mermaid-wrapper"><pre class="mermaid notranslate">${text}</pre></div>\n`;
+      }
+      return false as unknown as string;
+    },
+  },
+});
+
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   ensurePostsDirectory();
   const fullPath = path.join(postsDirectory, `${slug}.md`);
@@ -207,23 +334,6 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
-
-  // Configuración de marked para renderizado HTML seguro, limpio y soporte de diagramas Mermaid
-  marked.setOptions({
-    gfm: true,
-    breaks: true,
-  });
-
-  marked.use({
-    renderer: {
-      code({ text, lang }: { text: string; lang?: string }) {
-        if (lang === "mermaid") {
-          return `<div class="mermaid-wrapper"><pre class="mermaid notranslate">${text}</pre></div>\n`;
-        }
-        return false as unknown as string;
-      },
-    },
-  });
 
   const contentHtml = await marked.parse(content);
 

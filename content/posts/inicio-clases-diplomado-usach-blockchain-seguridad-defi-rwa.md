@@ -245,13 +245,13 @@ graph TD
 
 Profundizamos en la **Liquidez Concentrada de Uniswap v3**, donde el capital se asigna dentro de rangos de precio específicos parametrizados por *ticks* logarítmicos ($p(i) = 1.0001^i$), permitiendo una eficiencia de capital hasta 4.000 veces superior a la de un modelo tradicional. Calculamos y modelamos matemáticamente la **Pérdida Impermanente (*Impermanent Loss*)**:
 
-$$IL(k) = \frac{2\sqrt{k}}{1 + k} - 1 \quad \text{donde } k = \frac{P_{final}}{P_{inicial}}$$
+$$IL(k) = \frac{2\sqrt{k}}{1 + k} - 1 \quad \text{donde } k = \frac{P_{\text{final}}}{P_{\text{inicial}}}$$
 
 ### Protocolos de Préstamos y Mercados Monetarios (Lending & Borrowing)
 Estudiamos la arquitectura de protocolos como **Aave v3** y **Compound v3**:
-- Modelos de tasas de interés variables dinámicas basados en curvas por tramos (*Kinked / Jump Rate Interest Models*) que ajustan la tasa de endeudamiento en función del ratio de utilización $U = \frac{TotalBorrows}{TotalLiquidity}$.
+- Modelos de tasas de interés variables dinámicas basados en curvas por tramos (*Kinked / Jump Rate Interest Models*) que ajustan la tasa de endeudamiento en función del ratio de utilización $U = \frac{\text{TotalBorrows}}{\text{TotalLiquidity}}$.
 - Factor de Salud (*Health Factor*):
-  $$HF = \frac{\sum (Collateral_i \times LiquidationThreshold_i)}{TotalBorrowsInETH}$$
+  $$HF = \frac{\sum (\text{Collateral}_i \times \text{LiquidationThreshold}_i)}{\text{TotalBorrowsInETH}}$$
 - Mecanismos de liquidación atómica con incentivos de penalización (*liquidation bonus*) para liquidadores automatizados.
 
 ### Bóvedas de Rendimiento Estandarizadas (ERC-4626)
