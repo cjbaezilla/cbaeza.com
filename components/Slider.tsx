@@ -7,6 +7,8 @@ import { BlogPostMeta } from "@/lib/blog";
 import { useTranslation } from "@/context/I18nContext";
 import {
   Calendar,
+  Clock,
+  Sparkles,
   ArrowRight,
   ChevronLeft,
   ChevronRight,
@@ -113,7 +115,7 @@ export default function Slider({ posts = [], items }: SliderProps) {
 
   return (
     <div
-      className="relative w-full rounded-3xl border border-border/80 bg-card/90 backdrop-blur-md p-4 sm:p-5 shadow-lg hover:shadow-xl hover:border-primary/40 transition-all duration-300 group flex flex-col justify-between"
+      className="relative w-full rounded-3xl border border-border/80 bg-card/95 backdrop-blur-md shadow-lg hover:shadow-xl hover:border-primary/40 transition-all duration-300 group flex flex-col justify-between overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       onTouchStart={handleTouchStart}
@@ -123,7 +125,7 @@ export default function Slider({ posts = [], items }: SliderProps) {
       aria-label="Carrusel de Noticias"
     >
       {/* Contenedor relativo de diapositivas */}
-      <div className="relative w-full min-h-[380px] sm:min-h-[400px] flex flex-col justify-between">
+      <div className="relative w-full flex flex-col justify-between">
         {slides.map((slide, index) => {
           const isCurrent = index === activeIndex;
 
@@ -137,23 +139,37 @@ export default function Slider({ posts = [], items }: SliderProps) {
               }`}
               aria-hidden={!isCurrent}
             >
-              <div className="flex flex-col gap-3.5">
-                {/* Marco de Imagen de Portada */}
+              <div className="flex flex-col">
+                {/* Imagen de Portada completa en la cabecera de la tarjeta */}
                 <Link
                   href={slide.link}
-                  className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden bg-muted/40 border border-border/50 shadow-sm block group/img focus:outline-none focus:ring-2 focus:ring-primary/40"
+                  className="block relative w-full aspect-[16/9] overflow-hidden bg-muted/20 border-b border-border/40 flex items-center justify-center group/img focus:outline-none focus:ring-2 focus:ring-primary/40"
                   tabIndex={isCurrent ? 0 : -1}
                 >
                   {slide.coverImage ? (
-                    <Image
-                      src={slide.coverImage}
-                      alt={slide.title}
-                      fill
-                      unoptimized
-                      priority={index === 0}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 420px"
-                      className="object-cover group-hover/img:scale-105 transition-transform duration-700 ease-out"
-                    />
+                    <>
+                      {/* Fondo ambiental sutil para portadas con diferentes proporciones */}
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <Image
+                          src={slide.coverImage}
+                          alt=""
+                          fill
+                          unoptimized
+                          aria-hidden="true"
+                          className="object-cover blur-lg scale-125 opacity-25"
+                        />
+                      </div>
+                      {/* Imagen frontal desplegada completamente sin recorte */}
+                      <Image
+                        src={slide.coverImage}
+                        alt={slide.title}
+                        fill
+                        unoptimized
+                        priority={index === 0}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+                        className="relative z-10 object-contain transition-transform duration-500 group-hover/img:scale-105"
+                      />
+                    </>
                   ) : (
                     <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-primary/15 via-accent to-background text-primary p-6">
                       <Newspaper className="size-12 opacity-40 mb-2" />
@@ -164,47 +180,76 @@ export default function Slider({ posts = [], items }: SliderProps) {
                   )}
                 </Link>
 
-                {/* Fecha y Metadatos */}
-                {slide.date && (
-                  <div className="flex items-center gap-1.5 text-xs text-muted-foreground font-medium">
-                    <Calendar className="size-3.5 text-primary" />
-                    <span>{slide.date}</span>
+                {/* Contenido de la Tarjeta con espaciado interno */}
+                <div className="p-4 sm:p-5 flex flex-col gap-3">
+                  {/* Título de la Noticia */}
+                  <h3 className="font-heading text-base sm:text-lg font-bold tracking-tight text-foreground leading-snug line-clamp-2 hover:text-primary transition-colors">
+                    <Link
+                      href={slide.link}
+                      className="hover:text-primary transition-colors inline-block focus:outline-none focus:text-primary"
+                      tabIndex={isCurrent ? 0 : -1}
+                    >
+                      {slide.title}
+                    </Link>
+                  </h3>
+
+                  {/* Fila de Metadatos: Fecha, Categoría y Tiempo de Lectura */}
+                  <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-xs text-muted-foreground font-medium">
+                    {slide.date && (
+                      <div className="flex items-center gap-1.5">
+                        <Calendar className="size-3.5 text-primary" />
+                        <span>{slide.date}</span>
+                      </div>
+                    )}
+
+                    {slide.category && (
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-border/80 hidden sm:inline">•</span>
+                        <Link
+                          href={`/blog/categoria/${slide.categorySlug}/`}
+                          className="inline-flex items-center gap-1 text-primary hover:underline font-semibold"
+                          tabIndex={isCurrent ? 0 : -1}
+                        >
+                          <Sparkles className="size-3" />
+                          <span>{slide.category}</span>
+                        </Link>
+                      </div>
+                    )}
+
+                    {slide.readTime && (
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-border/80 hidden sm:inline">•</span>
+                        <div className="flex items-center gap-1">
+                          <Clock className="size-3.5 text-primary" />
+                          <span>{slide.readTime}</span>
+                        </div>
+                      </div>
+                    )}
                   </div>
-                )}
 
-                {/* Título de la Noticia */}
-                <h3 className="font-heading text-base sm:text-lg font-bold tracking-tight text-foreground leading-snug line-clamp-2 hover:text-primary transition-colors">
-                  <Link
-                    href={slide.link}
-                    className="hover:text-primary transition-colors inline-block focus:outline-none focus:text-primary"
-                    tabIndex={isCurrent ? 0 : -1}
-                  >
-                    {slide.title}
-                  </Link>
-                </h3>
+                  {/* Extracto descriptivo */}
+                  {slide.excerpt && (
+                    <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed line-clamp-2">
+                      {slide.excerpt}
+                    </p>
+                  )}
 
-                {/* Extracto descriptivo */}
-                {slide.excerpt && (
-                  <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed line-clamp-2">
-                    {slide.excerpt}
-                  </p>
-                )}
-
-                {/* Etiquetas secundarias */}
-                {slide.tags && slide.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5 pt-0.5">
-                    {slide.tags.slice(0, 3).map((tag, tagIdx) => (
-                      <Link
-                        key={tagIdx}
-                        href={`/blog/tag/${tag.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}/`}
-                        className="inline-flex items-center px-2 py-0.5 rounded-md bg-secondary/80 hover:bg-secondary text-[10px] font-semibold text-secondary-foreground border border-border/40 transition-colors"
-                        tabIndex={isCurrent ? 0 : -1}
-                      >
-                        #{tag}
-                      </Link>
-                    ))}
-                  </div>
-                )}
+                  {/* Etiquetas secundarias */}
+                  {slide.tags && slide.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 pt-0.5">
+                      {slide.tags.slice(0, 3).map((tag, tagIdx) => (
+                        <Link
+                          key={tagIdx}
+                          href={`/blog/tag/${tag.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}/`}
+                          className="inline-flex items-center px-2 py-0.5 rounded-md bg-secondary/80 hover:bg-secondary text-[10px] font-semibold text-secondary-foreground border border-border/40 transition-colors"
+                          tabIndex={isCurrent ? 0 : -1}
+                        >
+                          #{tag}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           );
@@ -212,7 +257,7 @@ export default function Slider({ posts = [], items }: SliderProps) {
       </div>
 
       {/* Barra de Controles y Navegación Inferior */}
-      <div className="flex items-center justify-between mt-4 pt-3.5 border-t border-border/50">
+      <div className="flex items-center justify-between px-4 sm:px-5 pb-4 sm:pb-5 pt-3 border-t border-border/50 mt-auto">
         {/* Indicadores de Diapositiva y Contador */}
         <div className="flex items-center gap-3">
           {/* Puntos interactivos con expansión activa */}
