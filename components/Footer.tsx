@@ -22,17 +22,6 @@ export default function Footer() {
     setTimeout(() => setCopiedBtc(false), 2000);
   };
 
-  const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      e.preventDefault();
-      element.scrollIntoView({ behavior: "smooth" });
-      window.history.pushState(null, "", `#${id}`);
-    } else {
-      window.location.href = `/#${id}`;
-    }
-  };
-
   return (
     <footer id="contact" className="w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 bg-gradient-to-t from-card/80 to-card/10 border-t border-border/40 mt-auto relative overflow-hidden">
       {/* Fondo decorativo y gradiente sutil */}
@@ -128,42 +117,11 @@ export default function Footer() {
           <ul className="flex flex-col gap-3 text-xs font-medium w-full">
             <li>
               <Link
-                href="#projects"
-                onClick={(e) => handleScrollTo(e, "projects")}
+                href="/"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
               >
                 <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
-                {t("nav.projects") as string}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#foundations"
-                onClick={(e) => handleScrollTo(e, "foundations")}
-                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
-              >
-                <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
-                {t("nav.foundations") as string}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#background"
-                onClick={(e) => handleScrollTo(e, "background")}
-                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
-              >
-                <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
-                {t("nav.background") as string}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#certifications"
-                onClick={(e) => handleScrollTo(e, "certifications")}
-                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 group"
-              >
-                <i className="fa-solid fa-chevron-right text-[8px] opacity-0 -translate-x-1 rtl:translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 rtl:rotate-180 transition-all"></i>
-                {t("nav.certifications") as string}
+                {(t("nav.home") as string) || "Inicio"}
               </Link>
             </li>
             <li>

@@ -31,11 +31,8 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { href: "#foundations", label: t("nav.foundations") as string },
-    { href: "#projects", label: t("nav.projects") as string },
-    { href: "#background", label: t("nav.background") as string },
-    { href: "#certifications", label: t("nav.certifications") as string },
-    { href: "/blog", label: (t("nav.blog") as string) || "Blog" },
+    { href: "/", label: (t("nav.home") as string) || "Inicio" },
+    { href: "/blog/", label: (t("nav.blog") as string) || "Blog" },
   ];
 
   const ventureLinks = [
@@ -150,7 +147,7 @@ export default function Navbar() {
             {/* Enlaces de Secciones */}
             <div className="flex flex-col gap-1">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground/70 px-2 pb-1">
-                Secciones
+                {(t("contact.navigation") as string) || "Navegación"}
               </span>
               {navLinks.map((link) => (
                 <Link
