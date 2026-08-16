@@ -35,7 +35,10 @@
     "copiedToClipboard": "¡Enlace copiado al portapapeles!",
     "tableOfContents": "En este artículo",
     "articlesCount": "artículos encontrados",
-    "showingResultsFor": "Mostrando resultados para"
+    "showingResultsFor": "Mostrando resultados para",
+    "showMoreTags": "Mostrar más etiquetas",
+    "showLessTags": "Mostrar menos etiquetas",
+    "moreTags": "más (1 artículo)"
   },
   "ventures": {
     "title": "Ecosistema",

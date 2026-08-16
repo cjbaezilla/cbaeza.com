@@ -3,7 +3,7 @@
 import React, { useState, useMemo, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Search, X, Folder, Tag as TagIcon, Sparkles, SlidersHorizontal } from "lucide-react";
+import { Search, X, Folder, Tag as TagIcon, Sparkles, SlidersHorizontal, ChevronDown } from "lucide-react";
 import { BlogPostMeta, CategoryInfo, TagInfo } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { Badge } from "@/components/ui/badge";
@@ -35,6 +35,23 @@ function BlogSearchFilterContent({
   const [searchQuery, setSearchQuery] = useState(paramQuery);
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory || "all");
   const [selectedTag, setSelectedTag] = useState<string>(initialTag || "all");
+
+  // Separar etiquetas con 2 o más artículos de las que solo tienen 1
+  const { frequentTags, singleTags } = useMemo(() => {
+    const frequent: TagInfo[] = [];
+    const single: TagInfo[] = [];
+    tags.forEach((tag) => {
+      if (tag.count >= 2) {
+        frequent.push(tag);
+      } else {
+        single.push(tag);
+      }
+    });
+    return { frequentTags: frequent, singleTags: single };
+  }, [tags]);
+
+  const isInitialInSingle = initialTag ? tags.some((t) => t.slug === initialTag && t.count < 2) : false;
+  const [showAllTags, setShowAllTags] = useState<boolean>(isInitialInSingle);
 
   // Filtrado reactivo en memoria
   const filteredPosts = useMemo(() => {
@@ -140,11 +157,33 @@ function BlogSearchFilterContent({
         {/* Tags (Chips) */}
         {showTagFilters && tags.length > 0 && (
           <div className="space-y-2 pt-2 border-t border-border/30">
-            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground/80">
-              <TagIcon className="size-3.5" />
-              <span>{(t("blog.tags") as string) || "Etiquetas"}</span>
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground/80">
+                <TagIcon className="size-3.5" />
+                <span>{(t("blog.tags") as string) || "Etiquetas"}</span>
+              </div>
+              {singleTags.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllTags((prev) => !prev)}
+                  className="inline-flex items-center gap-1 text-[11px] font-medium text-primary hover:underline transition-colors cursor-pointer"
+                >
+                  <span>
+                    {showAllTags
+                      ? ((t("blog.showLessTags") as string) || "Mostrar menos")
+                      : `+${singleTags.length} ${(t("blog.moreTags") as string) || "más (1 artículo)"}`}
+                  </span>
+                  <ChevronDown
+                    className={`size-3 transition-transform duration-200 ${
+                      showAllTags ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+              )}
             </div>
-            <div className="flex flex-wrap gap-1.5">
+
+            <div className="flex flex-wrap gap-1.5 items-center">
+              {/* Botón #todos */}
               <button
                 onClick={() => setSelectedTag("all")}
                 className={`text-[11px] px-2.5 py-1 rounded-md border transition-all cursor-pointer ${
@@ -155,7 +194,9 @@ function BlogSearchFilterContent({
               >
                 #todos
               </button>
-              {tags.map((tag) => (
+
+              {/* Etiquetas con 2 o más artículos */}
+              {frequentTags.map((tag) => (
                 <button
                   key={tag.slug}
                   onClick={() => setSelectedTag(tag.slug)}
@@ -168,6 +209,53 @@ function BlogSearchFilterContent({
                   #{tag.name} ({tag.count})
                 </button>
               ))}
+
+              {/* Etiquetas con 1 solo artículo (visibles cuando el toggle está abierto o si está seleccionada) */}
+              {showAllTags
+                ? singleTags.map((tag) => (
+                    <button
+                      key={tag.slug}
+                      onClick={() => setSelectedTag(tag.slug)}
+                      className={`text-[11px] px-2.5 py-1 rounded-md border transition-all cursor-pointer ${
+                        selectedTag === tag.slug
+                          ? "bg-primary/20 text-primary border-primary/50 font-semibold"
+                          : "bg-background text-muted-foreground hover:bg-muted hover:text-foreground border-border/40"
+                      }`}
+                    >
+                      #{tag.name} ({tag.count})
+                    </button>
+                  ))
+                : singleTags
+                    .filter((tag) => selectedTag === tag.slug)
+                    .map((tag) => (
+                      <button
+                        key={tag.slug}
+                        onClick={() => setSelectedTag(tag.slug)}
+                        className="text-[11px] px-2.5 py-1 rounded-md border transition-all cursor-pointer bg-primary/20 text-primary border-primary/50 font-semibold"
+                      >
+                        #{tag.name} ({tag.count})
+                      </button>
+                    ))}
+
+              {/* Toggle Chip al final de la lista */}
+              {singleTags.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllTags((prev) => !prev)}
+                  className="inline-flex items-center gap-1 text-[11px] px-2.5 py-1 rounded-md border border-dashed border-border/60 text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-all cursor-pointer font-medium"
+                >
+                  <span>
+                    {showAllTags
+                      ? ((t("blog.showLessTags") as string) || "Mostrar menos")
+                      : `+${singleTags.length} ${(t("blog.moreTags") as string) || "más (1 artículo)"}`}
+                  </span>
+                  <ChevronDown
+                    className={`size-3 transition-transform duration-200 ${
+                      showAllTags ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+              )}
             </div>
           </div>
         )}
